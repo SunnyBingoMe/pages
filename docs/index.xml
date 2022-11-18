@@ -1149,13 +1149,15 @@ Sizes Just After Installation (Disk &amp;amp; RAM)#OS Installation DISK size e
     
     <item>
       <title>Reference and Knowledge Management (Zotero, Qiqqa)</title>
-      <link>http://dmml.nu/phd-general-and-writing/reference-and-knowledge-management-zotero-qiqqa/</link>
+      <link>http://dmml.nu/reference-and-knowledge-management-zotero-qiqqa/</link>
       <pubDate>Fri, 01 Jul 2016 16:36:24 +0000</pubDate>
       
-      <guid>http://dmml.nu/phd-general-and-writing/reference-and-knowledge-management-zotero-qiqqa/</guid>
+      <guid>http://dmml.nu/reference-and-knowledge-management-zotero-qiqqa/</guid>
       <description>see also: ResearchGo:研究生活第一帖——文献检索与管理 王晋东
 Zotero#We need to have 2 parts: a standalone client running in Windows, and a browser extension capturing web page info to send to the client. Besides, we need some zotero extensions to automate bib info and file naming.
-Note: Zotero 4 is suggested, Zotero v5 canNOT automatically attach files, we need to do it manually. To disable auto-update in v4, goto advanced &amp;gt; about:config (ref), disable &amp;ldquo;update&amp;rdquo;-related options:</description>
+Download here.
+( zotero can also import from clip board without using browser connecter)
+Tip: do NOT save files in Zotero (free syncing/backup space is very limitted), attach (link) instead.</description>
     </item>
     
     <item>
