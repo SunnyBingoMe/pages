@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on Machine Learning</title>
+    <link>http://dmml.nu/tags/r/</link>
+    <description>Recent content in R on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 08 May 2017 20:31:04 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install R in Ubuntu</title>
+      <link>http://dmml.nu/r-install/</link>
+      <pubDate>Mon, 08 May 2017 20:31:04 +0000</pubDate>
+      
+      <guid>http://dmml.nu/r-install/</guid>
+      <description>UBUNTU 18.04#sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9 &amp;amp;&amp;amp; \ sudo add-apt-repository &amp;#39;deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran40/&amp;#39; &amp;amp;&amp;amp; \ sudo apt update &amp;amp;&amp;amp; \ sudo apt install -y r-base r-base-dev libcurl4-openssl-dev libssl-dev build-essential &amp;amp;&amp;amp; \ sudo -i R # install packages as root, so all users can use. Commonly used packages:
+install.packages(c(&amp;#39;devtools&amp;#39;, &amp;#39;digest&amp;#39;, &amp;#39;repr&amp;#39;, &amp;#39;IRdisplay&amp;#39;, &amp;#39;crayon&amp;#39;, &amp;#39;pbdZMQ&amp;#39;, &amp;#39;ggplot2&amp;#39;, &amp;#39;IRkernel&amp;#39;, &amp;#39;ggpubr&amp;#39;)) DigitalOcean
+Optional: sudo chmod 777 /usr/local/lib/R/site-library so anyone can install packages.</description>
+    </item>
+    
+    <item>
+      <title>R, Rarallel, HPC and Multi-core in R</title>
+      <link>http://dmml.nu/r-parallel-hpc-multi-core/</link>
+      <pubDate>Mon, 21 Nov 2016 11:04:14 +0000</pubDate>
+      
+      <guid>http://dmml.nu/r-parallel-hpc-multi-core/</guid>
+      <description>Three methods.
+//TODO: summary of: paper3 gpu 430.R</description>
+    </item>
+    
+    <item>
+      <title>R DT data.table Join</title>
+      <link>http://dmml.nu/dt-join/</link>
+      <pubDate>Tue, 11 Oct 2016 18:00:08 +0000</pubDate>
+      
+      <guid>http://dmml.nu/dt-join/</guid>
+      <description>This is part of PML notes. HDD: r_data_table_start
+Prepare Data#library(dplyr) library(readr) library(data.table) hero = &amp;#34; name, alignment, gender, publisher Magneto, bad, male, MarvelDuplicate Storm, good, female, MarvelDuplicate Batman, good, male, DC Joker, bad, male, DC Catwoman, bad, female, DC Hellboy, good, male, Dark Horse Comics &amp;#34; hero = read_csv(hero, trim_ws = TRUE, skip = 1) hero = data.table(hero) publisher = &amp;#34; publisher, yr_founded DC, 1934 MarvelDuplicate, 1939 MarvelDuplicate, 8888 Image, 1992 &amp;#34; publisher = read_csv(publisher, trim_ws = TRUE, skip = 1) publisher = data.</description>
+    </item>
+    
+    <item>
+      <title>Plot in R, ggplot2</title>
+      <link>http://dmml.nu/ggplot/</link>
+      <pubDate>Tue, 11 Oct 2016 10:53:20 +0000</pubDate>
+      
+      <guid>http://dmml.nu/ggplot/</guid>
+      <description>Python alternatives to ggplot2: pygg (NOT working), ggpy (ggplot in py) from yhat (NOT working and not in maintance). Please use rpy2 to &amp;ldquo;source()&amp;rdquo; R files.
+Note: this blog is mainly used to prepare data, for plotting code, see:
+O&amp;rsquo;Reilly 2013 - R Graphics Cookbook ggplot2 cheatsheet Be Awesome in ggplot2: A Practical Guide, (bak) 3D PLOT#scatter#OBS: order of using commands.
+surface#OBS: order of using commands.</description>
+    </item>
+    
+    <item>
+      <title>Notes of Practical Machine Learning (Coursera PML)</title>
+      <link>http://dmml.nu/big-data-mining-machine-learning-cloud/notes-of-practical-machine-learning-coursera-pml/</link>
+      <pubDate>Tue, 28 Jun 2016 13:35:38 +0000</pubDate>
+      
+      <guid>http://dmml.nu/big-data-mining-machine-learning-cloud/notes-of-practical-machine-learning-coursera-pml/</guid>
+      <description>It has been a long time since I started using R. Recently, I found some old notes, and I prefer to put it in digital archive, this blog post is to achieve the purpose.
+DT (data.table)#data.table cheat sheet
+This data.table (DT) instruction is also available on my github, ispiared by
+this ref
+//TODO#//TODO: summarize Solve common R problems efficiently with data.table which is must-read. backup
+//TODO: summarize High-performance Solution in R</description>
+    </item>
+    
+    <item>
+      <title>Cross-Read &amp; -Write R, Py, Matlab, Binary Files</title>
+      <link>http://dmml.nu/binary/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/binary/</guid>
+      <description>Note: feather-format is desigend to transfer data between Py &amp;amp; R [stackoverflow, feather-doc].
+.FE#OBS: only for data.frame type, not even arrays.
+py (feather-format)#Requires: pip install feather-format. (OBS: feather-format NOT feather.)
+write:
+import numpy as np import pandas as pd df = pd.DataFrame({&amp;#39;A&amp;#39;: [1, 2, 3], &amp;#39;B&amp;#39;: [4, 5, 6], &amp;#39;C&amp;#39;:[7,8,9]}, index=[&amp;#39;one&amp;#39;, &amp;#39;two&amp;#39;, &amp;#39;three&amp;#39;]) import feather feather.write_dataframe(df.reset_index(drop=True), &amp;#39;df.fe&amp;#39;) (though the df is created by pandas)
+read:
+import feather df = feather.</description>
+    </item>
+    
+  </channel>
+</rss>

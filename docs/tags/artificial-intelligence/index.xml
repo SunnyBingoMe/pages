@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Artificial Intelligence on Machine Learning</title>
+    <link>http://dmml.nu/tags/artificial-intelligence/</link>
+    <description>Recent content in Artificial Intelligence on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/artificial-intelligence/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>English-Chinese-Terminology-Translation-个人常用词汇英汉对照</title>
+      <link>http://dmml.nu/term/</link>
+      <pubDate>Wed, 15 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/term/</guid>
+      <description> English Chinese ad-hoc, ad hoc (fix/method) 特设的（修改/方法） training (dataset) 训练（集） n. evaluation (dataset) 验证（集） n. testing (dataset) 测试（集） n. train 训练 v. evaluate 验证 v. test 测试 v. 试 v. </description>
+    </item>
+    
+    <item>
+      <title>Learning Machine Learning, ML Books &amp; Codes</title>
+      <link>http://dmml.nu/ml-books/</link>
+      <pubDate>Sat, 07 Jul 2018 19:06:08 +0000</pubDate>
+      
+      <guid>http://dmml.nu/ml-books/</guid>
+      <description>See also:
+Machine Learning - Just-do-it (hands on) Basics Math Books Favoured#MLY (Andrew Ng), Machine Learning Yearning (EN full: ch1-13), 《CN: 机器学习秘籍》(CN Web online), (CN Github) and someone&amp;rsquo;s notes: part 1 (bak), part 2 (bak) and part 3.
+MLAPP (Kevin Murphy), Machine Learning - A Probablistic Perspective, is more comprehensive, insightful and interesting, and contains more &amp;ldquo;real&amp;rdquo; examples/problems. However, the presents are kinda out of order, which can be difficult to follow for a first book.</description>
+    </item>
+    
+    <item>
+      <title>DMML Tools Trend &amp; Relationship 2016</title>
+      <link>http://dmml.nu/trend2016/</link>
+      <pubDate>Thu, 16 Jun 2016 10:12:05 +0000</pubDate>
+      
+      <guid>http://dmml.nu/trend2016/</guid>
+      <description>This is a summary of KD-nuggets blogs: here and here. Pictures are modified for my own notes.
+Tools Associations#![](./_image/2016-06-17 18-27-03.jpg)
+sunny&amp;rsquo;s conclusion#Possible framework 1: Hadoop + Spark + Python + scikit.
+Possible framework 2: SQL+ Excel + Tableau.
+Try NOT use: RapidMiner, KNIME (whatever situation).
+Big Data Related Tools#![](./_image/2016-06-17 18-40-16.jpg)
+Deep Learning Related Tools#![](./_image/2016-06-17 18-42-52.jpg)
+Big_Data- / Deep_Learning-Related Tools#![](./_image/2016-06-17 18-47-05.jpg)</description>
+    </item>
+    
+  </channel>
+</rss>

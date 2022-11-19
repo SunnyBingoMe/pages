@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DT on Machine Learning</title>
+    <link>http://dmml.nu/tags/dt/</link>
+    <description>Recent content in DT on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Oct 2016 18:00:08 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/dt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>R DT data.table Join</title>
+      <link>http://dmml.nu/dt-join/</link>
+      <pubDate>Tue, 11 Oct 2016 18:00:08 +0000</pubDate>
+      
+      <guid>http://dmml.nu/dt-join/</guid>
+      <description>This is part of PML notes. HDD: r_data_table_start
+Prepare Data#library(dplyr) library(readr) library(data.table) hero = &amp;#34; name, alignment, gender, publisher Magneto, bad, male, MarvelDuplicate Storm, good, female, MarvelDuplicate Batman, good, male, DC Joker, bad, male, DC Catwoman, bad, female, DC Hellboy, good, male, Dark Horse Comics &amp;#34; hero = read_csv(hero, trim_ws = TRUE, skip = 1) hero = data.table(hero) publisher = &amp;#34; publisher, yr_founded DC, 1934 MarvelDuplicate, 1939 MarvelDuplicate, 8888 Image, 1992 &amp;#34; publisher = read_csv(publisher, trim_ws = TRUE, skip = 1) publisher = data.</description>
+    </item>
+    
+    <item>
+      <title>Notes of Practical Machine Learning (Coursera PML)</title>
+      <link>http://dmml.nu/big-data-mining-machine-learning-cloud/notes-of-practical-machine-learning-coursera-pml/</link>
+      <pubDate>Tue, 28 Jun 2016 13:35:38 +0000</pubDate>
+      
+      <guid>http://dmml.nu/big-data-mining-machine-learning-cloud/notes-of-practical-machine-learning-coursera-pml/</guid>
+      <description>It has been a long time since I started using R. Recently, I found some old notes, and I prefer to put it in digital archive, this blog post is to achieve the purpose.
+DT (data.table)#data.table cheat sheet
+This data.table (DT) instruction is also available on my github, ispiared by
+this ref
+//TODO#//TODO: summarize Solve common R problems efficiently with data.table which is must-read. backup
+//TODO: summarize High-performance Solution in R</description>
+    </item>
+    
+  </channel>
+</rss>

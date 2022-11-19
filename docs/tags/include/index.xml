@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Include on Machine Learning</title>
+    <link>http://dmml.nu/tags/include/</link>
+    <description>Recent content in Include on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Jul 2018 19:19:29 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/include/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python Code Cookbook</title>
+      <link>http://dmml.nu/py-cookbook/</link>
+      <pubDate>Sun, 01 Jul 2018 19:19:29 +0000</pubDate>
+      
+      <guid>http://dmml.nu/py-cookbook/</guid>
+      <description>See also:
+Learning Python, the Language Pandas#Get column_nr in pandas/numpy.
+if isinstance(X, pd.DataFrame): X_is_df = True row_nr = X.shape[0] column_nr = X.shape[1] if isinstance(X.columns, pd.core.index.MultiIndex): df_columns_is_multi_index = True else: df_columns_is_multi_index = False else: # non-DF X_is_df = False row_nr = np.shape(X)[0] column_nr = np.shape(X)[1] use dataframe directly against spark#lib Optimus
+from optimus import Optimus op = Optimus(master=&amp;#34;local&amp;#34;) df = op.create.df(&amp;lt;some data&amp;gt;) ... Sourcing/Importing#execfile or os.</description>
+    </item>
+    
+    <item>
+      <title>Python Code Reuse</title>
+      <link>http://dmml.nu/py-reuse/</link>
+      <pubDate>Sun, 01 Jul 2018 19:19:29 +0000</pubDate>
+      
+      <guid>http://dmml.nu/py-reuse/</guid>
+      <description>execfile or os.system#execute the other python file in place:
+execfile(&amp;#34;/path/to/my/lib/mylib.py&amp;#34;) or:
+import os os.system(&amp;#34;python /path/to/my/lib/mylib.py&amp;#34;) import#import sys import os sys.path.append(os.path.abspath(&amp;#34;/path/to/my/lib&amp;#34;)) import mylib ref#See other methods here.0749411)</description>
+    </item>
+    
+  </channel>
+</rss>

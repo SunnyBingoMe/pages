@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>skills on Machine Learning</title>
+    <link>http://dmml.nu/tags/skills/</link>
+    <description>Recent content in skills on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Feb 2012 00:47:43 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/skills/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>linux, ubuntu emergency safe reboot</title>
+      <link>http://dmml.nu/2012/02/16/13436/</link>
+      <pubDate>Thu, 16 Feb 2012 00:47:43 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/02/16/13436/</guid>
+      <description>http://en.wikipedia.org/wiki/Magic_SysRq_key#.E2.80.9CREISUB.E2.80.9D_.E2.80.93_safe_reboot
+“REISUB” – safe reboot
+unRaw (take control of keyboard back from X),
+tErminate (send SIGTERM to all processes, allowing them to terminate gracefully),
+kIll (send SIGKILL to all processes, forcing them to terminate immediately),
+Sync (flush hd write-cache data to disk),
+Unmount (remount all filesystems read-only),
+reBoot.</description>
+    </item>
+    
+    <item>
+      <title>vim 只删除,不剪切</title>
+      <link>http://dmml.nu/2012/02/16/13434/</link>
+      <pubDate>Thu, 16 Feb 2012 00:46:16 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/02/16/13434/</guid>
+      <description>See main article Vim In Case Of.
+nmap DD &amp;ldquo;_dd
+将删除的内容放入 black hole register: &amp;rdquo;_ 中
+_&amp;quot;dd 就可以将当前行内容删除并且不会放在任何寄存器中。
+http://forum.ubuntu.org.cn/viewtopic.php?f=68&amp;amp;t=84593?f=68&amp;amp;t=84593)</description>
+    </item>
+    
+    <item>
+      <title>卸载 ubuntu11.10 unity 的 卸载即现式滚动条 和 所谓的 全局菜单, 恢复滚动条</title>
+      <link>http://dmml.nu/2011/12/31/13236/</link>
+      <pubDate>Sat, 31 Dec 2011 17:22:19 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/12/31/13236/</guid>
+      <description>卸载即现式滚动条和全局菜单，找回经典的滚动条和菜单。
+sudo apt-get remove overlay-scrollbar liboverlay-scrollbar3-0.2-0 liboverlay-scrollbar-0.2-0
+sudo apt-get remove indicator-appmenu appmenu-gtk appmenu-gtk3 appmenu-qt
+from:http://tieba.baidu.com/p/1328489583</description>
+    </item>
+    
+  </channel>
+</rss>

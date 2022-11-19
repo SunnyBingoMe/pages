@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>X on Machine Learning</title>
+    <link>http://dmml.nu/tags/x/</link>
+    <description>Recent content in X on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Dec 2016 15:14:33 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/x/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Force Ubuntu desktop Boot into Text Console Mode</title>
+      <link>http://dmml.nu/Force-Ubuntu-desktop-Boot-into-Text-Console-Terminal-Mode/</link>
+      <pubDate>Thu, 15 Dec 2016 15:14:33 +0000</pubDate>
+      
+      <guid>http://dmml.nu/Force-Ubuntu-desktop-Boot-into-Text-Console-Terminal-Mode/</guid>
+      <description>Tested in ubuntu deskop 16.
+short url: s_force-text
+SOLUTION#sudo cp /etc/default/grub /etc/default/grub.bak &amp;amp;&amp;amp; \ sudo sed -ie &amp;#39;s/GRUB_CMDLINE_LINUX_DEFAULT=.*/GRUB_CMDLINE_LINUX_DEFAULT=&amp;#34;text&amp;#34;/g&amp;#39; /etc/default/grub &amp;amp;&amp;amp; \ sudo sed -ie &amp;#39;s/GRUB_CMDLINE_LINUX=.*/GRUB_CMDLINE_LINUX=&amp;#34;text&amp;#34;/g&amp;#39; /etc/default/grub &amp;amp;&amp;amp; \ sudo sed -ie &amp;#39;s/#GRUB_TERMINAL/GRUB_TERMINAL/g&amp;#39; /etc/default/grub &amp;amp;&amp;amp; \ sudo update-grub &amp;amp;&amp;amp; \ sudo systemctl enable multi-user.target --force &amp;amp;&amp;amp; \ sudo systemctl set-default multi-user.target &amp;amp;&amp;amp; \ sudo reboot OBS: sometimes, by changing &amp;ldquo;multi-user.target&amp;rdquo; is enough, but sometimes we have to update grub. Have not dug into the reason.</description>
+    </item>
+    
+  </channel>
+</rss>

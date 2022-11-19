@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>System on Machine Learning</title>
+    <link>http://dmml.nu/tags/system/</link>
+    <description>Recent content in System on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 16 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/system/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Play Linux System Distributions Online in a Web Browser</title>
+      <link>http://dmml.nu/nix-online/</link>
+      <pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/nix-online/</guid>
+      <description>Note: many with 5 minute inactive limit and 30 minutes per session limit.
+CodeAnyWhere container (tested 2022.02, w/ root-sudo &amp;amp; git): py, c/c++, java, php, js, ruby, h5, wordpress, .net, rust, go, node.js. (can skip all payment part). terminal speed good. limitted free trial time.
+WebMinal (tested 2022.02, NO root/git) (CN network issue for home page, but ok after): Federo CentOS7 (py2.7), right-sided lessons/tutorials (great for new users): shell, MySQL, Python etc.</description>
+    </item>
+    
+    <item>
+      <title>Windows Management Tools</title>
+      <link>http://dmml.nu/win-mgmt/</link>
+      <pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/win-mgmt/</guid>
+      <description>Windows Task Scheduler （任务计划程序）#Examples:
+$action = New-ScheduledTaskAction -Execute &amp;#39;pwsh.exe&amp;#39; -Argument &amp;#39;-NonInteractive -NoLogo -NoProfile -File &amp;#34;C:\MyScript.ps1&amp;#34;&amp;#39; $trigger = New-ScheduledTaskTrigger -Once -At 3am $settings = New-ScheduledTaskSettingsSet $task = New-ScheduledTask -Action $Action -Trigger $Trigger -Settings $Settings Register-ScheduledTask -TaskName &amp;#39;MySchedule&amp;#39; -InputObject $task -User &amp;#39;username&amp;#39; -Password &amp;#39;passhere&amp;#39; ScheduledTask -TaskName &amp;#39;MySchedule&amp;#39; $action = New-ScheduledTaskAction -Execute &amp;#39;Powershell.exe&amp;#39; ` -Argument &amp;#39;-NoProfile -WindowStyle Hidden -command &amp;#34;&amp;amp; {get-eventlog -logname Application -After ((get-date).AddDays(-1)) | Export-Csv -Path c:\fso\applog.csv -Force -NoTypeInformation}&amp;#34;&amp;#39; $trigger = New-ScheduledTaskTrigger -Daily -At 0am Register-ScheduledTask -Action $action -Trigger $trigger -TaskName &amp;#34;AppLog&amp;#34; -Description &amp;#34;Daily dump of Applog&amp;#34; $action = New-ScheduledTaskAction -Execute &amp;#39;C:\FreeFileSync\FreeFileSync.</description>
+    </item>
+    
+    <item>
+      <title>System Monitoring Tools (Command-Line)</title>
+      <link>http://dmml.nu/monitor-system/</link>
+      <pubDate>Sat, 04 Mar 2017 10:21:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/monitor-system/</guid>
+      <description>See also:
+Linux server performance measurements monitoring tuning tools
+For networking /monitor-networking.
+For GPU in deep learning dmml.nu/dl-gpu-monitor
+TEMPERATURE#To monitor CPU temperature lm-sensors (Linux Monitoring sensors):
+sudo apt-get install -y lm-sensors &amp;amp;&amp;amp; \ sudo sensors-detect &amp;amp;&amp;amp; \ sensors # sudo service kmod start # optional Extra: using watch to auto-refresh:
+watch -n 1 -d sensors # n: nr of seconds to refresh (gif from nixCraft)
+To monitor HDD temperature:</description>
+    </item>
+    
+    <item>
+      <title>Path to System Design</title>
+      <link>http://dmml.nu/system-design/</link>
+      <pubDate>Sun, 15 Jan 2017 12:07:51 +0000</pubDate>
+      
+      <guid>http://dmml.nu/system-design/</guid>
+      <description>SNAKE TEMPLATE FOR REQUIREMENT#Scenario: use-case (if system is big) / interface (if sys is small).
+Necessary: constrain/hypothesis.
+Application: service/algorithm, e.g. MVC etc.
+Kilobit: data.
+Evolve: agile spring plan, inc. performance.
+Example of recommender sys for personal radio station.
+S: recommend a song for a user; like; dislike; skip.
+N: 5 Millon users online &amp;raquo; about 50k qps (quests per sec) &amp;raquo; need 1~2 servers only (cuz we can optimize, e.</description>
+    </item>
+    
+  </channel>
+</rss>

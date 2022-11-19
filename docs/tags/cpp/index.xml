@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CPP on Machine Learning</title>
+    <link>http://dmml.nu/tags/cpp/</link>
+    <description>Recent content in CPP on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 Jun 2016 16:27:15 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/cpp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C,CPP Programming &amp; Variable Naming Rules</title>
+      <link>http://dmml.nu/c-rules/</link>
+      <pubDate>Wed, 08 Jun 2016 16:27:15 +0000</pubDate>
+      
+      <guid>http://dmml.nu/c-rules/</guid>
+      <description>File Ambiguity#file: can be only filename, or full/relative path + filename.
+location: full/relative path + filename.
+filename: only name part, no path in string.
+path: full/relative path w/o filename.
+Common &amp;amp; Suggested Usages#//Common → Suggested chars → charSize bytes → byteSize int * buf → int *p_intListing char * buf → char *p_inputFile ifstream in→ ifstream inputStream IF Statement Evaluation#if (c) is: if(c !</description>
+    </item>
+    
+    <item>
+      <title>C-CPP-Programming-in-case-of</title>
+      <link>http://dmml.nu/c-cpp-in-case-of/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/c-cpp-in-case-of/</guid>
+      <description>Data Structure Alignment 数据结构对齐#x86-64 architecture#Overall rule: any data structure/element should be accessed by CPU with minimum CPU cycles. A 32bit CPU can access 4Bytes in one cycle, while a 64bit one can access 8Bytes. When a memory access is not aligned, it is said to be misaligned (wiki).
+Thus, there are two practical rules for us to understand compiler&amp;rsquo;s padding:
+Rule 1: any basic data structure/element/variable should be aligned so that their beginning address is divisible (任何变量的开始地址都能被自己的大小整除，即：当被访问的数据长度为 n 字节时，数据地址为 n 字节对齐。).</description>
+    </item>
+    
+  </channel>
+</rss>

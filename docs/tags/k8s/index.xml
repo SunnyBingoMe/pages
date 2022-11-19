@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>K8s on Machine Learning</title>
+    <link>http://dmml.nu/tags/k8s/</link>
+    <description>Recent content in K8s on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 06 Jan 2019 20:16:50 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/k8s/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes (k8s)</title>
+      <link>http://dmml.nu/k8s/</link>
+      <pubDate>Sun, 06 Jan 2019 20:16:50 +0000</pubDate>
+      
+      <guid>http://dmml.nu/k8s/</guid>
+      <description>Install Single-Node for Test#nix## server curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 &amp;amp;&amp;amp; sudo install minikube-linux-amd64 /usr/local/bin/minikube minikube start # client, via snap (snap will NOT work in Docker-like containers) sudo snap install kubectl --classic # or, client via apt sudo apt-get update &amp;amp;&amp;amp; sudo apt-get install -y gnupg2 apt-transport-https &amp;amp;&amp;amp; \ curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add - &amp;amp;&amp;amp; \ echo &amp;#34;deb https://apt.kubernetes.io/ kubernetes-xenial main&amp;#34; | sudo tee -a /etc/apt/sources.</description>
+    </item>
+    
+  </channel>
+</rss>

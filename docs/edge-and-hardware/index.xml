@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Edge-and-Hardwares on Machine Learning</title>
+    <link>http://dmml.nu/edge-and-hardware/</link>
+    <description>Recent content in Edge-and-Hardwares on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/edge-and-hardware/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>M.2 Module Interface Connector</title>
+      <link>http://dmml.nu/m.2</link>
+      <pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/m.2</guid>
+      <description>Concepts#def m.2 (now)#M.2 (pronounced “M dot two”) is a compact card or module form factor supporting multiple protocols and applications. It was developed by PCI-SIG and SATA-IO. The M.2 comes in two main formats:
+Connectorized, which includes a &amp;ldquo;card&amp;rdquo; (with pins) and a motherboard &amp;ldquo;socket (a.k.a. slot)&amp;rdquo; (with contacts) Soldered down m.2 vs. ngff (old)#M.2 was originally called the Next Generation Form Factor (NGFF).</description>
+    </item>
+    
+    <item>
+      <title>IoT Edge Deep Learning Neural Network Accelerators</title>
+      <link>http://dmml.nu/edge-dl-compare/</link>
+      <pubDate>Thu, 25 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/edge-dl-compare/</guid>
+      <description>Coral Edge Accelerator#ML accelerator: Edge TPU ASIC (application-specific integrated circuit) designed by Google. Provides high-performance ML inferencing for TensorFlow Lite Models. USB 3.1 (gen 1) port and cable (SuperSpeed, 5Gb/s transfer speed) Dimensions: 30 x 65 x 8mm Price: USD74.99 in 2019, USD ＄ 60 in 2021, ￥ 740 @JD.com 0.5 watts/TOPS MAX 4 TOPS (int8), 2W. TF Lite + Debian only. Not available world wide Intel NCS2 Neural Compute Stick 2#Processor: Intel Movidius Myriad X Vision Processing Unit (VPU) USB 3.</description>
+    </item>
+    
+    <item>
+      <title>IoT Protocol, Modbus</title>
+      <link>http://dmml.nu/modbus/</link>
+      <pubDate>Sat, 20 Feb 2021 10:24:28 +0000</pubDate>
+      
+      <guid>http://dmml.nu/modbus/</guid>
+      <description>Modbus Protocol#一文看懂 Modbus 协议 Complete Modbus Guide. a good intro to Modbus. nice intro to Modbus and Modbus Enron. ref
+Serial Port/Line/Connection Simulator/Emulator#Note: Setup / Use (Write &amp;amp; Read) Linux serial ports require root permission com0com / Null-modem emulator (windows, free) [suggested for win]#serial line/connections a kernel-mode virtual serial port driver for Windows.
+download from sourceforge
+free virtual serial ports (windows, free &amp;amp; commercial)#serial line/connections free version limit: port not permanent commercial version: support remote virtual paired ports (based on samba?</description>
+    </item>
+    
+    <item>
+      <title>C-CPP-Programming-in-case-of</title>
+      <link>http://dmml.nu/c-cpp-in-case-of/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/c-cpp-in-case-of/</guid>
+      <description>Data Structure Alignment 数据结构对齐#x86-64 architecture#Overall rule: any data structure/element should be accessed by CPU with minimum CPU cycles. A 32bit CPU can access 4Bytes in one cycle, while a 64bit one can access 8Bytes. When a memory access is not aligned, it is said to be misaligned (wiki).
+Thus, there are two practical rules for us to understand compiler&amp;rsquo;s padding:
+Rule 1: any basic data structure/element/variable should be aligned so that their beginning address is divisible (任何变量的开始地址都能被自己的大小整除，即：当被访问的数据长度为 n 字节时，数据地址为 n 字节对齐。).</description>
+    </item>
+    
+  </channel>
+</rss>

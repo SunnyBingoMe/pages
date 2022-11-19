@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wrt on Machine Learning</title>
+    <link>http://dmml.nu/tags/wrt/</link>
+    <description>Recent content in wrt on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 Jun 2016 11:42:18 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/wrt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DDwrt/Openwrt Router</title>
+      <link>http://dmml.nu/wrt-router/</link>
+      <pubDate>Wed, 08 Jun 2016 11:42:18 +0000</pubDate>
+      
+      <guid>http://dmml.nu/wrt-router/</guid>
+      <description>Open-wrt Suggested Small Devices#wr703n: modified to 16M flash + 64M ram. Power: 5V*100mA = 0.5W (80mA w/o wifi). see 703N config steps &amp;amp; procedure alternative: GL-AR150: 16M + 64M (POE &amp;amp; SMA ready) GL-MT300A: 16M flash + 128M DDR1. Power: 3W. Big for home: MTK7620A ; 2nd hand Mercury. Alternative With Battery#TL-MR11U 2000mAh, replacable battery.150Mbps ¥ 139
+TL-MR10U 2600mAh, bulid-in battery. 150Mbps ¥ 160
+Abbreviations#POE: Power Over Ethernet.</description>
+    </item>
+    
+  </channel>
+</rss>

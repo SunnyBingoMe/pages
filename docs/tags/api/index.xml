@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>API on Machine Learning</title>
+    <link>http://dmml.nu/tags/api/</link>
+    <description>Recent content in API on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 21 Mar 2018 18:01:21 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/api/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Restful API</title>
+      <link>http://dmml.nu/restful-api/</link>
+      <pubDate>Wed, 21 Mar 2018 18:01:21 +0000</pubDate>
+      
+      <guid>http://dmml.nu/restful-api/</guid>
+      <description>The insomnia client is used, (Postman is too slow, SoapUI has not been tested).</description>
+    </item>
+    
+    <item>
+      <title>Learning Falcon</title>
+      <link>http://dmml.nu/falcon/</link>
+      <pubDate>Sat, 13 Jan 2018 22:07:13 +0000</pubDate>
+      
+      <guid>http://dmml.nu/falcon/</guid>
+      <description>A great 5-video tutorial: 35minutes on YouTube (6 tomatoes / 2.5 hours for non-stop studing by coding). Author&amp;rsquo;s Github (py2), My Github (py3).
+Differences in my Github code:
+py3, not py2 using on_put() to test validity of input json from client using on_delete() to test params (just to test, should NOT be used in real-world) using another route /test2?x=1&amp;amp;y=3 to test params Usage in Nix:
+pip3 install falcon gunicorn gunicorn app:api # in the folder of app.</description>
+    </item>
+    
+  </channel>
+</rss>

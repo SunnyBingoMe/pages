@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GPU on Machine Learning</title>
+    <link>http://dmml.nu/tags/gpu/</link>
+    <description>Recent content in GPU on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Mar 2017 19:05:12 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/gpu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TensorFlow Engineering with CUDA GPU for Deep Learning</title>
+      <link>http://dmml.nu/dl-tf-eng/</link>
+      <pubDate>Mon, 13 Mar 2017 19:05:12 +0000</pubDate>
+      
+      <guid>http://dmml.nu/dl-tf-eng/</guid>
+      <description>See also:
+TF practical part in do deep learning How to setup Docker and Nvidia-Docker 2.0 on Ubuntu 18.04 Install#Summary: install CUDA first, then TF.
+ref TF 1.0 doc
+ref nvidia doc, until step 3
+requirements#64-bit Linux Python 2.7 or 3.3+ (3.5 used in this blog) NVIDIA CUDA 7.5 (8.0 if Pascal GPU) NVIDIA cuDNN &amp;gt;v4.0 (v5.1 recommended) NVIDIA GPU with compute capability &amp;gt;3.0 steps#1.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CRUD on Machine Learning</title>
+    <link>http://dmml.nu/tags/crud/</link>
+    <description>Recent content in CRUD on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/crud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning MongoDB</title>
+      <link>http://dmml.nu/mongodb/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/mongodb/</guid>
+      <description>(4 tomatoes: install + crud)
+Install#to install#sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2930ADAE8CAF5059EE73BB4B58712A2291FA4AD5 &amp;amp;&amp;amp; \ echo &amp;#34;deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 multiverse&amp;#34; | sudo tee /etc/apt/sources.list.d/mongodb-org-3.6.list &amp;amp;&amp;amp; \ sudo apt-get update &amp;amp;&amp;amp; \ sudo apt-get install -y mongodb-org to prevent update#echo &amp;#34;mongodb-org hold&amp;#34; | sudo dpkg --set-selections echo &amp;#34;mongodb-org-server hold&amp;#34; | sudo dpkg --set-selections echo &amp;#34;mongodb-org-shell hold&amp;#34; | sudo dpkg --set-selections echo &amp;#34;mongodb-org-mongos hold&amp;#34; | sudo dpkg --set-selections echo &amp;#34;mongodb-org-tools hold&amp;#34; | sudo dpkg --set-selections to Run## start service: sudo service mongod start # check: cat /var/log/mongodb/mongod.</description>
+    </item>
+    
+  </channel>
+</rss>

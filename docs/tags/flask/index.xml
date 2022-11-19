@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Flask on Machine Learning</title>
+    <link>http://dmml.nu/tags/flask/</link>
+    <description>Recent content in Flask on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Jan 2018 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/flask/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning Python Flask MVC Framework</title>
+      <link>http://dmml.nu/learning-flask/</link>
+      <pubDate>Wed, 10 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/learning-flask/</guid>
+      <description>Run A Demo#a simple getting-start#Let&amp;rsquo;s take the example below (Serving Prophet Model with Flask — Predicting Future (very simple) 2019.07).
+Download the saved model and put to the same folder as app.py which is:
+from flask import Flask, jsonify, request from flask_cors import CORS, cross_origin import pickle with open(&amp;#39;forecast_model.pckl&amp;#39;, &amp;#39;rb&amp;#39;) as fin: m2 = pickle.load(fin) app = Flask(__name__) CORS(app) @app.route(&amp;#34;/katana-ml/api/v1.0/forecast/ironsteel&amp;#34;, methods=[&amp;#39;POST&amp;#39;]) def predict(): horizon = int(request.</description>
+    </item>
+    
+  </channel>
+</rss>

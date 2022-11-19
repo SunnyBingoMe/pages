@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DevOpt on Machine Learning</title>
+    <link>http://dmml.nu/tags/devopt/</link>
+    <description>Recent content in DevOpt on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://dmml.nu/tags/devopt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ansible How To</title>
+      <link>http://dmml.nu/ansible/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/ansible/</guid>
+      <description>A simple video tutorial
+OBS: ansible uses py, and py calls /bin/sh, NOT bash !
+PRE-CONFIG#suggested: use ssh-pub-key auth without passphrase.
+INSTALL#Optioanl: add ppa:ansible/ansible
+installation:
+sudo apt-get update &amp;amp;&amp;amp; \ sudo apt-get install ansible HOSTS#vim /etc/ansible/hosts
+master.ip.1 [slaves] slave.domain1 slave.ip.addr.2 [slavesGroup2] slave.domain2 slave.ip.addr.1 (see ref to give hosts&amp;rsquo; names individually.)
+SLAVE USERNAME#sudo mkdir /etc/ansible/group_vars &amp;amp;&amp;amp; \ sudo echo &amp;#39;---&amp;#39; &amp;gt; /etc/ansible/group_vars/all &amp;amp;&amp;amp; \ sudo echo &amp;#39;ansible_ssh_user: root&amp;#39; &amp;gt;&amp;gt; /etc/ansible/group_vars/all (see DigitalOcean ref to config hosts individually.</description>
+    </item>
+    
+  </channel>
+</rss>

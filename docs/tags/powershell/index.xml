@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Powershell on Machine Learning</title>
+    <link>http://dmml.nu/tags/powershell/</link>
+    <description>Recent content in Powershell on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Powershell PS In Case Of</title>
+      <link>http://dmml.nu/ps-in-case-of/</link>
+      <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/ps-in-case-of/</guid>
+      <description>See also SSH.
+Overview: for both server and client: enable remote manager on both sides; set the other side as trusted.
+On both:
+Enable-PSRemoting -SkipNetworkProfileCheck -Force Set-Item wsman:\localhost\Client\TrustedHosts -value 192.168.1.* On the client:
+Enter-PSSession 192.168.xx.xx -Credential &amp;lt;server_computername&amp;gt;\&amp;lt;username&amp;gt; Tip:
+$Env:COMPUTERNAME # for computername $Env:USERNAME # for username [ref]
+5)]</description>
+    </item>
+    
+    <item>
+      <title>Powershell In Case Of</title>
+      <link>http://dmml.nu/powershell/</link>
+      <pubDate>Fri, 09 Feb 2018 13:55:57 +0000</pubDate>
+      
+      <guid>http://dmml.nu/powershell/</guid>
+      <description>Use Microsoft Terminal#choco install -y microsoft-windows-terminal Customizing PS Prompt (Use ConEmu)#See more in [codeship].
+install chocolatey (i.e. win pkg manager)#option 1 [chocolatey official]:#Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString(&amp;#39;https://chocolatey.org/install.ps1&amp;#39;)) # install choco choco install conemu -y # Install PowerShell modules Install-PackageProvider NuGet -MinimumVersion &amp;#39;2.8.5.201&amp;#39; -Force Set-PSRepository -Name PSGallery -InstallationPolicy Trusted Install-Module -Name &amp;#39;posh-git&amp;#39; option 2, with Git together codeship:## Set your PowerShell execution policy Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Force # Install Chocolatey iwr https://chocolatey.</description>
+    </item>
+    
+  </channel>
+</rss>

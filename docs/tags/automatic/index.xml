@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Automatic on Machine Learning</title>
+    <link>http://dmml.nu/tags/automatic/</link>
+    <description>Recent content in Automatic on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Dec 2016 19:44:49 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/automatic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Completely Automatic Unattended Install of Ubuntu</title>
+      <link>http://dmml.nu/Completely-Automatic-Unattended-Install-of-Ubuntu-Auto-system-config-kickstart/</link>
+      <pubDate>Wed, 14 Dec 2016 19:44:49 +0000</pubDate>
+      
+      <guid>http://dmml.nu/Completely-Automatic-Unattended-Install-of-Ubuntu-Auto-system-config-kickstart/</guid>
+      <description>OBS 1: this works only for ubuntu server edition, not desktop version. tested in ubuntu 16 x64.
+OBS 2: remember to change some parts to real values, near: # modify to real value !!!
+OBS 3: my version need some files in .iso file: &amp;ldquo;10_linux&amp;rdquo; &amp;amp; &amp;ldquo;sources.list&amp;rdquo;.
+Warn: the default ks.cfg partition settings will erase the entire disk, and use LVM.
+See also:
+Boot Partitions, Install Multi-OS
+easy2boot
+PREPARE, AS ROOT#sudo -s</description>
+    </item>
+    
+  </channel>
+</rss>

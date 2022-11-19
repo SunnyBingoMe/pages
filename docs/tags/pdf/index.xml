@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pdf on Machine Learning</title>
+    <link>http://dmml.nu/tags/pdf/</link>
+    <description>Recent content in pdf on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 Mar 2020 02:49:42 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/pdf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python Convert Images to PDF</title>
+      <link>http://dmml.nu/python-image-pdf/</link>
+      <pubDate>Wed, 18 Mar 2020 02:49:42 +0000</pubDate>
+      
+      <guid>http://dmml.nu/python-image-pdf/</guid>
+      <description>Two methods of downloading &amp;amp; converting pictures/images to a combined pdf file with parallel (multi-thread) from Mark Needham.
+f.write(img2pdf.convert(&amp;hellip;)) [ref MarkHNeedham]
+from PIL import Image [ref DataToFish]
+Note: fpdf is not suggested as it canNOT support jpg natively. [ref stackoverflow]</description>
+    </item>
+    
+  </channel>
+</rss>

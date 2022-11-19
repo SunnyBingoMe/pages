@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DejaVu Sans Mono on Machine Learning</title>
+    <link>http://dmml.nu/tags/dejavu-sans-mono/</link>
+    <description>Recent content in DejaVu Sans Mono on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://dmml.nu/tags/dejavu-sans-mono/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Comparison of Programming Fonts - Fantasque vs Dejavu vs Mononoki vs Inconsolata</title>
+      <link>http://dmml.nu/fonts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/fonts/</guid>
+      <description>Before comparison, we need to know that the following sizes are roughly the same: dejavu09 vs mononoki10 vs inconsolata10
+Dejavu#If you are looking at this page, you know coding.
+If you know coding, you should know Dejavu.
+Thus, I will skip the intro for it.
+Mononoki#looks similar like dejavu, but its punctuation is much bigger and easier to see. // may draw mroe attention than code ?</description>
+    </item>
+    
+  </channel>
+</rss>

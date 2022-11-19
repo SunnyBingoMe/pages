@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SSHFS on Machine Learning</title>
+    <link>http://dmml.nu/tags/sshfs/</link>
+    <description>Recent content in SSHFS on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Jan 2017 20:23:59 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/sshfs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SSHFS How To</title>
+      <link>http://dmml.nu/sshfs-how-to/</link>
+      <pubDate>Fri, 06 Jan 2017 20:23:59 +0000</pubDate>
+      
+      <guid>http://dmml.nu/sshfs-how-to/</guid>
+      <description>Advantage: simple, much safer than samba &amp;amp; nfs, support non-English when mounted in windows.
+See Also Links
+SFTP: FTP over SSH
+NFS
+CIFS/SMB/Samba
+SERVER#in linux, need ssh server with sftp support#Note that many routers does not support SFTP (SSH File Transfer Protocol).
+in win, need SFTP capable SSH server#For instance, OpenSSH-powershell for Windows. See here for detailed steps.
+OBS 1: sshfs works, but ssh to win will get win-cmd UI</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>监控 on Machine Learning</title>
+    <link>http://dmml.nu/tags/%E7%9B%91%E6%8E%A7/</link>
+    <description>Recent content in 监控 on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 07 Mar 2012 17:20:14 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/%E7%9B%91%E6%8E%A7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>System/Network Measuring/Monitoring Tools</title>
+      <link>http://dmml.nu/2012/03/07/13513/</link>
+      <pubDate>Wed, 07 Mar 2012 17:20:14 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/03/07/13513/</guid>
+      <description>trace route#mtr (my traceroute / traceroute 2.0) real-time speed#(#: needs root permission, $: does not need.)
+bmon (graph); multi-interface nload (graph) unit : (k)bit min, max, avg, total (avg is the same as nethogs) slurm (graph); $ slurm -i wlan0* nethogs sudo nethogs wlan0#pid, user, program CPU-consuming (stable, the same as avg of nload) ifstat scrolling text iftop (current graph) sudo iftop -i wlan0#unit : (k)bit Reverse-DNS (don&amp;rsquo;t like it , use &amp;rsquo;n&amp;rsquo; to toggl) dstat scrolling text // all stat of system ntop // TODO, how-to sar // all stat of system (cpu/net/ram/io) (see: sar ) capture#tcpDump + tcpTrace http://fasterdata.</description>
+    </item>
+    
+  </channel>
+</rss>

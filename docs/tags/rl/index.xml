@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RL on Machine Learning</title>
+    <link>http://dmml.nu/tags/rl/</link>
+    <description>Recent content in RL on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Oct 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/rl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reinforcement Learning</title>
+      <link>http://dmml.nu/rl/</link>
+      <pubDate>Mon, 21 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/rl/</guid>
+      <description>德州农工大学开源RLCard：帮你快速训练会斗地主的智能体
+See simple DEF &amp;amp; code in 邱锡鹏 教授 2020 神经网络与深度学习.
+深度学习.</description>
+    </item>
+    
+  </channel>
+</rss>

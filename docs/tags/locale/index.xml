@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>locale on Machine Learning</title>
+    <link>http://dmml.nu/tags/locale/</link>
+    <description>Recent content in locale on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 31 May 2016 11:07:57 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/locale/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Locale In Case Of</title>
+      <link>http://dmml.nu/locale-in-case-of/</link>
+      <pubDate>Tue, 31 May 2016 11:07:57 +0000</pubDate>
+      
+      <guid>http://dmml.nu/locale-in-case-of/</guid>
+      <description>Reconfig Locale#Option 1:
+mkdir -p /var/lib/locales/supported.d/ &amp;amp;&amp;amp; \ echo &amp;#34;en_GB.UTF-8 UTF-8&amp;#34; &amp;gt; /var/lib/locales/supported.d/gb &amp;amp;&amp;amp; \ echo &amp;#34;zh_CN.UTF-8 UTF-8&amp;#34; &amp;gt; /var/lib/locales/supported.d/zh &amp;amp;&amp;amp; \ echo &amp;#34;sv_SE.UTF-8 UTF-8&amp;#34; &amp;gt; /var/lib/locales/supported.d/se &amp;amp;&amp;amp; \ locale-gen Option 2:
+dpkg-reconfigure locales can use first character of locale-name to nevigate.
+ref</description>
+    </item>
+    
+  </channel>
+</rss>

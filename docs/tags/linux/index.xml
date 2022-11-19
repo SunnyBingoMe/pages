@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linux on Machine Learning</title>
+    <link>http://dmml.nu/tags/linux/</link>
+    <description>Recent content in linux on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 16 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Play Linux System Distributions Online in a Web Browser</title>
+      <link>http://dmml.nu/nix-online/</link>
+      <pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/nix-online/</guid>
+      <description>Note: many with 5 minute inactive limit and 30 minutes per session limit.
+CodeAnyWhere container (tested 2022.02, w/ root-sudo &amp;amp; git): py, c/c++, java, php, js, ruby, h5, wordpress, .net, rust, go, node.js. (can skip all payment part). terminal speed good. limitted free trial time.
+WebMinal (tested 2022.02, NO root/git) (CN network issue for home page, but ok after): Federo CentOS7 (py2.7), right-sided lessons/tutorials (great for new users): shell, MySQL, Python etc.</description>
+    </item>
+    
+    <item>
+      <title>Find and Kill a Process</title>
+      <link>http://dmml.nu/port-kill/</link>
+      <pubDate>Sat, 09 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/port-kill/</guid>
+      <description>see also: 鸟哥 Linux 私房菜 Basic Linux.
+Linux#find bound PID by port: fuser 8080/tcp
+kill by port: fuser -k 8080/tcp
+list by port: lsof -i:8080
+using netstat: netstat -nlpte |grep :8080
+or: ss -nlpt &#39;sport = :8080&#39;
+ref 1 &amp;amp; ref 2
+Windows#CMD find &amp;amp; kill by PID:
+netstat -ano | findstr :8080 tasklist | findstr &amp;#34;&amp;lt;the_PID&amp;gt;&amp;#34; taskkill /PID &amp;lt;the_PID&amp;gt; /F PS find for TCP &amp;amp; UDP:</description>
+    </item>
+    
+    <item>
+      <title>Python GUI Frontend Options Comparison</title>
+      <link>http://dmml.nu/py-gui/</link>
+      <pubDate>Thu, 14 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/py-gui/</guid>
+      <description>Mainly for the (cross-platform) Python GUI frontend options.
+CEF (Chromium Embedded Framework). Pro: can use the same way of MVC thinking (modern html5); build-in chromium browser. Con: someone said it may need a little c++. PyQt (v5). Pro: big community, good doc (for c++). Con: c++ way of thinking, just the language is py (the official GUI tutorial lacks GUI screenshots!); pay for commercial usage; still often needs c++. Tkinter. Pro: build-in w/ py, big community.</description>
+    </item>
+    
+    <item>
+      <title>GRUB Rescue</title>
+      <link>http://dmml.nu/grub-rescue/</link>
+      <pubDate>Sun, 06 Jan 2019 18:38:25 +0000</pubDate>
+      
+      <guid>http://dmml.nu/grub-rescue/</guid>
+      <description>When being forced into GRUB rescue mode, run ls and ls &amp;lt;one_partition&amp;gt; to check available partitions and find the one that we should boot from [ref].
+Then set prefix &amp;amp; root [ref]:
+set root=(hdX,Y) set prefix=(hdX,Y)/boot/grub insmod normal normal To avoid doing this every time, it is recommened to use a live-USB/ISO to repair GRUB (usually only Desktop version can be in live-USB and easy to setup WIFI). (// it should be also ok to do this without USB if there is a nix system working on current HDD).</description>
+    </item>
+    
+    <item>
+      <title>Install R in Ubuntu</title>
+      <link>http://dmml.nu/r-install/</link>
+      <pubDate>Mon, 08 May 2017 20:31:04 +0000</pubDate>
+      
+      <guid>http://dmml.nu/r-install/</guid>
+      <description>UBUNTU 18.04#sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9 &amp;amp;&amp;amp; \ sudo add-apt-repository &amp;#39;deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran40/&amp;#39; &amp;amp;&amp;amp; \ sudo apt update &amp;amp;&amp;amp; \ sudo apt install -y r-base r-base-dev libcurl4-openssl-dev libssl-dev build-essential &amp;amp;&amp;amp; \ sudo -i R # install packages as root, so all users can use. Commonly used packages:
+install.packages(c(&amp;#39;devtools&amp;#39;, &amp;#39;digest&amp;#39;, &amp;#39;repr&amp;#39;, &amp;#39;IRdisplay&amp;#39;, &amp;#39;crayon&amp;#39;, &amp;#39;pbdZMQ&amp;#39;, &amp;#39;ggplot2&amp;#39;, &amp;#39;IRkernel&amp;#39;, &amp;#39;ggpubr&amp;#39;)) DigitalOcean
+Optional: sudo chmod 777 /usr/local/lib/R/site-library so anyone can install packages.</description>
+    </item>
+    
+    <item>
+      <title>Linux init after installation</title>
+      <link>http://dmml.nu/linux-init/</link>
+      <pubDate>Mon, 19 Dec 2016 18:27:47 +0000</pubDate>
+      
+      <guid>http://dmml.nu/linux-init/</guid>
+      <description>PROBLEMS#sudo takes a long time (when network having issues)#Reason: distros should have added new host name to /etc/hosts, if the name is changed/added during installation ref.
+echo -n &amp;#39;127.0.0.1 &amp;#39; &amp;gt;&amp;gt; /etc/hosts &amp;amp;&amp;amp; cat /proc/sys/kernel/hostname &amp;gt;&amp;gt; /etc/hosts or:
+127.0.0.1 localhost localhost.localdomain localhost4 localhost4.localdomain4 &amp;lt;ADD_YOUR_HOST_NAME&amp;gt; ::1 localhost localhost.localdomain localhost6 localhost6.localdomain6 &amp;lt;ADD_YOURS_HERE&amp;gt; annoying &amp;ldquo;software updater&amp;rdquo;#sudo sed -i &amp;#39;s/1/0/&amp;#39; /etc/apt/apt.conf.d/20auto-upgrades ; cat /etc/apt/apt.conf.d/20auto-upgrades sudo apt-get remove --auto-remove gnome-software empty/black screen#If screen blacked out after 1st reboot, the problem is gfxmode $linux_gfx_mode in grub.</description>
+    </item>
+    
+    <item>
+      <title>Force Ubuntu desktop Boot into Text Console Mode</title>
+      <link>http://dmml.nu/Force-Ubuntu-desktop-Boot-into-Text-Console-Terminal-Mode/</link>
+      <pubDate>Thu, 15 Dec 2016 15:14:33 +0000</pubDate>
+      
+      <guid>http://dmml.nu/Force-Ubuntu-desktop-Boot-into-Text-Console-Terminal-Mode/</guid>
+      <description>Tested in ubuntu deskop 16.
+short url: s_force-text
+SOLUTION#sudo cp /etc/default/grub /etc/default/grub.bak &amp;amp;&amp;amp; \ sudo sed -ie &amp;#39;s/GRUB_CMDLINE_LINUX_DEFAULT=.*/GRUB_CMDLINE_LINUX_DEFAULT=&amp;#34;text&amp;#34;/g&amp;#39; /etc/default/grub &amp;amp;&amp;amp; \ sudo sed -ie &amp;#39;s/GRUB_CMDLINE_LINUX=.*/GRUB_CMDLINE_LINUX=&amp;#34;text&amp;#34;/g&amp;#39; /etc/default/grub &amp;amp;&amp;amp; \ sudo sed -ie &amp;#39;s/#GRUB_TERMINAL/GRUB_TERMINAL/g&amp;#39; /etc/default/grub &amp;amp;&amp;amp; \ sudo update-grub &amp;amp;&amp;amp; \ sudo systemctl enable multi-user.target --force &amp;amp;&amp;amp; \ sudo systemctl set-default multi-user.target &amp;amp;&amp;amp; \ sudo reboot OBS: sometimes, by changing &amp;ldquo;multi-user.target&amp;rdquo; is enough, but sometimes we have to update grub. Have not dug into the reason.</description>
+    </item>
+    
+    <item>
+      <title>Completely Automatic Unattended Install of Ubuntu</title>
+      <link>http://dmml.nu/Completely-Automatic-Unattended-Install-of-Ubuntu-Auto-system-config-kickstart/</link>
+      <pubDate>Wed, 14 Dec 2016 19:44:49 +0000</pubDate>
+      
+      <guid>http://dmml.nu/Completely-Automatic-Unattended-Install-of-Ubuntu-Auto-system-config-kickstart/</guid>
+      <description>OBS 1: this works only for ubuntu server edition, not desktop version. tested in ubuntu 16 x64.
+OBS 2: remember to change some parts to real values, near: # modify to real value !!!
+OBS 3: my version need some files in .iso file: &amp;ldquo;10_linux&amp;rdquo; &amp;amp; &amp;ldquo;sources.list&amp;rdquo;.
+Warn: the default ks.cfg partition settings will erase the entire disk, and use LVM.
+See also:
+Boot Partitions, Install Multi-OS
+easy2boot
+PREPARE, AS ROOT#sudo -s</description>
+    </item>
+    
+    <item>
+      <title>Setup Remote Access (VNC) of Linux Servers</title>
+      <link>http://dmml.nu/remote-accessing-desktop-install-and-uninstall-vnc-on-linux-servers/</link>
+      <pubDate>Fri, 02 Dec 2016 17:32:06 +0000</pubDate>
+      
+      <guid>http://dmml.nu/remote-accessing-desktop-install-and-uninstall-vnc-on-linux-servers/</guid>
+      <description>Tested in Ubuntu 16.04 desktop Gnome+Unity in Vmware.
+OBS: pure server will automatically start X in reboot and will lack of something, e.g. Default Terminal etc.
+FIREWALL#TCP port 5900+N (N is monitorId, starts from 1.)
+TIGHT.VNC AS SERVER#TightVnc allows us to start from a server without X11 and do everything in command line, remotely.
+install (either already with or w/o desktop)#sudo su: use root can avoid weird problems, see &amp;ldquo;ps&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Nix Linux Distribution Comparison, Timeline and Relationship</title>
+      <link>http://dmml.nu/nix-distro/</link>
+      <pubDate>Wed, 13 Jul 2016 11:42:25 +0000</pubDate>
+      
+      <guid>http://dmml.nu/nix-distro/</guid>
+      <description>Main branches directly from linux kernels:
+Debian, (K)Ubuntu/Deepin &amp;hellip; RedHat, CentOS, Fedora &amp;hellip; Slackware, Suse, OpenSuse (Leap vs. Tumbleweed) &amp;hellip; Arch, Manjaro &amp;hellip; Android &amp;hellip; RHEL = Red Hat (Inc.) Enterprise Linux
+SLE = SUSE Linux Enterprise
+openSUSE Leap &amp;lt;&amp;ndash;&amp;gt; CentOS(Rocky Linux)
+openSUSE Tumbleweed &amp;lt;&amp;ndash;&amp;gt; Fedora
+Sizes Just After Installation (Disk &amp;amp; RAM)#OS Installation DISK size en (GB) Installation DISK size cn (GB) RAM
+(GB) Notes Deepin 20.4 ?</description>
+    </item>
+    
+    <item>
+      <title>Locale In Case Of</title>
+      <link>http://dmml.nu/locale-in-case-of/</link>
+      <pubDate>Tue, 31 May 2016 11:07:57 +0000</pubDate>
+      
+      <guid>http://dmml.nu/locale-in-case-of/</guid>
+      <description>Reconfig Locale#Option 1:
+mkdir -p /var/lib/locales/supported.d/ &amp;amp;&amp;amp; \ echo &amp;#34;en_GB.UTF-8 UTF-8&amp;#34; &amp;gt; /var/lib/locales/supported.d/gb &amp;amp;&amp;amp; \ echo &amp;#34;zh_CN.UTF-8 UTF-8&amp;#34; &amp;gt; /var/lib/locales/supported.d/zh &amp;amp;&amp;amp; \ echo &amp;#34;sv_SE.UTF-8 UTF-8&amp;#34; &amp;gt; /var/lib/locales/supported.d/se &amp;amp;&amp;amp; \ locale-gen Option 2:
+dpkg-reconfigure locales can use first character of locale-name to nevigate.
+ref</description>
+    </item>
+    
+    <item>
+      <title>NIX (unix OR”linux” OR”ubuntu” OR”kubuntu” OR”redhat” OR”debian” OR”centos” OR”fedora”)</title>
+      <link>http://dmml.nu/nix/</link>
+      <pubDate>Wed, 24 Jul 2013 21:33:41 +0000</pubDate>
+      
+      <guid>http://dmml.nu/nix/</guid>
+      <description>See also:
+play/test distributions online: /nix-online distribution comparison: /nix-distro bit.ly/s_distro How To Set Up PC as a Router: /router-how-to Install#automaic / unattended installation of ubuntu#http://askubuntu.com/questions/122505/how-do-i-create-a-completely-unattended-install-of-ubuntu Completely-Automatic-Unattended-Install-of-Ubuntu-Auto-system-config-kickstart multi systems selection#multi-operating-system-installation
+init after installation#linux-init
+Boot &amp;amp; Reboot#linux, ubuntu emergency safe reboot Boot to text console terminal mode [Ubuntu Kubuntu Nix Linux] GRUB rescue mode Common Performance Improvement Tools#相见恨晚的 15 个 Linux 神器 命令行忘性大？这个开源备忘工具一次解决你的所有烦恼 Git#bit.</description>
+    </item>
+    
+    <item>
+      <title>[bak] Sar 监控命令小览</title>
+      <link>http://dmml.nu/2012/03/07/13516/</link>
+      <pubDate>Wed, 07 Mar 2012 17:22:46 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/03/07/13516/</guid>
+      <description>see also jlevy/the-art-of-command-line (multi-language)
+from: qa.taobao.com
+最近接触了下淘宝的性能框架PAP，觉得系统中的监控真的做的很不错，但是非pap运行的程序，则无法监控，同时也查了下淘宝性能百科对监控命令Sar介绍，觉得讲的比较粗，这里把自己以前用过的Sar监控分享下；有问题，大家共勉哈！
+B%91%E6%8E%A73.jpg)</description>
+    </item>
+    
+    <item>
+      <title>Notes of Basic Linux Part-5 Root as Administrator</title>
+      <link>http://dmml.nu/vbird-linux-5/</link>
+      <pubDate>Sat, 03 Mar 2012 19:08:16 +0000</pubDate>
+      
+      <guid>http://dmml.nu/vbird-linux-5/</guid>
+      <description>see also jlevy/the-art-of-command-line (multi-language)
+Organised 2017 March.
+Notes from 2012 April.
+多年前（2012）写的“鸟哥的Linux 私房菜”学习笔记。- Chapters 18~26 -ing
+原网站： 繁体 linux.vbird.org or 简体 cn.linux.vbird.org 。
+第十八章、认识系统服务 (daemon, service)#什么是 daemon 与服务 (service)#分类 &amp;amp; 命名：#stand-alone vs. super-daemon Stand Alone Daemon 响应速度快。 常见的有httpd、FTP的vsftpd等。 Super Daemon (1)由于 super daemon 负责唤醒各项服务，因此 super daemon 可以具有安全控管的机制. (2)不会一直占用系统资源。 例如 telnet, xinetd. signal-control vs. interval-control (工作形态) signal-control 透过讯号来管理，有客户端的需求进来，就会去处理！ 例如打印机的服务 (cupsd)。 interval-control 『每隔一段时间就主动的去运行某项工作』，在指定的时间才会去工作。 例如在第十六章提到的 atd 与 crond (每分钟侦测一次配置文件) 命名守则 {xxx}d eg: man [3] daemon 服务与端口的对应： /etc/services#ssh 22/tcp # SSH Remote Login Protocol ssh 22/udp # SSH Remote Login Protocol .</description>
+    </item>
+    
+    <item>
+      <title>Notes of Basic Linux Part-4 User Management</title>
+      <link>http://dmml.nu/vbird-linux-4/</link>
+      <pubDate>Sat, 03 Mar 2012 18:08:16 +0000</pubDate>
+      
+      <guid>http://dmml.nu/vbird-linux-4/</guid>
+      <description>see also jlevy/the-art-of-command-line (multi-language)
+Organised 2017 March.
+Notes from 2012 April.
+多年前（2012）写的“鸟哥的 Linux 私房菜”学习笔记。- Chapters 14 &amp;amp; 17 -ing
+原网站： 繁体 linux.vbird.org or 简体 cn.linux.vbird.org 。
+第十四章、Linux 账号管理与 ACL 权限配置#Linux 的账号与群组#使用者标识符： UID 与 GID#UID是0时，代表这个账号是『系统管理员』！ 所以当你要让其他的账号名称也具有 root 的权限时，将该账号的 UID 改为 0 即可。 1~499 (系统账号).除了 0 之外，其他的 UID 权限与特性并没有不一样。默认 500 以下的数字让给系统作为保留账号只是一个习惯。 我们希望启动的服务使用较小的权限去运行，所以这些系统账号通常是不可登陆的, 所以才会有 /bin/false ; /usr/sbin/nologin. 比如用来作为pop邮件使用者的shell 1~99：由 distributions 自行创建的系统账号. 100~499：若用户有系统账号需求时，可以使用的账号 UID。 500~65535 (可登陆账号). linux 核心 (2.</description>
+    </item>
+    
+    <item>
+      <title>Notes of Basic Linux Part-3 bash, shell, and Network Security</title>
+      <link>http://dmml.nu/vbird-linux-3/</link>
+      <pubDate>Sat, 03 Mar 2012 17:17:19 +0000</pubDate>
+      
+      <guid>http://dmml.nu/vbird-linux-3/</guid>
+      <description>see also jlevy/the-art-of-command-line (multi-language)
+Organised 2017 March.
+Notes from 2012 April.
+多年前（2012）写的“鸟哥的Linux 私房菜”学习笔记。 - chapters 10~13 -ing
+基本的命令应该没什么变化吧。
+原网站： 繁体 0160startlinux 。
+Crtl + Alt + [F1]~[F6]
+# 共有六个， tty1 ~ tty6 ，切换的方式为 Crtl + Alt + [F1]~[F6]，其中， [F7] [F8] 为图形接口的使用。
+man xxx =&amp;gt; xxx(number) manual 中的命令级别 number 代表意义:
+1：一般用户可以使用的命令或可运行文件案； 5：一些配置文件的文件内容格式； 8：系统管理员能够使用的管理命令。 第十一章、认识与学习BASH#认识 BASH 这个 Shell#硬件、核心与 Shell#// Hardware &amp;lt;=&amp;gt; Kernel &amp;lt;=&amp;gt; Shell,KDE,App 为何要学文字接口的 shell#// 通用,效率高 系统的合法 shell 与 /etc/shells 功能#/etc/shells #所有 shells /etc/passwd	// 每个用户的默认 shell Bash shell 的功能#// history, tab, alias, job control, scripts, wildcard // 当前登录的history在内存，注销时才会写入用户history文件。 Bash shell 的内建命令： type#type [-tpa] commandName [ ]	：无参，说明式回显 commandName 类型,还和使用者语言有关 -t ：单词式回显： file ：外部命令 alias ：别名 builtin ：bash内建 -p ：如果后面接的 commandName 为外部命令，会显示完整文件名； -a ：会由 PATH 变量定义的路径中，将所有含 commandName 字符串的命令都列出来，包含 alias 命令的下达 &amp;ldquo;&amp;quot;#// \ 仅跳脱『紧接着的下一个字符』 Shell 的变量功能#什么是变量#变量的取用与配置 (echo, 变量配置守则, unset)#// 变量的取用: echo echo $varName echo ${varName} // $varName 是 ${varName} 的简化。 // 变量配置守则 // 赋值等号两边不能有空格 // 不能以数字开头 // 命令嵌套 eg : ls -l `locate crontab` // 反单引号 `命令` 或 $(命令) 等价 （推荐后者，因为容易识别，但是不要忘了那个$符号）。 unset varName #注意：此处没有&#39;$&#39; 环境变量的功能: env, export, declare#// env 与 export 可观察环境变量，其中 export 可以将自定义变量转成环境变量； env #查看所有env变量 HOME #cd ~ SHELL HISTSIZE MAIL PATH LANG #语系 RANDOM #/dev/random ; 0~32767 之间 declare -i number=$RANDOM*10/32768 ; echo $number #0~9 之间 set #查看目前 bash 的所有变量 (环境变量+自定义变量)； // set 还可以配置命令环境,见4.</description>
+    </item>
+    
+    <item>
+      <title>Notes of Basic Linux Part-2 Files, Directories, FS</title>
+      <link>http://dmml.nu/vbird-linux-2/</link>
+      <pubDate>Sat, 03 Mar 2012 17:08:16 +0000</pubDate>
+      
+      <guid>http://dmml.nu/vbird-linux-2/</guid>
+      <description>see also jlevy/the-art-of-command-line (multi-language)
+Organised 2017 March.
+Notes from 2012 April.
+多年前（2012）写的“鸟哥的Linux 私房菜”学习笔记。 - Chapters 6~9 -ing
+基本的命令应该没什么变化吧。
+第6章、Linux文件权限与目录配置#user, group#Linux文件权限概念#Linux文件属性 (ls -al)#*首位类型: d: Dir -: 正规文件(regular file ) ASCII/plain text; binary; data(eg: last 才能读 /ar/log/wtmp) l: Link b: Block dev, 可供储存的接口设备(可随机存取装置) c: Character dev, 串行端口设备，例如键盘、鼠标(一次性读取装置) s: Socket, 常见于 /var/run p: Pipe, FIFO. see: man fifo. 在解决多程序同时存取一个文件所造成的错误。 *时间: 最后修改时间 Note: 中文时间乱码: 用『LANG=en_US』来修改语系. /etc/sysconfig/i18n</description>
+    </item>
+    
+    <item>
+      <title>Notes of Basic Linux Part-1 Installation</title>
+      <link>http://dmml.nu/vbird-linux-1/</link>
+      <pubDate>Sat, 03 Mar 2012 17:00:51 +0000</pubDate>
+      
+      <guid>http://dmml.nu/vbird-linux-1/</guid>
+      <description>see also jlevy/the-art-of-command-line (multi-language)
+Organised 2017 March.
+Notes from 2012 April.
+多年前（2012）写的“鸟哥的Linux 私房菜”学习笔记。
+基本的命令应该没什么变化吧。
+原网站： 繁体 linux.vbird.org or 简体 cn.linux.vbird.org 。
+比较简单，我就不总结了，见原网站地址.</description>
+    </item>
+    
+    <item>
+      <title>linux, ubuntu emergency safe reboot</title>
+      <link>http://dmml.nu/2012/02/16/13436/</link>
+      <pubDate>Thu, 16 Feb 2012 00:47:43 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/02/16/13436/</guid>
+      <description>http://en.wikipedia.org/wiki/Magic_SysRq_key#.E2.80.9CREISUB.E2.80.9D_.E2.80.93_safe_reboot
+“REISUB” – safe reboot
+unRaw (take control of keyboard back from X),
+tErminate (send SIGTERM to all processes, allowing them to terminate gracefully),
+kIll (send SIGKILL to all processes, forcing them to terminate immediately),
+Sync (flush hd write-cache data to disk),
+Unmount (remount all filesystems read-only),
+reBoot.</description>
+    </item>
+    
+    <item>
+      <title>linux,ubuntu添加开机自动运行程序方法autorun</title>
+      <link>http://dmml.nu/2011/12/19/13189/</link>
+      <pubDate>Mon, 19 Dec 2011 21:33:41 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/12/19/13189/</guid>
+      <description>1. 开机自动运行#Linux加载后, 它将初始化硬件和设备驱动, 然后运行第一个进程init。init根据配置
+文件继续引导过程，启动其它进程。通常情况下，修改放置在
+/etc/rc或
+/etc/rc.d 或 /etc/rc?.d
+目录下的脚本文件，可以使init自动启动其它程序。例如：编辑
+/etc/rc.d/rc.local 文件(该文件通常是系统最后启动的脚本)，
+在文件最末加上一行“xinit”或“startx”，可以在开机启动后直接进入X－Window。
+2. 登录自动运行#用户登录时，bash先自动执行系统管理员建立的全局登录script ： /ect/profile
+然后bash在用户起始目录下按顺序查找三个特殊文件中的一个：
+/.bash_profile、
+/.bash_login、
+/.profile，
+但只执行最先找到的一个。因此，只需根据实际需要在上述文件中加入命令就可以实
+现用户登录时自动运行某些程序（类似于DOS下的Autoexec.bat）。
+3. 退出自动运行#退出登录时，bash自动执行个人的退出登录脚本
+/.bash_logout。
+例如，在/.bash_logout中加入命令“tar －cvzf c.source.tgz ＊.c”，则在每次退出
+登录时自动执行 “tar” 命令备份 ＊.c 文件。
+4. 定时自动运行#Linux有一个称为crond的守护程序，主要功能是周期性地检查 /var/spool/cron目录
+下的一组命令文件的内容，并在设定的时间执行这些文件中的命令。用户可以通过
+crontab 命令来建立、修改、删除这些命令文件。
+例如，建立文件crondFile，内容为“00 9 23 Jan ＊ HappyBirthday”，运行“crontab
+cronFile”命令后，每当元月23日上午9:00系统自动执行“HappyBirthday”的程序（“＊
+”表示不管当天是星期几）。
+5. 定时自动运行一次#定时执行命令at 与crond 类似（但它只执行一次）：命令在给定的时间执行，但不自
+动重复。at命令的一般格式为：at [ －f file ] time ，在指定的时间执行file文件</description>
+    </item>
+    
+    <item>
+      <title>SSH In Case Of</title>
+      <link>http://dmml.nu/backend-server-linux/ssh-in-case-of/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/backend-server-linux/ssh-in-case-of/</guid>
+      <description>Note: Putty officially recommends to use Bitvise SSH Client &amp;amp; Server.
+See also Powershell.
+SUDO#no passwd for sudo
+vim /etc/sudoers modify ALL=(ALL) ALL to ALL=(ALL) NOPASSWD:ALL (add NOPASSWD: before the last ALL)
+Config &amp;gt; Less Time#Add two commands to avoid long time before asking passwords:
+GSSAPIAuthentication no UseDNS no GSS API is alternative to SSH-keys
+Config &amp;gt; More Security#Change to get high security by using key auth only:</description>
+    </item>
+    
+  </channel>
+</rss>

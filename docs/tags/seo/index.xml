@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>seo on Machine Learning</title>
+    <link>http://dmml.nu/tags/seo/</link>
+    <description>Recent content in seo on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Jul 2013 23:59:39 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/seo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何写出好的SEO的博客</title>
+      <link>http://dmml.nu/2013/07/24/15015/</link>
+      <pubDate>Wed, 24 Jul 2013 23:59:39 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/07/24/15015/</guid>
+      <description>其实, SEO 的对象就是用户习惯. 一方面要去猜用户习惯, 另一方面, 要通过技术或其他的分析了解用户&amp;quot;下意识&amp;quot;的习惯. 这里有个配图是个很好的例子: here
+写文章#标题要短小精悍, 突出关键词, 越重要的词汇应该越靠前. 对于 wordpress, 由于编辑完题目后 wp 会自动生成链接, 所以一定要先想好题目再&amp;quot;新建&amp;quot;博文.
+放视频#取 iframe 通用代码, 复制之后粘贴到 text 编辑模式中, 发布之后才能看到真实的效果.
+发外链【to be cont】#在自己文章指向的网址里面加个评论, 然后在评论里写上自己网站的某个页面, 不要是同一篇文章.
+常更新#每周至少两篇文章, 这样搜索引擎会认为站点活跃.
+放图片#最吸引眼球的就是图片和视频了.
+在 wp 插入媒体时, 可以选择上传或者直接使用图片 url 地址. 前者稳定, 使用自己的服务器, 后者可以减少自己服务器负担, 但是图片有可能会失效, 比如原网站关闭或者使用了外链限制.
+如果一个图片本身不清晰, 例如这个: here , 可以使用 images.google.com 的图片搜索功能找到更清晰的. 只要先在原图片点右键, 复制图片 url 地址, 然后 google 点照相机图标(image search), 然后粘贴进去刚才复制的地址, G00GLE 就会给出很多相似图片: here .</description>
+    </item>
+    
+  </channel>
+</rss>

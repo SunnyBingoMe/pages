@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javascript on Machine Learning</title>
+    <link>http://dmml.nu/tags/javascript/</link>
+    <description>Recent content in Javascript on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Oct 2016 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Compare Frontend Javascript Frameworks</title>
+      <link>http://dmml.nu/compare-js-framework/</link>
+      <pubDate>Wed, 19 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/compare-js-framework/</guid>
+      <description>Angular
+Very flexible, we can do whatever we want, in whatever way.
+Ember
+It is hard to write ugly code cuz we need to follow the rules. Good for teamwork.
+Backbone
+Two-way data-binding is not free. It will just do what we tell it to do. Thus, we need to write a lot of code.
+React
+It is V in MVC. Two-way data-binding is not free. Update is very cheap by doming DOM diff &amp;amp; update.</description>
+    </item>
+    
+    <item>
+      <title>JS [JavaScript] In Case Of</title>
+      <link>http://dmml.nu/2013/05/14/14839/</link>
+      <pubDate>Tue, 14 May 2013 12:20:54 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/05/14/14839/</guid>
+      <description>Event
+body -&amp;gt; onload, on un load;
+on mouse over/out;
+on focus/blur;
+on change.</description>
+    </item>
+    
+    <item>
+      <title>Learning Node.js - React Native</title>
+      <link>http://dmml.nu/learn-nodejs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/learn-nodejs/</guid>
+      <description>Concept#Android native: Cotlin/Java
+iOS native: OC, Swift
+RN is a wrapper of React (node.js) for Android/iOS.
+Main ref: React Native Crash Course. 17 hours (34 tomatoes).
+video on YouTube (3.5h video ~ 10h to learn),
+code on github
+Install &amp;amp; Initialize The 1st Project (Win + Expo)#install node.js (including npm)#Ref: 下载 | Node.js (nodejs.org) https://nodejs.org/zh-cn/download/
+install expo cli#npm install --global expo-cli</description>
+    </item>
+    
+  </channel>
+</rss>

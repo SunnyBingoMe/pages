@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tech-Leading-and-Readings on Machine Learning</title>
+    <link>http://dmml.nu/tech-leading-and-reading/</link>
+    <description>Recent content in Tech-Leading-and-Readings on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Nov 2013 09:28:40 +0000</lastBuildDate><atom:link href="http://dmml.nu/tech-leading-and-reading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agile - Scrum</title>
+      <link>http://dmml.nu/2013/11/21/15259/</link>
+      <pubDate>Thu, 21 Nov 2013 09:28:40 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/11/21/15259/</guid>
+      <description>What?#http://www.collab.net/services/training/agile_e-learning
+http://www.slideshare.net/dimka5/introducing-agile-scrum-xp-and-kanban
+Which?#All free, ordered from simple to complex:
+scrumblr.ca/xxxx // board only. you need to give the board a name, public
+scrumy.com/xxxx // simple timed columns. you need to give the board a name, public
+targetprocess.com/product/scrum/ // timed columns.
+pivotaltracker.com // not only time, but also most necessary things.
+How?#Pivotal-Tracker is complicated, here is how to use it:
+https://www.pivotaltracker.com/help/gettingstarted</description>
+    </item>
+    
+    <item>
+      <title>总规划 [Big Picture]</title>
+      <link>http://dmml.nu/2013/11/14/15252/</link>
+      <pubDate>Thu, 14 Nov 2013 09:44:36 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/11/14/15252/</guid>
+      <description>link to this post: /big-picture details, see g-docs: /plan 观点基础: 有些基础性的东西是要做的,按照罗辑思维的说法, 要做能产生其他机会的机会 (//平台商?).
+0. 中等紧急 + 非常重要: 交通工程博士所需知识.#key words: 云计算, 虚拟化, 并行,
+1. IT, 计算机相关技术#比如IT, 哪里都不可或缺, 在这方面, Web前台作为展示, 后台作为谁都可用的基础, 所以,
+我要做的是: 一条线 + 书皮学问.
+非常重要: 现在前台技术还应提高, 要知其所以然. 后台做完snort一整套, 参考 shlug. 关于编程, 要学. 然后(开阔眼界)再学个纯oop的, 纯function模式的(人工智能). 其他书皮学问要做到知其然, 用的时候知道学什么, 去哪学.
+2. 非常紧急 + 中等重要: 情商之人名#不知道什么病, 从小记不住人名, 经常想不起来熟人的名字, 难道叫&amp;quot;名盲&amp;quot; = = &amp;hellip; 这个问题必须解决, 尤其外国人的名字, 太长了 &amp;hellip;
+3. 读书#亚马逊 › 传记 › 4星及以上 › (可根据人物分类) goo.</description>
+    </item>
+    
+    <item>
+      <title>一个时区引发的血案 [timezone] [ubuntu] [cacti]</title>
+      <link>http://dmml.nu/2013/06/08/14878/</link>
+      <pubDate>Sat, 08 Jun 2013 23:48:16 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/06/08/14878/</guid>
+      <description>拿cacti试着玩，和mrtg一起装的。
+第一天（昨天）装上就睡觉了，今天起来接着玩。
+发现自己新建的数据所产生的图表和rrd文件显示不出来数据，总是 NaN， copy其他已经有的文件替换新文件就可以显示，当然，数据还是老文件的。
+然后，发现copy的rrd文件生成的图和原rrd一致，即使过了半小时也是一样的，难道从同一个数据源获取的信息被写到不同的rrd文件？md5检查证明这个想法是错误的。
+还有个很诡异的问题，早晨我特地用bc算了一个很大的数，但是他显示的cpu load最高的时候却是在中午，我都怀疑有人在我吃饭的时候黑了我的服务器？
+把cacti的dev模式打开，详细检查log。没发现任何报错，update的rrd文件也没报错。我汗～～～灵异事件。。。
+突然发现写入rrd文件的时间戳貌似和生成图表用的时间戳存在巨大差异，一对比，差4小时～！！！
+然后就想起来给这台服务器刚换过时区，应该是这个问题了。看来只替换时区文件是不行的 。。。
+所以我： dpkg-reconfigure tzdata &amp;amp;&amp;amp; reboot 。。。
+很难说清到底哪些程序需要重启，干脆整机重启吧，几秒的事儿～ //win server 就2了，几分钟起来就不错了。
+这里还有另一篇文章：（我没试过）
+http://www.wikihow.com/Change-the-Timezone-in-Linux</description>
+    </item>
+    
+    <item>
+      <title>诡异的无线路由掉线 [wireless] [router] [arp]</title>
+      <link>http://dmml.nu/2013/04/08/14760/</link>
+      <pubDate>Mon, 08 Apr 2013 00:13:29 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/04/08/14760/</guid>
+      <description>最近家里用本本无线, 但是总掉线, 刚开始以为是路由问题, 重启, 好了, 但是太麻烦, 而且很频繁.
+后来偶然发现本本掉线之后 (但是显示还有连接), 手动重连即可. 问题是这个毛病太频繁了, 平时在学校没事儿, 回家之后很烦.
+受不了, 于是wireshark, 发现路由很奇怪地不回答arp询问, 导致动态arp的cache过期之后本本找不到gateway的mac地址, 无法送出数据包. 但是此时尚可以接收数据包, 这也可能是为什么skype或者其他云服务之类发现&amp;quot;自己&amp;quot;off-line会滞后于错误的实际发生时间.
+虽然不知道是不是路由的问题 (已经从dd-wrt返回出场状态, 不过依然不能解决问题), 总有办法bypass, 就是static arp.
+xp中使用
+arp -s 192.168.1.1 68-7f-74-b0-f8-ab
+可以设置静态arp, 但是在windows 7却得到 &amp;ldquo;The ARP entry addition failed: Access is denied.&amp;rdquo;
+ms官方论坛没有细说, 但给出netsh方案. stackoverflow 给出:
+netsh interface ip add neighbors &amp;lt;interface-name&amp;gt; &amp;lt;peer-ip&amp;gt; &amp;lt;peer-mac&amp;gt;
+例如:
+netsh interface ip add neighbors &amp;ldquo;Wireless Network Connection&amp;rdquo; 192.168.1.1 69-7f-ff-bf-f8-gb
+但是错误提示: cannot load ipmontr.dll &amp;hellip;. 我了个去 &amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>受不了微软</title>
+      <link>http://dmml.nu/2013/04/02/14750/</link>
+      <pubDate>Tue, 02 Apr 2013 19:36:15 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/04/02/14750/</guid>
+      <description>起初, 是受不了win phone, 自己不注意经营移动领域, 自作孽不可活.
+然后, 安装skype竟然不能一路next, 需要手动改文件夹权限, 这还是ms的作风么 &amp;hellip;.
+最后, 不明不白就把我的skydrive停了, 说24小时, 问了三天才给回复, 然后给我了个链接到一个法律文书说明. 有nnnnnnnnn页, 说看完填表, 然后我直接回复&amp;quot;不必了, 恭喜你们刚丢失了一个用户&amp;quot;.
+//图片来自 tkioz.blogspot.com</description>
+    </item>
+    
+    <item>
+      <title>自己找亮点</title>
+      <link>http://dmml.nu/2013/03/28/14742/</link>
+      <pubDate>Thu, 28 Mar 2013 23:49:37 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/03/28/14742/</guid>
+      <description>http://goo.gl/maps/I65hb</description>
+    </item>
+    
+    <item>
+      <title>Windows Phone</title>
+      <link>http://dmml.nu/2013/03/17/14726/</link>
+      <pubDate>Sun, 17 Mar 2013 15:13:40 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/03/17/14726/</guid>
+      <description>用了一下HTC Titan x310e, 拿到手看着很爽, metro挺漂亮~
+然后我上网, 发现登陆不了 &amp;hellip; 然后不同的程序报告给我的消息还不一样: &amp;ldquo;请确保你没有打开飞行模式&amp;quot;云云. 我汗, M$自己的程序就不能问一问系统是不是飞行模式 &amp;hellip; 当然, 我自己查了一下, 找到原因是没连wifi, 但这个工作应该由手机和系统去做.
+另外让我很受不了的事情, 浏览器连接不到就早说连接不到, 弄个进度条滚啊滚,滚啊滚, 就是不说自己滚不到头. 那就滚一边去吧, 再也不用手机里的ie浏览器了.
+wifi需要mac认证 &amp;hellip; 找啊找,找啊找,找啊找啊找朋友 &amp;hellip;. 终于在about里面找到了 &amp;hellip; 跟iphone一样无语, 你们就不能在 &amp;ldquo;wifi-&amp;gt;高级&amp;rdquo; 里面多显示一次mac地址么! 我了个去.
+晚上玩手机, 为了不影响别人休息, 当然要静音. 这次很快找到了静音设置, 然后去试验搜索~ 我X! 不是静音了么, 为毛会有提示音! 找了半小时也没找到其他静音设置, 算了, 这手机又给我一击.
+玩玩游戏吧, 打开marketplace, 准备装应用. games分类下竟然没有东西, 那就看看娱乐类吧. 也是空的. 显然是应用市场的问题了~ 翻来覆去, 发现需要 &amp;ldquo;update marketplace&amp;rdquo; 这个app. 看来这个app专门负责update. 然后 &amp;hellip;. 我怎么也没法根据他的提示 &amp;ldquo;re-fresh&amp;rdquo; &amp;hellip;.
+好吧, 不管M$你是怎么弄的, 反正我再也不会去买win旗下的手机了
+//图片来源: www.windows-smartphones.de</description>
+    </item>
+    
+    <item>
+      <title>Online Video Player Performance Comparison: Flash vs HTML5</title>
+      <link>http://dmml.nu/2013/01/15/14634/</link>
+      <pubDate>Tue, 15 Jan 2013 23:09:36 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/01/15/14634/</guid>
+      <description>Website: YouTube .
+Both are using client-paced download (guessing).
+Conclusion: Flash player is more efficient for transferring video data.</description>
+    </item>
+    
+    <item>
+      <title>TCP Socket Buffer [SKB] Size Auto Tuning</title>
+      <link>http://dmml.nu/2012/12/24/14610/</link>
+      <pubDate>Mon, 24 Dec 2012 11:43:33 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/12/24/14610/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Measuring TCP Congestion Windows [cwnd] [TCP Congestion Window Size] [measurement] [validation]</title>
+      <link>http://dmml.nu/2012/08/19/13925/</link>
+      <pubDate>Sun, 19 Aug 2012 20:52:11 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/08/19/13925/</guid>
+      <description>By René Pfeiffer
+from:http://linuxgazette.net/136/pfeiffer.html
+[Last month](http://linuxgazette.net/135/pfeiffer.html), I introduced the various TCP congestion control algorithms your Linux kernel knows about. I also mentioned a method, using the kernel module _tcpprobe_, that allows for measuring the parameters of live TCP connections. Unfortunately, this module requires the presence of a debugging option in the kernel called _kprobes_. By enabling this, you can dynamically break into any kernel routine and collect debugging and performance information non-disruptively.</description>
+    </item>
+    
+    <item>
+      <title>计算机领域学习路线图 roadmap</title>
+      <link>http://dmml.nu/2012/07/09/13836/</link>
+      <pubDate>Mon, 09 Jul 2012 21:38:54 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/07/09/13836/</guid>
+      <description>1. 计算机领域学习路线图#from: http://goo.gl/RZtPC
+![http://ocw.mit.edu/images/logo-ocw-home_new.gif](http://ocw.mit.edu/images/logo-ocw-home_new.gif) 目标#帮助计算机领域的初学者, 从零开始, 一步步成为一个靠谱的计算机领域的专家. 这里面只包含偏软件的部分.
+我们需要达成以下目标:
+了解计算机领域的基础知识. 对背景的了解是基础. 拥有计算机科学家的思维和解决问题的能力 能编程! 编程是我们解决问题的主要方式. 使用开源系统, 加入到开源社区中去 计算机基础课程学习#想要学习计算机领域的基础知识, 我选择使用mit公开课里面的内容. 下面我挑了一些必读课程:
+入门课程.
+6.00 入门课.
+6.001 老牌入门课.
+6.087 C语言是必须要掌握的..
+6.189 python也是必须要掌握的.
+基础课程.
+6.042J 恩, 一些计算机领域必须的数学基础.
+6.046J 算法基础.
+6.002 计算机组成原理.
+6.828 操作系统
+6.035 编译原理.
+网络部分.
+6.033 Computer System Engineering
+6.171 Software Engineering for Web Applications
+上面是必读, 当然还有其他的课程, 感兴趣可以学学, 都在: http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/
+可做和必做事项#下面我整理了一些必须做和可做的事情, 我觉得它们对于提高实力非常重要.
+开源社区
+安装和使用linux, 在linux上面做开发</description>
+    </item>
+    
+    <item>
+      <title>mod_apache_snmp, net-SNMP (给apache2添加SNMP支持)</title>
+      <link>http://dmml.nu/2012/04/18/13618/</link>
+      <pubDate>Wed, 18 Apr 2012 15:58:35 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/04/18/13618/</guid>
+      <description>Tested on platform:#vmware
+Linux ubuntu 2.6.32-38-generic #83-Ubuntu SMP Wed Jan 4 11:13:04 UTC 2012 i686 GNU/Linux
+DISTRIB_ID=Ubuntu; DISTRIB_RELEASE=10.04; DISTRIB_DESCRIPTION=&amp;ldquo;Ubuntu 10.04.4 LTS&amp;rdquo;
+httpd-2.0.64.tar.bz2; net-snmp-5.4.4; mod_ap2_snmp_1.04.
+sudo -s;
+apt-get remove lamp-server^ snmpd # if you have already installed apache or snmp-server.
+Just do it:#http://mod-apache-snmp.sourceforge.net/english/docs.htm
+(below is a summary)
+1) Install Apache Web Server with DSO support enabled.
+./configure --enable-so; make; make install 2) Unzip NET-SNMP sources.
+3) Unzip Mod-APACHE-SNMP sources.</description>
+    </item>
+    
+    <item>
+      <title>ubuntu 7 install vmware tools</title>
+      <link>http://dmml.nu/2012/04/16/13610/</link>
+      <pubDate>Mon, 16 Apr 2012 16:07:54 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/04/16/13610/</guid>
+      <description>The path &amp;quot;&amp;quot; is not valid path to the gcc binary. Would you like to change it? [yes] when typed in &amp;quot;/usr/bin/gcc&amp;quot; manually,
+The path &amp;quot;/usr/bin/gcc&amp;quot; is not valid path to the gcc binary. Would you like to change it? [yes] I found solution:
+http://superuser.com/questions/192047/gcc-path-not-valid-when-installing-vmware-tools-from-vmware-workstation-7-1-1-bu
+ie: sudo apt-get install linux-source linux-headers-uname -r libglib2.0-0
+// Got &amp;ldquo;If you wish to have the shared folders feature, you can install the driver by running vmware-config-tools.</description>
+    </item>
+    
+    <item>
+      <title>乱码putty支持中文utf8输入和显示</title>
+      <link>http://dmml.nu/2012/03/22/13553/</link>
+      <pubDate>Thu, 22 Mar 2012 01:38:41 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/03/22/13553/</guid>
+      <description>ref: networkquestions.org
+Note: Putty officially recommends to use Bitvise SSH Client &amp;amp; Server.
+终端默认是使用windows的编码方式（GBK），我们需要手动改为UTF-8
+再次重启的时候就不会是乱码了：
+[root@mail ~]# service httpd restart 停止 httpd： [确定] 启动 httpd： [确定] [root@mail ~]# 这是终端的乱码问题，再说一下打开中文文件乱码问题。
+在很多的配置文件中，含有中文，用vi打开时也是会乱码。首先我们系统中要有中文语言显示包（fonts-chinese），否则改为UTF-8也是会乱码。
+[root@mail ~]# cat /etc/sysconfig/i18n
+LANG=”zh_CN.UTF-8″
+[root@mail ~]#
+上面的设置，系统语言为中文，如果想改为英文的话，替换为：
+LANG=”en_US.UTF-8″ 保存即可。
+临时性改变语言：export LANG=en_US.UTF-8
+echo $LANG //查看语言
+另一个:
+ref: ylmf.net
+字符乱码:
+在window-〉Appearance-〉Translation中，Received data assumed to be in which character set 中,把Use font encoding改为UTF-8.
+如果经常使用,把这些设置保存在session里面.
+/* 下面的有待研究 &amp;hellip;.
+登录成功后,在shell中输入:export LC_ALL=&amp;lsquo;zh_CN.utf8&amp;rsquo;,现在已经可以完美的支持中文了.
+打开putty主程序，选择window-〉Appearance-〉Font settings-〉Change&amp;hellip;,选择Fixedsys字体,字符集选择CHINESE_GB2312。
+默认情况下，putty对中文的支持却让人不敢恭维，如果远程linux的locale设置为zh_CN.*(bg2312,gbk,utf8等等)，显示就是乱码。经研究发现，其实putty的中文支持还是很好的，呵呵</description>
+    </item>
+    
+    <item>
+      <title>OpenSwan IPSec setup configuration</title>
+      <link>http://dmml.nu/2012/03/10/13523/</link>
+      <pubDate>Sat, 10 Mar 2012 18:40:31 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/03/10/13523/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>eric crash</title>
+      <link>http://dmml.nu/2012/02/05/13411/</link>
+      <pubDate>Sun, 05 Feb 2012 01:29:20 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/02/05/13411/</guid>
+      <description>ubuntu 11.10 64bit.
+eric4 启动后窗口一闪即告崩溃。
+命令窗口启动发现：
+Connected to accessibility bus at: &amp;ldquo;unix:abstract=/tmp/dbus-5rwqiiCSZ1,guid=a3330f45019a77c867e77525000000a2&amp;rdquo;
+Registered DEC: true
+sudo 正常启动，无此提示，因此怀疑是环境变量的问题。
+g后发现：
+http://ubuntuforums.org/showthread.php?t=1861605
+即：
+export QT_ACCESSIBILITY=0
+问题解决。
+ps:
+Accessibility in Qt#by Geir Vattekar
+Accessibility in computer software is the practice of making applications usable for people with disabilities. This can be implemented by the application itself — for instance, by using a high-contrast user interface with specially selected colors and fonts — or by providing support for external tools, such as screen readers and Braille displays.</description>
+    </item>
+    
+    <item>
+      <title>小企鹅fcitx输入法安装, 中文gnome,英文kde</title>
+      <link>http://dmml.nu/2012/01/14/13336/</link>
+      <pubDate>Sat, 14 Jan 2012 20:09:48 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/01/14/13336/</guid>
+      <description>Ubuntu 18.04#The default ibus-based Chinese input method is ready to use.
+Thus, just change the language &amp;amp; input settings.
+Kubuntu#For Kubuntu 18.04, it is a good way to install fcitx-based methods.
+sudo -s apt install fcitx fcitx-googlepinyin cat &amp;gt;&amp;gt;/etc/environment &amp;lt;&amp;lt;EOD GTK_IM_MODULE=fcitx QT_IM_MODULE=fcitx XMODIFIERS=@im=fcitx EOD 设置》启动》添加自启动项: fcitx -d
+Xubuntu 在 开始菜单》所有设置 里面。
+Lubuntu 在 开始菜单》Preferences-&amp;gt;Default applications for LXSession
+(建议默认英文输入法)
+重新登录后，Ctrl + 空格可以调用输入法，shift 切换中英文。
+dated below#ubuntu 11.</description>
+    </item>
+    
+    <item>
+      <title>时间跟踪,工程,项目,Project管理软件.(Linux)</title>
+      <link>http://dmml.nu/2012/01/08/13281/</link>
+      <pubDate>Sun, 08 Jan 2012 13:50:50 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/01/08/13281/</guid>
+      <description>See also: code &amp;amp; project management software
+Rachota,​java,个人时间跟踪用.(在我的中文 ubuntu 上运行,很多方块 &amp;hellip;..)
+Dotproject 貌似很牛,上次看 proj 管理也看到了.但是 ​demo 为什么打不开 &amp;hellip;.
+Kimai 太复杂了.
+7 Best Free Linux Time Tracking Software#ref
+Time Tracking [Project Hamster](http://www.linuxlinks.com/article/20120102092428825/ProjectHamster.html) Time tracking applet for the GNOME desktop environment [Kimai](http://www.linuxlinks.com/article/20120106091739996/Kimai.html) Web based software that tracks work time, and classifies it [Task Coach](http://www.linuxlinks.com/article/20101002094015328/TaskCoach.html) Designed to deal with composite tasks [Rachota](http://www.linuxlinks.com/article/20120106092050297/RachotaTimetracker.html) Designed for personal timetracking of projects [dotProject](http://www.linuxlinks.com/article/20090410203917702/dotProject.html) Web-based, multi-user, multi-language project management application [Kontact](http://www.</description>
+    </item>
+    
+    <item>
+      <title>卸载 ubuntu11.10 unity 的 卸载即现式滚动条 和 所谓的 全局菜单, 恢复滚动条</title>
+      <link>http://dmml.nu/2011/12/31/13236/</link>
+      <pubDate>Sat, 31 Dec 2011 17:22:19 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/12/31/13236/</guid>
+      <description>卸载即现式滚动条和全局菜单，找回经典的滚动条和菜单。
+sudo apt-get remove overlay-scrollbar liboverlay-scrollbar3-0.2-0 liboverlay-scrollbar-0.2-0
+sudo apt-get remove indicator-appmenu appmenu-gtk appmenu-gtk3 appmenu-qt
+from:http://tieba.baidu.com/p/1328489583</description>
+    </item>
+    
+    <item>
+      <title>量子加密术的首个漏洞获证实 - 强光致盲</title>
+      <link>http://dmml.nu/2011/10/17/12785/</link>
+      <pubDate>Mon, 17 Oct 2011 09:30:09 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/10/17/12785/</guid>
+      <description>量子加密术从理论上说是不可能破解的，但在实践中却能找到很多漏洞。量子加密术利用量子密钥编码信息，对系统的窃听会破坏信息。现在新加坡国立大学的Christian Kurtsiefer和同事，与特隆赫姆大学的研究人员发现了一种方法隐藏窃听者：利用商用量子加密接收器单光子探测器中的已知弱点，使用强光致盲接受者使用的雪崩光电二极管。类似人的眼睛在晚上能区分远处的光，但在白天却不可能。研究人员在290米长的光纤线路上演示了他们的攻击方法。报告（预印本）发表在《自然通信》杂志上。
+http://it.solidot.org/article.pl?sid=11/06/20/0931235</description>
+    </item>
+    
+    <item>
+      <title>HTML5：Gate One 0.9发布，支持SSH</title>
+      <link>http://dmml.nu/2011/10/15/12774/</link>
+      <pubDate>Sat, 15 Oct 2011 09:28:31 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/10/15/12774/</guid>
+      <description>Dan McDougall 发布了Gate One v0.9版。Gate One是利用HTML5技术开发的Web终端模拟器和SSH客户端，使用WebSockets，不要任何插件；支持单一浏览器多同步终端/SSH会话；能在断开后恢复用户会话；支持客户端和服务器端会话记录/回放；可以嵌入到其它应用中。
+项目 https://github.com/liftoff/GateOne
+视频演示 http://vimeo.com/24857127
+from: http://internet.solidot.org/article.pl?sid=11/10/14/0913242</description>
+    </item>
+    
+    <item>
+      <title>与一线Linux嵌入式开发工程师的对话</title>
+      <link>http://dmml.nu/2011/08/16/12428/</link>
+      <pubDate>Tue, 16 Aug 2011 17:56:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/08/16/12428/</guid>
+      <description>&amp;mdash;&amp;ndash;BEGIN PGP SIGNED MESSAGE&amp;mdash;&amp;ndash;
+Hash: SHA1
+陈工程师一直做Linux的嵌入式开发，作为在开发一线的工程师，他对很多问题的
+看法可能更切合实际需求，于是，通过邮件，就嵌入式开发方面的问题，请他谈了
+一下自己的看法：
+问：关于嵌入式开发，我们准备给同学们讲解一些入门知识，从你一线开发经验来
+说，给我们一些建议：
+陈工回答：
+对于嵌入式Linux入门，如果有一定基础，可以从驱动开始；如果没有基础，我
+个人建议还是从应用程序开始。因为从应用程序开始是最容易的，也是最直观的。
+而驱动程序运行在内核态，驱动本身的结构就比较复杂，如果要彻底弄明白驱动的
+运行机制，必定牵涉内核，对于高年级的学生恐怕问题会少一些，而对于低年级的
+学生，问题估计较多。我曾经遇到过一些初学者，就是一入门就栽了，失去了信
+心，当然这只是少数。不过，如果在遇到问题之后，能够得到即时、正确的点化，
+那就是好事了。
+既然您决定讲驱动，那就从内核模块开始。在PC上就可以进行的虚拟设备实
+验，如基于内存的内核模块。可以考虑从模块的结构、编译、插入、卸载等方 面 进行阐述。
+驱动模块无非分字符驱动、块设备驱动和网络驱动三大类。但是一定要让学生 知道，任何一个系统，特别是嵌入式系统，并且在目前的嵌入式Linux产品开发
+中，最简单、最重要、最多、最复杂的也是字符设备驱动，从IO驱动到串口驱动、
+到USB驱动等等，广义上都是字符驱动。让学生最好专注于字符设备驱动，因为一
+个嵌入式设备，网卡一般一块，FLASH一般也是一块（也包括几块组成的FLASH
+组），但是这两方面，基本都有完善的驱动，如网卡驱动有很多，块设备驱动，硬
+件层已经有通用接口，不管是NOR FLASH还是NAND FLASH，文件系统层更是有了非
+常多、非常成熟的文件系统，如 JFFS2、YAFFS、YAFFS2、EXT2、EXT3、ROMFS、
+CRAMFS等等，无需我们再去研究，学会应用即可。而除此之外的其它设备，如AD、
+DA、CAN、RS485等等，都是需要根据应用来进行设计的，这才是一个产品区别于其
+它产品的重点，更是市场价值增值点。
+另外呢，也是前一点引申为而来的，学习Linux，准备做产品的话，不要把Linux
+当成了终极目标（当然，这是对应用而言的），要有只是把 Linux当成一个平台的
+思想。更重要的还在各种产品所需求的专业技术，如通信方面像CAN、RS485、GPRS
+等等，或者工业控制方面，IO控制、实时特性等等。Linxu博大精深，研究起来永
+无止境，但是在产品中，只要到了一个产品够用就可以了（当然，多一些更好，要
+视人而定）。
+问：嵌入式应用程序的开发，应用场景较多的是图形界面还是字符界面，如果是图
+形界面，开发环境QT和Minigui哪一种更合适，哪种类型的应用程序在嵌入式系统
+中应用比较多？
+陈工回答：
+对于嵌入式Linux的应用，大多数的应用并不需要图形界面，比如交换机、路由
+器、嵌入式网关以及服务器等等。图形界面呢，主要应用在多媒体、手机等手持设
+备和一些需要图形界面的人机交互系统。
+嵌入式Linux可选图形界面很多，上网找找的话，可以发现远非我们常说的QT、
+MiniGUI等。包括Tiny-X，matchbox、OPIE、 GPE等等。不同GUI有自己的特色，有
+自己的特殊应用场合，对于产品开发，根据需要选择合适的GUI。对于学习，自然
+是选择容易得到、容易开发的 GUI。QT是一个不错的选择，由于QT有一个PC上的模
+拟器，可以在没有实际液晶LCD的情况下，甚至在没有任何硬件的情况下都可以在
+PC上进行模拟开发。QT是收费的，当然，有免费版可用。MiniGUI呢，纯粹国产
+的，支持国货，可以考虑选择MiniGUI。这是一个轻量级的嵌入式GUI，可以跨平
+台，学习版也才100多块。MiniGUI可以用于工业控制场合，QT在这方面的应用目前
+还没有遇到，主要用在手持设备。
+我们在开发中采用Tiny-X，这也是一个可以用于工业控制的GUI，基本兼容X-
+Window，体积小，占用资源少，速度快，稳定。
+对于Linux的应用程序开发，除了GUI程序之外，最基本的应用程序有：
+（1）串口编程。无论是在Windows下还是Linux下，串口编程都是极为复杂的，但
+是非常锻炼一个人的编程水平和能力。
+（2）网络编程以及WEB相关编程。网络编程的tcp、udp、tcp/ip等。至于WEB编
+程，主要是在系统开启一个WEB服务器，制作一些网页，通过远程登录能够对整个
+系统进行配置甚至升级等功能。比如我们的路由器配置网页。这种应用在以后会越</description>
+    </item>
+    
+    <item>
+      <title>Tvåhundra Sextiosex</title>
+      <link>http://dmml.nu/2011/03/27/9678/</link>
+      <pubDate>Sun, 27 Mar 2011 23:00:31 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/03/27/9678/</guid>
+      <description>ok, now i could sync my wm phone with google calendar again ~~~~~
+wm couldn&amp;rsquo;t sync with two or more devices/servers now, why? it doesn&amp;rsquo;t matter, cause i will use g only ~~</description>
+    </item>
+    
+    <item>
+      <title>网络公司最需要百项技术 PHP居首</title>
+      <link>http://dmml.nu/2011/03/05/8364/</link>
+      <pubDate>Sat, 05 Mar 2011 10:30:03 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/03/05/8364/</guid>
+      <description>感谢 服务器托管租用问答网 的投递, 新闻来源:PHP100
+根据2010年Elance第四季关于美国地区的就业资讯整理，发现了关于网络方面的工作机会有大幅的提升，比上一季增加了38%。尤其是在创意，行销及移动产业的工作机会有显着的增幅。除了想法以外企业家也需要有技术的人才，但企业们最需要僱员具备的技能是甚么呢?
+根据2010年Elance第四季关于美国地区的就业资讯整理，发现了关于网络方面的工作机会有大幅的提升，比上一季增加了38%。尤其是在创意，行销及移动产业的工作机会有显着的增幅。除了想法以外企业家也需要有技术的人才，但企业们最需要僱员具备的技能是甚么呢?又反应了怎么样的市场趋势呢?下图是Elance整理出公司最需要的百项技术。
+图表，Elance也做了一些分析，也就跟目前最热门的两项网络趋势有关，手机及社群网站：
+首先他们指出App开发者在市场上的需求增加了20%， 当中iPad类的App开发者市场需求目前每季增长15%，而iPhone类App开发者的市场需求则每季增长10%。同时，市场对于Android的程式开发者也有大量需求。而现阶段对移动设备的程序开发者尚未饱满，同时Apple及Android手机又不断出现在市面上，因此短期内还是需要大量的程序开发人员。
+至于网络营销，由于社群网络(如Facebook)的发达，所以是在各个类别中成长速度最快的，企业们非常重视也仰赖线上营销，尤其是社群媒体营销(Social Media Marketing)，联盟营销(Affiliate Marketing)，以及搜索引擎营销(Search Engine Marketing)这三方面。
+另外Elance也特别强调了Html5的增幅也很大，每一季增加了48%的需求，原因是除了需要更新网站的界面外，也需要因应在平板电脑以及行动装置上的浏览经验而做出调整，话虽如此，对Flash(#29)的需求还是持平(甚至走下坡)。另外网站架构方面最需要的人才还是 WordPress(#2)为主，还有Joomla!(#21)及Drupal(#56)。Joomla!(#21)及Drupal(#56)。</description>
+    </item>
+    
+    <item>
+      <title>哪种编程语言的程序员脏话最多?</title>
+      <link>http://dmml.nu/2011/03/05/8362/</link>
+      <pubDate>Sat, 05 Mar 2011 10:29:57 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/03/05/8362/</guid>
+      <description>From cnBeta 博文精选, 感谢 服务器托管租用问答网 的投递, 新闻来源:PHP100
+本文是从Cussing in Commits: Which Programming Language Inspires the Most Swearing这篇文章翻译而来。 任何一个程序员都会告诉你，编程中有时你会气得叫骂不已。但你是否知道写C++程序会比写PHP程序或Python程序引起你更多的咒骂呢？
+[pic ref]
+一个叫Andrew Vos的开发人员在寻找一个可以业余时开发的项目时突发奇想，他决定在GitHub上抓取100万条程序注释、评论信息，对其进行扫描，看看里面有多少脏话。他只提取了George Carlin 所说的七个脏词，按编程语言分类对它们进行统计。为了避免语言的流行程度对统计结果的影响， Vos 对每种语言都抓取的相同数量的注释。
+C++荣膺桂冠，但优势不是很明显。Ruby和JavaScript旗鼓相当，紧随C++之后。然后就是C，Java和C#，它们处于中间，但数量 于前者相比大幅的下降。Python和PHP程序员可能要么对这种语言很满意，要么是很绅士、有礼貌。当然，并不是说他们没有在注释评论中留下骂语就表明 他们没有咒骂。就像Vos在他的一篇博客里写的，“我用Python，但我的所有咒骂都是跟IE相关的。”
+你根本就无法统计究竟有多少开发人员在开发时对着屏幕咒骂，但如果你想找一种被诅咒的相对较少的编程语言时，PHP和Python看起来还是相对较好的选择。
+然而，你会发现，读读那些实际的注释评论信息会比这些统计数据更有趣，你可以访问 Vos 在GitHub上的帐户查看一下。我个人最喜欢的一句是：“去他妈的。就这样发布吧。”一点没错。布吧。”一点没错。</description>
+    </item>
+    
+    <item>
+      <title>Tvåhundra tretton</title>
+      <link>http://dmml.nu/2011/01/16/1847/</link>
+      <pubDate>Sun, 16 Jan 2011 04:36:24 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/01/16/1847/</guid>
+      <description>so long the article is&amp;hellip;&amp;hellip;&amp;hellip;.</description>
+    </item>
+    
+    <item>
+      <title>Microsoft Touch Mouse 發表，多點觸控滑鼠現身 (21 回應)</title>
+      <link>http://dmml.nu/2011/01/07/598/</link>
+      <pubDate>Fri, 07 Jan 2011 17:32:05 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/01/07/598/</guid>
+      <description>文章分類: 電腦周邊
+真想詛咒這是個難用的產品，我要大聲罵X。早不發表，晚不發表，一定要在我下定決心買一個Arc Touch 時推出就是了&amp;hellip;&amp;hellip;
+不過，情緒發洩歸發洩，多點觸控滑鼠的出現，也算是提供了另一種滑鼠使用的選擇。我想這個時間發表Touch Mouse，應該會對Arc Touch造成影響，個人相信應該有人本來想買Arc Touch ，但看到Touch Mouse後就觀望了。重點是在於這款Touch Mouse要到六月才買得到，有需要這麼急著發表嗎？
+事實上，這款滑鼠的概念並不算新的，如果還有印象的話，在前年10月時，Microsoft Research 提出多種多點觸控滑鼠概念，其中的Cap Mouse就是Touch Mouse的前身。
+新聞稿提到，這是專為Windows 7所設計的滑鼠，所以&amp;hellip;&amp;hellip;，Vista要881了嗎？美國將於6月上市，要價79.95美元，但台灣具體時程與價位未知。
+跳轉後，可以看廠商提供的圖片、文字說明，以及影片，就可以知道多點觸控的滑鼠是怎麼回事了。
+Tags: microsoft touch mouse, MicrosoftTouchMouse</description>
+    </item>
+    
+    <item>
+      <title>TCP拥塞控制算法比较</title>
+      <link>http://dmml.nu/2010/10/26/132/</link>
+      <pubDate>Tue, 26 Oct 2010 00:17:20 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2010/10/26/132/</guid>
+      <description>(翻译成简体版：http://translate.google.com/translate?u=http://sunnybingome.wordpress.com/2010/10/26/tcp%25E6%258B%25A5%25E5%25A1%259E%25E6%258E%25A7%25E5%2588%25B6%25E7%25AE%2597%25E6%25B3%2595%25E6%25AF%2594%25E8%25BE%2583/&amp;amp;sl=zh-CN&amp;amp;tl=zh-CN&amp;amp;hl=&amp;amp;ie=UTF-8）
+TCP擁塞控制基本方法:
+藉由ACK,timeout retransmit提供可靠性(reliability)服務
+使用slow-start, congestion avoidance調整傳送的速度.
+Tahoe
+加入fast retransmit, 收到n個duplicate ACK (通常是3個),便將duplicate ACK後的封包視為遺失,直接重送,加快重送的速度.
+Reno
+目前最廣為使用的TCP版本.加入fast recovry機制.允許傳送端可以在等待重送封包的ACK回來期間仍可以繼續送出新的packet,藉以提為link的utilization.
+New-Reno
+修改Reno的fast recovry機制以解決Reno在收到partial ACK時提早結束fast recovery而導致timeout的問題.每個RTT時間內可重送一個遺失的封包.
+SACK
+修改TCP的傳送端與接收端,在TCP header加入SACK選項.允許接收在收到out-of-order packet時,回傳目前已經連續收到的區段.傳送端可藉由這些資訊得知那些packet是沒被收到的並直接重送
+Vegas
+修改TCP的傳送端.利用RTT針測由傳送端到接收端之間queue的長度並藉此調整congestion window的值.主要修改的部份有三點：
+1. slow start: 大約2個RTT時間,cwnd才會增加一倍
+2. Congestion avoidance: Vegas藉由比較預期的速率與實際傳送的速率算出Diff的值,並限制Diff的值必須介於alpha與beta之間.若Diff beta, 則減少傳送的速率
+3. timeout retransmit: 藉由觀察RTT的值比判斷是否已經有packet timeout.</description>
+    </item>
+    
+    <item>
+      <title>OPNET14.5安装指南</title>
+      <link>http://dmml.nu/2010/09/13/18/</link>
+      <pubDate>Mon, 13 Sep 2010 17:41:46 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2010/09/13/18/</guid>
+      <description>OPNET是最常用的网络仿真与分析软件，目前，国内最常见的版本是14.5。
+1、14.5的获取：
+略。
+2、安装前的准备：
+Opnet需要和C++配合使用，在生成文件时，需要查看PDF文件，所以，安装前，需要先安装VC，推荐使用VS2003，Adobe Reader9.0。网上说，14.5不支持VS2005，没有测试过。当然，也可以先安装Opnet后再安装VS，安装完后设置环境变量，很多朋友都因为环境变量的设置有故障而不能正常使用，设置好环境变量后重启计算机就可以了；
+我使用的是VC++ 6.0，设置的环境变量如下（你的地址可能会有所不通，注意修改）：
+INCLUDE=D:Program FilesMicrosoft Visual StudioVC98atlinclude;D:Program FilesMicrosoft Visual StudioVC98mfcinclude;D:Program FilesMicrosoft Visual StudioVC98include;
+LIB=D:Program FilesMicrosoft Visual StudioVC98mfclib;D:Program FilesMicrosoft Visual StudioVC98lib;
+MSDevDir=D:Program FilesMicrosoft Visual StudioCommonMSDev98;
+Path=D:Program FilesMicrosoft Visual StudioCommonToolsWindows NT;D:Program FilesMicrosoft Visual StudioCommonMSDev98bin;D:Program FilesMicrosoft Visual StudioCommonTools;D:Program FilesMicrosoft Visual StudioVC98bin;
+3、安装：
+（1）拔掉网线，如果有防火墙软件，打开UDP2047端口或者彻底关闭防火墙。
+（2）执行modeler_145A_PL1_7116_win.exe，按照提示安装OPNET Modeler软件。最后选择 License类型时，请选择Standalone模式。
+（3）再执行modeler_docs_28-Jan-2008_win.exe和models_145A_PL1_27Feb08_win.exe，按照提示安装文档和库文件。 (如果没有安装Reader，会提示安装Adobe Reader，可以不管它会安装）
+（4）将OPNET.Modeler.11.5.License.MakerFFS.exe拷贝到 OPNET14.5.Ajre_modelsbin下。
+（5）运行OPNET Modeler，此时会提示无License，选择运行License Management，此时应该没有任何 license。
+（6）关闭License Manager，但不要关闭OPNET Modeler。
+（7）从OPNET Modeler的Edit－Preference里检查license_server和license_server_standalone设置是否正确。如果之前选Standalone模式，license_server应该为
+localhost，本机地址或主机 名，licenser_server_standalone应该为TRUE。如果修改了某些设置，请重新启动OPNET(回到第5步)。
+（8）双击bin目录下的OPNET.Modeler.11.5.License.MakerFFS.exe，回车继续，等到出现结束提示后，回车关闭该窗口。 等待的时间可能会比较长，如果中途退出，license会不完全。）
+（9）从OPNET Modeler的License–&amp;gt;License Management菜单启动License Management，此时License文件中 应该已经有100×35个License了，关闭License Management。 （这个版本才有60个）</description>
+    </item>
+    
+    <item>
+      <title>几种开源的TCP/IP协议栈分析</title>
+      <link>http://dmml.nu/2010/09/13/19/</link>
+      <pubDate>Mon, 13 Sep 2010 17:31:13 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2010/09/13/19/</guid>
+      <description>1、BSD TCP/IP协议栈，BSD栈历史上是其他商业栈的起点，大多数专业TCP/IP栈（VxWorks内嵌的TCP/IP栈）是BSD栈派生的。这是因为 BSD栈在BSD许可协议下提供了这些专业栈的雏形，BSD许用证允许BSD栈以修改或未修改的形式结合这些专业栈的代码而无须向创建者付版税。同时， BSD也是许多TCP/IP协议中的创新（如广域网中饿拥塞控制和避免）的开始点。
+ftp://ftp.freebsd.org/pub/FreeBSD/
+2、uC/IP是由Guy Lancaster编写的一套基于uC/OS且开放源码的TCP/IP协议栈，亦可移植到其它操作系统，是一套完全免费的、可供研究的TCP/IP协议栈，uC/IP大部分源码是从公开源码BSD发布站点和KA9Q（一个基于DOS单任务环境运行的TCP/IP协议栈）移植过来。uC/IP具有如下一些特点：带身份验证和报头压缩支持的PPP协议，优化的单一请求/回复交互过程，支持IP/TCP/UDP协议，可实现的网络功能较为强大，并可裁减。 UCIP协议栈被设计为一个带最小化用户接口及可应用串行链路网络模块。根据采用CPU、编译器和系统所需实现协议的多少，协议栈需要的代码容量空间在 30-60KB之间。
+http://ucip.sourceforge.net
+3、LwIP是瑞士计算机科学院（Swedish Institute of Computer Science）的Adam Dunkels等开发的一套用于嵌入式系统的开放源代码TCP/IP协议栈。LwIP的含义是Light Weight(轻型)IP协议，相对于uip。LwIP可以移植到操作系统上，也可以在无操作系统的情况下独立运行。LwIP TCP/IP实现的重点是在保持TCP协议主要功能的基础上减少对RAM的占用，一般它只需要几十K的RAM和40K左右的ROM就可以运行，这使 LwIP协议栈适合在低端嵌入式系统中使用。LwIP的特性如下：支持多网络接口下的IP转发，支持ICMP协议，包括实验性扩展的的UDP（用户数据报协议），包括阻塞控制，RTT估算和快速恢复和快速转发的TCP（传输控制协议），提供专门的内部回调接口（Raw API）用于提高应用程序性能，并提供了可选择的Berkeley接口API。
+http://sics.se/~sdam/lwip/
+4、uIP是专门为8位和16位控制器设计的一个非常小的TCP/IP栈。完全用C编写，因此可移植到各种不同的结构和操作系统上，一个编译过的栈可以在几KB ROM或几百字节RAM中运行。uIP中还包括一个HTTP服务器作为服务内容。许可：BSD许用证 http://dunkels.com/adam/uip/
+5、TinyTcp 栈是TCP/IP的一个非常小和简单的实现，它包括一个FTP客户。TinyTcp是为了烧入ROM设计的并且现在开始对大端结构似乎是有用的（初始目标是68000芯片）。TinyTcp也包括一个简单的以太网驱动器用于3COM多总线卡
+个人认为选择一个开源协议栈可以从四个方面来考虑：一个是是否提供易用的底层硬件API，即与硬件平台的无关性；一个是与操作系统的内核API。协议栈需要调用的系统函数接口是否容易构造，另一个对于应用支持程度。最关键的是占用的系统资源是否在可接受范围内，有裁减优化的空间否？
+其中， BSD 栈可完整实现TCP/IP协议，但代码庞大，70KB-150KB之间，裁减优化有难度，uIP和TinyTcp代码容量小巧，实现功能精简，限制了在一些较高要求场合下的应用，如可靠性与大容量数据传输。LwIP和uC/IP是同量级别的两个开源协议栈，两者代码容量和实现功能相似，LwIP没有操作系统针对性，它将协议栈与平台相关的代码抽象出来，用户如果要移植到自己的系统，需要完成该部分代码的封装，并为网络应用支持提供了API接口的可选性。 uC/IP协议最初是针对uC/OS设计，为方便用户移植实现，同样也抽象了协议栈与平台相关代码，但是协议栈所需调用的系统函数大多参照uC/OS内核函数原型设计，并提供了协议栈的测试函数，方便用户参考，其不足在于该协议栈对网络应用支持不足。
+根据以上分析，从应用和开发的角度看，似乎 LWIP更得到了网上很多朋友使用的青睐；uC/IP在文档支持与软件升级管理上有很多不足，但是它最初是针对UC/OS而设计，如果选用UC/OS作为软件基础的话，在系统函数构造方面有优势。当然你选择其他操作系统的话，可参照OS_NULL文件夹下的文件修改。
+以上的这些开源协议栈也并非免费，拿来就可以用，据我所知，UC/OS的母公司推出UC/OS-TCP/IP花了6人2年的工作量，国内某公司使用LWIP作为移植的参照，花了4-5人2年的工作量来测试与优化协议，使用商用TCP/IP栈的高费用就不足为奇了。
+作为广大的爱好者学习而言，如果只是跑跑原型，实验一下效果，以上的几种开源协议栈都提供了测试的例子，应该是不错的选择。个人的看法：LWIP可优先考虑，至少网上有很多的人一块研究，参考的资料较多；UC/IP其次，如果你想深入学习TCP/IP的话，移植UC/IP是一种挑战性的工作，它尚需完善。
+转自：http://blog.21ic.com/user1/1993/archives/2006/17272.html</description>
+    </item>
+    
+  </channel>
+</rss>

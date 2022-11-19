@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Framework on Machine Learning</title>
+    <link>http://dmml.nu/tags/framework/</link>
+    <description>Recent content in Framework on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Oct 2016 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/framework/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Compare Frontend Javascript Frameworks</title>
+      <link>http://dmml.nu/compare-js-framework/</link>
+      <pubDate>Wed, 19 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/compare-js-framework/</guid>
+      <description>Angular
+Very flexible, we can do whatever we want, in whatever way.
+Ember
+It is hard to write ugly code cuz we need to follow the rules. Good for teamwork.
+Backbone
+Two-way data-binding is not free. It will just do what we tell it to do. Thus, we need to write a lot of code.
+React
+It is V in MVC. Two-way data-binding is not free. Update is very cheap by doming DOM diff &amp;amp; update.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>distro on Machine Learning</title>
+    <link>http://dmml.nu/tags/distro/</link>
+    <description>Recent content in distro on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 Jul 2016 11:42:25 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/distro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nix Linux Distribution Comparison, Timeline and Relationship</title>
+      <link>http://dmml.nu/nix-distro/</link>
+      <pubDate>Wed, 13 Jul 2016 11:42:25 +0000</pubDate>
+      
+      <guid>http://dmml.nu/nix-distro/</guid>
+      <description>Main branches directly from linux kernels:
+Debian, (K)Ubuntu/Deepin &amp;hellip; RedHat, CentOS, Fedora &amp;hellip; Slackware, Suse, OpenSuse (Leap vs. Tumbleweed) &amp;hellip; Arch, Manjaro &amp;hellip; Android &amp;hellip; RHEL = Red Hat (Inc.) Enterprise Linux
+SLE = SUSE Linux Enterprise
+openSUSE Leap &amp;lt;&amp;ndash;&amp;gt; CentOS(Rocky Linux)
+openSUSE Tumbleweed &amp;lt;&amp;ndash;&amp;gt; Fedora
+Sizes Just After Installation (Disk &amp;amp; RAM)#OS Installation DISK size en (GB) Installation DISK size cn (GB) RAM
+(GB) Notes Deepin 20.4 ?</description>
+    </item>
+    
+  </channel>
+</rss>

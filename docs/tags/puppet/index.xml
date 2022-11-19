@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Puppet on Machine Learning</title>
+    <link>http://dmml.nu/tags/puppet/</link>
+    <description>Recent content in Puppet on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Feb 2017 22:48:34 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/puppet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Puppet How To</title>
+      <link>http://dmml.nu/puppet/</link>
+      <pubDate>Tue, 14 Feb 2017 22:48:34 +0000</pubDate>
+      
+      <guid>http://dmml.nu/puppet/</guid>
+      <description>Ref: DigitalOcean tutorial of puppet
+Ansible is very easy to use, just need master, no need to install on slaves. Instead, SSH (usually with pub keys) are used in Ansible.
+Puppet is more complex, Ansible can be used to assist the installation.
+Puppet requires firewall to open port nr 8140.
+INSTALL#ansibleall &amp;#39;apt-get install -y puppet&amp;#39; # for clients (nodes) sudo apt-get install -y puppetmaster # On server (master) ref</description>
+    </item>
+    
+    <item>
+      <title>Ansible How To</title>
+      <link>http://dmml.nu/ansible/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/ansible/</guid>
+      <description>A simple video tutorial
+OBS: ansible uses py, and py calls /bin/sh, NOT bash !
+PRE-CONFIG#suggested: use ssh-pub-key auth without passphrase.
+INSTALL#Optioanl: add ppa:ansible/ansible
+installation:
+sudo apt-get update &amp;amp;&amp;amp; \ sudo apt-get install ansible HOSTS#vim /etc/ansible/hosts
+master.ip.1 [slaves] slave.domain1 slave.ip.addr.2 [slavesGroup2] slave.domain2 slave.ip.addr.1 (see ref to give hosts&amp;rsquo; names individually.)
+SLAVE USERNAME#sudo mkdir /etc/ansible/group_vars &amp;amp;&amp;amp; \ sudo echo &amp;#39;---&amp;#39; &amp;gt; /etc/ansible/group_vars/all &amp;amp;&amp;amp; \ sudo echo &amp;#39;ansible_ssh_user: root&amp;#39; &amp;gt;&amp;gt; /etc/ansible/group_vars/all (see DigitalOcean ref to config hosts individually.</description>
+    </item>
+    
+  </channel>
+</rss>

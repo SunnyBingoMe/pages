@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>youtube on Machine Learning</title>
+    <link>http://dmml.nu/tags/youtube/</link>
+    <description>Recent content in youtube on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 Mar 2012 19:46:29 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/youtube/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>YouTube版权管理</title>
+      <link>http://dmml.nu/2012/03/19/13540/</link>
+      <pubDate>Mon, 19 Mar 2012 19:46:29 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/03/19/13540/</guid>
+      <description>非常喜欢youtube的这种版权政策~~
+但是&amp;hellip;. 我youtube一直用英文, 前几天调整的是Google其他的某个产品的语言,为什么会影响到youtube&amp;hellip;..
+Google啊,这个&amp;quot;国际化/本地化&amp;quot;策略 一直摸不到头脑&amp;hellip;
+“
+您的视频&amp;quot;xxx&amp;quot;需要授予许可的内容，但仍可以在 YouTube 上播放！在某些情况下，系统可能会禁止该视频，或者在它旁边显示广告。
+该版权主张不会对您的帐户状态造成不利影响。有关适用于您视频的政策的详情，请访问您的版权声明页。
+此致
+- YouTube 团队 ”</description>
+    </item>
+    
+  </channel>
+</rss>

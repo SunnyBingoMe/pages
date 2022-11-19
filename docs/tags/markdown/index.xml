@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdown on Machine Learning</title>
+    <link>http://dmml.nu/tags/markdown/</link>
+    <description>Recent content in Markdown on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Migrate from (old) FarBox to Bitcron</title>
+      <link>http://dmml.nu/farbox-bitcron/</link>
+      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/farbox-bitcron/</guid>
+      <description>Migrating#method 1 - manual cp#Official doc suggest to copy manually to the new Dropbox folder (/Apps/Bitcron/internal-domain-name).
+WARN for site.md &amp;amp; template (see ref-doc-fr.-farbox)
+method 2 - build in#More&amp;hellip;(更多&amp;hellip;), 再选择 “Move from FarBox”
+WARN for images: &amp;ldquo;注意: 如果原 FarBox 网站本身有大量的(高清、原始)图片，不要使用这种方式，因为 FarBox 本身不会存储原始的图片，通过其迁移到 Bitcron，图片本身已经被压缩过大小了。&amp;rdquo;
+New Useful Stuff#New Dashboard New Doc Domain Binding#ref-doc-domain
+method 1 - ns#use name servers (NS): ns1.</description>
+    </item>
+    
+    <item>
+      <title>Markdown MD In Case Of</title>
+      <link>http://dmml.nu/markdown/</link>
+      <pubDate>Sun, 29 Jul 2018 21:28:58 +0000</pubDate>
+      
+      <guid>http://dmml.nu/markdown/</guid>
+      <description>Open Links in New Tabs#using md#For Kramdown, e.g. Jekyll:
+[clickable-text](link-url){:target=&amp;#34;_blank&amp;#34;} In general, the format in Kramdown is {: attribute1=&amp;quot;value1&amp;quot; attribute2=&amp;quot;value2&amp;quot;}
+For pandoc:
+[clickable-text](link-url){target=&amp;#34;_blank&amp;#34;} In general, the format in Kramdown is {attribute1=&amp;quot;value1&amp;quot; attribute2=&amp;quot;value2&amp;quot;} (w/o :)
+However, this will NOT work if using hidden separated reference (except Grav CMS).
+using js#Source/Insert the following js at the bottom of each page where we want to open external site links in pages:</description>
+    </item>
+    
+  </channel>
+</rss>

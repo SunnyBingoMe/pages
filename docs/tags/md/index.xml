@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MD on Machine Learning</title>
+    <link>http://dmml.nu/tags/md/</link>
+    <description>Recent content in MD on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Jul 2018 21:28:58 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/md/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown MD In Case Of</title>
+      <link>http://dmml.nu/markdown/</link>
+      <pubDate>Sun, 29 Jul 2018 21:28:58 +0000</pubDate>
+      
+      <guid>http://dmml.nu/markdown/</guid>
+      <description>Open Links in New Tabs#using md#For Kramdown, e.g. Jekyll:
+[clickable-text](link-url){:target=&amp;#34;_blank&amp;#34;} In general, the format in Kramdown is {: attribute1=&amp;quot;value1&amp;quot; attribute2=&amp;quot;value2&amp;quot;}
+For pandoc:
+[clickable-text](link-url){target=&amp;#34;_blank&amp;#34;} In general, the format in Kramdown is {attribute1=&amp;quot;value1&amp;quot; attribute2=&amp;quot;value2&amp;quot;} (w/o :)
+However, this will NOT work if using hidden separated reference (except Grav CMS).
+using js#Source/Insert the following js at the bottom of each page where we want to open external site links in pages:</description>
+    </item>
+    
+  </channel>
+</rss>

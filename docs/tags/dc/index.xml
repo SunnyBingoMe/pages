@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DC on Machine Learning</title>
+    <link>http://dmml.nu/tags/dc/</link>
+    <description>Recent content in DC on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 22 Oct 2011 10:04:01 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/dc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>先拍照后对焦</title>
+      <link>http://dmml.nu/2011/10/22/12792/</link>
+      <pubDate>Sat, 22 Oct 2011 10:04:01 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/10/22/12792/</guid>
+      <description>source from here
+版权归原作者所有，转载并不代表赞同其观点.
+影像科学家Ren Ng多年研究终于结出果实。他创办的公司Lytro宣布推出第一款利用高分辨率图像传感器捕捉光场的数字照相机，能在拍照之后无限次的重新对焦。新技术有可能彻底改变人们如何拍摄照片。
+Lytro照相机形状为铝制小矩形管，一端是f/2镜头，另一端是2英寸触摸屏。照相机有一个电源和快门按钮，以及一个控制镜头八倍缩放的滑块，没有光圈、快门调速和对焦——因为照相机不需要。传统照相机是通过将光线聚焦到传感器上的镜头捕捉三维空间的平面图像，记录的是二维色彩点阵。Ng（在斯坦福获得博士学位）和同事研发出Stanford Multi-Camera Array，阵列包含了数以百计的CMOS传感器，能记录整个场景中的光线颜色、强度和方向，这些光线聚合形成了场景的光场，允许用户在拍照后对焦。光场照相机目前接受预购，8GB版399美元，16GB版499美元。
+499美元。</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MS Word on Machine Learning</title>
+    <link>http://dmml.nu/tags/ms-word/</link>
+    <description>Recent content in MS Word on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/ms-word/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python-docx for MS Word</title>
+      <link>http://dmml.nu/python-docx/</link>
+      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/python-docx/</guid>
+      <description>As the pyhon-docx does not want to provide a documentation (except some APIs) and the API doc web is really hard to browse and read, here are some small tips/demo tutorials to remember/avoid pits and falls.
+Please note:
+lib (0.8) provides only basic functions mainly for adding something (seems to be for test purpose). The main actions we do in a docx file should be done using MS API via this lib.</description>
+    </item>
+    
+  </channel>
+</rss>

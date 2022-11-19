@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>QDA on Machine Learning</title>
+    <link>http://dmml.nu/tags/qda/</link>
+    <description>Recent content in QDA on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Feb 2017 12:22:06 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/qda/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QDA - Comparison &amp; Tips</title>
+      <link>http://dmml.nu/qda/</link>
+      <pubDate>Sun, 26 Feb 2017 12:22:06 +0000</pubDate>
+      
+      <guid>http://dmml.nu/qda/</guid>
+      <description>QDA can be used for literature review, but not bibtex management. For bibtex/latex management, see Reference and Knowledge Management (Zotero, Qiqqa).
+I wrote this blog in a short time, please leave a comment if you find any mistakes.
+As a PhD student, I found QDA method and software are very useful. However, I need to choose software carefully due to the lock-in effects, which is not a problem for Zotero-like reference management software.</description>
+    </item>
+    
+    <item>
+      <title>Reference and Knowledge Management (Zotero, Qiqqa)</title>
+      <link>http://dmml.nu/phd-general-and-writing/reference-and-knowledge-management-zotero-qiqqa/</link>
+      <pubDate>Fri, 01 Jul 2016 16:36:24 +0000</pubDate>
+      
+      <guid>http://dmml.nu/phd-general-and-writing/reference-and-knowledge-management-zotero-qiqqa/</guid>
+      <description>see also: ResearchGo:研究生活第一帖——文献检索与管理 王晋东
+Zotero#We need to have 2 parts: a standalone client running in Windows, and a browser extension capturing web page info to send to the client. Besides, we need some zotero extensions to automate bib info and file naming.
+Note: Zotero 4 is suggested, Zotero v5 canNOT automatically attach files, we need to do it manually. To disable auto-update in v4, goto advanced &amp;gt; about:config (ref), disable &amp;ldquo;update&amp;rdquo;-related options:</description>
+    </item>
+    
+  </channel>
+</rss>

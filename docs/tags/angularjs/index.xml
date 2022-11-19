@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AngularJS on Machine Learning</title>
+    <link>http://dmml.nu/tags/angularjs/</link>
+    <description>Recent content in AngularJS on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Aug 2016 22:34:49 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/angularjs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DAMP (Django, Angular, Mysql-or-Mongo, Python)</title>
+      <link>http://dmml.nu/damp/</link>
+      <pubDate>Sat, 20 Aug 2016 22:34:49 +0000</pubDate>
+      
+      <guid>http://dmml.nu/damp/</guid>
+      <description>Conflict of {{ }} in Angular &amp;amp; Jinja#Solution 1 (suggested):
+vim static/js/app.js $interpolateProvider.startSymbol(&amp;#39;[[&amp;#39;).endSymbol(&amp;#39;]]&amp;#39;); Solution 2 (ugly):
+Use {% verbatim %} and {% endverbatim %} paris.
+Restful API with Angular - A Shopping List Demo#(Very Simple Demo with Json)
+This is following the &amp;ldquo;Rest API&amp;rdquo; part of Learning Django. We will &amp;ldquo;Consume the rest API&amp;rdquo; using AngularJS.
+BTW, a must watch video by Nina @ DjangoCon 2014.</description>
+    </item>
+    
+  </channel>
+</rss>

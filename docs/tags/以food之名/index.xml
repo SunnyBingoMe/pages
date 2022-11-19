@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>以Food之名 on Machine Learning</title>
+    <link>http://dmml.nu/tags/%E4%BB%A5food%E4%B9%8B%E5%90%8D/</link>
+    <description>Recent content in 以Food之名 on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jun 2016 14:30:44 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/%E4%BB%A5food%E4%B9%8B%E5%90%8D/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fox Bar</title>
+      <link>http://dmml.nu/food-2016/</link>
+      <pubDate>Wed, 01 Jun 2016 14:30:44 +0000</pubDate>
+      
+      <guid>http://dmml.nu/food-2016/</guid>
+      <description>Fox&amp;rsquo;s food is good, though not perfect, as it is opened for drink, not for food. (3 stars)
+Cozy kitchen is delicious, and the service is nice. (4 stars)</description>
+    </item>
+    
+  </channel>
+</rss>

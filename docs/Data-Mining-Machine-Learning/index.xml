@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data-Mining-Machine-Learnings on Machine Learning</title>
+    <link>http://dmml.nu/data-mining-machine-learning/</link>
+    <description>Recent content in Data-Mining-Machine-Learnings on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Nov 2019 23:30:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/data-mining-machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Cloud</title>
+      <link>http://dmml.nu/ai-cloud/</link>
+      <pubDate>Fri, 01 Nov 2019 23:30:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/ai-cloud/</guid>
+      <description>&amp;ldquo;if you plan to use deep learning extensively (&amp;gt;150 hrs/mo), building your own deep learning workstation might be the right move.&amp;rdquo; [medium]
+Baidu AI Studio (only for PaddlePaddle) Paperspace (cooperating with fast.ai) Google Colab (cooperating with fast.ai) vast.ai (C2C/P2P sharing, very cheap, a lot of time to init/load/unload) Kaggle (max 6h, good GPU but complex steps to use) MS Azure Amazon FloydHub (special CLI interface) ref:
+CN intro: Paperspace vs. Colab, 2019 Best Deals in Deep Learning Cloud Providers, 2018 比较云GPU平台 an.</description>
+    </item>
+    
+    <item>
+      <title>Reinforcement Learning</title>
+      <link>http://dmml.nu/rl/</link>
+      <pubDate>Mon, 21 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/rl/</guid>
+      <description>德州农工大学开源RLCard：帮你快速训练会斗地主的智能体
+See simple DEF &amp;amp; code in 邱锡鹏 教授 2020 神经网络与深度学习.
+深度学习.</description>
+    </item>
+    
+    <item>
+      <title>NLP Framework Comparison</title>
+      <link>http://dmml.nu/nlp-compare/</link>
+      <pubDate>Sat, 04 Aug 2018 13:30:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/nlp-compare/</guid>
+      <description>Conslusion
+SpaCy for take-and-use in production. NLTK to try new things.
+ref en
+en backup
+in cn
+cn backup</description>
+    </item>
+    
+    <item>
+      <title>Learning Machine Learning, ML Books &amp; Codes</title>
+      <link>http://dmml.nu/ml-books/</link>
+      <pubDate>Sat, 07 Jul 2018 19:06:08 +0000</pubDate>
+      
+      <guid>http://dmml.nu/ml-books/</guid>
+      <description>See also:
+Machine Learning - Just-do-it (hands on) Basics Math Books Favoured#MLY (Andrew Ng), Machine Learning Yearning (EN full: ch1-13), 《CN: 机器学习秘籍》(CN Web online), (CN Github) and someone&amp;rsquo;s notes: part 1 (bak), part 2 (bak) and part 3.
+MLAPP (Kevin Murphy), Machine Learning - A Probablistic Perspective, is more comprehensive, insightful and interesting, and contains more &amp;ldquo;real&amp;rdquo; examples/problems. However, the presents are kinda out of order, which can be difficult to follow for a first book.</description>
+    </item>
+    
+    <item>
+      <title>ML Interpratation, Comprehensibility &amp; Causality</title>
+      <link>http://dmml.nu/ml-understand/</link>
+      <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/ml-understand/</guid>
+      <description>See also:
+DL-theory &amp;gt; ## cnn visualization/comprehensibility
+可解释的机器学习 (What) 可解释性的重要性 (Why) 具体如何解释 (How) Insights which can be extracted from the models Permutation Importance Partial Dependency Plots SHAP Values SHAP Values in Advance LIME (万金油), Tree interpreter, etc.
+凭什么相信你，我的CNN模型？关于CNN模型可解释性的思考 inc.:CAM, Grad-CAM, Lime.
+Book by Christoph Molnar: Interpretable Machine Learning &amp;ndash; A Guide for Making Black Box Models Explainable (GitHub), (CN)
+All-in-one: SHAP.
+ref:
+https://medium.com/@Zelros/a-brief-history-of-machine-learning-models-explainability-f1c3301be9dc
+Causality / Causal Inference#Jonas Peters, Dominik Janzing and Bernhard Schölkopf 2017 - Elements of Causal Inference ; Bernhard Schölkopf 2019 - Causality for Machine Learning,</description>
+    </item>
+    
+    <item>
+      <title>Recommender System</title>
+      <link>http://dmml.nu/recommender-sys/</link>
+      <pubDate>Sat, 20 Jan 2018 21:46:56 +0000</pubDate>
+      
+      <guid>http://dmml.nu/recommender-sys/</guid>
+      <description>This is a detailed reproduction of ref.
+Sunny Summary#3 steps:
+preprocessing.py preprocessing to extract: author, average sentence length, average word length, punctuation profile, sentiment scores, part-of-speech profiles/tags (only in code, not taken into the csv). TFIDF.py content-wise k-means clustering (on TFIDF scores) to get: 3 levels/degrees of clustering/classification results. knn.py knn search on the results of step 1 and 2 to get: recommendations (k=15 by default). Preprocessing#pip2 install nltk pip2 install twython # optional ?</description>
+    </item>
+    
+    <item>
+      <title>Caffe Installation, Hello World</title>
+      <link>http://dmml.nu/caffe-install/</link>
+      <pubDate>Sun, 03 Dec 2017 15:59:05 +0000</pubDate>
+      
+      <guid>http://dmml.nu/caffe-install/</guid>
+      <description>Note: tested with Ubuntu 16.04.1 using /root, for newer Ubuntu version (&amp;gt;= 17.04), check here.
+Installation &amp;amp; Self-Tests#Use the installation script here.
+//(Sunny only added conditional USE_CUDNN=1, the rest is the same as: ref. You may wanna set USE_CUDNN to 0, if no GPU is used).
+Timing: 15min if everything goes well, while downloading speed 1~8MB/s.
+Hello World (Mnist)#prepare data:#./data/mnist/get_mnist.sh # will download into .</description>
+    </item>
+    
+    <item>
+      <title>Hadoop HDFS</title>
+      <link>http://dmml.nu/hadoop/</link>
+      <pubDate>Mon, 19 Jun 2017 16:49:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/hadoop/</guid>
+      <description>(Update: tested v2.7.2 on Ubuntu 18)
+Install#OBS: security warning ! Note: change the core-site.xml and hdfs-site.xml content before running.
+Note: change the HDUSER username before running.
+# w/ java curl https://raw.githubusercontent.com/SunnyBingoMe/install-hadoop/master/setup-hadoop | bash Env &amp;amp; Hd-Structure Config (Multi-Node Only)#Make sure the master node and the hadoop user, e.g. $hduser can access work nodes using passphrase-less ssh keys.
+If a different username ($hduser) rather than the installer user ($user) is to run hadoop, we need to run setup_profile and setup_environment after su $hduser (some minor errors will be given by bash, no worries.</description>
+    </item>
+    
+    <item>
+      <title>Install R in Ubuntu</title>
+      <link>http://dmml.nu/r-install/</link>
+      <pubDate>Mon, 08 May 2017 20:31:04 +0000</pubDate>
+      
+      <guid>http://dmml.nu/r-install/</guid>
+      <description>UBUNTU 18.04#sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9 &amp;amp;&amp;amp; \ sudo add-apt-repository &amp;#39;deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran40/&amp;#39; &amp;amp;&amp;amp; \ sudo apt update &amp;amp;&amp;amp; \ sudo apt install -y r-base r-base-dev libcurl4-openssl-dev libssl-dev build-essential &amp;amp;&amp;amp; \ sudo -i R # install packages as root, so all users can use. Commonly used packages:
+install.packages(c(&amp;#39;devtools&amp;#39;, &amp;#39;digest&amp;#39;, &amp;#39;repr&amp;#39;, &amp;#39;IRdisplay&amp;#39;, &amp;#39;crayon&amp;#39;, &amp;#39;pbdZMQ&amp;#39;, &amp;#39;ggplot2&amp;#39;, &amp;#39;IRkernel&amp;#39;, &amp;#39;ggpubr&amp;#39;)) DigitalOcean
+Optional: sudo chmod 777 /usr/local/lib/R/site-library so anyone can install packages.</description>
+    </item>
+    
+    <item>
+      <title>TensorFlow Engineering with CUDA GPU for Deep Learning</title>
+      <link>http://dmml.nu/dl-tf-eng/</link>
+      <pubDate>Mon, 13 Mar 2017 19:05:12 +0000</pubDate>
+      
+      <guid>http://dmml.nu/dl-tf-eng/</guid>
+      <description>See also:
+TF practical part in do deep learning How to setup Docker and Nvidia-Docker 2.0 on Ubuntu 18.04 Install#Summary: install CUDA first, then TF.
+ref TF 1.0 doc
+ref nvidia doc, until step 3
+requirements#64-bit Linux Python 2.7 or 3.3+ (3.5 used in this blog) NVIDIA CUDA 7.5 (8.0 if Pascal GPU) NVIDIA cuDNN &amp;gt;v4.0 (v5.1 recommended) NVIDIA GPU with compute capability &amp;gt;3.0 steps#1.</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning - Just-do-it (hands on) Basics</title>
+      <link>http://dmml.nu/ml-do-it/</link>
+      <pubDate>Mon, 13 Mar 2017 10:27:36 +0000</pubDate>
+      
+      <guid>http://dmml.nu/ml-do-it/</guid>
+      <description>See also: ML books.
+This blog collects some useful materials for non-theory learners like engineers.
+Book: python-machine-learning-book
+code on github
+ML from scratch (py)
+Erik Linder-Norén, Stockholm
+Machine learning, in numpy (so, also scratch, but a lot Neural Nets &amp;amp; RL)
+David Bourgin, CA
+7 Types of Regression Techniques you should know (modern regressions)
+analyticsvidhya
+evernote backup
+GitHub标星1.3k！一款功能强大的特征选择工具 2019.11
+Causality analysis: MS dowhy, Causalinference in py (inactive), CausalInference in Julia, IBM causallib etc.</description>
+    </item>
+    
+    <item>
+      <title>R, Rarallel, HPC and Multi-core in R</title>
+      <link>http://dmml.nu/r-parallel-hpc-multi-core/</link>
+      <pubDate>Mon, 21 Nov 2016 11:04:14 +0000</pubDate>
+      
+      <guid>http://dmml.nu/r-parallel-hpc-multi-core/</guid>
+      <description>Three methods.
+//TODO: summary of: paper3 gpu 430.R</description>
+    </item>
+    
+    <item>
+      <title>Spark</title>
+      <link>http://dmml.nu/spark/</link>
+      <pubDate>Tue, 15 Nov 2016 13:18:51 +0000</pubDate>
+      
+      <guid>http://dmml.nu/spark/</guid>
+      <description>Related:
+The Internals of Apache Spark 2.4.0 | GitBook For usage after installation, see scale-py chapter 8 &amp;amp; 9. StreamProcessing comparison /stream-processing ~~ spark-vs-h2o ~~ The following content is tested in Ubuntu 16 (before 2019) &amp;amp; 18.04 (after 2018).
+This for how to install Spark with standalone/yarn/mesos.
+OBS: Assuming username: hpc.
+STANDALONE (ONE-SINGLE-NODE)#One-node standalone mode might be our fist time to try Spark, so we make the installation as easy as possible.</description>
+    </item>
+    
+    <item>
+      <title>R DT data.table Join</title>
+      <link>http://dmml.nu/dt-join/</link>
+      <pubDate>Tue, 11 Oct 2016 18:00:08 +0000</pubDate>
+      
+      <guid>http://dmml.nu/dt-join/</guid>
+      <description>This is part of PML notes. HDD: r_data_table_start
+Prepare Data#library(dplyr) library(readr) library(data.table) hero = &amp;#34; name, alignment, gender, publisher Magneto, bad, male, MarvelDuplicate Storm, good, female, MarvelDuplicate Batman, good, male, DC Joker, bad, male, DC Catwoman, bad, female, DC Hellboy, good, male, Dark Horse Comics &amp;#34; hero = read_csv(hero, trim_ws = TRUE, skip = 1) hero = data.table(hero) publisher = &amp;#34; publisher, yr_founded DC, 1934 MarvelDuplicate, 1939 MarvelDuplicate, 8888 Image, 1992 &amp;#34; publisher = read_csv(publisher, trim_ws = TRUE, skip = 1) publisher = data.</description>
+    </item>
+    
+    <item>
+      <title>Plot in R, ggplot2</title>
+      <link>http://dmml.nu/ggplot/</link>
+      <pubDate>Tue, 11 Oct 2016 10:53:20 +0000</pubDate>
+      
+      <guid>http://dmml.nu/ggplot/</guid>
+      <description>Python alternatives to ggplot2: pygg (NOT working), ggpy (ggplot in py) from yhat (NOT working and not in maintance). Please use rpy2 to &amp;ldquo;source()&amp;rdquo; R files.
+Note: this blog is mainly used to prepare data, for plotting code, see:
+O&amp;rsquo;Reilly 2013 - R Graphics Cookbook ggplot2 cheatsheet Be Awesome in ggplot2: A Practical Guide, (bak) 3D PLOT#scatter#OBS: order of using commands.
+surface#OBS: order of using commands.</description>
+    </item>
+    
+    <item>
+      <title>Notes of Practical Machine Learning (Coursera PML)</title>
+      <link>http://dmml.nu/big-data-mining-machine-learning-cloud/notes-of-practical-machine-learning-coursera-pml/</link>
+      <pubDate>Tue, 28 Jun 2016 13:35:38 +0000</pubDate>
+      
+      <guid>http://dmml.nu/big-data-mining-machine-learning-cloud/notes-of-practical-machine-learning-coursera-pml/</guid>
+      <description>It has been a long time since I started using R. Recently, I found some old notes, and I prefer to put it in digital archive, this blog post is to achieve the purpose.
+DT (data.table)#data.table cheat sheet
+This data.table (DT) instruction is also available on my github, ispiared by
+this ref
+//TODO#//TODO: summarize Solve common R problems efficiently with data.table which is must-read. backup
+//TODO: summarize High-performance Solution in R</description>
+    </item>
+    
+    <item>
+      <title>DMML Tools Trend &amp; Relationship 2016</title>
+      <link>http://dmml.nu/trend2016/</link>
+      <pubDate>Thu, 16 Jun 2016 10:12:05 +0000</pubDate>
+      
+      <guid>http://dmml.nu/trend2016/</guid>
+      <description>This is a summary of KD-nuggets blogs: here and here. Pictures are modified for my own notes.
+Tools Associations#![](./_image/2016-06-17 18-27-03.jpg)
+sunny&amp;rsquo;s conclusion#Possible framework 1: Hadoop + Spark + Python + scikit.
+Possible framework 2: SQL+ Excel + Tableau.
+Try NOT use: RapidMiner, KNIME (whatever situation).
+Big Data Related Tools#![](./_image/2016-06-17 18-40-16.jpg)
+Deep Learning Related Tools#![](./_image/2016-06-17 18-42-52.jpg)
+Big_Data- / Deep_Learning-Related Tools#![](./_image/2016-06-17 18-47-05.jpg)</description>
+    </item>
+    
+    <item>
+      <title>No SQL (Why &amp; What &amp; When)</title>
+      <link>http://dmml.nu/no-sql/</link>
+      <pubDate>Tue, 14 Jun 2016 13:35:38 +0000</pubDate>
+      
+      <guid>http://dmml.nu/no-sql/</guid>
+      <description>This post extends from a summary of a video + e.g. + criteria. See here (cn) for detailed situatoins &amp;amp; examples regarding usecase.
+Traditional Relational DBs#Mysql, PostgreSQL, SQLite, Amazon Redshift, Amazon Aurora.
+Why#Too much data. Too expensive to store in one computer.
+Need distributed DB.
+However, relationship DBs (SQL) are not designed and not suitable for this situation.
+What#Thus, NoSQL occured, with several types.</description>
+    </item>
+    
+    <item>
+      <title>CUDA Install</title>
+      <link>http://dmml.nu/cuda/</link>
+      <pubDate>Mon, 13 Jun 2016 16:03:03 +0000</pubDate>
+      
+      <guid>http://dmml.nu/cuda/</guid>
+      <description>see also:
+ways of parallel computing in R
+//TODO: study &amp;amp; summarize Map, Gather, Scatter etc.
+//TODO: see also the notes for campus&amp;rsquo; students assignments.
+Coursera Course Notes: _GPU notes.docx
+Code: github, or desktop search &amp;ldquo;gpu assignments&amp;rdquo;.
+Compared with &amp;ldquo;knn-r-project.Rproj&amp;rdquo;, &amp;ldquo;knn_cuda.vcxproj&amp;rdquo; is at least 6k times faster for almost exactly the same job. (diff: data cleaned; windowSize added.) One reason is the R project was using data.frame instead of tada.table. See here for more R performance info.</description>
+    </item>
+    
+    <item>
+      <title>Cross-Read &amp; -Write R, Py, Matlab, Binary Files</title>
+      <link>http://dmml.nu/binary/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/binary/</guid>
+      <description>Note: feather-format is desigend to transfer data between Py &amp;amp; R [stackoverflow, feather-doc].
+.FE#OBS: only for data.frame type, not even arrays.
+py (feather-format)#Requires: pip install feather-format. (OBS: feather-format NOT feather.)
+write:
+import numpy as np import pandas as pd df = pd.DataFrame({&amp;#39;A&amp;#39;: [1, 2, 3], &amp;#39;B&amp;#39;: [4, 5, 6], &amp;#39;C&amp;#39;:[7,8,9]}, index=[&amp;#39;one&amp;#39;, &amp;#39;two&amp;#39;, &amp;#39;three&amp;#39;]) import feather feather.write_dataframe(df.reset_index(drop=True), &amp;#39;df.fe&amp;#39;) (though the df is created by pandas)
+read:
+import feather df = feather.</description>
+    </item>
+    
+    <item>
+      <title>回归分析 In Case Of</title>
+      <link>http://dmml.nu/2012/09/02/13965/</link>
+      <pubDate>Sun, 02 Sep 2012 21:09:27 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/09/02/13965/</guid>
+      <description>Pr(c1&amp;lt;=μ&amp;lt;=c2)=1-α: α是**显著性水平**（例：0.05或0.10） 100（1-α）指**置信水平**（例：95%或90%） 表达方式：interval（c1,c2)——**置信区间**.[1] **得出参数的估计值**并对参数和方程的_显著性_进行**假设检验**是回归分析的基本任务。[2] ref: [1][http://zhidao.baidu.com/question/161184604](http://zhidao.baidu.com/question/161184604) [2][http://stat.</description>
+    </item>
+    
+    <item>
+      <title>Matlab In Case Of</title>
+      <link>http://dmml.nu/2012/08/31/13962/</link>
+      <pubDate>Fri, 31 Aug 2012 21:00:07 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/08/31/13962/</guid>
+      <description>1. matlab中gradient函数求f=2x2+3y3的梯度的实例#http://www.zdh1909.com/html/matlab/9930.html
+matlab中gradient函数求f=2x2+3y3的梯度的实例如下：
+在上MATLAB课的时候,有学生问怎么用gradient函数求f=2x2+3y3的梯度啊,不懂得怎么写格式,试了很多次都不行.解答如下:
+在MATALB中,求梯度只能是求数值梯度,所以必须将函数f离散化,用差分代替微分,精度取决于差分步长,因为现在计算机速度足够快,所以差分可以取得足够小,也不影响计算速度和计算精度.方法如下:
+&amp;gt;&amp;gt;X=-6:0.6:6; %计算区间是[-6 6],步长0.6
+&amp;gt;&amp;gt;Y=X;
+&amp;gt;&amp;gt;[x,y]=meshgrid(X,Y) %生成计算网格
+&amp;gt;&amp;gt;f=2.*x.^2+3.*y.^3 %计算网格结点上的函数值
+&amp;gt;&amp;gt;[Dx,Dy]=gradient(f) %用数值方法求函数梯度
+&amp;gt;&amp;gt;quiver(X,Y,Dx,Dy) %用矢量绘图函数绘出梯度矢量大小分布
+&amp;gt;&amp;gt;hold on
+&amp;gt;&amp;gt;contour(X,Y,f) %与梯度值对应,绘出原函数的等值线图
+2. Using errorbar() with semilogy() in MATLAB?#http://stackoverflow.com/questions/3550241/using-errorbar-with-semilogy-in-matlab
+h = errorbar(x,y,ebar); set(get(h,&#39;Parent&#39;), &#39;XScale&#39;, &#39;log&#39;) `&amp;lt;/pre&amp;gt; or &amp;lt;pre&amp;gt;`ax = axes(); errorbar(ax, x,y,ebar); set(ax, &#39;XScale&#39;, &#39;log&#39;); 3. Multi y axis#[http://stackoverflow.</description>
+    </item>
+    
+    <item>
+      <title>不会泄密的“云” - Homomorphic Encryption</title>
+      <link>http://dmml.nu/2011/10/17/12778/</link>
+      <pubDate>Mon, 17 Oct 2011 08:28:05 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/10/17/12778/</guid>
+      <description>想象一下，数字云端里存放的个人数据除你之外无人能破译。微软研究人员开发出了一个不会泄密的虚拟金库。
+云服务日益流行，但它的安全性也愈来愈令人担忧，尤其是在索尼服务器被黑客入侵上亿用户数个人据泄露之后。微软研究员Kristin Lauter和同事基于名为同态加密的加密技术开发出储存系统原型，没有用户的解密密钥攻击者将几乎不可能破译出密码。研究人员很早就认识到了同态加密的潜力，但直到2009年IBM研究人员发表一篇数学论证显示了同态加密的可能性。
+以上来自：http://it.solidot.org/article.pl?sid=11/08/08/078223
+同态加密：
+http://zh.wikipedia.org/wiki/%E5%90%8C%E6%80%81%E5%8A%A0%E5%AF%86
+同态加密
+同态加密是一种加密形式，它允许人们对密文进行特定的代数运算得到仍然是加密的结果，与对明文进行同样的运算再将结果加密一样。换言之，这项技术令人们可以在加密的数据中进行诸如检索、比较等操作，得出正确的结果，而在整个处理过程中无需对数据进行解密。其意义在于，真正从根本上解决将数据及其操作委托给第三方时的保密问题，例如对于各种云计算的应用。
+这一直是密码学领域的一个重要课题，以往人们只找到一些部分实现这种操作的方法。而2009年9月克雷格·金特里（Craig Gentry）的论文从数学上提出了“全同态加密”的可行方法，即可以在不解密的条件下对加密数据进行任何可以在明文上进行的运算，使这项技术取得了决定性的突破。人们正在此基础上研究更完善的实用技术，这对信息技术产业具有重大价值。</description>
+    </item>
+    
+    <item>
+      <title>一种宋词自动生成的遗传算法及其机器实现</title>
+      <link>http://dmml.nu/2011/01/30/5453/</link>
+      <pubDate>Sun, 30 Jan 2011 21:21:53 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/01/30/5453/</guid>
+      <description>自厦门大学和浙江大学的三位学者开发的“宋词自动生成(的)遗传算法”，主要针对宋词这种特殊的汉语诗歌体裁，设计了其自动生成算法及其实现方法。
+3 个示例：
+keyword=菊 Ci Pai=清平乐 Style=风格婉约
+相逢缥缈,窗外又拂晓.长忆清弦弄浅笑,只恨人间花少.
+黄菊不待清尊,相思飘落无痕.风雨重阳又过,登高多少黄昏.
+（这篇写的真的太NB了。。。）
+keyword=饮酒 Ci Pai=西江月 Style=风格豪放
+饮酒开怀酣畅,洞箫笑语尊前.欲看尽岁岁年年,悠然轻云一片.
+赏美景开新酿,人生堪笑欢颜.故人何处向天边,醉里时光渐渐.
+keyword=佳人 Ci Pai=点绛唇 Style=风格婉约
+人静风清,兰心蕙性盼如许.夜寒疏雨,临水闻娇语.
+佳人多情,千里独回首.别离后,泪痕衣袖,惜梦回依旧.
+&amp;mdash;-节选&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;
+根据宋词特点设计了基于平仄的编码方式，将“平、仄”与“0、1”编码相对应的编码方案.比如词牌《清平乐》平仄分布如下:
+⊙平⊙仄,⊙仄平平仄.⊙仄⊙平平仄仄,⊙仄⊙平⊙仄.
+⊙平⊙仄平平,⊙平⊙仄平平.⊙仄⊙平⊙仄,⊙平⊙仄平平.
+其中⊙表示可平可仄.根据我们的编码方案可得如下编码串:
+01,1001.10011,101.
+*0 100,0100.101,0100.
+&amp;hellip;&amp;hellip;&amp;hellip;.
+通过对大量宋词语句构成的分析,发现组成句子的有效模式的数目是有限的,并且呈现出了层次化的结构,因此比较适合采用DFA(deterministic finite automata)来表示。随机组合的词语,在产生大量的备选个体后,逐个进行DFA 分析测试,通过留下,没通过则剔除。
+&amp;hellip;&amp;hellip;&amp;hellip;.
+宋词的语义计算问题,包括词义相关度计算、词义相似度计算,以及风格情感一致性计算3 个方面。计算词义相关的目的是建立词语间的关联,发掘词语共现和搭配的可能,从而保证生成诗词行文和主题上的连贯.我们可以基于语料库统计来给出利用潜在语义分析和互信息两种方法词义相关度计算方法&amp;hellip;&amp;hellip;.利用潜在语义分析(latent semantic analysis,简称LSA)和是基于互信息(mutual information,简称MI)的方法计算词义相关度&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;对于最终的计算结果,我们首先选取两种算法的重叠部分,相关度则用两者各占50%的加权和表示;其次对于不重叠的部分,我们按相关度从高到低进行排列,并保留相关度大于10−3 的词。
+&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;..
+词语相似度主要用于衡量文本中词语的可替换程度.计算词义相似度,目的是在保证所选词紧扣主题的前提下,尽量使生成诗词的语言更丰富多变.目前自然语言的词义相似度有两类常见的计算方法,一种是利用大规模的语料库进行统计,另一种是根据本体知识来计算。&amp;hellip;&amp;hellip;..考虑到计算的复杂性和词义相似度在应用中较强的针对性,在实际计算相似度时,我们仅对词库中高频名词545 个和形容词367 个近义词集进行计算。
+&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;
+有了具体的宋词生成算法,就可以构建宋词自动生成系统,按用户输入的关键词(要求输入1∼3 个关键词)和词牌名自动生成宋词.实际系统共分数据库建立、句法语义处理、基于遗传算法的生成3 个基本模块.实际系统是在普通微机的Windows 平台上采用VisualC++ 6.0 开发实现的,测试机器基本参数为:CPU 1.83GHz,内存512 MB.目前系统仅支持10 个常见词牌的宋词生成,这10 个词牌分别是《蝶恋花》、《青玉案》、《清平乐》、《浣溪纱》、《西江月》、《点绛唇》、《鹧鸪天》、《江城子》、《长相思》、《浪淘沙》。
+例如,取种群大小k1 为100,最大进化代数k2 为5 000,交叉概率k3 为0.8,变异操作次数k4 为3 000,变异概率k5 为0.15,父代接受概率k6 为0.3.当输入主题关键词为“菊”,词牌名为《清平乐》时,系统经过如下运行过程.
+首先系统提取主题关键词“菊”,在词义相似和词义相关库中进行查找,形成表1 所示的计算结果.接着,系统根据《清平乐》词牌的要求随机生成两个韵部.上阙仄韵“小”,下阙转平韵“魂”,即随机生成了一个平声韵部和一个仄声韵部.规定每个个体中至少出现一个与主题词的词义相似词.生成的初始种群个体举例如下(之一):
+登临多少,入夜催秋草.憔悴田园添缠绕,携手光阴欢笑.
+金菊零落离魂,春风相近黄昏.为我悲秋斜倚,此生天气重门.</description>
+    </item>
+    
+    <item>
+      <title>Jupyter</title>
+      <link>http://dmml.nu/jupyter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/jupyter/</guid>
+      <description>INSTALL#Anaconda Way#This is suggested for very new users to use a stable environment.
+It is NOT suitable for normal users / experienced programmers / engineers.
+for windows#Download Python 3 from Anaconda and install.
+From Windows &amp;ldquo;Start&amp;rdquo; menu, run &amp;ldquo;Jupyter&amp;rdquo; directly. (at least since v5.3.1)
+Old versions needs to run from navigator as below:
+anaconda for linux#Similar to win, for details, see here.</description>
+    </item>
+    
+    <item>
+      <title>Plot in Python, Visualization wtih pyvis</title>
+      <link>http://dmml.nu/pyvis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/pyvis/</guid>
+      <description>Books &amp;amp; Docs#Seaborn tutorial &amp;amp; gallary OReilly 2017 - [easy to find common examples] Python Data Science Handbook Packt 2015 - [nice code grammar] Python Data Visualization Cookbook, 2nd Ed. (Igor Milovanovic) Packt 2015 - [rich &amp;amp; various content] Mastering Python Data Visualization Packt 2015 - [advanced nice plots &amp;amp; deployments] Mastering matplotlib (D.M. McGreggor) [Very bad composition] Packt 2018 - Matplotlib for Python Developers - 2nd Ed (by Allen Yu, Claire Chung) Overview of Libs#Python Data Visualisation Landscape</description>
+    </item>
+    
+  </channel>
+</rss>

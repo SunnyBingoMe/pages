@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Translation on Machine Learning</title>
+    <link>http://dmml.nu/tags/translation/</link>
+    <description>Recent content in Translation on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/translation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>English-Chinese-Terminology-Translation-个人常用词汇英汉对照</title>
+      <link>http://dmml.nu/term/</link>
+      <pubDate>Wed, 15 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/term/</guid>
+      <description> English Chinese ad-hoc, ad hoc (fix/method) 特设的（修改/方法） training (dataset) 训练（集） n. evaluation (dataset) 验证（集） n. testing (dataset) 测试（集） n. train 训练 v. evaluate 验证 v. test 测试 v. 试 v. </description>
+    </item>
+    
+  </channel>
+</rss>

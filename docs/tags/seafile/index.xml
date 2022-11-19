@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Seafile on Machine Learning</title>
+    <link>http://dmml.nu/tags/seafile/</link>
+    <description>Recent content in Seafile on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/seafile/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>File Sync &amp; Backup Tools (FreeFileSync TrueNAS SyncThing Synolog QNap NAS)</title>
+      <link>http://dmml.nu/nas/</link>
+      <pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/nas/</guid>
+      <description>NextCloud vs. Seafile vs. SyncThing#NextCloud Seafile SyncThing License Open source Open source/Enterprise License Open source Large file support Yes Yes Yes Centralized Yes (CS Mode) Yes (CS Mode) No (P2P Mode) Self-hosted Yes Yes — Server OS Linux/Windows/MacOS Linux/Windows — Docker Support Yes Yes Yes Language PHP C, Python GO Mobile Clients iPhone/Android/Windows iPhone/Android Android Desktop Clients Mac/Windows/Linux Mac/Windows/Linux Mac/Windows/Linux Single Sign-On Yes No No Sync local folder Yes Yes Yes LAN Synchronization No Yes Yes Multi-Tenant No Yes No File Versioning Yes Yes Yes Chat (Audio/Video/Text) Yes No No Calendar/Contact/Mail integration Yes Calendar and Contact No Active Directory Support Yes Yes No Online Office Yes In Pro.</description>
+    </item>
+    
+  </channel>
+</rss>

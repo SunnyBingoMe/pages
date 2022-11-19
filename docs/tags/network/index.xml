@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Network on Machine Learning</title>
+    <link>http://dmml.nu/tags/network/</link>
+    <description>Recent content in Network on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 Jun 2018 22:07:21 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/network/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Steps to Check Netwok Interface Card (NIC) Configurations</title>
+      <link>http://dmml.nu/nic-config/</link>
+      <pubDate>Wed, 13 Jun 2018 22:07:21 +0000</pubDate>
+      
+      <guid>http://dmml.nu/nic-config/</guid>
+      <description>New command: ip &amp;amp; ss.
+ubuntu.com
+dated
+Check the physical NIC is connected.
+lspci Note: The NIC will be shown regardless if drivers are installed, this is a PCI feature. Ref.
+Then check if it is recognized as network interfaces:
+ifconfig -a Check if it is up:
+ifconfig ```t is up: ```sh ifconfig </description>
+    </item>
+    
+    <item>
+      <title>VirtualBox Network and Skills</title>
+      <link>http://dmml.nu/vb-skills/</link>
+      <pubDate>Sat, 14 Apr 2018 08:40:19 +0000</pubDate>
+      
+      <guid>http://dmml.nu/vb-skills/</guid>
+      <description>OBS: cloning a VM with the status of pause (not powered-off), it canNOT re-initialize the MAC address. Thus, it is necessary to disconnect the cable and poweroff to re-initialize the MAC and then boot.
+INSTALL ON UBUNTU#Tested on v18.04.
+sudo apt-get update &amp;amp;&amp;amp; \ sudo apt-get -y install virtualbox (sometimes, maybe need to prepare the env before installation:)
+sudo apt-get update &amp;amp;&amp;amp; \ sudo apt-get -y install gcc make linux-headers-$(uname -r) dkms &amp;amp;&amp;amp; \ wget -q https://www.</description>
+    </item>
+    
+  </channel>
+</rss>

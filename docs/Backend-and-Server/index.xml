@@ -1,0 +1,1077 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Backend-and-Servers on Machine Learning</title>
+    <link>http://dmml.nu/backend-and-server/</link>
+    <description>Recent content in Backend-and-Servers on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/backend-and-server/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fiber 光纤 光口</title>
+      <link>http://dmml.nu/fiber/</link>
+      <pubDate>Tue, 27 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/fiber/</guid>
+      <description>设备、服务器常见光纤接口#SFP 口需要光模块（LC 模块）：
+ref: https://www.bilibili.com/video/BV17S4y1F7M4
+光纤的连接方法#机械连接
+耗材：光纤连接器(a.k.a. 光纤耦合器/光纤法兰)
+SC 型: Subscriber Connector，日本，塑料，多用于连接路由器、交换机。
+LC 型: Lucent Connector，贝尔研究所，塑料，多用于连接 SFP 光模块，插针和套筒尺寸是 SC 的一半，为 1.25mm。
+FC 型: Fiber Connector，日本 NTT 公司，金属接头，螺丝扣紧固。
+ST 型: Straight Tip，光纤配件架，螺丝扣紧固，多用于光电转换器。
+MU 型: Miniature Unit-coupling 即 微型连接器，日本 NTT 公司从 SC 改进，最小的单芯光纤连接器，1.25mm 套管，自保式结构，便于高密度安装。
+MT-RJ: 安普公司，有类似 RJ45 的闩锁结构，国内用得少。经济适用，适合“光纤到桌面”应用，多用于下一代高密度光纤连接器。
+DIN47256: 德国，尺寸同 FC 但结构更复杂，有控制压力的弹簧，防止压力过小或过大损坏接触面。
+BFOC: 德国西门子，为工业以太网开发，结构与 ST 非常相似（仅陶瓷芯略小），多用于恶劣环境的工业交换机、单片机。
+VF45: 3M 公司 1995s，无需套管即可连接。
+OptiJack: 用于 SFF 光模块。
+FDDI: Fiber Distributed Data Interface，主要用于双工连接系统。</description>
+    </item>
+    
+    <item>
+      <title>Hard-drive (HDD, SSD), Optical Drive (CD, DVD, M-Disc), U-Disk</title>
+      <link>http://dmml.nu/storage/</link>
+      <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/storage/</guid>
+      <description>See also Network Attached Storage /nas.
+Brands of SSD/U-Disk#Avoid: n 金 n 云, WD Green=SanDisk Plus(加强版)= just a big U-disk (U-disk controller, high delay, low seq. write speed, but seq. read speed is ok, overall speed is about x2~x4 HDD). Also: 海康、大唐的虚假宣传问题 At least: Toshiba/铠侠 TR200/TC10, 紫光S100, 浦科特 M8V, Intel 660P (warn: 660P tested bad)。 General: Crucial MX500, WD Blue = SanDisk 3D（不是加强版）, Toshiba Q200EX, Intel 545S, Also: Samsung 860EVO。 Better: WD Black SN750 (code data issue), Intel Enterprise Level.</description>
+    </item>
+    
+    <item>
+      <title>File Sync &amp; Backup Tools (FreeFileSync TrueNAS SyncThing Synolog QNap NAS)</title>
+      <link>http://dmml.nu/nas/</link>
+      <pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/nas/</guid>
+      <description>NextCloud vs. Seafile vs. SyncThing#NextCloud Seafile SyncThing License Open source Open source/Enterprise License Open source Large file support Yes Yes Yes Centralized Yes (CS Mode) Yes (CS Mode) No (P2P Mode) Self-hosted Yes Yes — Server OS Linux/Windows/MacOS Linux/Windows — Docker Support Yes Yes Yes Language PHP C, Python GO Mobile Clients iPhone/Android/Windows iPhone/Android Android Desktop Clients Mac/Windows/Linux Mac/Windows/Linux Mac/Windows/Linux Single Sign-On Yes No No Sync local folder Yes Yes Yes LAN Synchronization No Yes Yes Multi-Tenant No Yes No File Versioning Yes Yes Yes Chat (Audio/Video/Text) Yes No No Calendar/Contact/Mail integration Yes Calendar and Contact No Active Directory Support Yes Yes No Online Office Yes In Pro.</description>
+    </item>
+    
+    <item>
+      <title>MQTT</title>
+      <link>http://dmml.nu/mqtt/</link>
+      <pubDate>Sat, 20 Feb 2021 10:24:28 +0000</pubDate>
+      
+      <guid>http://dmml.nu/mqtt/</guid>
+      <description>Server example: Apache ActiveMq (ref, bak).
+activemq-admin.bat create mybroker cd mybroker/bin/ mybroker.bat start http://127.0.0.1:8161/
+Client: MQTTX, Chrome MQTTBox, etc.
+See more servers/clients/tools/libs here: HiveMq
+oolbox/)</description>
+    </item>
+    
+    <item>
+      <title>Installing WSL 2</title>
+      <link>http://dmml.nu/wsl2-install/</link>
+      <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/wsl2-install/</guid>
+      <description>Pre-requirements#Windows 10 May 2020 (2004) // or older Windows 10 May 2019 (1903) / or Windows 10 November 2019 (1909) A computer with Hyper-V Virtualization support Steps Overview#Enable WSL 2 Enable ‘Virtual Machine Platform’ Set WSL 2 as default Install a Linux distro Download the lateest kernel to update [ref] Powershell CML#dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart # Enable WSL dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart # Enable ‘Virtual Machine Platform’ # Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform -NoRestart # older win10 wsl --set-version Ubuntu 2 # convert current installed wsl --set-default-version 2 # for future installations ref: OMG Ubuntu.</description>
+    </item>
+    
+    <item>
+      <title>Powershell PS In Case Of</title>
+      <link>http://dmml.nu/ps-in-case-of/</link>
+      <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/ps-in-case-of/</guid>
+      <description>See also SSH.
+Overview: for both server and client: enable remote manager on both sides; set the other side as trusted.
+On both:
+Enable-PSRemoting -SkipNetworkProfileCheck -Force Set-Item wsman:\localhost\Client\TrustedHosts -value 192.168.1.* On the client:
+Enter-PSSession 192.168.xx.xx -Credential &amp;lt;server_computername&amp;gt;\&amp;lt;username&amp;gt; Tip:
+$Env:COMPUTERNAME # for computername $Env:USERNAME # for username [ref]
+5)]</description>
+    </item>
+    
+    <item>
+      <title>Migrate from (old) FarBox to Bitcron</title>
+      <link>http://dmml.nu/farbox-bitcron/</link>
+      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/farbox-bitcron/</guid>
+      <description>Migrating#method 1 - manual cp#Official doc suggest to copy manually to the new Dropbox folder (/Apps/Bitcron/internal-domain-name).
+WARN for site.md &amp;amp; template (see ref-doc-fr.-farbox)
+method 2 - build in#More&amp;hellip;(更多&amp;hellip;), 再选择 “Move from FarBox”
+WARN for images: &amp;ldquo;注意: 如果原 FarBox 网站本身有大量的(高清、原始)图片，不要使用这种方式，因为 FarBox 本身不会存储原始的图片，通过其迁移到 Bitcron，图片本身已经被压缩过大小了。&amp;rdquo;
+New Useful Stuff#New Dashboard New Doc Domain Binding#ref-doc-domain
+method 1 - ns#use name servers (NS): ns1.</description>
+    </item>
+    
+    <item>
+      <title>Scala the Language</title>
+      <link>http://dmml.nu/learning-scala/</link>
+      <pubDate>Tue, 12 Feb 2019 20:43:40 +0000</pubDate>
+      
+      <guid>http://dmml.nu/learning-scala/</guid>
+      <description>Install Sbt#echo &amp;#34;deb https://dl.bintray.com/sbt/debian /&amp;#34; | sudo tee -a /etc/apt/sources.list.d/sbt.list sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2EE0EA64E40A89B84B2DF73499E82A75642AC823 sudo apt-get update sudo apt-get install sbt ref: scala-sbt.org (v1.0)
+Compile#see ref</description>
+    </item>
+    
+    <item>
+      <title>Kubernetes (k8s)</title>
+      <link>http://dmml.nu/k8s/</link>
+      <pubDate>Sun, 06 Jan 2019 20:16:50 +0000</pubDate>
+      
+      <guid>http://dmml.nu/k8s/</guid>
+      <description>Install Single-Node for Test#nix## server curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 &amp;amp;&amp;amp; sudo install minikube-linux-amd64 /usr/local/bin/minikube minikube start # client, via snap (snap will NOT work in Docker-like containers) sudo snap install kubectl --classic # or, client via apt sudo apt-get update &amp;amp;&amp;amp; sudo apt-get install -y gnupg2 apt-transport-https &amp;amp;&amp;amp; \ curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add - &amp;amp;&amp;amp; \ echo &amp;#34;deb https://apt.kubernetes.io/ kubernetes-xenial main&amp;#34; | sudo tee -a /etc/apt/sources.</description>
+    </item>
+    
+    <item>
+      <title>GRUB Rescue</title>
+      <link>http://dmml.nu/grub-rescue/</link>
+      <pubDate>Sun, 06 Jan 2019 18:38:25 +0000</pubDate>
+      
+      <guid>http://dmml.nu/grub-rescue/</guid>
+      <description>When being forced into GRUB rescue mode, run ls and ls &amp;lt;one_partition&amp;gt; to check available partitions and find the one that we should boot from [ref].
+Then set prefix &amp;amp; root [ref]:
+set root=(hdX,Y) set prefix=(hdX,Y)/boot/grub insmod normal normal To avoid doing this every time, it is recommened to use a live-USB/ISO to repair GRUB (usually only Desktop version can be in live-USB and easy to setup WIFI). (// it should be also ok to do this without USB if there is a nix system working on current HDD).</description>
+    </item>
+    
+    <item>
+      <title>Python Code Cookbook</title>
+      <link>http://dmml.nu/py-cookbook/</link>
+      <pubDate>Sun, 01 Jul 2018 19:19:29 +0000</pubDate>
+      
+      <guid>http://dmml.nu/py-cookbook/</guid>
+      <description>See also:
+Learning Python, the Language Pandas#Get column_nr in pandas/numpy.
+if isinstance(X, pd.DataFrame): X_is_df = True row_nr = X.shape[0] column_nr = X.shape[1] if isinstance(X.columns, pd.core.index.MultiIndex): df_columns_is_multi_index = True else: df_columns_is_multi_index = False else: # non-DF X_is_df = False row_nr = np.shape(X)[0] column_nr = np.shape(X)[1] use dataframe directly against spark#lib Optimus
+from optimus import Optimus op = Optimus(master=&amp;#34;local&amp;#34;) df = op.create.df(&amp;lt;some data&amp;gt;) ... Sourcing/Importing#execfile or os.</description>
+    </item>
+    
+    <item>
+      <title>Python Code Reuse</title>
+      <link>http://dmml.nu/py-reuse/</link>
+      <pubDate>Sun, 01 Jul 2018 19:19:29 +0000</pubDate>
+      
+      <guid>http://dmml.nu/py-reuse/</guid>
+      <description>execfile or os.system#execute the other python file in place:
+execfile(&amp;#34;/path/to/my/lib/mylib.py&amp;#34;) or:
+import os os.system(&amp;#34;python /path/to/my/lib/mylib.py&amp;#34;) import#import sys import os sys.path.append(os.path.abspath(&amp;#34;/path/to/my/lib&amp;#34;)) import mylib ref#See other methods here.0749411)</description>
+    </item>
+    
+    <item>
+      <title>Steps to Check Netwok Interface Card (NIC) Configurations</title>
+      <link>http://dmml.nu/nic-config/</link>
+      <pubDate>Wed, 13 Jun 2018 22:07:21 +0000</pubDate>
+      
+      <guid>http://dmml.nu/nic-config/</guid>
+      <description>New command: ip &amp;amp; ss.
+ubuntu.com
+dated
+Check the physical NIC is connected.
+lspci Note: The NIC will be shown regardless if drivers are installed, this is a PCI feature. Ref.
+Then check if it is recognized as network interfaces:
+ifconfig -a Check if it is up:
+ifconfig ```t is up: ```sh ifconfig </description>
+    </item>
+    
+    <item>
+      <title>Quota</title>
+      <link>http://dmml.nu/quota/</link>
+      <pubDate>Wed, 18 Apr 2018 21:53:47 +0000</pubDate>
+      
+      <guid>http://dmml.nu/quota/</guid>
+      <description>INSTALL#apt-get install quota CONFIG#Add options usrquota,grpquota in /etc/fstab:
+UUID=a5bcc8d7-asdf / ext4 errors=remount-ro,usrquota,grpquota 0 1 Set quota:
+setquota -u -F vfsv0 USERNAME 4000000 5000000 0 0 / 4 000 000 ≈ 4GB.
+OBS: block size is always 1 KB as unit, regardless file systems.
+Alternatively, edquota USERNAME can be used which brings the nano editor.
+REBOOT#reboot
+CHECK#repquota -a #report all users quotaon -pa # check if on a # check if on</description>
+    </item>
+    
+    <item>
+      <title>Powershell In Case Of</title>
+      <link>http://dmml.nu/powershell/</link>
+      <pubDate>Fri, 09 Feb 2018 13:55:57 +0000</pubDate>
+      
+      <guid>http://dmml.nu/powershell/</guid>
+      <description>Use Microsoft Terminal#choco install -y microsoft-windows-terminal Customizing PS Prompt (Use ConEmu)#See more in [codeship].
+install chocolatey (i.e. win pkg manager)#option 1 [chocolatey official]:#Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString(&amp;#39;https://chocolatey.org/install.ps1&amp;#39;)) # install choco choco install conemu -y # Install PowerShell modules Install-PackageProvider NuGet -MinimumVersion &amp;#39;2.8.5.201&amp;#39; -Force Set-PSRepository -Name PSGallery -InstallationPolicy Trusted Install-Module -Name &amp;#39;posh-git&amp;#39; option 2, with Git together codeship:## Set your PowerShell execution policy Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Force # Install Chocolatey iwr https://chocolatey.</description>
+    </item>
+    
+    <item>
+      <title>Bitvise SSH Client &amp; Server</title>
+      <link>http://dmml.nu/bitvise/</link>
+      <pubDate>Wed, 07 Feb 2018 10:38:59 +0000</pubDate>
+      
+      <guid>http://dmml.nu/bitvise/</guid>
+      <description>CLIENT#tunnelling (c2s)#(redirect traffic from Client ports to Server ports)
+The client will listen on interface 127.0.0.1 and forward the request to the server, the server will forward the request to the destination.
+See also: bit.ly/s_ssh &amp;gt; # SSH Tunneling &amp;gt; ## port forwarding (direct forwarding).
+proxy#&amp;ldquo;SOCKS/HTTP Proxy Forwarding&amp;rdquo; is in tab &amp;ldquo;Services&amp;rdquo;.
+SERVER#(only necessary for windows)
+installation#Download Bitvise SSH Client and/or Server from official web.</description>
+    </item>
+    
+    <item>
+      <title>SFTP (FTP over SSH)</title>
+      <link>http://dmml.nu/sftp/</link>
+      <pubDate>Sun, 14 Jan 2018 21:08:57 +0000</pubDate>
+      
+      <guid>http://dmml.nu/sftp/</guid>
+      <description>TODO.
+https://www.digitalocean.com/community/tutorials/how-to-enable-sftp-without-shell-access-on-ubuntu-16-04
+Install#Config#Permission#</description>
+    </item>
+    
+    <item>
+      <title>Learning Falcon</title>
+      <link>http://dmml.nu/falcon/</link>
+      <pubDate>Sat, 13 Jan 2018 22:07:13 +0000</pubDate>
+      
+      <guid>http://dmml.nu/falcon/</guid>
+      <description>A great 5-video tutorial: 35minutes on YouTube (6 tomatoes / 2.5 hours for non-stop studing by coding). Author&amp;rsquo;s Github (py2), My Github (py3).
+Differences in my Github code:
+py3, not py2 using on_put() to test validity of input json from client using on_delete() to test params (just to test, should NOT be used in real-world) using another route /test2?x=1&amp;amp;y=3 to test params Usage in Nix:
+pip3 install falcon gunicorn gunicorn app:api # in the folder of app.</description>
+    </item>
+    
+    <item>
+      <title>Learning Python Flask MVC Framework</title>
+      <link>http://dmml.nu/learning-flask/</link>
+      <pubDate>Wed, 10 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/learning-flask/</guid>
+      <description>Run A Demo#a simple getting-start#Let&amp;rsquo;s take the example below (Serving Prophet Model with Flask — Predicting Future (very simple) 2019.07).
+Download the saved model and put to the same folder as app.py which is:
+from flask import Flask, jsonify, request from flask_cors import CORS, cross_origin import pickle with open(&amp;#39;forecast_model.pckl&amp;#39;, &amp;#39;rb&amp;#39;) as fin: m2 = pickle.load(fin) app = Flask(__name__) CORS(app) @app.route(&amp;#34;/katana-ml/api/v1.0/forecast/ironsteel&amp;#34;, methods=[&amp;#39;POST&amp;#39;]) def predict(): horizon = int(request.</description>
+    </item>
+    
+    <item>
+      <title>Learning MongoDB</title>
+      <link>http://dmml.nu/mongodb/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/mongodb/</guid>
+      <description>(4 tomatoes: install + crud)
+Install#to install#sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2930ADAE8CAF5059EE73BB4B58712A2291FA4AD5 &amp;amp;&amp;amp; \ echo &amp;#34;deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 multiverse&amp;#34; | sudo tee /etc/apt/sources.list.d/mongodb-org-3.6.list &amp;amp;&amp;amp; \ sudo apt-get update &amp;amp;&amp;amp; \ sudo apt-get install -y mongodb-org to prevent update#echo &amp;#34;mongodb-org hold&amp;#34; | sudo dpkg --set-selections echo &amp;#34;mongodb-org-server hold&amp;#34; | sudo dpkg --set-selections echo &amp;#34;mongodb-org-shell hold&amp;#34; | sudo dpkg --set-selections echo &amp;#34;mongodb-org-mongos hold&amp;#34; | sudo dpkg --set-selections echo &amp;#34;mongodb-org-tools hold&amp;#34; | sudo dpkg --set-selections to Run## start service: sudo service mongod start # check: cat /var/log/mongodb/mongod.</description>
+    </item>
+    
+    <item>
+      <title>Mount Pendrive Hard-drive in Nix</title>
+      <link>http://dmml.nu/mount/</link>
+      <pubDate>Mon, 28 Aug 2017 14:02:56 +0000</pubDate>
+      
+      <guid>http://dmml.nu/mount/</guid>
+      <description>INSTALL DRIVERS:## ntfs: apt install ntfs-3g # exfat: apt install exfat-fuse exfat-utils FIND#lsblk sudo blkid sudo fdisk -l MOUNT#sudo mkdir /mnt/usb sudo mount /dev/sdb1 /mnt/usb </description>
+    </item>
+    
+    <item>
+      <title>System Monitoring Tools (Command-Line)</title>
+      <link>http://dmml.nu/monitor-system/</link>
+      <pubDate>Sat, 04 Mar 2017 10:21:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/monitor-system/</guid>
+      <description>See also:
+Linux server performance measurements monitoring tuning tools
+For networking /monitor-networking.
+For GPU in deep learning dmml.nu/dl-gpu-monitor
+TEMPERATURE#To monitor CPU temperature lm-sensors (Linux Monitoring sensors):
+sudo apt-get install -y lm-sensors &amp;amp;&amp;amp; \ sudo sensors-detect &amp;amp;&amp;amp; \ sensors # sudo service kmod start # optional Extra: using watch to auto-refresh:
+watch -n 1 -d sensors # n: nr of seconds to refresh (gif from nixCraft)
+To monitor HDD temperature:</description>
+    </item>
+    
+    <item>
+      <title>Podman, Docker</title>
+      <link>http://dmml.nu/docker/</link>
+      <pubDate>Mon, 20 Feb 2017 10:24:28 +0000</pubDate>
+      
+      <guid>http://dmml.nu/docker/</guid>
+      <description>See also:
+cnvrg.io How to setup Docker and Nvidia-Docker 2.0 on Ubuntu 18.04 (bak)
+Timing: time spent to install &amp;amp; test: 15 tomatos/hours.
+Comparing Container Engines#Tip: podman has exactly the same CLI as Docker, so previous Docker users can move to Podman by:
+alias Docker=Podman.
+Podman advantages compared to Docker:
+doesn’t need daemon doesn’t need root privileges (which has been long-standing concern with Docker) can also manage pods Other alternavtive engines:</description>
+    </item>
+    
+    <item>
+      <title>Puppet How To</title>
+      <link>http://dmml.nu/puppet/</link>
+      <pubDate>Tue, 14 Feb 2017 22:48:34 +0000</pubDate>
+      
+      <guid>http://dmml.nu/puppet/</guid>
+      <description>Ref: DigitalOcean tutorial of puppet
+Ansible is very easy to use, just need master, no need to install on slaves. Instead, SSH (usually with pub keys) are used in Ansible.
+Puppet is more complex, Ansible can be used to assist the installation.
+Puppet requires firewall to open port nr 8140.
+INSTALL#ansibleall &amp;#39;apt-get install -y puppet&amp;#39; # for clients (nodes) sudo apt-get install -y puppetmaster # On server (master) ref</description>
+    </item>
+    
+    <item>
+      <title>SCP-How-To</title>
+      <link>http://dmml.nu/scp-how-to/</link>
+      <pubDate>Sun, 22 Jan 2017 15:13:19 +0000</pubDate>
+      
+      <guid>http://dmml.nu/scp-how-to/</guid>
+      <description>Local flder t1/, file tt1.
+example:
+scp -r -P 22 t1/ user@server.com:/mnt/share/t2/
+-r: recursively.
+-P: Port nr. Note: captical char.
+Result:
+if /mnt/share/ has folder t2/, t1/ will be in t2/. if no such a dir, t1/ will be renamed as t2/ inside share/. if there is file t2: mnt/share/t2, will get error &amp;ldquo;scp: /mnt/share/t2: Not a directory&amp;rdquo;. scp will NOT create new folder on server. </description>
+    </item>
+    
+    <item>
+      <title>Path to System Design</title>
+      <link>http://dmml.nu/system-design/</link>
+      <pubDate>Sun, 15 Jan 2017 12:07:51 +0000</pubDate>
+      
+      <guid>http://dmml.nu/system-design/</guid>
+      <description>SNAKE TEMPLATE FOR REQUIREMENT#Scenario: use-case (if system is big) / interface (if sys is small).
+Necessary: constrain/hypothesis.
+Application: service/algorithm, e.g. MVC etc.
+Kilobit: data.
+Evolve: agile spring plan, inc. performance.
+Example of recommender sys for personal radio station.
+S: recommend a song for a user; like; dislike; skip.
+N: 5 Millon users online &amp;raquo; about 50k qps (quests per sec) &amp;raquo; need 1~2 servers only (cuz we can optimize, e.</description>
+    </item>
+    
+    <item>
+      <title>SSHFS How To</title>
+      <link>http://dmml.nu/sshfs-how-to/</link>
+      <pubDate>Fri, 06 Jan 2017 20:23:59 +0000</pubDate>
+      
+      <guid>http://dmml.nu/sshfs-how-to/</guid>
+      <description>Advantage: simple, much safer than samba &amp;amp; nfs, support non-English when mounted in windows.
+See Also Links
+SFTP: FTP over SSH
+NFS
+CIFS/SMB/Samba
+SERVER#in linux, need ssh server with sftp support#Note that many routers does not support SFTP (SSH File Transfer Protocol).
+in win, need SFTP capable SSH server#For instance, OpenSSH-powershell for Windows. See here for detailed steps.
+OBS 1: sshfs works, but ssh to win will get win-cmd UI</description>
+    </item>
+    
+    <item>
+      <title>Samba (SIFS) How To</title>
+      <link>http://dmml.nu/samba-how-to/</link>
+      <pubDate>Sat, 31 Dec 2016 20:33:44 +0000</pubDate>
+      
+      <guid>http://dmml.nu/samba-how-to/</guid>
+      <description>Warn: for public internet, use vpn/ssh-tunneling (with samba config-ed for vpn/local nic address) or SSHFS.
+OBS: CIFS is new protocal, SMB is deprecated after win server 2003. ref
+See Also Links
+SFTP: FTP over SSH
+SSHFS
+NFS
+UBUNTU AS SERVER#sudo apt-get install -y samba samba-vfs-modules
+CONFIG UBUNTU SERVER FOR GUEST/ANANOMOUS (NO PASSWORD)#cp -pf /etc/samba/smb.conf /etc/samba/smb.conf.bak &amp;amp;&amp;amp; \ cat /dev/null &amp;gt; /etc/samba/smb.conf &amp;amp;&amp;amp; \ vim /etc/samba/smb.conf Paste the foloowing config:</description>
+    </item>
+    
+    <item>
+      <title>Linux init after installation</title>
+      <link>http://dmml.nu/linux-init/</link>
+      <pubDate>Mon, 19 Dec 2016 18:27:47 +0000</pubDate>
+      
+      <guid>http://dmml.nu/linux-init/</guid>
+      <description>PROBLEMS#sudo takes a long time (when network having issues)#Reason: distros should have added new host name to /etc/hosts, if the name is changed/added during installation ref.
+echo -n &amp;#39;127.0.0.1 &amp;#39; &amp;gt;&amp;gt; /etc/hosts &amp;amp;&amp;amp; cat /proc/sys/kernel/hostname &amp;gt;&amp;gt; /etc/hosts or:
+127.0.0.1 localhost localhost.localdomain localhost4 localhost4.localdomain4 &amp;lt;ADD_YOUR_HOST_NAME&amp;gt; ::1 localhost localhost.localdomain localhost6 localhost6.localdomain6 &amp;lt;ADD_YOURS_HERE&amp;gt; annoying &amp;ldquo;software updater&amp;rdquo;#sudo sed -i &amp;#39;s/1/0/&amp;#39; /etc/apt/apt.conf.d/20auto-upgrades ; cat /etc/apt/apt.conf.d/20auto-upgrades sudo apt-get remove --auto-remove gnome-software empty/black screen#If screen blacked out after 1st reboot, the problem is gfxmode $linux_gfx_mode in grub.</description>
+    </item>
+    
+    <item>
+      <title>Force Ubuntu desktop Boot into Text Console Mode</title>
+      <link>http://dmml.nu/Force-Ubuntu-desktop-Boot-into-Text-Console-Terminal-Mode/</link>
+      <pubDate>Thu, 15 Dec 2016 15:14:33 +0000</pubDate>
+      
+      <guid>http://dmml.nu/Force-Ubuntu-desktop-Boot-into-Text-Console-Terminal-Mode/</guid>
+      <description>Tested in ubuntu deskop 16.
+short url: s_force-text
+SOLUTION#sudo cp /etc/default/grub /etc/default/grub.bak &amp;amp;&amp;amp; \ sudo sed -ie &amp;#39;s/GRUB_CMDLINE_LINUX_DEFAULT=.*/GRUB_CMDLINE_LINUX_DEFAULT=&amp;#34;text&amp;#34;/g&amp;#39; /etc/default/grub &amp;amp;&amp;amp; \ sudo sed -ie &amp;#39;s/GRUB_CMDLINE_LINUX=.*/GRUB_CMDLINE_LINUX=&amp;#34;text&amp;#34;/g&amp;#39; /etc/default/grub &amp;amp;&amp;amp; \ sudo sed -ie &amp;#39;s/#GRUB_TERMINAL/GRUB_TERMINAL/g&amp;#39; /etc/default/grub &amp;amp;&amp;amp; \ sudo update-grub &amp;amp;&amp;amp; \ sudo systemctl enable multi-user.target --force &amp;amp;&amp;amp; \ sudo systemctl set-default multi-user.target &amp;amp;&amp;amp; \ sudo reboot OBS: sometimes, by changing &amp;ldquo;multi-user.target&amp;rdquo; is enough, but sometimes we have to update grub. Have not dug into the reason.</description>
+    </item>
+    
+    <item>
+      <title>Completely Automatic Unattended Install of Ubuntu</title>
+      <link>http://dmml.nu/Completely-Automatic-Unattended-Install-of-Ubuntu-Auto-system-config-kickstart/</link>
+      <pubDate>Wed, 14 Dec 2016 19:44:49 +0000</pubDate>
+      
+      <guid>http://dmml.nu/Completely-Automatic-Unattended-Install-of-Ubuntu-Auto-system-config-kickstart/</guid>
+      <description>OBS 1: this works only for ubuntu server edition, not desktop version. tested in ubuntu 16 x64.
+OBS 2: remember to change some parts to real values, near: # modify to real value !!!
+OBS 3: my version need some files in .iso file: &amp;ldquo;10_linux&amp;rdquo; &amp;amp; &amp;ldquo;sources.list&amp;rdquo;.
+Warn: the default ks.cfg partition settings will erase the entire disk, and use LVM.
+See also:
+Boot Partitions, Install Multi-OS
+easy2boot
+PREPARE, AS ROOT#sudo -s</description>
+    </item>
+    
+    <item>
+      <title>Install Dropbox for Headless Servers</title>
+      <link>http://dmml.nu/Install-Dropbox-for-Headless-Servers/</link>
+      <pubDate>Sat, 03 Dec 2016 21:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/Install-Dropbox-for-Headless-Servers/</guid>
+      <description>ref-DigitalOcean
+Install#64 bit:
+cd ~ wget -O dropbox-linux-x86_64.tar.gz https://www.dropbox.com/download?plat=lnx.x86_64 &amp;amp;&amp;amp; \ sudo mkdir -p /opt/dropbox &amp;amp;&amp;amp; \ sudo tar xzfv dropbox-linux-x86_64.tar.gz --strip 1 -C /opt/dropbox &amp;amp;&amp;amp; \ sudo ln -s /opt/dropbox/dropboxd /usr/bin/dropboxd &amp;amp;&amp;amp; \ dropboxd &amp;amp; for 32 bit OS the url is: xxxx?plat=lnx.x86
+Install Command Line Interface (CLI) [Optional]#cd ~ sudo wget -O /usr/bin/dropbox.py https://www.dropbox.com/download?dl=packages/dropbox.py &amp;amp;&amp;amp; \ sudo chmod +x /usr/bin/dropbox.py &amp;amp;&amp;amp; \ ln -s /opt/dropbox ~/.</description>
+    </item>
+    
+    <item>
+      <title>Setup Remote Access (VNC) of Linux Servers</title>
+      <link>http://dmml.nu/remote-accessing-desktop-install-and-uninstall-vnc-on-linux-servers/</link>
+      <pubDate>Fri, 02 Dec 2016 17:32:06 +0000</pubDate>
+      
+      <guid>http://dmml.nu/remote-accessing-desktop-install-and-uninstall-vnc-on-linux-servers/</guid>
+      <description>Tested in Ubuntu 16.04 desktop Gnome+Unity in Vmware.
+OBS: pure server will automatically start X in reboot and will lack of something, e.g. Default Terminal etc.
+FIREWALL#TCP port 5900+N (N is monitorId, starts from 1.)
+TIGHT.VNC AS SERVER#TightVnc allows us to start from a server without X11 and do everything in command line, remotely.
+install (either already with or w/o desktop)#sudo su: use root can avoid weird problems, see &amp;ldquo;ps&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Compare Frontend Javascript Frameworks</title>
+      <link>http://dmml.nu/compare-js-framework/</link>
+      <pubDate>Wed, 19 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/compare-js-framework/</guid>
+      <description>Angular
+Very flexible, we can do whatever we want, in whatever way.
+Ember
+It is hard to write ugly code cuz we need to follow the rules. Good for teamwork.
+Backbone
+Two-way data-binding is not free. It will just do what we tell it to do. Thus, we need to write a lot of code.
+React
+It is V in MVC. Two-way data-binding is not free. Update is very cheap by doming DOM diff &amp;amp; update.</description>
+    </item>
+    
+    <item>
+      <title>Python the Language (in case of)</title>
+      <link>http://dmml.nu/learning-python/</link>
+      <pubDate>Sun, 21 Aug 2016 14:19:29 +0000</pubDate>
+      
+      <guid>http://dmml.nu/learning-python/</guid>
+      <description>Related:
+learning Django python desktop GUI/frontend py code cookbook/reuse plot in py w pyvis Python in Win by MS official tutorial CN 用 Rust 让 numpy、scikit 和 pandas 加速 100 倍！开源 Weld 技术揭秘 PRE-INSTALL: CONDA VS. PIP#Pip requires apt. Thus, pip+apt. Pip chose to live together with apt (or other package manager) as apt is better at managing packages, especially when related to system. Some pip packages requires system (apt) to cooperate, such as uwsgi, graphviz, ffmpeg, gcc, python3-dev.</description>
+    </item>
+    
+    <item>
+      <title>DAMP (Django, Angular, Mysql-or-Mongo, Python)</title>
+      <link>http://dmml.nu/damp/</link>
+      <pubDate>Sat, 20 Aug 2016 22:34:49 +0000</pubDate>
+      
+      <guid>http://dmml.nu/damp/</guid>
+      <description>Conflict of {{ }} in Angular &amp;amp; Jinja#Solution 1 (suggested):
+vim static/js/app.js $interpolateProvider.startSymbol(&amp;#39;[[&amp;#39;).endSymbol(&amp;#39;]]&amp;#39;); Solution 2 (ugly):
+Use {% verbatim %} and {% endverbatim %} paris.
+Restful API with Angular - A Shopping List Demo#(Very Simple Demo with Json)
+This is following the &amp;ldquo;Rest API&amp;rdquo; part of Learning Django. We will &amp;ldquo;Consume the rest API&amp;rdquo; using AngularJS.
+BTW, a must watch video by Nina @ DjangoCon 2014.</description>
+    </item>
+    
+    <item>
+      <title>Learning Django</title>
+      <link>http://dmml.nu/learning-django/</link>
+      <pubDate>Thu, 18 Aug 2016 22:56:34 +0000</pubDate>
+      
+      <guid>http://dmml.nu/learning-django/</guid>
+      <description>(updated 2021.1)
+Related:
+Learning Python
+Ref: This is a combined learning note of:
+basic level sentdex&amp;rsquo;s youtube tutorial 2016, the corresponding video+text one is here. official tutorial which is still too complicated for new users, so better to use that after following this blog. middle level another tutorial: Django Tutorials for Beginners 2016 book &amp;ldquo;O&amp;rsquo;Reilly 2014 - Test-Driven Development with Python (django 1.7)&amp;rdquo;. official docs: DOCs.DjangoProject.com. all-in-one 3.8-hour video. Python Django Web Framework - Full Course for Beginners 2018 w/ Code (in sublime).</description>
+    </item>
+    
+    <item>
+      <title>Weird Windows Icon Web Font Display Bug</title>
+      <link>http://dmml.nu/windows-firewall-policy-trigger-web-font-bug/</link>
+      <pubDate>Wed, 20 Jul 2016 15:10:04 +0000</pubDate>
+      
+      <guid>http://dmml.nu/windows-firewall-policy-trigger-web-font-bug/</guid>
+      <description>Problem Setting#Web fonts can not be decoded, pages are showing a lot of squares. For instance, chrome gives following error in concole:
+Failed to decode downloaded font: https://xxxx.ttf
+Failed to decode downloaded font: https://xxxx.woff
+Desktop applications which used web fonts for UI also have display problems:
+Double click .ttf or try to copy to Fonts folder will give system error: the request file is not a valid font file</description>
+    </item>
+    
+    <item>
+      <title>Nix Linux Distribution Comparison, Timeline and Relationship</title>
+      <link>http://dmml.nu/nix-distro/</link>
+      <pubDate>Wed, 13 Jul 2016 11:42:25 +0000</pubDate>
+      
+      <guid>http://dmml.nu/nix-distro/</guid>
+      <description>Main branches directly from linux kernels:
+Debian, (K)Ubuntu/Deepin &amp;hellip; RedHat, CentOS, Fedora &amp;hellip; Slackware, Suse, OpenSuse (Leap vs. Tumbleweed) &amp;hellip; Arch, Manjaro &amp;hellip; Android &amp;hellip; RHEL = Red Hat (Inc.) Enterprise Linux
+SLE = SUSE Linux Enterprise
+openSUSE Leap &amp;lt;&amp;ndash;&amp;gt; CentOS(Rocky Linux)
+openSUSE Tumbleweed &amp;lt;&amp;ndash;&amp;gt; Fedora
+Sizes Just After Installation (Disk &amp;amp; RAM)#OS Installation DISK size en (GB) Installation DISK size cn (GB) RAM
+(GB) Notes Deepin 20.4 ?</description>
+    </item>
+    
+    <item>
+      <title>DNS &amp; CDN Service Provider Comparison</title>
+      <link>http://dmml.nu/dns-cdn/</link>
+      <pubDate>Wed, 15 Jun 2016 00:50:11 +0000</pubDate>
+      
+      <guid>http://dmml.nu/dns-cdn/</guid>
+      <description>DNS#nameisp#free for its own domains full features masked url NO catch-all email (can use mailgun) namecheap#free for any domain full features masked url dynamic D-DNS (using client) catch-all email forwarding dnspod#free for any domain limited TTL range NO masked url ($) free WAF often slow or timeout (pushing users to $) NO catch-all email (can use mailgun) CDN#Baidu &amp;amp; cloudflare are sharing the same nodes world wide (cooperation).</description>
+    </item>
+    
+    <item>
+      <title>Coding, In General</title>
+      <link>http://dmml.nu/coding/</link>
+      <pubDate>Wed, 01 Jun 2016 13:38:30 +0000</pubDate>
+      
+      <guid>http://dmml.nu/coding/</guid>
+      <description>Comments? NO Comments!#Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live. Code for readability. &amp;ndash; John F. Woods
+A comment is an apology.
+ref1,ref2
+URL&amp;rsquo;s#Learn Programming by Game
+Variable Names#finding suitable names#CN-EN variable names: web: CODELF, (intro: video)
+general rules#</description>
+    </item>
+    
+    <item>
+      <title>Locale In Case Of</title>
+      <link>http://dmml.nu/locale-in-case-of/</link>
+      <pubDate>Tue, 31 May 2016 11:07:57 +0000</pubDate>
+      
+      <guid>http://dmml.nu/locale-in-case-of/</guid>
+      <description>Reconfig Locale#Option 1:
+mkdir -p /var/lib/locales/supported.d/ &amp;amp;&amp;amp; \ echo &amp;#34;en_GB.UTF-8 UTF-8&amp;#34; &amp;gt; /var/lib/locales/supported.d/gb &amp;amp;&amp;amp; \ echo &amp;#34;zh_CN.UTF-8 UTF-8&amp;#34; &amp;gt; /var/lib/locales/supported.d/zh &amp;amp;&amp;amp; \ echo &amp;#34;sv_SE.UTF-8 UTF-8&amp;#34; &amp;gt; /var/lib/locales/supported.d/se &amp;amp;&amp;amp; \ locale-gen Option 2:
+dpkg-reconfigure locales can use first character of locale-name to nevigate.
+ref</description>
+    </item>
+    
+    <item>
+      <title>Screen, Tmux, Window, Session</title>
+      <link>http://dmml.nu/2015/12/09/15384/</link>
+      <pubDate>Wed, 09 Dec 2015 17:11:28 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2015/12/09/15384/</guid>
+      <description>Screen#http://neophob.com/2007/04/gnu-screen-cheat-sheet/
+CMD Description screen -ls list all ( format: pid.session_name ) screen create session screen -S session_name create session with name screen -r session_name re-attach screen -dr session_name de- &amp;amp; re- attach /_ force detach and then attach, use this when previous attachment is dropped due to network failure _/ screen -wipe remove dead kill &amp;lt;pid&amp;gt; kill session killall screen kill all C+a , C+d detach C+a, [ / Esc, C+u / C+d scroll half a page ref C+a, [ / Esc, Page Up /Down scroll a full page (cursor up/down is moving the cursor) NA switch session //can NOT find a good method screen windows (tabs)#C+a , c create new window C+a , A set window name C+a , w window list C+a , &amp;quot; choose window C+a , d detach window C+a , ?</description>
+    </item>
+    
+    <item>
+      <title>Boot to text console terminal mode [Ubuntu Kubuntu Nix Linux]</title>
+      <link>http://dmml.nu/2015/09/08/15378/</link>
+      <pubDate>Tue, 08 Sep 2015 14:52:28 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2015/09/08/15378/</guid>
+      <description>Once#shift / esc to menu , then &amp;rsquo;e&amp;rsquo; to modify boot option, change &amp;ldquo;quiet splash&amp;rdquo; to &amp;ldquo;text&amp;rdquo;, F10 / Ctrl+x to continue boot.
+Always##&amp;gt; sudo su
+#&amp;gt; vi /etc/default/grub
+comment out: # GRUB_CMDLINE_LINUX_DEFAULT=&amp;ldquo;quiet splash&amp;rdquo;
+add: GRUB_CMDLINE_LINUX=&amp;ldquo;text&amp;rdquo;
+Uncomment : GRUB_TERMINAL=console
+#&amp;gt; sudo update-grub</description>
+    </item>
+    
+    <item>
+      <title>系统后台框架</title>
+      <link>http://dmml.nu/2013/07/30/15096/</link>
+      <pubDate>Tue, 30 Jul 2013 17:33:59 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/07/30/15096/</guid>
+      <description>from: http://zz563143188.iteye.com/blog/1877266
+原文好长, 好牛a &amp;hellip; 所以我就拆开了, 当备份了 &amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>从程序员到CTO的Java技术路线图 // 有木有给PHP的...</title>
+      <link>http://dmml.nu/2013/07/30/15094/</link>
+      <pubDate>Tue, 30 Jul 2013 17:03:14 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/07/30/15094/</guid>
+      <description>转自 http://zz563143188.iteye.com/blog/1877266#在技术方面无论我们怎么学习，总感觉需要提升自已不知道自己处于什么水平了。但如果有清晰的指示图供参考还是非常不错的，这样我们清楚的知道我们大概处于那个阶段和水平。##Java程序员#高级特性
+反射、泛型、注释符、自动装箱和拆箱、枚举类、可变
+参数、可变返回类型、增强循环、静态导入
+核心编程
+IO、多线程、实体类、
+集合类、正则表达式、
+XML和属性文件
+图形编程
+AWT（Java2D/JavaSound/JMF）、Swing、SWT、JFace
+网路编程
+Applet、Socket/TCP/UDP、NIO、RMI、CORBA
+Java语法基础
+类、抽象类、接口、最终类、静态类、匿名类、内部类、异常类、编码规范
+Java开发环境
+JDK、JVM、Eclipse、Linux
+Java核心编程技术
+Java，设计而又非常精巧的语言。学习Java，须从Java开发环境开始，到Java语法，再到Java的核心API。
+1.Java开发入门：Java开发环境的安装与使用，包括JDK命令、EclipseIDE、Linux下Java程序的开发和部署等。
+2.Java语法基础：基于JDK和Eclipse环境，进行Java核心功能开发，掌握Java面向对象的语法构成，包括类、抽象类、接口、最终类、静态类、匿名类、内部类、异常的编写。
+3.Java核心API：基于JDK提供的类库，掌握三大核心功能：
+A。Java核心编程:包括Java编程的两大核心功能——Java输入/输出流和多线程，以及常用的辅助类库——实体类、集合类、正则表达式、XML和属性文件。
+B。Java图形编程：包括Sun的GUI库AWT（Java2D、JavaSound、JMF）和Swing，IBM和GUI库SWT和Jface;
+C. Java网路编程：Applet组件编程，Socket编程，NIO非阻塞Socket编程、RMI和CORBA分布式开发。
+4.Java高级特性：掌握JDK1.4、JDK5.0、JDK6.0中的Java高级特性，包括反射、泛型、注释，以及java高级特性——自动装箱和拆箱、枚举类、可变参数、可变返回类型、增强循环、静态导入等。
+JavaEE初级软件工程师#JSF框架开发技术
+配置文件（页面导航、后台Bean）、JSF组件库（JSF EL语言、HTML标签、事件处理、）、JSF核心库（格式转换、输入验证、国际化）
+Javaweb核心开发技术
+开发环境（Eclipse、Linux）
+三大组件（JSP、JavaBean、Servlet）
+扩展技术（EL、JSTL、Taglib）
+网页开发技术
+HTML、XML、CSS、JavaScript、AJAX
+数据库设计技术
+SQL、MySql、Oracle、SQLServer、JDBC
+Web服务器（Tomcat/Jetty/Resin/JBossWeb）
+JavaWeb核心技术：
+JavaWeb项目开发的全过程可以分解为：
+网页开发+数据库设计——&amp;gt;JavaWeb项目开发，其中，javaWeb由6项基本技术组成：JSP+JavaBean+Servlet+EL+JSTL+Taglib，而JSF正是将这6种技术进行有机结合的技术框架：
+JavaEE中级软件工程师#四种经典架构SSH1、SSI1、SSH2、SSI2
+Struts1表现层框架
+入门配置、核心组件、标签库、国际化、数据检验、数据库开发、Sitemesh集成、集成Hibernate/iBATIS
+Struts2表现层框架
+入门配置、核心组件、标签库、国际化、数据校验、Sitemesh集成转换器、拦截器、集成Hibernate/iBATIS
+Spring业务层框架
+入门配置、IoC容器、MVC、标签库、国际化、数据校验、数据库开发
+Hibernate持久层框架
+MySQL、Oracle、SQLServer iBATIS持久层框架
+MySQL、Oracle、SQLServer
+Web服务器（Tomcat/Jetty/Resin/JBossWeb）
+Java高级软件工程师#javaWeb开源技术与框架
+工作流、
+规则引擎</description>
+    </item>
+    
+    <item>
+      <title>前端工程师 路线图 知识结构 web roadmap</title>
+      <link>http://dmml.nu/2013/07/30/15092/</link>
+      <pubDate>Tue, 30 Jul 2013 15:42:24 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/07/30/15092/</guid>
+      <description>from: http://www.yevol.net/post/140.html</description>
+    </item>
+    
+    <item>
+      <title>O&#39;Reilly原版Linux图书学习线路图</title>
+      <link>http://dmml.nu/2013/07/29/15065/</link>
+      <pubDate>Mon, 29 Jul 2013 19:23:59 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/07/29/15065/</guid>
+      <description>from: http://www.embeddedlinux.org.cn/html/xinshourumen/200811/07-311.html</description>
+    </item>
+    
+    <item>
+      <title>Web Stressing [压力测试] 工具</title>
+      <link>http://dmml.nu/2013/07/29/15062/</link>
+      <pubDate>Mon, 29 Jul 2013 18:32:47 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/07/29/15062/</guid>
+      <description>先mark一下, 待用.
+搜了一下 http://bit.ly/18Nbz4N , http://coolshell.cn/articles/2589.html
+常见的压力测试工具:
+apache自带的ab; jmeter http://www.cnblogs.com/wang1988ming/archive/2012/08/01/2618550.html pylot grinder http://grinder.sourceforge.net/ siege web bench http_load
+REF:
+http://coolshell.cn/articles/2589.html
+http://blog.csdn.net/lxlmj/article/details/6881224</description>
+    </item>
+    
+    <item>
+      <title>如何写出好的SEO的博客</title>
+      <link>http://dmml.nu/2013/07/24/15015/</link>
+      <pubDate>Wed, 24 Jul 2013 23:59:39 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/07/24/15015/</guid>
+      <description>其实, SEO 的对象就是用户习惯. 一方面要去猜用户习惯, 另一方面, 要通过技术或其他的分析了解用户&amp;quot;下意识&amp;quot;的习惯. 这里有个配图是个很好的例子: here
+写文章#标题要短小精悍, 突出关键词, 越重要的词汇应该越靠前. 对于 wordpress, 由于编辑完题目后 wp 会自动生成链接, 所以一定要先想好题目再&amp;quot;新建&amp;quot;博文.
+放视频#取 iframe 通用代码, 复制之后粘贴到 text 编辑模式中, 发布之后才能看到真实的效果.
+发外链【to be cont】#在自己文章指向的网址里面加个评论, 然后在评论里写上自己网站的某个页面, 不要是同一篇文章.
+常更新#每周至少两篇文章, 这样搜索引擎会认为站点活跃.
+放图片#最吸引眼球的就是图片和视频了.
+在 wp 插入媒体时, 可以选择上传或者直接使用图片 url 地址. 前者稳定, 使用自己的服务器, 后者可以减少自己服务器负担, 但是图片有可能会失效, 比如原网站关闭或者使用了外链限制.
+如果一个图片本身不清晰, 例如这个: here , 可以使用 images.google.com 的图片搜索功能找到更清晰的. 只要先在原图片点右键, 复制图片 url 地址, 然后 google 点照相机图标(image search), 然后粘贴进去刚才复制的地址, G00GLE 就会给出很多相似图片: here .</description>
+    </item>
+    
+    <item>
+      <title>NIX (unix OR”linux” OR”ubuntu” OR”kubuntu” OR”redhat” OR”debian” OR”centos” OR”fedora”)</title>
+      <link>http://dmml.nu/nix/</link>
+      <pubDate>Wed, 24 Jul 2013 21:33:41 +0000</pubDate>
+      
+      <guid>http://dmml.nu/nix/</guid>
+      <description>See also:
+play/test distributions online: /nix-online distribution comparison: /nix-distro bit.ly/s_distro How To Set Up PC as a Router: /router-how-to Install#automaic / unattended installation of ubuntu#http://askubuntu.com/questions/122505/how-do-i-create-a-completely-unattended-install-of-ubuntu Completely-Automatic-Unattended-Install-of-Ubuntu-Auto-system-config-kickstart multi systems selection#multi-operating-system-installation
+init after installation#linux-init
+Boot &amp;amp; Reboot#linux, ubuntu emergency safe reboot Boot to text console terminal mode [Ubuntu Kubuntu Nix Linux] GRUB rescue mode Common Performance Improvement Tools#相见恨晚的 15 个 Linux 神器 命令行忘性大？这个开源备忘工具一次解决你的所有烦恼 Git#bit.</description>
+    </item>
+    
+    <item>
+      <title>PHP In Case Of</title>
+      <link>http://dmml.nu/2013/07/24/15026/</link>
+      <pubDate>Wed, 24 Jul 2013 18:53:04 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/07/24/15026/</guid>
+      <description>Fatal error: Call to undefined function mb_strlen()#apt-get / yum search mbstring ; apt-get / yum install php-mbstring ... http://blog.fity.cn/post/187/
+Fatal error: Call to undefined function imagecreate()#and it takes a lot of time to upload a image.
+apt-get install php5-gd http://www.php.net/manual/en/image.installation.php
+Warning: It is not safe to rely on the system&amp;rsquo;s timezone settings#Solution: modify php.ini:
+date.timezone = Asia/Shanghai http://stackoverflow.com/questions/2213608/php-configuration-it-is-not-safe-to-rely-on-the-systems-timezone-settings
+Set Include Path in PHP File#set_include_path(get_include_path() .</description>
+    </item>
+    
+    <item>
+      <title>诡异的数据库 trouble shooting</title>
+      <link>http://dmml.nu/2013/07/11/14994/</link>
+      <pubDate>Thu, 11 Jul 2013 17:09:32 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/07/11/14994/</guid>
+      <description>1. ERROR 1418 (HY000): This function has none of DETERMINISTIC, NO SQL, or READS SQL DATA in its declaration and binary logging is enabled (you might want to use the less safe log_bin_trust_function_creators variable)
+http://dev.mysql.com/doc/refman/5.0/en/stored-programs-logging.html
+**`SET GLOBAL log_bin_trust_function_creators = 1; `** 用完改回来.
+2. 生成的备份sql在drop event 没有 if exist 导致出错.手动添加(利用替换).
+3. Procedure 里的 LIMIT 在 v5.5.6之前不能使用变量做参数.
+ERROR 1064 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near &amp;lsquo;row_count ; END&amp;rsquo; at line 24</description>
+    </item>
+    
+    <item>
+      <title>ZF ZendFramework In Case Of</title>
+      <link>http://dmml.nu/2013/05/20/14848/</link>
+      <pubDate>Mon, 20 May 2013 23:17:27 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/05/20/14848/</guid>
+      <description>URL to this page: bit.ly/s_zf
+api v1.11
+http://bit.ly/zf_api111
+manual v1.11
+http://bit.ly/zf_ref111
+coding style
+http://framework.zend.com/manual/1.11/en/coding-standard.naming-conventions.html#coding-standard.naming-conventions.filenames
+zf db table
+http://mattmccormick.ca/2010/04/24/how-to-easily-create-models-and-table-relationships-in-zend-framework/
+with tb twitter-bootstrap
+https://github.com/Emagister/zend-form-decorators-bootstrap
+A Quick Starter for ZF New Guys#I was following: &amp;ldquo;Getting Started with Zend Framework&amp;rdquo;, By Rob Allen, v1.7.7
+ENV: i am using ZendFramework-1.11.0.zip instead of zend-server, in Linux.
+// ln /etc/php5/zendFramework_1.11.10/bin/zf.sh /usr/bin/zf ; //got some problems, so:
+ps: if apt-get install zend-framework-bin (1.10) , then default lib will be /usr/share/php/libzend-framework-php</description>
+    </item>
+    
+    <item>
+      <title>JS [JavaScript] In Case Of</title>
+      <link>http://dmml.nu/2013/05/14/14839/</link>
+      <pubDate>Tue, 14 May 2013 12:20:54 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/05/14/14839/</guid>
+      <description>Event
+body -&amp;gt; onload, on un load;
+on mouse over/out;
+on focus/blur;
+on change.</description>
+    </item>
+    
+    <item>
+      <title>Twitter Bootstrap [TB]</title>
+      <link>http://dmml.nu/2013/05/11/14832/</link>
+      <pubDate>Sat, 11 May 2013 23:16:40 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/05/11/14832/</guid>
+      <description>源码官网:
+https://github.com/twbs/bootstrap
+官网:
+http://bit.ly/s_tb3
+http://bit.ly/s_tb2
+插件 - 富文本编辑器.
+http://www.bootcss.com/p/bootstrap-wysiwyg/</description>
+    </item>
+    
+    <item>
+      <title>css和div们 [HTML] In Case Of</title>
+      <link>http://dmml.nu/2013/04/20/14787/</link>
+      <pubDate>Sat, 20 Apr 2013 22:12:45 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/04/20/14787/</guid>
+      <description>Child#&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html&amp;gt; &amp;lt;!&amp;ndash;The root of the tree!&amp;ndash;&amp;gt;
+&amp;lt;head&amp;gt; &amp;lt;!&amp;ndash;Child of html, parent of title, sibling of body&amp;ndash;&amp;gt;
+&amp;lt;title&amp;gt;&amp;lt;/title&amp;gt; &amp;lt;!&amp;ndash;Immediate child of head, child of head AND html&amp;ndash;&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt; &amp;lt;!&amp;ndash;Child of html, parent of p, sibling of head&amp;ndash;&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;!&amp;ndash;Immediate child of body, child of body AND html&amp;ndash;&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+**Immediate child: ** div &amp;lt;span style=&amp;quot;color: #ff00ff;&amp;quot;&amp;gt;**&amp;amp;gt;**&amp;lt;/span&amp;gt; p { /* Some CSS */ }
+**child: **div div p { /* Some CSS */ }</description>
+    </item>
+    
+    <item>
+      <title>Mysql in Case of</title>
+      <link>http://dmml.nu/2012/05/19/13702/</link>
+      <pubDate>Sat, 19 May 2012 21:49:54 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/05/19/13702/</guid>
+      <description>Add / Create a User:#CREATE USER &amp;lt;userName&amp;gt;@localhost IDENTIFIED BY &#34;&amp;lt;newPassWd&amp;gt;&#34;; CREATE DATABASE &amp;lt;newDbName&amp;gt; DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci; GRANT ALL ON &amp;lt;newDbName&amp;gt;.* TO &amp;lt;userName&amp;gt;@localhost; Super PRIVILEGES:
+GRANT ALL PRIVILEGES ON *.* TO &amp;lt;userName&amp;gt;@localhost WITH GRANT OPTION; Revoke:
+REVOKE INSERT ON *.* FROM &amp;lt;userName&amp;gt;@localhost; REVOKE ALL PRIVILEGES, GRANT OPTION FROM &amp;lt;userName&amp;gt;@localhost; Reset the password:#SET PASSWORD FOR &amp;lt;userName&amp;gt;@localhost = PASSWORD(&#39;&amp;lt;newPassWd&amp;gt;&#39;); reset root password: http://goo.gl/jGXR6
+Injection#mysql injection protection methods [INJ]</description>
+    </item>
+    
+    <item>
+      <title>NFS How-To</title>
+      <link>http://dmml.nu/2012/05/11/13686/</link>
+      <pubDate>Fri, 11 May 2012 20:13:28 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/05/11/13686/</guid>
+      <description>Update: 2017-01-06
+Warn 1: for non-English, use samba/sshfs instead. unless win has NFS v4 or above which can solve non-UTF8 problems.
+Warn 2: svchost consumes 1.5GB ram, don&amp;rsquo;t know why.
+See Also Links
+SSHFS/SFTP
+CIFS/SMB/Samba
+OBS#Combining simlink (ln -s) with NFS may cause weird file path problems. We tried to have a link at NFS to Dropbox in nfs, also tried to have a link at home to mount point at /mnt.</description>
+    </item>
+    
+    <item>
+      <title>Installing Nginx in Ubuntu 10.04 LTS</title>
+      <link>http://dmml.nu/2012/04/24/13645/</link>
+      <pubDate>Tue, 24 Apr 2012 21:10:12 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/04/24/13645/</guid>
+      <description>nginx is a great alternative to apache2, it is better to handle static web pages and files. another one is lighttpd which is optimized for long-time keep-alive (a lot of connections).
+sudo -s
+apt-get install gcc g++;
+wget http://downloads.sourceforge.net/pcre/pcre-8.10.tar.bz2 (seems hard-coded version in nginx v1.2; otherwise, such as me, ln -s xxx.so.xxx &amp;hellip;); tar xvjf &amp;hellip;; cd &amp;hellip;; ./configure; make; make install;
+cd nginx; ./configure &amp;ndash;without-http_gzip_module (do not need and do not want in experiments); make; make install;</description>
+    </item>
+    
+    <item>
+      <title>[bak] Sar 监控命令小览</title>
+      <link>http://dmml.nu/2012/03/07/13516/</link>
+      <pubDate>Wed, 07 Mar 2012 17:22:46 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/03/07/13516/</guid>
+      <description>see also jlevy/the-art-of-command-line (multi-language)
+from: qa.taobao.com
+最近接触了下淘宝的性能框架PAP，觉得系统中的监控真的做的很不错，但是非pap运行的程序，则无法监控，同时也查了下淘宝性能百科对监控命令Sar介绍，觉得讲的比较粗，这里把自己以前用过的Sar监控分享下；有问题，大家共勉哈！
+B%91%E6%8E%A73.jpg)</description>
+    </item>
+    
+    <item>
+      <title>System/Network Measuring/Monitoring Tools</title>
+      <link>http://dmml.nu/2012/03/07/13513/</link>
+      <pubDate>Wed, 07 Mar 2012 17:20:14 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/03/07/13513/</guid>
+      <description>trace route#mtr (my traceroute / traceroute 2.0) real-time speed#(#: needs root permission, $: does not need.)
+bmon (graph); multi-interface nload (graph) unit : (k)bit min, max, avg, total (avg is the same as nethogs) slurm (graph); $ slurm -i wlan0* nethogs sudo nethogs wlan0#pid, user, program CPU-consuming (stable, the same as avg of nload) ifstat scrolling text iftop (current graph) sudo iftop -i wlan0#unit : (k)bit Reverse-DNS (don&amp;rsquo;t like it , use &amp;rsquo;n&amp;rsquo; to toggl) dstat scrolling text // all stat of system ntop // TODO, how-to sar // all stat of system (cpu/net/ram/io) (see: sar ) capture#tcpDump + tcpTrace http://fasterdata.</description>
+    </item>
+    
+    <item>
+      <title>Notes of Basic Linux Part-5 Root as Administrator</title>
+      <link>http://dmml.nu/vbird-linux-5/</link>
+      <pubDate>Sat, 03 Mar 2012 19:08:16 +0000</pubDate>
+      
+      <guid>http://dmml.nu/vbird-linux-5/</guid>
+      <description>see also jlevy/the-art-of-command-line (multi-language)
+Organised 2017 March.
+Notes from 2012 April.
+多年前（2012）写的“鸟哥的Linux 私房菜”学习笔记。- Chapters 18~26 -ing
+原网站： 繁体 linux.vbird.org or 简体 cn.linux.vbird.org 。
+第十八章、认识系统服务 (daemon, service)#什么是 daemon 与服务 (service)#分类 &amp;amp; 命名：#stand-alone vs. super-daemon Stand Alone Daemon 响应速度快。 常见的有httpd、FTP的vsftpd等。 Super Daemon (1)由于 super daemon 负责唤醒各项服务，因此 super daemon 可以具有安全控管的机制. (2)不会一直占用系统资源。 例如 telnet, xinetd. signal-control vs. interval-control (工作形态) signal-control 透过讯号来管理，有客户端的需求进来，就会去处理！ 例如打印机的服务 (cupsd)。 interval-control 『每隔一段时间就主动的去运行某项工作』，在指定的时间才会去工作。 例如在第十六章提到的 atd 与 crond (每分钟侦测一次配置文件) 命名守则 {xxx}d eg: man [3] daemon 服务与端口的对应： /etc/services#ssh 22/tcp # SSH Remote Login Protocol ssh 22/udp # SSH Remote Login Protocol .</description>
+    </item>
+    
+    <item>
+      <title>Notes of Basic Linux Part-4 User Management</title>
+      <link>http://dmml.nu/vbird-linux-4/</link>
+      <pubDate>Sat, 03 Mar 2012 18:08:16 +0000</pubDate>
+      
+      <guid>http://dmml.nu/vbird-linux-4/</guid>
+      <description>see also jlevy/the-art-of-command-line (multi-language)
+Organised 2017 March.
+Notes from 2012 April.
+多年前（2012）写的“鸟哥的 Linux 私房菜”学习笔记。- Chapters 14 &amp;amp; 17 -ing
+原网站： 繁体 linux.vbird.org or 简体 cn.linux.vbird.org 。
+第十四章、Linux 账号管理与 ACL 权限配置#Linux 的账号与群组#使用者标识符： UID 与 GID#UID是0时，代表这个账号是『系统管理员』！ 所以当你要让其他的账号名称也具有 root 的权限时，将该账号的 UID 改为 0 即可。 1~499 (系统账号).除了 0 之外，其他的 UID 权限与特性并没有不一样。默认 500 以下的数字让给系统作为保留账号只是一个习惯。 我们希望启动的服务使用较小的权限去运行，所以这些系统账号通常是不可登陆的, 所以才会有 /bin/false ; /usr/sbin/nologin. 比如用来作为pop邮件使用者的shell 1~99：由 distributions 自行创建的系统账号. 100~499：若用户有系统账号需求时，可以使用的账号 UID。 500~65535 (可登陆账号). linux 核心 (2.</description>
+    </item>
+    
+    <item>
+      <title>Notes of Basic Linux Part-3 bash, shell, and Network Security</title>
+      <link>http://dmml.nu/vbird-linux-3/</link>
+      <pubDate>Sat, 03 Mar 2012 17:17:19 +0000</pubDate>
+      
+      <guid>http://dmml.nu/vbird-linux-3/</guid>
+      <description>see also jlevy/the-art-of-command-line (multi-language)
+Organised 2017 March.
+Notes from 2012 April.
+多年前（2012）写的“鸟哥的Linux 私房菜”学习笔记。 - chapters 10~13 -ing
+基本的命令应该没什么变化吧。
+原网站： 繁体 0160startlinux 。
+Crtl + Alt + [F1]~[F6]
+# 共有六个， tty1 ~ tty6 ，切换的方式为 Crtl + Alt + [F1]~[F6]，其中， [F7] [F8] 为图形接口的使用。
+man xxx =&amp;gt; xxx(number) manual 中的命令级别 number 代表意义:
+1：一般用户可以使用的命令或可运行文件案； 5：一些配置文件的文件内容格式； 8：系统管理员能够使用的管理命令。 第十一章、认识与学习BASH#认识 BASH 这个 Shell#硬件、核心与 Shell#// Hardware &amp;lt;=&amp;gt; Kernel &amp;lt;=&amp;gt; Shell,KDE,App 为何要学文字接口的 shell#// 通用,效率高 系统的合法 shell 与 /etc/shells 功能#/etc/shells #所有 shells /etc/passwd	// 每个用户的默认 shell Bash shell 的功能#// history, tab, alias, job control, scripts, wildcard // 当前登录的history在内存，注销时才会写入用户history文件。 Bash shell 的内建命令： type#type [-tpa] commandName [ ]	：无参，说明式回显 commandName 类型,还和使用者语言有关 -t ：单词式回显： file ：外部命令 alias ：别名 builtin ：bash内建 -p ：如果后面接的 commandName 为外部命令，会显示完整文件名； -a ：会由 PATH 变量定义的路径中，将所有含 commandName 字符串的命令都列出来，包含 alias 命令的下达 &amp;ldquo;&amp;quot;#// \ 仅跳脱『紧接着的下一个字符』 Shell 的变量功能#什么是变量#变量的取用与配置 (echo, 变量配置守则, unset)#// 变量的取用: echo echo $varName echo ${varName} // $varName 是 ${varName} 的简化。 // 变量配置守则 // 赋值等号两边不能有空格 // 不能以数字开头 // 命令嵌套 eg : ls -l `locate crontab` // 反单引号 `命令` 或 $(命令) 等价 （推荐后者，因为容易识别，但是不要忘了那个$符号）。 unset varName #注意：此处没有&#39;$&#39; 环境变量的功能: env, export, declare#// env 与 export 可观察环境变量，其中 export 可以将自定义变量转成环境变量； env #查看所有env变量 HOME #cd ~ SHELL HISTSIZE MAIL PATH LANG #语系 RANDOM #/dev/random ; 0~32767 之间 declare -i number=$RANDOM*10/32768 ; echo $number #0~9 之间 set #查看目前 bash 的所有变量 (环境变量+自定义变量)； // set 还可以配置命令环境,见4.</description>
+    </item>
+    
+    <item>
+      <title>Notes of Basic Linux Part-2 Files, Directories, FS</title>
+      <link>http://dmml.nu/vbird-linux-2/</link>
+      <pubDate>Sat, 03 Mar 2012 17:08:16 +0000</pubDate>
+      
+      <guid>http://dmml.nu/vbird-linux-2/</guid>
+      <description>see also jlevy/the-art-of-command-line (multi-language)
+Organised 2017 March.
+Notes from 2012 April.
+多年前（2012）写的“鸟哥的Linux 私房菜”学习笔记。 - Chapters 6~9 -ing
+基本的命令应该没什么变化吧。
+第6章、Linux文件权限与目录配置#user, group#Linux文件权限概念#Linux文件属性 (ls -al)#*首位类型: d: Dir -: 正规文件(regular file ) ASCII/plain text; binary; data(eg: last 才能读 /ar/log/wtmp) l: Link b: Block dev, 可供储存的接口设备(可随机存取装置) c: Character dev, 串行端口设备，例如键盘、鼠标(一次性读取装置) s: Socket, 常见于 /var/run p: Pipe, FIFO. see: man fifo. 在解决多程序同时存取一个文件所造成的错误。 *时间: 最后修改时间 Note: 中文时间乱码: 用『LANG=en_US』来修改语系. /etc/sysconfig/i18n</description>
+    </item>
+    
+    <item>
+      <title>Notes of Basic Linux Part-1 Installation</title>
+      <link>http://dmml.nu/vbird-linux-1/</link>
+      <pubDate>Sat, 03 Mar 2012 17:00:51 +0000</pubDate>
+      
+      <guid>http://dmml.nu/vbird-linux-1/</guid>
+      <description>see also jlevy/the-art-of-command-line (multi-language)
+Organised 2017 March.
+Notes from 2012 April.
+多年前（2012）写的“鸟哥的Linux 私房菜”学习笔记。
+基本的命令应该没什么变化吧。
+原网站： 繁体 linux.vbird.org or 简体 cn.linux.vbird.org 。
+比较简单，我就不总结了，见原网站地址.</description>
+    </item>
+    
+    <item>
+      <title>linux, ubuntu emergency safe reboot</title>
+      <link>http://dmml.nu/2012/02/16/13436/</link>
+      <pubDate>Thu, 16 Feb 2012 00:47:43 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/02/16/13436/</guid>
+      <description>http://en.wikipedia.org/wiki/Magic_SysRq_key#.E2.80.9CREISUB.E2.80.9D_.E2.80.93_safe_reboot
+“REISUB” – safe reboot
+unRaw (take control of keyboard back from X),
+tErminate (send SIGTERM to all processes, allowing them to terminate gracefully),
+kIll (send SIGKILL to all processes, forcing them to terminate immediately),
+Sync (flush hd write-cache data to disk),
+Unmount (remount all filesystems read-only),
+reBoot.</description>
+    </item>
+    
+    <item>
+      <title>php zend framework fix apache2 .htaccess 500 internal server error</title>
+      <link>http://dmml.nu/2012/02/11/13428/</link>
+      <pubDate>Sat, 11 Feb 2012 21:27:29 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/02/11/13428/</guid>
+      <description>以前从来没重视过 /var/log, 这次知道log的重要性了&amp;hellip; N个小时瞎折腾,不如看一眼log.
+\Github\codes\zend_framework\quick-start - study_notes.txt
+/var/log/apache2/error.log
+ps:
+$ apache2 -M
+or
+$ apache2ctl -M
+http://forums.zend.com/viewtopic.php?f=69&amp;amp;t=713</description>
+    </item>
+    
+    <item>
+      <title>linux,ubuntu添加开机自动运行程序方法autorun</title>
+      <link>http://dmml.nu/2011/12/19/13189/</link>
+      <pubDate>Mon, 19 Dec 2011 21:33:41 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/12/19/13189/</guid>
+      <description>1. 开机自动运行#Linux加载后, 它将初始化硬件和设备驱动, 然后运行第一个进程init。init根据配置
+文件继续引导过程，启动其它进程。通常情况下，修改放置在
+/etc/rc或
+/etc/rc.d 或 /etc/rc?.d
+目录下的脚本文件，可以使init自动启动其它程序。例如：编辑
+/etc/rc.d/rc.local 文件(该文件通常是系统最后启动的脚本)，
+在文件最末加上一行“xinit”或“startx”，可以在开机启动后直接进入X－Window。
+2. 登录自动运行#用户登录时，bash先自动执行系统管理员建立的全局登录script ： /ect/profile
+然后bash在用户起始目录下按顺序查找三个特殊文件中的一个：
+/.bash_profile、
+/.bash_login、
+/.profile，
+但只执行最先找到的一个。因此，只需根据实际需要在上述文件中加入命令就可以实
+现用户登录时自动运行某些程序（类似于DOS下的Autoexec.bat）。
+3. 退出自动运行#退出登录时，bash自动执行个人的退出登录脚本
+/.bash_logout。
+例如，在/.bash_logout中加入命令“tar －cvzf c.source.tgz ＊.c”，则在每次退出
+登录时自动执行 “tar” 命令备份 ＊.c 文件。
+4. 定时自动运行#Linux有一个称为crond的守护程序，主要功能是周期性地检查 /var/spool/cron目录
+下的一组命令文件的内容，并在设定的时间执行这些文件中的命令。用户可以通过
+crontab 命令来建立、修改、删除这些命令文件。
+例如，建立文件crondFile，内容为“00 9 23 Jan ＊ HappyBirthday”，运行“crontab
+cronFile”命令后，每当元月23日上午9:00系统自动执行“HappyBirthday”的程序（“＊
+”表示不管当天是星期几）。
+5. 定时自动运行一次#定时执行命令at 与crond 类似（但它只执行一次）：命令在给定的时间执行，但不自
+动重复。at命令的一般格式为：at [ －f file ] time ，在指定的时间执行file文件</description>
+    </item>
+    
+    <item>
+      <title>耶！成了！Port U-boot from smdk2410 to mini2440</title>
+      <link>http://dmml.nu/2011/07/21/12167/</link>
+      <pubDate>Thu, 21 Jul 2011 22:22:13 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/07/21/12167/</guid>
+      <description>e424-uboot.png)</description>
+    </item>
+    
+    <item>
+      <title>Ansible How To</title>
+      <link>http://dmml.nu/ansible/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/ansible/</guid>
+      <description>A simple video tutorial
+OBS: ansible uses py, and py calls /bin/sh, NOT bash !
+PRE-CONFIG#suggested: use ssh-pub-key auth without passphrase.
+INSTALL#Optioanl: add ppa:ansible/ansible
+installation:
+sudo apt-get update &amp;amp;&amp;amp; \ sudo apt-get install ansible HOSTS#vim /etc/ansible/hosts
+master.ip.1 [slaves] slave.domain1 slave.ip.addr.2 [slavesGroup2] slave.domain2 slave.ip.addr.1 (see ref to give hosts&amp;rsquo; names individually.)
+SLAVE USERNAME#sudo mkdir /etc/ansible/group_vars &amp;amp;&amp;amp; \ sudo echo &amp;#39;---&amp;#39; &amp;gt; /etc/ansible/group_vars/all &amp;amp;&amp;amp; \ sudo echo &amp;#39;ansible_ssh_user: root&amp;#39; &amp;gt;&amp;gt; /etc/ansible/group_vars/all (see DigitalOcean ref to config hosts individually.</description>
+    </item>
+    
+    <item>
+      <title>Comparison of Programming Fonts - Fantasque vs Dejavu vs Mononoki vs Inconsolata</title>
+      <link>http://dmml.nu/fonts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/fonts/</guid>
+      <description>Before comparison, we need to know that the following sizes are roughly the same: dejavu09 vs mononoki10 vs inconsolata10
+Dejavu#If you are looking at this page, you know coding.
+If you know coding, you should know Dejavu.
+Thus, I will skip the intro for it.
+Mononoki#looks similar like dejavu, but its punctuation is much bigger and easier to see. // may draw mroe attention than code ?</description>
+    </item>
+    
+    <item>
+      <title>Learning Node.js - React Native</title>
+      <link>http://dmml.nu/learn-nodejs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/learn-nodejs/</guid>
+      <description>Concept#Android native: Cotlin/Java
+iOS native: OC, Swift
+RN is a wrapper of React (node.js) for Android/iOS.
+Main ref: React Native Crash Course. 17 hours (34 tomatoes).
+video on YouTube (3.5h video ~ 10h to learn),
+code on github
+Install &amp;amp; Initialize The 1st Project (Win + Expo)#install node.js (including npm)#Ref: 下载 | Node.js (nodejs.org) https://nodejs.org/zh-cn/download/
+install expo cli#npm install --global expo-cli</description>
+    </item>
+    
+    <item>
+      <title>SSH In Case Of</title>
+      <link>http://dmml.nu/backend-server-linux/ssh-in-case-of/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/backend-server-linux/ssh-in-case-of/</guid>
+      <description>Note: Putty officially recommends to use Bitvise SSH Client &amp;amp; Server.
+See also Powershell.
+SUDO#no passwd for sudo
+vim /etc/sudoers modify ALL=(ALL) ALL to ALL=(ALL) NOPASSWD:ALL (add NOPASSWD: before the last ALL)
+Config &amp;gt; Less Time#Add two commands to avoid long time before asking passwords:
+GSSAPIAuthentication no UseDNS no GSS API is alternative to SSH-keys
+Config &amp;gt; More Security#Change to get high security by using key auth only:</description>
+    </item>
+    
+  </channel>
+</rss>

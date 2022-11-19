@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google on Machine Learning</title>
+    <link>http://dmml.nu/tags/google/</link>
+    <description>Recent content in Google on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Aug 2016 14:08:15 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/google/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google NCR (No Country Redirection)</title>
+      <link>http://dmml.nu/google-ncr/</link>
+      <pubDate>Thu, 25 Aug 2016 14:08:15 +0000</pubDate>
+      
+      <guid>http://dmml.nu/google-ncr/</guid>
+      <description>To avoid contry redirection, use the following search string in chrome as the default engine:
+https://www.google.com/search?q=%s&amp;gws_rd=cr
+There are some extensions to force another redirection to .com, but it disturbs the &amp;ldquo;back page&amp;rdquo; action.</description>
+    </item>
+    
+  </channel>
+</rss>

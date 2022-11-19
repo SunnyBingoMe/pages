@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Diet on Machine Learning</title>
+    <link>http://dmml.nu/tags/diet/</link>
+    <description>Recent content in Diet on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Apr 2017 09:07:02 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/diet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gym Sports Tips</title>
+      <link>http://dmml.nu/sports-tips/</link>
+      <pubDate>Sun, 23 Apr 2017 09:07:02 +0000</pubDate>
+      
+      <guid>http://dmml.nu/sports-tips/</guid>
+      <description>3分钟带你认识能减肥的有氧运动 | 真相大白话
+这就是为什么你少吃多运动，还不见瘦的原因！
+Palio diet 生酮减肥
+这才是锻炼的真相：慢跑、快走对减肥没用，最常见的健康杀手是它！
+关于减脂，你只需要看这一篇文章就够了 zhihu blog
+See also: daily clothes.
+一般人（没有心脑血管问题）简单心率公式的总结：
+静息心率的测量：早晨睡醒，清醒后、起床前的测量值。
+静息心率 HR_rest 一般 60~100，（白领常见70~80之间）。
+最大心率 HR_max = 206.9-0.67×年龄，（中年常见170~180之间）。
+储备心率 HR_reserve = HR_max - HR_rest （常见100）。
+运动强度 = (HR_real - HR_rest)/HR_reserve。
+低强度运动： 运动强度==40% （常见110~120） 【有氧运动】 （建议 50% 以上才是有效运动）。
+中强度运动： 运动强度==60% （常见130~140） 【有氧运动】 （60%~80% 是黄金心率）。
+高强度运动： 运动强度==80% （常见150~170） 【无氧运动】 （75%以上是无氧，建议不要超过 85%）。
+参考百科：
+最佳运动心律控制区域计算法：(适合有心脏问题的人)
+晨脉×1.8=心率控制上限。
+晨脉×1.4=心率控制下限。
+参考douban：
+50%~60%: 运动出力状态:放松的简单慢跑，有规律的呼吸 效果:初始阶段的有氧训练；减轻压力. 消耗:脂肪和糖份消耗量均比较小. 典型运动:适量运动:简单慢跑,步行
+60%~70%: 运动出力状态:舒服的速度；有点加深的呼吸，可以说话。 效果:心血管健康的基本训练；很好的恢复速度,体重控制。 消耗:脂肪消耗最大, 糖份消耗一般 典型运动:跑步, 滑轮</description>
+    </item>
+    
+  </channel>
+</rss>

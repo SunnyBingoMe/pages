@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MaxQDA on Machine Learning</title>
+    <link>http://dmml.nu/tags/maxqda/</link>
+    <description>Recent content in MaxQDA on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Feb 2017 12:22:06 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/maxqda/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QDA - Comparison &amp; Tips</title>
+      <link>http://dmml.nu/qda/</link>
+      <pubDate>Sun, 26 Feb 2017 12:22:06 +0000</pubDate>
+      
+      <guid>http://dmml.nu/qda/</guid>
+      <description>QDA can be used for literature review, but not bibtex management. For bibtex/latex management, see Reference and Knowledge Management (Zotero, Qiqqa).
+I wrote this blog in a short time, please leave a comment if you find any mistakes.
+As a PhD student, I found QDA method and software are very useful. However, I need to choose software carefully due to the lock-in effects, which is not a problem for Zotero-like reference management software.</description>
+    </item>
+    
+  </channel>
+</rss>

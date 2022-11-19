@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C&#43;&#43; on Machine Learning</title>
+    <link>http://dmml.nu/tags/c&#43;&#43;/</link>
+    <description>Recent content in C&#43;&#43; on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://dmml.nu/tags/c++/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C-CPP-Programming-in-case-of</title>
+      <link>http://dmml.nu/c-cpp-in-case-of/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/c-cpp-in-case-of/</guid>
+      <description>Data Structure Alignment 数据结构对齐#x86-64 architecture#Overall rule: any data structure/element should be accessed by CPU with minimum CPU cycles. A 32bit CPU can access 4Bytes in one cycle, while a 64bit one can access 8Bytes. When a memory access is not aligned, it is said to be misaligned (wiki).
+Thus, there are two practical rules for us to understand compiler&amp;rsquo;s padding:
+Rule 1: any basic data structure/element/variable should be aligned so that their beginning address is divisible (任何变量的开始地址都能被自己的大小整除，即：当被访问的数据长度为 n 字节时，数据地址为 n 字节对齐。).</description>
+    </item>
+    
+  </channel>
+</rss>

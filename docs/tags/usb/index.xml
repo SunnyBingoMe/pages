@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>USB on Machine Learning</title>
+    <link>http://dmml.nu/tags/usb/</link>
+    <description>Recent content in USB on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Feb 2017 15:31:08 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/usb/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Easy2boot How To</title>
+      <link>http://dmml.nu/bootable/</link>
+      <pubDate>Wed, 01 Feb 2017 15:31:08 +0000</pubDate>
+      
+      <guid>http://dmml.nu/bootable/</guid>
+      <description>Rufus#Open-source Microsoft application (thus can download official MS ISOs).
+Rufus Features
+It is a 100% free utility software for Windows users. Rufus has a DOS-compatible environment to run legacy tools with FreeDOS and MBR partitions. Allows formatting the USB disk into multiple file formats including UDF, NTFS, ReFS, or FAT. Easily compute the MD5, SHA-256, and SHA-1 image hashes. Elevated UAC and UI structure. The program can be downloaded on both desktops and laptops.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>distributions on Machine Learning</title>
+    <link>http://dmml.nu/tags/distributions/</link>
+    <description>Recent content in distributions on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 16 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/distributions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Play Linux System Distributions Online in a Web Browser</title>
+      <link>http://dmml.nu/nix-online/</link>
+      <pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/nix-online/</guid>
+      <description>Note: many with 5 minute inactive limit and 30 minutes per session limit.
+CodeAnyWhere container (tested 2022.02, w/ root-sudo &amp;amp; git): py, c/c++, java, php, js, ruby, h5, wordpress, .net, rust, go, node.js. (can skip all payment part). terminal speed good. limitted free trial time.
+WebMinal (tested 2022.02, NO root/git) (CN network issue for home page, but ok after): Federo CentOS7 (py2.7), right-sided lessons/tutorials (great for new users): shell, MySQL, Python etc.</description>
+    </item>
+    
+    <item>
+      <title>Nix Linux Distribution Comparison, Timeline and Relationship</title>
+      <link>http://dmml.nu/nix-distro/</link>
+      <pubDate>Wed, 13 Jul 2016 11:42:25 +0000</pubDate>
+      
+      <guid>http://dmml.nu/nix-distro/</guid>
+      <description>Main branches directly from linux kernels:
+Debian, (K)Ubuntu/Deepin &amp;hellip; RedHat, CentOS, Fedora &amp;hellip; Slackware, Suse, OpenSuse (Leap vs. Tumbleweed) &amp;hellip; Arch, Manjaro &amp;hellip; Android &amp;hellip; RHEL = Red Hat (Inc.) Enterprise Linux
+SLE = SUSE Linux Enterprise
+openSUSE Leap &amp;lt;&amp;ndash;&amp;gt; CentOS(Rocky Linux)
+openSUSE Tumbleweed &amp;lt;&amp;ndash;&amp;gt; Fedora
+Sizes Just After Installation (Disk &amp;amp; RAM)#OS Installation DISK size en (GB) Installation DISK size cn (GB) RAM
+(GB) Notes Deepin 20.4 ?</description>
+    </item>
+    
+  </channel>
+</rss>

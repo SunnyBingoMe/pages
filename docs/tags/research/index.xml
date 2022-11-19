@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research on Machine Learning</title>
+    <link>http://dmml.nu/tags/research/</link>
+    <description>Recent content in Research on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 07 Nov 2012 19:32:29 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MicroSoft (MS) Office Citation/Bibliography - How To</title>
+      <link>http://dmml.nu/2012/11/07/14549/</link>
+      <pubDate>Wed, 07 Nov 2012 19:32:29 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/11/07/14549/</guid>
+      <description>NOTE: this article is dated, please use Zotero plugins.
+1. Import Resources#&amp;ldquo;over-write&amp;rdquo;, if asked.
+2. Insert Citation#3. Append Bibliography#4. Known Issues#4.1. Delete Extra Items#MS will not delete the extra items (not cited items) automatically.
+Make sure that your thesis is the final version, then you could delete the extra bib items.
+References &amp;gt; Manage &amp;gt; Select (on the right hand) &amp;gt; Delete.</description>
+    </item>
+    
+  </channel>
+</rss>

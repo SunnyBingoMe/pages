@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SCP on Machine Learning</title>
+    <link>http://dmml.nu/tags/scp/</link>
+    <description>Recent content in SCP on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Jan 2017 15:13:19 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/scp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SCP-How-To</title>
+      <link>http://dmml.nu/scp-how-to/</link>
+      <pubDate>Sun, 22 Jan 2017 15:13:19 +0000</pubDate>
+      
+      <guid>http://dmml.nu/scp-how-to/</guid>
+      <description>Local flder t1/, file tt1.
+example:
+scp -r -P 22 t1/ user@server.com:/mnt/share/t2/
+-r: recursively.
+-P: Port nr. Note: captical char.
+Result:
+if /mnt/share/ has folder t2/, t1/ will be in t2/. if no such a dir, t1/ will be renamed as t2/ inside share/. if there is file t2: mnt/share/t2, will get error &amp;ldquo;scp: /mnt/share/t2: Not a directory&amp;rdquo;. scp will NOT create new folder on server. </description>
+    </item>
+    
+  </channel>
+</rss>

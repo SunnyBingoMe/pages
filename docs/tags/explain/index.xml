@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Explain on Machine Learning</title>
+    <link>http://dmml.nu/tags/explain/</link>
+    <description>Recent content in Explain on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 17 Apr 2018 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/explain/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ML Interpratation, Comprehensibility &amp; Causality</title>
+      <link>http://dmml.nu/ml-understand/</link>
+      <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/ml-understand/</guid>
+      <description>See also:
+DL-theory &amp;gt; ## cnn visualization/comprehensibility
+可解释的机器学习 (What) 可解释性的重要性 (Why) 具体如何解释 (How) Insights which can be extracted from the models Permutation Importance Partial Dependency Plots SHAP Values SHAP Values in Advance LIME (万金油), Tree interpreter, etc.
+凭什么相信你，我的CNN模型？关于CNN模型可解释性的思考 inc.:CAM, Grad-CAM, Lime.
+Book by Christoph Molnar: Interpretable Machine Learning &amp;ndash; A Guide for Making Black Box Models Explainable (GitHub), (CN)
+All-in-one: SHAP.
+ref:
+https://medium.com/@Zelros/a-brief-history-of-machine-learning-models-explainability-f1c3301be9dc
+Causality / Causal Inference#Jonas Peters, Dominik Janzing and Bernhard Schölkopf 2017 - Elements of Causal Inference ; Bernhard Schölkopf 2019 - Causality for Machine Learning,</description>
+    </item>
+    
+  </channel>
+</rss>

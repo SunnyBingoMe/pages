@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bitvise SSH Client &amp; Server on Machine Learning</title>
+    <link>http://dmml.nu/tags/bitvise-ssh-client-server/</link>
+    <description>Recent content in Bitvise SSH Client &amp; Server on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 07 Feb 2018 10:38:59 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/bitvise-ssh-client-server/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bitvise SSH Client &amp; Server</title>
+      <link>http://dmml.nu/bitvise/</link>
+      <pubDate>Wed, 07 Feb 2018 10:38:59 +0000</pubDate>
+      
+      <guid>http://dmml.nu/bitvise/</guid>
+      <description>CLIENT#tunnelling (c2s)#(redirect traffic from Client ports to Server ports)
+The client will listen on interface 127.0.0.1 and forward the request to the server, the server will forward the request to the destination.
+See also: bit.ly/s_ssh &amp;gt; # SSH Tunneling &amp;gt; ## port forwarding (direct forwarding).
+proxy#&amp;ldquo;SOCKS/HTTP Proxy Forwarding&amp;rdquo; is in tab &amp;ldquo;Services&amp;rdquo;.
+SERVER#(only necessary for windows)
+installation#Download Bitvise SSH Client and/or Server from official web.</description>
+    </item>
+    
+  </channel>
+</rss>

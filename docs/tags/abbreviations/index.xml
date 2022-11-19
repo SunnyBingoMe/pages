@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abbreviations on Machine Learning</title>
+    <link>http://dmml.nu/tags/abbreviations/</link>
+    <description>Recent content in Abbreviations on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Aug 2012 20:35:48 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/abbreviations/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>瑞典语常用缩略语</title>
+      <link>http://dmml.nu/2012/08/27/13955/</link>
+      <pubDate>Mon, 27 Aug 2012 20:35:48 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/08/27/13955/</guid>
+      <description>from 林林小筑: http://www.linlinhouse.com/795.html
+tex （t. ex.） [til:eks&amp;rsquo;em:pel]＝till exempel 比如说
+v.g.v=var god vänd 请翻页
+bl a （bl. a.）=bland annat 除此以外
+d.v.s=det will säga 也就是说
+m.m=med mera
+o.s.v=och　så vidare 依此类推
+p.g.a=på grund av 由于
+m.fl=med flera
+t.o.m=till och med
+fr.o.m=från och med
+s.k= så kallad
+OBS=observera 注意！
+MVH=Med vänliga hälsningar 写信时放最后的问候语，相当于“致以友好的问候”
+ca(c:a)=cirka 大概
+e.Kr=efter Kristus 公元
+f.Kr.=före Kristus 公元前
+fm.(f.m.)=förmiddag 上午
+em.(e.m.)=eftermiddag 下午
+ngn=någon 某个
+ngt=något 某个
+O.s.a=om svar anhålles 常放在邀请函里头，表示邀请方希望得到被邀请方是否参加的答复</description>
+    </item>
+    
+  </channel>
+</rss>

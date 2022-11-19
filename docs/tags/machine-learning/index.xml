@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine Learning</title>
+    <link>http://dmml.nu/tags/machine-learning/</link>
+    <description>Recent content on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>English-Chinese-Terminology-Translation-个人常用词汇英汉对照</title>
+      <link>http://dmml.nu/term/</link>
+      <pubDate>Wed, 15 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/term/</guid>
+      <description> English Chinese ad-hoc, ad hoc (fix/method) 特设的（修改/方法） training (dataset) 训练（集） n. evaluation (dataset) 验证（集） n. testing (dataset) 测试（集） n. train 训练 v. evaluate 验证 v. test 测试 v. 试 v. </description>
+    </item>
+    
+    <item>
+      <title>AI Cloud</title>
+      <link>http://dmml.nu/ai-cloud/</link>
+      <pubDate>Fri, 01 Nov 2019 23:30:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/ai-cloud/</guid>
+      <description>&amp;ldquo;if you plan to use deep learning extensively (&amp;gt;150 hrs/mo), building your own deep learning workstation might be the right move.&amp;rdquo; [medium]
+Baidu AI Studio (only for PaddlePaddle) Paperspace (cooperating with fast.ai) Google Colab (cooperating with fast.ai) vast.ai (C2C/P2P sharing, very cheap, a lot of time to init/load/unload) Kaggle (max 6h, good GPU but complex steps to use) MS Azure Amazon FloydHub (special CLI interface) ref:
+CN intro: Paperspace vs. Colab, 2019 Best Deals in Deep Learning Cloud Providers, 2018 比较云GPU平台 an.</description>
+    </item>
+    
+    <item>
+      <title>Reinforcement Learning</title>
+      <link>http://dmml.nu/rl/</link>
+      <pubDate>Mon, 21 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/rl/</guid>
+      <description>德州农工大学开源RLCard：帮你快速训练会斗地主的智能体
+See simple DEF &amp;amp; code in 邱锡鹏 教授 2020 神经网络与深度学习.
+深度学习.</description>
+    </item>
+    
+    <item>
+      <title>Learning Machine Learning, ML Books &amp; Codes</title>
+      <link>http://dmml.nu/ml-books/</link>
+      <pubDate>Sat, 07 Jul 2018 19:06:08 +0000</pubDate>
+      
+      <guid>http://dmml.nu/ml-books/</guid>
+      <description>See also:
+Machine Learning - Just-do-it (hands on) Basics Math Books Favoured#MLY (Andrew Ng), Machine Learning Yearning (EN full: ch1-13), 《CN: 机器学习秘籍》(CN Web online), (CN Github) and someone&amp;rsquo;s notes: part 1 (bak), part 2 (bak) and part 3.
+MLAPP (Kevin Murphy), Machine Learning - A Probablistic Perspective, is more comprehensive, insightful and interesting, and contains more &amp;ldquo;real&amp;rdquo; examples/problems. However, the presents are kinda out of order, which can be difficult to follow for a first book.</description>
+    </item>
+    
+    <item>
+      <title>ML Interpratation, Comprehensibility &amp; Causality</title>
+      <link>http://dmml.nu/ml-understand/</link>
+      <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/ml-understand/</guid>
+      <description>See also:
+DL-theory &amp;gt; ## cnn visualization/comprehensibility
+可解释的机器学习 (What) 可解释性的重要性 (Why) 具体如何解释 (How) Insights which can be extracted from the models Permutation Importance Partial Dependency Plots SHAP Values SHAP Values in Advance LIME (万金油), Tree interpreter, etc.
+凭什么相信你，我的CNN模型？关于CNN模型可解释性的思考 inc.:CAM, Grad-CAM, Lime.
+Book by Christoph Molnar: Interpretable Machine Learning &amp;ndash; A Guide for Making Black Box Models Explainable (GitHub), (CN)
+All-in-one: SHAP.
+ref:
+https://medium.com/@Zelros/a-brief-history-of-machine-learning-models-explainability-f1c3301be9dc
+Causality / Causal Inference#Jonas Peters, Dominik Janzing and Bernhard Schölkopf 2017 - Elements of Causal Inference ; Bernhard Schölkopf 2019 - Causality for Machine Learning,</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning - Just-do-it (hands on) Basics</title>
+      <link>http://dmml.nu/ml-do-it/</link>
+      <pubDate>Mon, 13 Mar 2017 10:27:36 +0000</pubDate>
+      
+      <guid>http://dmml.nu/ml-do-it/</guid>
+      <description>See also: ML books.
+This blog collects some useful materials for non-theory learners like engineers.
+Book: python-machine-learning-book
+code on github
+ML from scratch (py)
+Erik Linder-Norén, Stockholm
+Machine learning, in numpy (so, also scratch, but a lot Neural Nets &amp;amp; RL)
+David Bourgin, CA
+7 Types of Regression Techniques you should know (modern regressions)
+analyticsvidhya
+evernote backup
+GitHub标星1.3k！一款功能强大的特征选择工具 2019.11
+Causality analysis: MS dowhy, Causalinference in py (inactive), CausalInference in Julia, IBM causallib etc.</description>
+    </item>
+    
+    <item>
+      <title>DMML Tools Trend &amp; Relationship 2016</title>
+      <link>http://dmml.nu/trend2016/</link>
+      <pubDate>Thu, 16 Jun 2016 10:12:05 +0000</pubDate>
+      
+      <guid>http://dmml.nu/trend2016/</guid>
+      <description>This is a summary of KD-nuggets blogs: here and here. Pictures are modified for my own notes.
+Tools Associations#![](./_image/2016-06-17 18-27-03.jpg)
+sunny&amp;rsquo;s conclusion#Possible framework 1: Hadoop + Spark + Python + scikit.
+Possible framework 2: SQL+ Excel + Tableau.
+Try NOT use: RapidMiner, KNIME (whatever situation).
+Big Data Related Tools#![](./_image/2016-06-17 18-40-16.jpg)
+Deep Learning Related Tools#![](./_image/2016-06-17 18-42-52.jpg)
+Big_Data- / Deep_Learning-Related Tools#![](./_image/2016-06-17 18-47-05.jpg)</description>
+    </item>
+    
+  </channel>
+</rss>

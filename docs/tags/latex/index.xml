@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Latex on Machine Learning</title>
+    <link>http://dmml.nu/tags/latex/</link>
+    <description>Recent content in Latex on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 May 2017 11:52:34 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/latex/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BibLatex, BibTex, Citation, Reference Formatting</title>
+      <link>http://dmml.nu/bibtex/</link>
+      <pubDate>Tue, 23 May 2017 11:52:34 +0000</pubDate>
+      
+      <guid>http://dmml.nu/bibtex/</guid>
+      <description>SOME PACKAGES#package{natbib}#% OBS!: plainnat style has conflict with C style multi-line comments /* */.
+% OBS!: plainnat request zotero to export records as bibTex, not bibLatex.
+\usepackage{natbib} \cite Aaa et al. (2002) \citet == \cite \citet* Aaa, Bbb and Ccc (2002) \citep (Aaa et al., 2002) \citep* (Aaa, Bbb and Ccc, 2002) \citealt Aaa et al. 2002 \citealp Aaa et al., 2002 \citeauthor{..} Aaa et al.</description>
+    </item>
+    
+    <item>
+      <title>Paper Writing, Plotting and Coding Tips</title>
+      <link>http://dmml.nu/paper-tips/</link>
+      <pubDate>Thu, 02 Feb 2017 18:43:43 +0000</pubDate>
+      
+      <guid>http://dmml.nu/paper-tips/</guid>
+      <description>See also time plan by tomato-timing.
+Variable Names#several types:
+var name in paper, usually single char, e.g. $d$. col name in df/dt, usually several words, e.g. &amp;ldquo;search_step&amp;rdquo;. human readable string, e.g. &amp;ldquo;Search Step Length&amp;rdquo;. other variables in R/Py, e.g. t_searchStep, algorithmSetup$searchStepLengthListing. Linguistic &amp;amp; Journals Tools#English colocations (搭配): Linggle.com &amp;amp; NetSpeak.org &amp;amp; Writefull &amp;amp; Grammarly English Corpus (inc.colocates ) (语料库) Contemporary American English &amp;amp; British National Corpus (BYU-BNC) (see ref-Corpus for usages !</description>
+    </item>
+    
+    <item>
+      <title>MicroSoft (MS) Office Citation/Bibliography - How To</title>
+      <link>http://dmml.nu/2012/11/07/14549/</link>
+      <pubDate>Wed, 07 Nov 2012 19:32:29 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/11/07/14549/</guid>
+      <description>NOTE: this article is dated, please use Zotero plugins.
+1. Import Resources#&amp;ldquo;over-write&amp;rdquo;, if asked.
+2. Insert Citation#3. Append Bibliography#4. Known Issues#4.1. Delete Extra Items#MS will not delete the extra items (not cited items) automatically.
+Make sure that your thesis is the final version, then you could delete the extra bib items.
+References &amp;gt; Manage &amp;gt; Select (on the right hand) &amp;gt; Delete.</description>
+    </item>
+    
+    <item>
+      <title>Latex 调用 Bibtex (IEEEtran in pdfLatex of TexWorks)</title>
+      <link>http://dmml.nu/2011/12/29/13226/</link>
+      <pubDate>Thu, 29 Dec 2011 03:47:05 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/12/29/13226/</guid>
+      <description>文章结束(\end{document})前 加入:
+\bibliographystyle{IEEEtran} \bibliography{references_filename} 其中 references_filename 是文件名, 指同文件夹下的 references_filename.bib.
+.bib 文件格式为:
+@BOOK{testBook, author={Everett, G. and McLeod, R.}, title={Software Testing(Testing Across the Entire Software Development Life Cycle)},&amp;lt;/pre&amp;gt; year={2006}, month={3}, volume={}, number={}, pages={345}, keywords={}, doi={}, ISSN={},} OBS 注意, 这里不是&amp;quot;booktitle&amp;quot;, 是&amp;quot;title&amp;quot; 有些类型(例如INPROCEEDINGS)需要用&amp;quot;booktitle&amp;quot;, 不同的时候需要不同的关键词.
+然后依次运行:** latex 编译 &amp;gt; bibtex 编译 &amp;gt; latex 编译 &amp;gt; latex 编译** (注意, 一共三次 latex 编译).
+如果 dvi/pdf 文件不是你想要的结果, 请一定要删除程序生成的中间文件和临时文件(不是自己编辑的都删除,包括 dvi/pdf), 然后再次运行以上四个命令.
+f), 然后再次运行以上四个命令.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DHCP on Machine Learning</title>
+    <link>http://dmml.nu/tags/dhcp/</link>
+    <description>Recent content in DHCP on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 May 2017 10:27:50 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/dhcp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DHCP</title>
+      <link>http://dmml.nu/dhcp/</link>
+      <pubDate>Tue, 16 May 2017 10:27:50 +0000</pubDate>
+      
+      <guid>http://dmml.nu/dhcp/</guid>
+      <description>Install &amp;amp; Basic Config#install#sudo apt-get install isc-dhcp-server interfaces#vi /etc/default/isc-dhcp-server
+INTERFACES=&amp;#34;eth0 eth1 eth2&amp;#34; config network param#vi /etc/dhcp/dhcpd.conf
+# ns servers separated by comma &amp;#34;,&amp;#34; ! ! ! option domain-name-servers 10.0.0.1, 10.0.0.2; # lease time in sec: -1 for infinity. default-lease-time -1; max-lease-time -1; # a very basic subnet declaration: subnet 10.0.0.0 netmask 255.255.255.0 { interface enp0s3; # optional range 10.0.0.150 10.0.0.254; # separated by space &amp;#34; &amp;#34; option routers 10.</description>
+    </item>
+    
+  </channel>
+</rss>

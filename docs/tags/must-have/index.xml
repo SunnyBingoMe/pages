@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Must-have on Machine Learning</title>
+    <link>http://dmml.nu/tags/must-have/</link>
+    <description>Recent content in Must-have on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 Dec 2016 18:27:47 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/must-have/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux init after installation</title>
+      <link>http://dmml.nu/linux-init/</link>
+      <pubDate>Mon, 19 Dec 2016 18:27:47 +0000</pubDate>
+      
+      <guid>http://dmml.nu/linux-init/</guid>
+      <description>PROBLEMS#sudo takes a long time (when network having issues)#Reason: distros should have added new host name to /etc/hosts, if the name is changed/added during installation ref.
+echo -n &amp;#39;127.0.0.1 &amp;#39; &amp;gt;&amp;gt; /etc/hosts &amp;amp;&amp;amp; cat /proc/sys/kernel/hostname &amp;gt;&amp;gt; /etc/hosts or:
+127.0.0.1 localhost localhost.localdomain localhost4 localhost4.localdomain4 &amp;lt;ADD_YOUR_HOST_NAME&amp;gt; ::1 localhost localhost.localdomain localhost6 localhost6.localdomain6 &amp;lt;ADD_YOURS_HERE&amp;gt; annoying &amp;ldquo;software updater&amp;rdquo;#sudo sed -i &amp;#39;s/1/0/&amp;#39; /etc/apt/apt.conf.d/20auto-upgrades ; cat /etc/apt/apt.conf.d/20auto-upgrades sudo apt-get remove --auto-remove gnome-software empty/black screen#If screen blacked out after 1st reboot, the problem is gfxmode $linux_gfx_mode in grub.</description>
+    </item>
+    
+  </channel>
+</rss>

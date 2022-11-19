@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dropbox on Machine Learning</title>
+    <link>http://dmml.nu/tags/dropbox/</link>
+    <description>Recent content in Dropbox on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Dec 2016 21:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/dropbox/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install Dropbox for Headless Servers</title>
+      <link>http://dmml.nu/Install-Dropbox-for-Headless-Servers/</link>
+      <pubDate>Sat, 03 Dec 2016 21:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/Install-Dropbox-for-Headless-Servers/</guid>
+      <description>ref-DigitalOcean
+Install#64 bit:
+cd ~ wget -O dropbox-linux-x86_64.tar.gz https://www.dropbox.com/download?plat=lnx.x86_64 &amp;amp;&amp;amp; \ sudo mkdir -p /opt/dropbox &amp;amp;&amp;amp; \ sudo tar xzfv dropbox-linux-x86_64.tar.gz --strip 1 -C /opt/dropbox &amp;amp;&amp;amp; \ sudo ln -s /opt/dropbox/dropboxd /usr/bin/dropboxd &amp;amp;&amp;amp; \ dropboxd &amp;amp; for 32 bit OS the url is: xxxx?plat=lnx.x86
+Install Command Line Interface (CLI) [Optional]#cd ~ sudo wget -O /usr/bin/dropbox.py https://www.dropbox.com/download?dl=packages/dropbox.py &amp;amp;&amp;amp; \ sudo chmod +x /usr/bin/dropbox.py &amp;amp;&amp;amp; \ ln -s /opt/dropbox ~/.</description>
+    </item>
+    
+  </channel>
+</rss>

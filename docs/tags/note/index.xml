@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Note on Machine Learning</title>
+    <link>http://dmml.nu/tags/note/</link>
+    <description>Recent content in Note on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/note/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blogs, Knowledge Bases (for tech)</title>
+      <link>http://dmml.nu/blog-knowledge-base/</link>
+      <pubDate>Mon, 11 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/blog-knowledge-base/</guid>
+      <description>See also: Project &amp;amp; Code Management Platform Comparison
+Blogs#Public host: wordpress.com / blogger / CSDN / CNBlogs (博客园) / zhuanlan.zhihu (知乎专栏) / &amp;hellip; Private host (LAMP/XAMPP/MEAN): wordpress.org / Drupal / Joomla / Public/Private host: Hexo/JekyII + github/gitee. Note:
+LAMP = Linux, Apache, MySQL and PHP/Python/Perl.
+XAMPP = cross platform, Apache, MySQL/MariaDB, PHP/Python/Perl.
+MEAN = MongoDB, Express (for Node.js), AngularJS, Node.js.
+Knowledge Base Online Office#Notion, 语雀, 我来(wolai.com)的比较</description>
+    </item>
+    
+  </channel>
+</rss>

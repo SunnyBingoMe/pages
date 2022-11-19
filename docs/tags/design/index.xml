@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Design on Machine Learning</title>
+    <link>http://dmml.nu/tags/design/</link>
+    <description>Recent content in Design on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Jan 2017 12:07:51 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Path to System Design</title>
+      <link>http://dmml.nu/system-design/</link>
+      <pubDate>Sun, 15 Jan 2017 12:07:51 +0000</pubDate>
+      
+      <guid>http://dmml.nu/system-design/</guid>
+      <description>SNAKE TEMPLATE FOR REQUIREMENT#Scenario: use-case (if system is big) / interface (if sys is small).
+Necessary: constrain/hypothesis.
+Application: service/algorithm, e.g. MVC etc.
+Kilobit: data.
+Evolve: agile spring plan, inc. performance.
+Example of recommender sys for personal radio station.
+S: recommend a song for a user; like; dislike; skip.
+N: 5 Millon users online &amp;raquo; about 50k qps (quests per sec) &amp;raquo; need 1~2 servers only (cuz we can optimize, e.</description>
+    </item>
+    
+  </channel>
+</rss>

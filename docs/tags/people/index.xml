@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>People on Machine Learning</title>
+    <link>http://dmml.nu/tags/people/</link>
+    <description>Recent content in People on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/people/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project-and-Code-Management-Software</title>
+      <link>http://dmml.nu/project-management/</link>
+      <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/project-management/</guid>
+      <description>See also BLog &amp;amp; Knowledge Base Comparison
+Online Code (&amp;amp; Project) Management Comparison#updated: 2022-04-16.
+ref: secrss 安全内参
+github .com#gitlab .com (not .org)#gitcode .net (previously code.china.csdn)#free:
+based on GitLab. learning lab (discontinued): max 10 courses. no other limits? more: 企业入驻流程
+cloud.baidu.com 智能云/效率云#free:
+people: max 50 (100 during covid-19). repo size: 10GB in total. CI: 1800 min/month. wiki: no ? see ref secrss.</description>
+    </item>
+    
+  </channel>
+</rss>

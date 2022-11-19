@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software-and-Skills on Machine Learning</title>
+    <link>http://dmml.nu/software-and-skills/</link>
+    <description>Recent content in Software-and-Skills on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/software-and-skills/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blogs, Knowledge Bases (for tech)</title>
+      <link>http://dmml.nu/blog-knowledge-base/</link>
+      <pubDate>Mon, 11 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/blog-knowledge-base/</guid>
+      <description>See also: Project &amp;amp; Code Management Platform Comparison
+Blogs#Public host: wordpress.com / blogger / CSDN / CNBlogs (博客园) / zhuanlan.zhihu (知乎专栏) / &amp;hellip; Private host (LAMP/XAMPP/MEAN): wordpress.org / Drupal / Joomla / Public/Private host: Hexo/JekyII + github/gitee. Note:
+LAMP = Linux, Apache, MySQL and PHP/Python/Perl.
+XAMPP = cross platform, Apache, MySQL/MariaDB, PHP/Python/Perl.
+MEAN = MongoDB, Express (for Node.js), AngularJS, Node.js.
+Knowledge Base Online Office#Notion, 语雀, 我来(wolai.com)的比较</description>
+    </item>
+    
+    <item>
+      <title>Windows Management Tools</title>
+      <link>http://dmml.nu/win-mgmt/</link>
+      <pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/win-mgmt/</guid>
+      <description>Windows Task Scheduler （任务计划程序）#Examples:
+$action = New-ScheduledTaskAction -Execute &amp;#39;pwsh.exe&amp;#39; -Argument &amp;#39;-NonInteractive -NoLogo -NoProfile -File &amp;#34;C:\MyScript.ps1&amp;#34;&amp;#39; $trigger = New-ScheduledTaskTrigger -Once -At 3am $settings = New-ScheduledTaskSettingsSet $task = New-ScheduledTask -Action $Action -Trigger $Trigger -Settings $Settings Register-ScheduledTask -TaskName &amp;#39;MySchedule&amp;#39; -InputObject $task -User &amp;#39;username&amp;#39; -Password &amp;#39;passhere&amp;#39; ScheduledTask -TaskName &amp;#39;MySchedule&amp;#39; $action = New-ScheduledTaskAction -Execute &amp;#39;Powershell.exe&amp;#39; ` -Argument &amp;#39;-NoProfile -WindowStyle Hidden -command &amp;#34;&amp;amp; {get-eventlog -logname Application -After ((get-date).AddDays(-1)) | Export-Csv -Path c:\fso\applog.csv -Force -NoTypeInformation}&amp;#34;&amp;#39; $trigger = New-ScheduledTaskTrigger -Daily -At 0am Register-ScheduledTask -Action $action -Trigger $trigger -TaskName &amp;#34;AppLog&amp;#34; -Description &amp;#34;Daily dump of Applog&amp;#34; $action = New-ScheduledTaskAction -Execute &amp;#39;C:\FreeFileSync\FreeFileSync.</description>
+    </item>
+    
+    <item>
+      <title>Learning Regular Expression (&amp; In Case Of)</title>
+      <link>http://dmml.nu/regular-expression/</link>
+      <pubDate>Thu, 02 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/regular-expression/</guid>
+      <description>30 分钟入门教程 deerChao
+菜鸟教程 ruNoob
+表达式全集（符号说明） OSChina
+Regular Expressions Examples
+Perl Regular Expressions (ref: origin)
+Online test: 站长工具 tool.chinaZ.com
+理论 zomilla MDN
+常用正则表达式
+gex/)</description>
+    </item>
+    
+    <item>
+      <title>Find and Kill a Process</title>
+      <link>http://dmml.nu/port-kill/</link>
+      <pubDate>Sat, 09 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/port-kill/</guid>
+      <description>see also: 鸟哥 Linux 私房菜 Basic Linux.
+Linux#find bound PID by port: fuser 8080/tcp
+kill by port: fuser -k 8080/tcp
+list by port: lsof -i:8080
+using netstat: netstat -nlpte |grep :8080
+or: ss -nlpt &#39;sport = :8080&#39;
+ref 1 &amp;amp; ref 2
+Windows#CMD find &amp;amp; kill by PID:
+netstat -ano | findstr :8080 tasklist | findstr &amp;#34;&amp;lt;the_PID&amp;gt;&amp;#34; taskkill /PID &amp;lt;the_PID&amp;gt; /F PS find for TCP &amp;amp; UDP:</description>
+    </item>
+    
+    <item>
+      <title>Windows Package Managers</title>
+      <link>http://dmml.nu/winget/</link>
+      <pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/winget/</guid>
+      <description>Chocolatey
+https://chocolatey.org/install
+usage: choco install javaruntime; choco install graphviz
+winget
+https://github.com/microsoft/winget-cli/releases (the .appxbundle)
+usage: winget install -e --id Oracle.JavaRuntimeEnvironment; winget install graphviz
+t install graphviz`</description>
+    </item>
+    
+    <item>
+      <title>Python GUI Frontend Options Comparison</title>
+      <link>http://dmml.nu/py-gui/</link>
+      <pubDate>Thu, 14 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/py-gui/</guid>
+      <description>Mainly for the (cross-platform) Python GUI frontend options.
+CEF (Chromium Embedded Framework). Pro: can use the same way of MVC thinking (modern html5); build-in chromium browser. Con: someone said it may need a little c++. PyQt (v5). Pro: big community, good doc (for c++). Con: c++ way of thinking, just the language is py (the official GUI tutorial lacks GUI screenshots!); pay for commercial usage; still often needs c++. Tkinter. Pro: build-in w/ py, big community.</description>
+    </item>
+    
+    <item>
+      <title>Python-docx for MS Word</title>
+      <link>http://dmml.nu/python-docx/</link>
+      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/python-docx/</guid>
+      <description>As the pyhon-docx does not want to provide a documentation (except some APIs) and the API doc web is really hard to browse and read, here are some small tips/demo tutorials to remember/avoid pits and falls.
+Please note:
+lib (0.8) provides only basic functions mainly for adding something (seems to be for test purpose). The main actions we do in a docx file should be done using MS API via this lib.</description>
+    </item>
+    
+    <item>
+      <title>ASUS AC86U</title>
+      <link>http://dmml.nu/asus/</link>
+      <pubDate>Sun, 19 Apr 2020 11:03:41 +0000</pubDate>
+      
+      <guid>http://dmml.nu/asus/</guid>
+      <description>Firmwares#官改、梅林改版下载：
+http://koolshare.cn/forum-96-1.html
+“改”=“+ Koolshare”
+File Transfering#SCP/WinSCP. (SFTP is not available by default)
+or, install &amp;amp; use FileBrowser in koolshare app store.
+Manually Install Koolshare App Offline#upload to /tmp tar xvzf &amp;hellip; rm &amp;hellip;tar.gz (to get some space) cd /tmp/my_app_name sh my_installer.sh (usually, it will remove this installer folder by itself) Warn: DO stop the FileBrowser app after transfering files.
+Remove Advertisements/Ads via Asus Router#by hosts#vi /jffs/configs/dnsmasq.</description>
+    </item>
+    
+    <item>
+      <title>Python Convert Images to PDF</title>
+      <link>http://dmml.nu/python-image-pdf/</link>
+      <pubDate>Wed, 18 Mar 2020 02:49:42 +0000</pubDate>
+      
+      <guid>http://dmml.nu/python-image-pdf/</guid>
+      <description>Two methods of downloading &amp;amp; converting pictures/images to a combined pdf file with parallel (multi-thread) from Mark Needham.
+f.write(img2pdf.convert(&amp;hellip;)) [ref MarkHNeedham]
+from PIL import Image [ref DataToFish]
+Note: fpdf is not suggested as it canNOT support jpg natively. [ref stackoverflow]</description>
+    </item>
+    
+    <item>
+      <title>PlantUML</title>
+      <link>http://dmml.nu/puml/</link>
+      <pubDate>Tue, 07 May 2019 19:49:19 +0000</pubDate>
+      
+      <guid>http://dmml.nu/puml/</guid>
+      <description>Intro#PlantUML is a convinient tool to make diagrams using UML language/format, such as sequence diagrams, use cases, flow diagrams etc.
+pic-ref
+Selected Tools#Live preview in Visual Studio VSCode plugins: jebbs.plantuml w/ encoded url. (Tip1: render by either local (suggested, needs java+graphviz) or server. Tip2: config &amp;ldquo;server&amp;rdquo; as the bold part of: http://www.plantuml.com/plantuml/uml/xxxyyyzzz) A site that can support PNG, SVG, ASCII/TXT, save/generate encoded url (&amp;ldquo;Edit&amp;rdquo; button), and have many examples: PlantText.</description>
+    </item>
+    
+    <item>
+      <title>Markdown MD In Case Of</title>
+      <link>http://dmml.nu/markdown/</link>
+      <pubDate>Sun, 29 Jul 2018 21:28:58 +0000</pubDate>
+      
+      <guid>http://dmml.nu/markdown/</guid>
+      <description>Open Links in New Tabs#using md#For Kramdown, e.g. Jekyll:
+[clickable-text](link-url){:target=&amp;#34;_blank&amp;#34;} In general, the format in Kramdown is {: attribute1=&amp;quot;value1&amp;quot; attribute2=&amp;quot;value2&amp;quot;}
+For pandoc:
+[clickable-text](link-url){target=&amp;#34;_blank&amp;#34;} In general, the format in Kramdown is {attribute1=&amp;quot;value1&amp;quot; attribute2=&amp;quot;value2&amp;quot;} (w/o :)
+However, this will NOT work if using hidden separated reference (except Grav CMS).
+using js#Source/Insert the following js at the bottom of each page where we want to open external site links in pages:</description>
+    </item>
+    
+    <item>
+      <title>Boot Partitions, Install Multi-OS</title>
+      <link>http://dmml.nu/multi-operating-system-installation/</link>
+      <pubDate>Sat, 16 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/multi-operating-system-installation/</guid>
+      <description>See also: easy2boot, Automatic-Unattended-Install-of-Ubuntu.
+When installing Ubuntu, it will decide what kind of partition to use:
+Ubuntu decicison tree for using entire disk:
+? installer booted in EFI mode or BIOS mode? * EFI : use gpt and never make biosboot * BIOS ? is the disk larger than the max for msdos (2TB)? * yes : use gpt and ensure there&amp;#39;s a biosboot partition * no : use msdos ref</description>
+    </item>
+    
+    <item>
+      <title>VirtualBox Network and Skills</title>
+      <link>http://dmml.nu/vb-skills/</link>
+      <pubDate>Sat, 14 Apr 2018 08:40:19 +0000</pubDate>
+      
+      <guid>http://dmml.nu/vb-skills/</guid>
+      <description>OBS: cloning a VM with the status of pause (not powered-off), it canNOT re-initialize the MAC address. Thus, it is necessary to disconnect the cable and poweroff to re-initialize the MAC and then boot.
+INSTALL ON UBUNTU#Tested on v18.04.
+sudo apt-get update &amp;amp;&amp;amp; \ sudo apt-get -y install virtualbox (sometimes, maybe need to prepare the env before installation:)
+sudo apt-get update &amp;amp;&amp;amp; \ sudo apt-get -y install gcc make linux-headers-$(uname -r) dkms &amp;amp;&amp;amp; \ wget -q https://www.</description>
+    </item>
+    
+    <item>
+      <title>Restful API</title>
+      <link>http://dmml.nu/restful-api/</link>
+      <pubDate>Wed, 21 Mar 2018 18:01:21 +0000</pubDate>
+      
+      <guid>http://dmml.nu/restful-api/</guid>
+      <description>The insomnia client is used, (Postman is too slow, SoapUI has not been tested).</description>
+    </item>
+    
+    <item>
+      <title>DHCP</title>
+      <link>http://dmml.nu/dhcp/</link>
+      <pubDate>Tue, 16 May 2017 10:27:50 +0000</pubDate>
+      
+      <guid>http://dmml.nu/dhcp/</guid>
+      <description>Install &amp;amp; Basic Config#install#sudo apt-get install isc-dhcp-server interfaces#vi /etc/default/isc-dhcp-server
+INTERFACES=&amp;#34;eth0 eth1 eth2&amp;#34; config network param#vi /etc/dhcp/dhcpd.conf
+# ns servers separated by comma &amp;#34;,&amp;#34; ! ! ! option domain-name-servers 10.0.0.1, 10.0.0.2; # lease time in sec: -1 for infinity. default-lease-time -1; max-lease-time -1; # a very basic subnet declaration: subnet 10.0.0.0 netmask 255.255.255.0 { interface enp0s3; # optional range 10.0.0.150 10.0.0.254; # separated by space &amp;#34; &amp;#34; option routers 10.</description>
+    </item>
+    
+    <item>
+      <title>Mount NTFS in Linux Ubuntu</title>
+      <link>http://dmml.nu/ntfs-nix/</link>
+      <pubDate>Mon, 13 Mar 2017 10:22:11 +0000</pubDate>
+      
+      <guid>http://dmml.nu/ntfs-nix/</guid>
+      <description>Make mount point:
+mkdir /mnt/win Find the partition
+lsblk Temp Mount
+mount -t ntfs-3g /dev/sda4 /mnt/win Easy Fstab Mount with All Permissions
+1.find uuid:
+sudo blkid |grep ntfs 2.add in fstab:
+UUID=asdf1234 /mnt/win10c ntfs-3g defaults,windows_names,locale=en_US.utf8 0 0 For advanced permission control, see askubuntu
+tab)</description>
+    </item>
+    
+    <item>
+      <title>Easy2boot How To</title>
+      <link>http://dmml.nu/bootable/</link>
+      <pubDate>Wed, 01 Feb 2017 15:31:08 +0000</pubDate>
+      
+      <guid>http://dmml.nu/bootable/</guid>
+      <description>Rufus#Open-source Microsoft application (thus can download official MS ISOs).
+Rufus Features
+It is a 100% free utility software for Windows users. Rufus has a DOS-compatible environment to run legacy tools with FreeDOS and MBR partitions. Allows formatting the USB disk into multiple file formats including UDF, NTFS, ReFS, or FAT. Easily compute the MD5, SHA-256, and SHA-1 image hashes. Elevated UAC and UI structure. The program can be downloaded on both desktops and laptops.</description>
+    </item>
+    
+    <item>
+      <title>Google NCR (No Country Redirection)</title>
+      <link>http://dmml.nu/google-ncr/</link>
+      <pubDate>Thu, 25 Aug 2016 14:08:15 +0000</pubDate>
+      
+      <guid>http://dmml.nu/google-ncr/</guid>
+      <description>To avoid contry redirection, use the following search string in chrome as the default engine:
+https://www.google.com/search?q=%s&amp;gws_rd=cr
+There are some extensions to force another redirection to .com, but it disturbs the &amp;ldquo;back page&amp;rdquo; action.</description>
+    </item>
+    
+    <item>
+      <title>Open-wrt Config TP-Link WR703N</title>
+      <link>http://dmml.nu/open-wrt-config-how-to/</link>
+      <pubDate>Tue, 12 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/open-wrt-config-how-to/</guid>
+      <description>Basic Configs in UI#First time connect, as suggested, give a root passwd and enable SSH server. (Though enabled, you may need to manually &amp;ldquo;start&amp;rdquo; dropbear SSH server in the &amp;ldquo;startup&amp;rdquo; menu tab.) Enable wireless and make it part of LAN. Enable security and set a passwd. The default device mode is bridge. To use as a router, we need to disable bridge. Then the eth0 will be gone, so we need to add this interface again, naming &amp;ldquo;wan&amp;rdquo;, using protocol &amp;ldquo;DHCP client&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>C,CPP Programming &amp; Variable Naming Rules</title>
+      <link>http://dmml.nu/c-rules/</link>
+      <pubDate>Wed, 08 Jun 2016 16:27:15 +0000</pubDate>
+      
+      <guid>http://dmml.nu/c-rules/</guid>
+      <description>File Ambiguity#file: can be only filename, or full/relative path + filename.
+location: full/relative path + filename.
+filename: only name part, no path in string.
+path: full/relative path w/o filename.
+Common &amp;amp; Suggested Usages#//Common → Suggested chars → charSize bytes → byteSize int * buf → int *p_intListing char * buf → char *p_inputFile ifstream in→ ifstream inputStream IF Statement Evaluation#if (c) is: if(c !</description>
+    </item>
+    
+    <item>
+      <title>DDwrt/Openwrt Router</title>
+      <link>http://dmml.nu/wrt-router/</link>
+      <pubDate>Wed, 08 Jun 2016 11:42:18 +0000</pubDate>
+      
+      <guid>http://dmml.nu/wrt-router/</guid>
+      <description>Open-wrt Suggested Small Devices#wr703n: modified to 16M flash + 64M ram. Power: 5V*100mA = 0.5W (80mA w/o wifi). see 703N config steps &amp;amp; procedure alternative: GL-AR150: 16M + 64M (POE &amp;amp; SMA ready) GL-MT300A: 16M flash + 128M DDR1. Power: 3W. Big for home: MTK7620A ; 2nd hand Mercury. Alternative With Battery#TL-MR11U 2000mAh, replacable battery.150Mbps ¥ 139
+TL-MR10U 2600mAh, bulid-in battery. 150Mbps ¥ 160
+Abbreviations#POE: Power Over Ethernet.</description>
+    </item>
+    
+    <item>
+      <title>Install Shiny Server (&amp; R) on Ubuntu 12 64bit</title>
+      <link>http://dmml.nu/2014/12/15/15369/</link>
+      <pubDate>Mon, 15 Dec 2014 20:35:36 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2014/12/15/15369/</guid>
+      <description>64 bit only#in: /etc/apt/sources.list
+add: deb http://cran.rstudio.com/bin/linux/ubuntu precise/
+sudo apt-key adv &amp;ndash;keyserver keyserver.ubuntu.com &amp;ndash;recv-keys E084DAB9
+// [i didn&amp;rsquo;t do this step] sudo add-apt-repository ppa:marutter/rdev
+sudo apt-get update
+sudo apt-get upgrade
+// if not R is not updated, then will get error: package ‘shiny’ is not available (for R version 2.14.1)
+// then follow ref 2 (official intro):
+sudo apt-get install r-base
+sudo su - -c &amp;ldquo;R -e &amp;quot;install.</description>
+    </item>
+    
+    <item>
+      <title>Linux/Ubuntu Recover/Reset Root Forgetten Password</title>
+      <link>http://dmml.nu/2014/12/15/15367/</link>
+      <pubDate>Mon, 15 Dec 2014 16:24:10 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2014/12/15/15367/</guid>
+      <description>Shift while booting (Esc for v9 earlier version);
+Highlight the normal booting item (which is highlighted by default);
+&amp;rsquo;e&amp;rsquo; to edit;
+Find the line starts with linux ....;
+Delete &amp;hellip; quiet splash $vt_handoff &amp;hellip;,
+Change ro (read only) to rw, and add init=/bin/bash to the end of the line;
+Ctrl+x or F10 to boot using this modified temporary item;
+Root shell will be available, passwd to modify and then reboot.</description>
+    </item>
+    
+    <item>
+      <title>Reset Administrator Password [Windows]</title>
+      <link>http://dmml.nu/2014/01/09/15297/</link>
+      <pubDate>Thu, 09 Jan 2014 11:55:16 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2014/01/09/15297/</guid>
+      <description>如果administrator之前没有密码, 可以F8进入安全模式, 再用命令行操作:
+net user &amp;lt;username&amp;gt; /active:yes
+net user &amp;lt;username&amp;gt; &amp;lt;theNewPass&amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>.NET MVC C#</title>
+      <link>http://dmml.nu/2013/08/25/15173/</link>
+      <pubDate>Sun, 25 Aug 2013 10:49:56 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/08/25/15173/</guid>
+      <description>Connect to Mysql#http://dev.mysql.com/downloads/connector/net/
+http://www.360doc.com/content/07/0630/11/14386_586808.shtml</description>
+    </item>
+    
+    <item>
+      <title>magento</title>
+      <link>http://dmml.nu/2013/08/13/15128/</link>
+      <pubDate>Tue, 13 Aug 2013 15:24:30 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/08/13/15128/</guid>
+      <description>Adding a Product#Catalog &amp;gt; Manage Products &amp;gt; Add New Then you will be in page &amp;ldquo;New Product (Default)&amp;rdquo;,
+SKU is a string to trace a series of products, like &amp;ldquo;nike.women.top.size.32&amp;rdquo;.
+Status should be &amp;ldquo;enabled&amp;rdquo;.
+URL key is mandatory, dash separated English words, like &amp;ldquo;nike-women-top&amp;rdquo;.
+Visibility, it is suggested to use the default &amp;ldquo;Catalog &amp;amp; Search&amp;rdquo; value.
+Click left column to choose &#34;Price&#34; The &amp;ldquo;Tax Class&amp;rdquo; is mandatory.</description>
+    </item>
+    
+    <item>
+      <title>Google App</title>
+      <link>http://dmml.nu/2013/08/02/15103/</link>
+      <pubDate>Fri, 02 Aug 2013 14:10:02 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/08/02/15103/</guid>
+      <description>Config App for email (no extra gateway)#1. Authorize Google as a sender. (SPF)
+http://support.google.com/a/bin/topic.py?hl=en&amp;amp;topic=1409901
+2. Confirm mail sender via public key. (DKIM)
+http://support.google.com/a/bin/answer.py?hl=en&amp;amp;answer=174126</description>
+    </item>
+    
+    <item>
+      <title>Password</title>
+      <link>http://dmml.nu/2013/07/16/15013/</link>
+      <pubDate>Tue, 16 Jul 2013 21:41:01 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/07/16/15013/</guid>
+      <description>Many people have the problem of memorizing passwords in different web sites, so they decided to use one password for all the web sites. But the risk is obvious, if a hacker could get one of your accounts, it means all your accounts, maybe even your online bank.
+Then one may try use different passwords for different sites &amp;hellip; It becomes a vicious circle &amp;hellip;
+Here are some tips which you could use to generate your passwords.</description>
+    </item>
+    
+    <item>
+      <title>Iptables In Case of</title>
+      <link>http://dmml.nu/2013/07/14/15010/</link>
+      <pubDate>Sun, 14 Jul 2013 21:54:32 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/07/14/15010/</guid>
+      <description>Flush:#iptables --flush
+ref
+Accept HTTP Request#iptables -I INPUT 1 -m state --state NEW -p tcp --dport 80 -j ACCEPT iptables -I INPUT 2 -m state --state NEW -p tcp --dport 443 -j ACCEPT Allow Port Range#iptables -I INPUT -p tcp --dport 1234:2345 -j ACCEPT Save Rules to Be Used During Boot#/sbin/service iptables save or
+iptables-save ref:
+Red Hat Enterprise Linux 4: Security Guide &amp;gt; Chapter 7.</description>
+    </item>
+    
+    <item>
+      <title>wordpress</title>
+      <link>http://dmml.nu/2013/07/14/15003/</link>
+      <pubDate>Sun, 14 Jul 2013 10:34:54 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/07/14/15003/</guid>
+      <description>WordPress 主题如何设置多语言支持: PoEdit#http://www.yaohaixiao.com/wordpress/wordpress-theme-is-how-to-set-up-a-multi-language-support/
+移动网站 / 修改网站路径 / 去掉URL路径中多余层级的目录#eg: http://xxx.local/wordpress/mywebsite/index.php =&amp;gt; http://xxx.local/
+Step 1. setup vhost for apache, setup system host file for local domain.#NameVirtualHost *:80 &amp;lt;VirtualHost *:80&amp;gt; ServerName xxx.local DocumentRoot &#34;c:\path\to\wordpress\mywebsitefiles&#34; &amp;lt;Directory &#34;c:\path\to\wordpress\mywebsitefiles&#34;&amp;gt; DirectoryIndex index.php index2.php index.html AllowOverride All Order allow,deny Allow from all &amp;lt;/Directory&amp;gt; &amp;lt;/VirtualHost&amp;gt; Step 2. modify db#After reading http://codex.wordpress.org/Moving_WordPress , I found only siteurl in the wp_options table.</description>
+    </item>
+    
+    <item>
+      <title>snmp, mib &amp; rrdtool, mrtg, cacti</title>
+      <link>http://dmml.nu/2013/06/09/14872/</link>
+      <pubDate>Sun, 09 Jun 2013 09:23:55 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/06/09/14872/</guid>
+      <description>apt-get install snmp-mibs-downloader &amp;amp;&amp;amp; download-mibs; apt-get install rrdtool mrtg cacti; Install &amp;amp; Config SNMP#etc&amp;hellip;..
+RRDtool basic tutorial#http://oss.oetiker.ch/rrdtool/tut/rrdtutorial.en.html
+MRTG - How To#http://www.cyberciti.biz/nixcraft/linux/docs/uniqlinuxfeatures/mrtg/ mini how-to (old): http://www.geocities.com/rjayasin/RH7X-mrtg-howto.htm
+Cacti - Important templates#1. Apache stats Template: http://forums.cacti.net/about9861.html , useful for web server; 2. MySQL Stats Template: http://forums.cacti.net/about11010.html ; 3. Graph templates for Squid: http://forums.cacti.net/about4142.html ; 4. Windows uptime statistics: http://forums.cacti.net/about10514.html ; More: http://forums.cacti.net/viewtopic.php?t=15067 .
+Trouble Shooting##snmpwalk -v 2c -c public localhost .</description>
+    </item>
+    
+    <item>
+      <title>Perl In Case Of [perl] [cpan]</title>
+      <link>http://dmml.nu/2013/06/08/14873/</link>
+      <pubDate>Sat, 08 Jun 2013 23:50:07 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/06/08/14873/</guid>
+      <description>Trouble Shooting#&amp;ldquo;Can&amp;rsquo;t locate local/lib.pm in @INC &amp;hellip;&amp;rdquo;
+http://stackoverflow.com/questions/16702642/cant-locate-local-lib-pm-in-inc-at-usr-share-perl-5-14-cpan-firsttime-pm </description>
+    </item>
+    
+    <item>
+      <title>我和雷娜思小姐的故事</title>
+      <link>http://dmml.nu/2013/05/24/14854/</link>
+      <pubDate>Fri, 24 May 2013 21:32:44 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/05/24/14854/</guid>
+      <description>http://www.bootingman.org/the-best-linux-tutorial-story-of-lady-linux-and-me/</description>
+    </item>
+    
+    <item>
+      <title>Git In Case Of</title>
+      <link>http://dmml.nu/git/</link>
+      <pubDate>Wed, 01 May 2013 20:06:41 +0000</pubDate>
+      
+      <guid>http://dmml.nu/git/</guid>
+      <description>Motivation#2019：
+[ref]
+Config#git config -l # ls all configs Frequently Used#git help &amp;lt;command&amp;gt; git show # show content of a commit/file-obj. ref:is.gd/KYM5mo git show $id git show object git show $REV:$FILE git show somebranch:from/the/root/myfile.txt git show HEAD^^^:test/test.py git co -- &amp;lt;file&amp;gt; # discard modifications in workspace // co = Check Out git co . # discard modifications for all (previously existing?) files in workspace git add &amp;lt;file&amp;gt; # 将工作文件修改提交到本地暂存区 git add .</description>
+    </item>
+    
+    <item>
+      <title>Vim In Case Of</title>
+      <link>http://dmml.nu/2013/05/01/14814/</link>
+      <pubDate>Wed, 01 May 2013 19:53:39 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/05/01/14814/</guid>
+      <description>Language Support#scala#mkdir -p ~/.vim/{ftdetect,indent,syntax} &amp;amp;&amp;amp; \ for d in ftdetect indent syntax ; &amp;amp;&amp;amp; \ do wget -O ~/.vim/$d/scala.vim https://raw.githubusercontent.com/derekwyatt/vim-scala/master/$d/scala.vim; &amp;amp;&amp;amp; \ done ref
+Fold#zr //unfold one level
+zR //unfold all levels
+zm //fold one level
+zM //fold all levels
+Buffer#See also &amp;lsquo;vim 只删除,不剪切&amp;rsquo;.2/16/13434/).</description>
+    </item>
+    
+    <item>
+      <title>那些缩略词们,那些词汇们. abbr abbreviation</title>
+      <link>http://dmml.nu/2013/04/20/14783/</link>
+      <pubDate>Sat, 20 Apr 2013 18:44:11 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/04/20/14783/</guid>
+      <description>理解记忆岂不更好~~
+a: Anchor;
+href: Http REFerence;
+ol: Ordered List;
+ul: Un-ordered List;
+tr: Table Row;
+thead: Table Head;
+th: Table Head-data;
+td: Table Data;
+colspan: COLumn SPAN;
+rel: relationship;
+&amp;lt;em&amp;gt;: emphasis;
+font-size: 0.5em: equivalent measurement. adj. [印]全身长(或宽)的(印刷符号).
+Courier: 急差;
+Cursive: 草书;
+palette: 调色板;
+serif: 衬线, 例如TimesNewRoman的字符们;
+sans: = without;
+其他很熟悉的:
+css: Cascading Style Sheets;</description>
+    </item>
+    
+    <item>
+      <title>rsync</title>
+      <link>http://dmml.nu/2013/03/21/14731/</link>
+      <pubDate>Thu, 21 Mar 2013 17:22:24 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/03/21/14731/</guid>
+      <description>Usage:
+rsync -avhuz /path/to/src_folder/ username@serverIp:/home/username/path/to/dest_folder/ alias rsyncBackupCompareAttr=&amp;#39;rsync -avhuz --progress --delete --log-file=rsyncBackupLog.txt&amp;#39; alias rsyncBackupIgnoreAttr=&amp;#39;rsync -avhuz --no-perms --no-owner --no-group --progress --delete --log-file=rsyncBackupLog.txt&amp;#39; OBS:
+rsync folderA folderB will cp folderA into,under folderB.
+rsync folderA/ folderB/ will cp folderA&amp;rsquo;s content into folderB.
+Thus, /s after both folderX are mandatory.
+Becareful with -u: it will ignore the dest file with newer timestamp.
+wer timestamp.</description>
+    </item>
+    
+    <item>
+      <title>Putty, (MTPutty, Multi-Tab Putty) Configuration</title>
+      <link>http://dmml.nu/2013/01/20/14643/</link>
+      <pubDate>Sun, 20 Jan 2013 20:19:11 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/01/20/14643/</guid>
+      <description>Terminal -&amp;gt; Bell : Visual.
+Window -&amp;gt; Appearance -&amp;gt; Font : DejaVu Sans Mono, 11 point.
+Window -&amp;gt; Behaviour -&amp;gt; Window Title : &amp;lt;sth&amp;gt;
+Connection -&amp;gt; Data -&amp;gt; Auto-log user: &amp;lt;user&amp;gt;
+Connection -&amp;gt; SSH -&amp;gt;Auth -&amp;gt; Private key file : &amp;lt;path/to/file&amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>Chrome In Case Of</title>
+      <link>http://dmml.nu/2012/11/17/14583/</link>
+      <pubDate>Sat, 17 Nov 2012 22:38:52 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/11/17/14583/</guid>
+      <description>Change/Modify/Reset Translate Config#Modify file: %USERPROFILE%\AppData\Local\Google\Chrome\User Data\Default\Preferences
+Now can be done in Chrome settings.
+Clear DNS Host Cache#chrome://net-internals/#dns
+internals/#dns)</description>
+    </item>
+    
+    <item>
+      <title>Latex, Bib To MS</title>
+      <link>http://dmml.nu/2012/11/07/14558/</link>
+      <pubDate>Wed, 07 Nov 2012 23:09:42 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/11/07/14558/</guid>
+      <description>1. bib4word
+use bit.ly to solve the &amp;ldquo;／－&amp;rdquo; (optional hyphen) display problem at the end of one line.
+2. jabref ＞ xml ＞ import</description>
+    </item>
+    
+    <item>
+      <title>bib format</title>
+      <link>http://dmml.nu/2012/11/07/14557/</link>
+      <pubDate>Wed, 07 Nov 2012 22:36:11 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/11/07/14557/</guid>
+      <description>web site/page#@electronic{MetacafeURL, title = {Metacafe}, url = &amp;#34;http://www.metacafe.com/&amp;#34;, } white paper:#@inproceedings{inproceedingsWhite, author = {John Doe}, **title = {Full Reference metrics},** month = {Apr}, year = {9999}, **type = {White Paper},** **note = {{AccepTV}},** url = {http://goo.gl/cd8WE} } title, type, note (company/association) are mandatory. (IEEEtran_bst_HOWTO.pdf -&amp;gt; [59])
+notice: use** double curly braces {{ }} for notes to have the capital beginning letter.** the capital beginning letter**.**</description>
+    </item>
+    
+    <item>
+      <title>客户端&#43;Gamil的发信地址的问题</title>
+      <link>http://dmml.nu/2012/09/25/14155/</link>
+      <pubDate>Tue, 25 Sep 2012 17:19:48 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/09/25/14155/</guid>
+      <description>我有俩Gmail的邮箱， A和B。
+在thunderbird里面选择A发送时，收到者看到的是B发送的。
+感觉是TB的问题，各种找设置，无果。bug？升级，没用。
+使用gmail的C邮箱发信测试，没问题。
+难道是因为我配置TB的时候的顺序问题？但这个测试耗费时间太长，太麻烦。
+突然想起还有一个可能，gmail的设置。
+我在A的google账户配置中，默认使用B帐号发信，测试，果然是因为这个设置。
+结论：如果B帐号允许A帐号以B的身份（地址）发信，且在A中默认使用B发信，则客户端的发信地址A会被google的服务器替换为B。这样，发信时看不出问题，但是收信者看到的是B地址。</description>
+    </item>
+    
+    <item>
+      <title>PHP in case of</title>
+      <link>http://dmml.nu/2012/05/26/13759/</link>
+      <pubDate>Sat, 26 May 2012 23:20:05 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/05/26/13759/</guid>
+      <description>skills:#shortcut of &amp;ldquo;echo&amp;rdquo;: &amp;lt;?=$foo?&amp;gt;
+phpMyadmin timeout / maxlifttime / cookie validity:#ref:http://birdchan.com/home/2011/06/06/phpmyadmin-timeout-after-1440-seconds/
+vim /etc/phpmyadmin/config.inc.php : add:
+$cfg[&amp;lsquo;Servers&amp;rsquo;][$i][&amp;lsquo;LoginCookieValidity&amp;rsquo;] = 60 * 60 * 4; //4 hours
+vim /etc/php5/cli/php.ini : modify:
+session.gc_maxlifetime = 14400
+maxlifetime = 14400
+p;</description>
+    </item>
+    
+    <item>
+      <title>wireshark non-root (normal user) how to </title>
+      <link>http://dmml.nu/2012/05/16/13698/</link>
+      <pubDate>Wed, 16 May 2012 18:27:26 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/05/16/13698/</guid>
+      <description>only one user:
+chgrp ats /usr/bin/dumpcap
+chmod 4750 /usr/bin/dumpcap # chmod u+s
+for more users:
+groupadd wireshark
+usermod -a -G wireshark userName1
+chgrp wireshark /usr/bin/dumpcap
+chmod 4750 /usr/bin/dumpcap
+ref:
+http://anonscm.debian.org/viewvc/collab-maint/ext-maint/wireshark/trunk/debian/README.Debian?view=markup</description>
+    </item>
+    
+    <item>
+      <title>How To Set Up PC as a Router / Bridge in Different OS&#39;s</title>
+      <link>http://dmml.nu/router-how-to/</link>
+      <pubDate>Tue, 24 Apr 2012 21:20:32 +0000</pubDate>
+      
+      <guid>http://dmml.nu/router-how-to/</guid>
+      <description>FreeBsd 7 Local Router (Like a Switch ???)#(local only, no NAT)
+vim /etc/rc.conf
+ifconfig_em0=&amp;#34;inet 10.0.0.12 netmask 255.255.255.0&amp;#34; ifconfig_em1=&amp;#34;inet 10.0.1.13 netmask 255.255.255.0&amp;#34; notice: will get route problem if using the same net-addr.
+permanent # vim /etc/sysctl.conf net.inet.ip.forwarding=1 # reboot temp sysctl net.inet.ip.forwarding=1 # or echo 1 &amp;gt; /proc/sys/net/ipv4/ip_forward // problem: ping test: could get reply since icmp packet 113. where are the first 112 packets???
+FreeBsd 7 Bridge#ref: shaper freeBsd-v7 : bridge</description>
+    </item>
+    
+    <item>
+      <title>vim 只删除,不剪切</title>
+      <link>http://dmml.nu/2012/02/16/13434/</link>
+      <pubDate>Thu, 16 Feb 2012 00:46:16 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/02/16/13434/</guid>
+      <description>See main article Vim In Case Of.
+nmap DD &amp;ldquo;_dd
+将删除的内容放入 black hole register: &amp;rdquo;_ 中
+_&amp;quot;dd 就可以将当前行内容删除并且不会放在任何寄存器中。
+http://forum.ubuntu.org.cn/viewtopic.php?f=68&amp;amp;t=84593?f=68&amp;amp;t=84593)</description>
+    </item>
+    
+    <item>
+      <title>Useful Tips</title>
+      <link>http://dmml.nu/tips/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/tips/</guid>
+      <description> Top Chrome plugins list on Github [cn intro] </description>
+    </item>
+    
+  </channel>
+</rss>

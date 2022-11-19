@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coding on Machine Learning</title>
+    <link>http://dmml.nu/tags/coding/</link>
+    <description>Recent content in Coding on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jun 2016 13:38:30 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coding, In General</title>
+      <link>http://dmml.nu/coding/</link>
+      <pubDate>Wed, 01 Jun 2016 13:38:30 +0000</pubDate>
+      
+      <guid>http://dmml.nu/coding/</guid>
+      <description>Comments? NO Comments!#Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live. Code for readability. &amp;ndash; John F. Woods
+A comment is an apology.
+ref1,ref2
+URL&amp;rsquo;s#Learn Programming by Game
+Variable Names#finding suitable names#CN-EN variable names: web: CODELF, (intro: video)
+general rules#</description>
+    </item>
+    
+  </channel>
+</rss>

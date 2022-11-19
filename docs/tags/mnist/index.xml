@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mnist on Machine Learning</title>
+    <link>http://dmml.nu/tags/mnist/</link>
+    <description>Recent content in Mnist on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 Dec 2017 15:59:05 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/mnist/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Caffe Installation, Hello World</title>
+      <link>http://dmml.nu/caffe-install/</link>
+      <pubDate>Sun, 03 Dec 2017 15:59:05 +0000</pubDate>
+      
+      <guid>http://dmml.nu/caffe-install/</guid>
+      <description>Note: tested with Ubuntu 16.04.1 using /root, for newer Ubuntu version (&amp;gt;= 17.04), check here.
+Installation &amp;amp; Self-Tests#Use the installation script here.
+//(Sunny only added conditional USE_CUDNN=1, the rest is the same as: ref. You may wanna set USE_CUDNN to 0, if no GPU is used).
+Timing: 15min if everything goes well, while downloading speed 1~8MB/s.
+Hello World (Mnist)#prepare data:#./data/mnist/get_mnist.sh # will download into .</description>
+    </item>
+    
+  </channel>
+</rss>

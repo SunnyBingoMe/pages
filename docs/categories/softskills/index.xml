@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Soft&amp;Skills on Machine Learning</title>
+    <link>http://dmml.nu/categories/softskills/</link>
+    <description>Recent content in Soft&amp;Skills on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 May 2013 20:06:41 +0000</lastBuildDate><atom:link href="http://dmml.nu/categories/softskills/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git In Case Of</title>
+      <link>http://dmml.nu/git/</link>
+      <pubDate>Wed, 01 May 2013 20:06:41 +0000</pubDate>
+      
+      <guid>http://dmml.nu/git/</guid>
+      <description>Motivation#2019：
+[ref]
+Config#git config -l # ls all configs Frequently Used#git help &amp;lt;command&amp;gt; git show # show content of a commit/file-obj. ref:is.gd/KYM5mo git show $id git show object git show $REV:$FILE git show somebranch:from/the/root/myfile.txt git show HEAD^^^:test/test.py git co -- &amp;lt;file&amp;gt; # discard modifications in workspace // co = Check Out git co . # discard modifications for all (previously existing?) files in workspace git add &amp;lt;file&amp;gt; # 将工作文件修改提交到本地暂存区 git add .</description>
+    </item>
+    
+  </channel>
+</rss>

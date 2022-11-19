@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CIFS on Machine Learning</title>
+    <link>http://dmml.nu/tags/cifs/</link>
+    <description>Recent content in CIFS on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 31 Dec 2016 20:33:44 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/cifs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Samba (SIFS) How To</title>
+      <link>http://dmml.nu/samba-how-to/</link>
+      <pubDate>Sat, 31 Dec 2016 20:33:44 +0000</pubDate>
+      
+      <guid>http://dmml.nu/samba-how-to/</guid>
+      <description>Warn: for public internet, use vpn/ssh-tunneling (with samba config-ed for vpn/local nic address) or SSHFS.
+OBS: CIFS is new protocal, SMB is deprecated after win server 2003. ref
+See Also Links
+SFTP: FTP over SSH
+SSHFS
+NFS
+UBUNTU AS SERVER#sudo apt-get install -y samba samba-vfs-modules
+CONFIG UBUNTU SERVER FOR GUEST/ANANOMOUS (NO PASSWORD)#cp -pf /etc/samba/smb.conf /etc/samba/smb.conf.bak &amp;amp;&amp;amp; \ cat /dev/null &amp;gt; /etc/samba/smb.conf &amp;amp;&amp;amp; \ vim /etc/samba/smb.conf Paste the foloowing config:</description>
+    </item>
+    
+  </channel>
+</rss>

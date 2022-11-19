@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bibtex on Machine Learning</title>
+    <link>http://dmml.nu/tags/bibtex/</link>
+    <description>Recent content in Bibtex on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 May 2017 11:52:34 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/bibtex/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BibLatex, BibTex, Citation, Reference Formatting</title>
+      <link>http://dmml.nu/bibtex/</link>
+      <pubDate>Tue, 23 May 2017 11:52:34 +0000</pubDate>
+      
+      <guid>http://dmml.nu/bibtex/</guid>
+      <description>SOME PACKAGES#package{natbib}#% OBS!: plainnat style has conflict with C style multi-line comments /* */.
+% OBS!: plainnat request zotero to export records as bibTex, not bibLatex.
+\usepackage{natbib} \cite Aaa et al. (2002) \citet == \cite \citet* Aaa, Bbb and Ccc (2002) \citep (Aaa et al., 2002) \citep* (Aaa, Bbb and Ccc, 2002) \citealt Aaa et al. 2002 \citealp Aaa et al., 2002 \citeauthor{..} Aaa et al.</description>
+    </item>
+    
+    <item>
+      <title>Latex 调用 Bibtex (IEEEtran in pdfLatex of TexWorks)</title>
+      <link>http://dmml.nu/2011/12/29/13226/</link>
+      <pubDate>Thu, 29 Dec 2011 03:47:05 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/12/29/13226/</guid>
+      <description>文章结束(\end{document})前 加入:
+\bibliographystyle{IEEEtran} \bibliography{references_filename} 其中 references_filename 是文件名, 指同文件夹下的 references_filename.bib.
+.bib 文件格式为:
+@BOOK{testBook, author={Everett, G. and McLeod, R.}, title={Software Testing(Testing Across the Entire Software Development Life Cycle)},&amp;lt;/pre&amp;gt; year={2006}, month={3}, volume={}, number={}, pages={345}, keywords={}, doi={}, ISSN={},} OBS 注意, 这里不是&amp;quot;booktitle&amp;quot;, 是&amp;quot;title&amp;quot; 有些类型(例如INPROCEEDINGS)需要用&amp;quot;booktitle&amp;quot;, 不同的时候需要不同的关键词.
+然后依次运行:** latex 编译 &amp;gt; bibtex 编译 &amp;gt; latex 编译 &amp;gt; latex 编译** (注意, 一共三次 latex 编译).
+如果 dvi/pdf 文件不是你想要的结果, 请一定要删除程序生成的中间文件和临时文件(不是自己编辑的都删除,包括 dvi/pdf), 然后再次运行以上四个命令.
+f), 然后再次运行以上四个命令.</description>
+    </item>
+    
+  </channel>
+</rss>

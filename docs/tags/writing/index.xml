@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Writing on Machine Learning</title>
+    <link>http://dmml.nu/tags/writing/</link>
+    <description>Recent content in Writing on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/writing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>English-Chinese-Terminology-Translation-个人常用词汇英汉对照</title>
+      <link>http://dmml.nu/term/</link>
+      <pubDate>Wed, 15 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/term/</guid>
+      <description> English Chinese ad-hoc, ad hoc (fix/method) 特设的（修改/方法） training (dataset) 训练（集） n. evaluation (dataset) 验证（集） n. testing (dataset) 测试（集） n. train 训练 v. evaluate 验证 v. test 测试 v. 试 v. </description>
+    </item>
+    
+    <item>
+      <title>Paper Writing, Plotting and Coding Tips</title>
+      <link>http://dmml.nu/paper-tips/</link>
+      <pubDate>Thu, 02 Feb 2017 18:43:43 +0000</pubDate>
+      
+      <guid>http://dmml.nu/paper-tips/</guid>
+      <description>See also time plan by tomato-timing.
+Variable Names#several types:
+var name in paper, usually single char, e.g. $d$. col name in df/dt, usually several words, e.g. &amp;ldquo;search_step&amp;rdquo;. human readable string, e.g. &amp;ldquo;Search Step Length&amp;rdquo;. other variables in R/Py, e.g. t_searchStep, algorithmSetup$searchStepLengthListing. Linguistic &amp;amp; Journals Tools#English colocations (搭配): Linggle.com &amp;amp; NetSpeak.org &amp;amp; Writefull &amp;amp; Grammarly English Corpus (inc.colocates ) (语料库) Contemporary American English &amp;amp; British National Corpus (BYU-BNC) (see ref-Corpus for usages !</description>
+    </item>
+    
+    <item>
+      <title>MicroSoft (MS) Office Citation/Bibliography - How To</title>
+      <link>http://dmml.nu/2012/11/07/14549/</link>
+      <pubDate>Wed, 07 Nov 2012 19:32:29 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/11/07/14549/</guid>
+      <description>NOTE: this article is dated, please use Zotero plugins.
+1. Import Resources#&amp;ldquo;over-write&amp;rdquo;, if asked.
+2. Insert Citation#3. Append Bibliography#4. Known Issues#4.1. Delete Extra Items#MS will not delete the extra items (not cited items) automatically.
+Make sure that your thesis is the final version, then you could delete the extra bib items.
+References &amp;gt; Manage &amp;gt; Select (on the right hand) &amp;gt; Delete.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows Sub System on Machine Learning</title>
+    <link>http://dmml.nu/tags/windows-sub-system/</link>
+    <description>Recent content in Windows Sub System on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/windows-sub-system/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installing WSL 2</title>
+      <link>http://dmml.nu/wsl2-install/</link>
+      <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/wsl2-install/</guid>
+      <description>Pre-requirements#Windows 10 May 2020 (2004) // or older Windows 10 May 2019 (1903) / or Windows 10 November 2019 (1909) A computer with Hyper-V Virtualization support Steps Overview#Enable WSL 2 Enable ‘Virtual Machine Platform’ Set WSL 2 as default Install a Linux distro Download the lateest kernel to update [ref] Powershell CML#dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart # Enable WSL dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart # Enable ‘Virtual Machine Platform’ # Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform -NoRestart # older win10 wsl --set-version Ubuntu 2 # convert current installed wsl --set-default-version 2 # for future installations ref: OMG Ubuntu.</description>
+    </item>
+    
+  </channel>
+</rss>

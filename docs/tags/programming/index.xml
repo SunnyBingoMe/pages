@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on Machine Learning</title>
+    <link>http://dmml.nu/tags/programming/</link>
+    <description>Recent content in Programming on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jun 2016 13:38:30 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coding, In General</title>
+      <link>http://dmml.nu/coding/</link>
+      <pubDate>Wed, 01 Jun 2016 13:38:30 +0000</pubDate>
+      
+      <guid>http://dmml.nu/coding/</guid>
+      <description>Comments? NO Comments!#Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live. Code for readability. &amp;ndash; John F. Woods
+A comment is an apology.
+ref1,ref2
+URL&amp;rsquo;s#Learn Programming by Game
+Variable Names#finding suitable names#CN-EN variable names: web: CODELF, (intro: video)
+general rules#</description>
+    </item>
+    
+    <item>
+      <title>HTML5：Gate One 0.9发布，支持SSH</title>
+      <link>http://dmml.nu/2011/10/15/12774/</link>
+      <pubDate>Sat, 15 Oct 2011 09:28:31 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/10/15/12774/</guid>
+      <description>Dan McDougall 发布了Gate One v0.9版。Gate One是利用HTML5技术开发的Web终端模拟器和SSH客户端，使用WebSockets，不要任何插件；支持单一浏览器多同步终端/SSH会话；能在断开后恢复用户会话；支持客户端和服务器端会话记录/回放；可以嵌入到其它应用中。
+项目 https://github.com/liftoff/GateOne
+视频演示 http://vimeo.com/24857127
+from: http://internet.solidot.org/article.pl?sid=11/10/14/0913242</description>
+    </item>
+    
+    <item>
+      <title>Tvåhundra Tretton</title>
+      <link>http://dmml.nu/2011/02/02/5753/</link>
+      <pubDate>Wed, 02 Feb 2011 01:52:29 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/02/02/5753/</guid>
+      <description>恭贺新春~！
+language:
+Will start level 2 unit 3, excited to saw there will be speaking at the beginning &amp;hellip;&amp;hellip;&amp;hellip;..
+shell:
+something wrong with the format of echo ...... &amp;hellip;&amp;hellip;&amp;hellip;..</description>
+    </item>
+    
+    <item>
+      <title>C-CPP-Programming-in-case-of</title>
+      <link>http://dmml.nu/c-cpp-in-case-of/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/c-cpp-in-case-of/</guid>
+      <description>Data Structure Alignment 数据结构对齐#x86-64 architecture#Overall rule: any data structure/element should be accessed by CPU with minimum CPU cycles. A 32bit CPU can access 4Bytes in one cycle, while a 64bit one can access 8Bytes. When a memory access is not aligned, it is said to be misaligned (wiki).
+Thus, there are two practical rules for us to understand compiler&amp;rsquo;s padding:
+Rule 1: any basic data structure/element/variable should be aligned so that their beginning address is divisible (任何变量的开始地址都能被自己的大小整除，即：当被访问的数据长度为 n 字节时，数据地址为 n 字节对齐。).</description>
+    </item>
+    
+    <item>
+      <title>Comparison of Programming Fonts - Fantasque vs Dejavu vs Mononoki vs Inconsolata</title>
+      <link>http://dmml.nu/fonts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/fonts/</guid>
+      <description>Before comparison, we need to know that the following sizes are roughly the same: dejavu09 vs mononoki10 vs inconsolata10
+Dejavu#If you are looking at this page, you know coding.
+If you know coding, you should know Dejavu.
+Thus, I will skip the intro for it.
+Mononoki#looks similar like dejavu, but its punctuation is much bigger and easier to see. // may draw mroe attention than code ?</description>
+    </item>
+    
+  </channel>
+</rss>

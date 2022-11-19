@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>优盘 on Machine Learning</title>
+    <link>http://dmml.nu/tags/%E4%BC%98%E7%9B%98/</link>
+    <description>Recent content in 优盘 on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/%E4%BC%98%E7%9B%98/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hard-drive (HDD, SSD), Optical Drive (CD, DVD, M-Disc), U-Disk</title>
+      <link>http://dmml.nu/storage/</link>
+      <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/storage/</guid>
+      <description>See also Network Attached Storage /nas.
+Brands of SSD/U-Disk#Avoid: n 金 n 云, WD Green=SanDisk Plus(加强版)= just a big U-disk (U-disk controller, high delay, low seq. write speed, but seq. read speed is ok, overall speed is about x2~x4 HDD). Also: 海康、大唐的虚假宣传问题 At least: Toshiba/铠侠 TR200/TC10, 紫光S100, 浦科特 M8V, Intel 660P (warn: 660P tested bad)。 General: Crucial MX500, WD Blue = SanDisk 3D（不是加强版）, Toshiba Q200EX, Intel 545S, Also: Samsung 860EVO。 Better: WD Black SN750 (code data issue), Intel Enterprise Level.</description>
+    </item>
+    
+  </channel>
+</rss>

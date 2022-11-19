@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spark on Machine Learning</title>
+    <link>http://dmml.nu/tags/spark/</link>
+    <description>Recent content in Spark on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 Feb 2019 20:43:40 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/spark/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scala the Language</title>
+      <link>http://dmml.nu/learning-scala/</link>
+      <pubDate>Tue, 12 Feb 2019 20:43:40 +0000</pubDate>
+      
+      <guid>http://dmml.nu/learning-scala/</guid>
+      <description>Install Sbt#echo &amp;#34;deb https://dl.bintray.com/sbt/debian /&amp;#34; | sudo tee -a /etc/apt/sources.list.d/sbt.list sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2EE0EA64E40A89B84B2DF73499E82A75642AC823 sudo apt-get update sudo apt-get install sbt ref: scala-sbt.org (v1.0)
+Compile#see ref</description>
+    </item>
+    
+    <item>
+      <title>Spark</title>
+      <link>http://dmml.nu/spark/</link>
+      <pubDate>Tue, 15 Nov 2016 13:18:51 +0000</pubDate>
+      
+      <guid>http://dmml.nu/spark/</guid>
+      <description>Related:
+The Internals of Apache Spark 2.4.0 | GitBook For usage after installation, see scale-py chapter 8 &amp;amp; 9. StreamProcessing comparison /stream-processing ~~ spark-vs-h2o ~~ The following content is tested in Ubuntu 16 (before 2019) &amp;amp; 18.04 (after 2018).
+This for how to install Spark with standalone/yarn/mesos.
+OBS: Assuming username: hpc.
+STANDALONE (ONE-SINGLE-NODE)#One-node standalone mode might be our fist time to try Spark, so we make the installation as easy as possible.</description>
+    </item>
+    
+  </channel>
+</rss>

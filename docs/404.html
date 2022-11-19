@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="404 Page not found" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://dmml.nu/404.html" />
+
+<title>404 Page not found | Machine Learning</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.349b17fe7ad3c652b20fff0cb61829c2b14326157263033de1ec30bc81e75c34.css" integrity="sha256-NJsX/nrTxlKyD/8MthgpwrFDJhVyYwM94ewwvIHnXDQ=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.383910f6dadc971357b85075d3c67e94cb9c5a147cdd502112d1123799ed0a9b.js" integrity="sha256-ODkQ9trclxNXuFB108Z&#43;lMucWhR83VAhEtESN5ntCps=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+    
+
+    <style>
+      .not-found {
+        text-align: center;
+      }
+      .not-found h1 {
+        margin: .25em 0 0 0;
+        opacity: .25;
+        font-size: 40vmin;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main class="flex justify-center not-found">
+      <div style="margin-top:10%; margin-bottom: 3%;">
+        <h3>404: Page Not Found on <br/> <a href="/" onmouseover="style='text-decoration:underline'" onmouseout="style='text-decoration:none'">Machine Learning</a></h3>
+      </div>
+      <br/>
+
+    </main>
+    
+    <div class="book-search"  style="margin-left: 30%; width: 40%; ">
+      <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+      <div class="book-search-spinner hidden"></div>
+      <ul id="book-search-results"></ul>
+    </div>
+    
+    
+  </body>
+
+  </html>
+
+  <script>
+        window.addEventListener('DOMContentLoaded', () => {
+        document.getElementById('book-search-input').value = window.location.pathname.replaceAll('/', '');
+        document.getElementById('book-search-input').focus()
+    });
+  </script>

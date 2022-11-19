@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Machine Learning</title>
+    <link>http://dmml.nu/tags/blog/</link>
+    <description>Recent content in Blog on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blogs, Knowledge Bases (for tech)</title>
+      <link>http://dmml.nu/blog-knowledge-base/</link>
+      <pubDate>Mon, 11 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/blog-knowledge-base/</guid>
+      <description>See also: Project &amp;amp; Code Management Platform Comparison
+Blogs#Public host: wordpress.com / blogger / CSDN / CNBlogs (博客园) / zhuanlan.zhihu (知乎专栏) / &amp;hellip; Private host (LAMP/XAMPP/MEAN): wordpress.org / Drupal / Joomla / Public/Private host: Hexo/JekyII + github/gitee. Note:
+LAMP = Linux, Apache, MySQL and PHP/Python/Perl.
+XAMPP = cross platform, Apache, MySQL/MariaDB, PHP/Python/Perl.
+MEAN = MongoDB, Express (for Node.js), AngularJS, Node.js.
+Knowledge Base Online Office#Notion, 语雀, 我来(wolai.com)的比较</description>
+    </item>
+    
+    <item>
+      <title>Migrate from (old) FarBox to Bitcron</title>
+      <link>http://dmml.nu/farbox-bitcron/</link>
+      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/farbox-bitcron/</guid>
+      <description>Migrating#method 1 - manual cp#Official doc suggest to copy manually to the new Dropbox folder (/Apps/Bitcron/internal-domain-name).
+WARN for site.md &amp;amp; template (see ref-doc-fr.-farbox)
+method 2 - build in#More&amp;hellip;(更多&amp;hellip;), 再选择 “Move from FarBox”
+WARN for images: &amp;ldquo;注意: 如果原 FarBox 网站本身有大量的(高清、原始)图片，不要使用这种方式，因为 FarBox 本身不会存储原始的图片，通过其迁移到 Bitcron，图片本身已经被压缩过大小了。&amp;rdquo;
+New Useful Stuff#New Dashboard New Doc Domain Binding#ref-doc-domain
+method 1 - ns#use name servers (NS): ns1.</description>
+    </item>
+    
+  </channel>
+</rss>

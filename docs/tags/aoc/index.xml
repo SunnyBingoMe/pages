@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AOC on Machine Learning</title>
+    <link>http://dmml.nu/tags/aoc/</link>
+    <description>Recent content in AOC on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/aoc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fiber 光纤 光口</title>
+      <link>http://dmml.nu/fiber/</link>
+      <pubDate>Tue, 27 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/fiber/</guid>
+      <description>设备、服务器常见光纤接口#SFP 口需要光模块（LC 模块）：
+ref: https://www.bilibili.com/video/BV17S4y1F7M4
+光纤的连接方法#机械连接
+耗材：光纤连接器(a.k.a. 光纤耦合器/光纤法兰)
+SC 型: Subscriber Connector，日本，塑料，多用于连接路由器、交换机。
+LC 型: Lucent Connector，贝尔研究所，塑料，多用于连接 SFP 光模块，插针和套筒尺寸是 SC 的一半，为 1.25mm。
+FC 型: Fiber Connector，日本 NTT 公司，金属接头，螺丝扣紧固。
+ST 型: Straight Tip，光纤配件架，螺丝扣紧固，多用于光电转换器。
+MU 型: Miniature Unit-coupling 即 微型连接器，日本 NTT 公司从 SC 改进，最小的单芯光纤连接器，1.25mm 套管，自保式结构，便于高密度安装。
+MT-RJ: 安普公司，有类似 RJ45 的闩锁结构，国内用得少。经济适用，适合“光纤到桌面”应用，多用于下一代高密度光纤连接器。
+DIN47256: 德国，尺寸同 FC 但结构更复杂，有控制压力的弹簧，防止压力过小或过大损坏接触面。
+BFOC: 德国西门子，为工业以太网开发，结构与 ST 非常相似（仅陶瓷芯略小），多用于恶劣环境的工业交换机、单片机。
+VF45: 3M 公司 1995s，无需套管即可连接。
+OptiJack: 用于 SFF 光模块。
+FDDI: Fiber Distributed Data Interface，主要用于双工连接系统。</description>
+    </item>
+    
+  </channel>
+</rss>

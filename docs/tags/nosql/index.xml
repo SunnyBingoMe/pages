@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NoSQL on Machine Learning</title>
+    <link>http://dmml.nu/tags/nosql/</link>
+    <description>Recent content in NoSQL on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Jun 2016 13:35:38 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/nosql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>No SQL (Why &amp; What &amp; When)</title>
+      <link>http://dmml.nu/no-sql/</link>
+      <pubDate>Tue, 14 Jun 2016 13:35:38 +0000</pubDate>
+      
+      <guid>http://dmml.nu/no-sql/</guid>
+      <description>This post extends from a summary of a video + e.g. + criteria. See here (cn) for detailed situatoins &amp;amp; examples regarding usecase.
+Traditional Relational DBs#Mysql, PostgreSQL, SQLite, Amazon Redshift, Amazon Aurora.
+Why#Too much data. Too expensive to store in one computer.
+Need distributed DB.
+However, relationship DBs (SQL) are not designed and not suitable for this situation.
+What#Thus, NoSQL occured, with several types.</description>
+    </item>
+    
+  </channel>
+</rss>

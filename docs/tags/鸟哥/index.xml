@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>鸟哥 on Machine Learning</title>
+    <link>http://dmml.nu/tags/%E9%B8%9F%E5%93%A5/</link>
+    <description>Recent content in 鸟哥 on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Mar 2012 19:08:16 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/%E9%B8%9F%E5%93%A5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Notes of Basic Linux Part-5 Root as Administrator</title>
+      <link>http://dmml.nu/vbird-linux-5/</link>
+      <pubDate>Sat, 03 Mar 2012 19:08:16 +0000</pubDate>
+      
+      <guid>http://dmml.nu/vbird-linux-5/</guid>
+      <description>see also jlevy/the-art-of-command-line (multi-language)
+Organised 2017 March.
+Notes from 2012 April.
+多年前（2012）写的“鸟哥的Linux 私房菜”学习笔记。- Chapters 18~26 -ing
+原网站： 繁体 linux.vbird.org or 简体 cn.linux.vbird.org 。
+第十八章、认识系统服务 (daemon, service)#什么是 daemon 与服务 (service)#分类 &amp;amp; 命名：#stand-alone vs. super-daemon Stand Alone Daemon 响应速度快。 常见的有httpd、FTP的vsftpd等。 Super Daemon (1)由于 super daemon 负责唤醒各项服务，因此 super daemon 可以具有安全控管的机制. (2)不会一直占用系统资源。 例如 telnet, xinetd. signal-control vs. interval-control (工作形态) signal-control 透过讯号来管理，有客户端的需求进来，就会去处理！ 例如打印机的服务 (cupsd)。 interval-control 『每隔一段时间就主动的去运行某项工作』，在指定的时间才会去工作。 例如在第十六章提到的 atd 与 crond (每分钟侦测一次配置文件) 命名守则 {xxx}d eg: man [3] daemon 服务与端口的对应： /etc/services#ssh 22/tcp # SSH Remote Login Protocol ssh 22/udp # SSH Remote Login Protocol .</description>
+    </item>
+    
+    <item>
+      <title>Notes of Basic Linux Part-4 User Management</title>
+      <link>http://dmml.nu/vbird-linux-4/</link>
+      <pubDate>Sat, 03 Mar 2012 18:08:16 +0000</pubDate>
+      
+      <guid>http://dmml.nu/vbird-linux-4/</guid>
+      <description>see also jlevy/the-art-of-command-line (multi-language)
+Organised 2017 March.
+Notes from 2012 April.
+多年前（2012）写的“鸟哥的 Linux 私房菜”学习笔记。- Chapters 14 &amp;amp; 17 -ing
+原网站： 繁体 linux.vbird.org or 简体 cn.linux.vbird.org 。
+第十四章、Linux 账号管理与 ACL 权限配置#Linux 的账号与群组#使用者标识符： UID 与 GID#UID是0时，代表这个账号是『系统管理员』！ 所以当你要让其他的账号名称也具有 root 的权限时，将该账号的 UID 改为 0 即可。 1~499 (系统账号).除了 0 之外，其他的 UID 权限与特性并没有不一样。默认 500 以下的数字让给系统作为保留账号只是一个习惯。 我们希望启动的服务使用较小的权限去运行，所以这些系统账号通常是不可登陆的, 所以才会有 /bin/false ; /usr/sbin/nologin. 比如用来作为pop邮件使用者的shell 1~99：由 distributions 自行创建的系统账号. 100~499：若用户有系统账号需求时，可以使用的账号 UID。 500~65535 (可登陆账号). linux 核心 (2.</description>
+    </item>
+    
+    <item>
+      <title>Notes of Basic Linux Part-3 bash, shell, and Network Security</title>
+      <link>http://dmml.nu/vbird-linux-3/</link>
+      <pubDate>Sat, 03 Mar 2012 17:17:19 +0000</pubDate>
+      
+      <guid>http://dmml.nu/vbird-linux-3/</guid>
+      <description>see also jlevy/the-art-of-command-line (multi-language)
+Organised 2017 March.
+Notes from 2012 April.
+多年前（2012）写的“鸟哥的Linux 私房菜”学习笔记。 - chapters 10~13 -ing
+基本的命令应该没什么变化吧。
+原网站： 繁体 0160startlinux 。
+Crtl + Alt + [F1]~[F6]
+# 共有六个， tty1 ~ tty6 ，切换的方式为 Crtl + Alt + [F1]~[F6]，其中， [F7] [F8] 为图形接口的使用。
+man xxx =&amp;gt; xxx(number) manual 中的命令级别 number 代表意义:
+1：一般用户可以使用的命令或可运行文件案； 5：一些配置文件的文件内容格式； 8：系统管理员能够使用的管理命令。 第十一章、认识与学习BASH#认识 BASH 这个 Shell#硬件、核心与 Shell#// Hardware &amp;lt;=&amp;gt; Kernel &amp;lt;=&amp;gt; Shell,KDE,App 为何要学文字接口的 shell#// 通用,效率高 系统的合法 shell 与 /etc/shells 功能#/etc/shells #所有 shells /etc/passwd	// 每个用户的默认 shell Bash shell 的功能#// history, tab, alias, job control, scripts, wildcard // 当前登录的history在内存，注销时才会写入用户history文件。 Bash shell 的内建命令： type#type [-tpa] commandName [ ]	：无参，说明式回显 commandName 类型,还和使用者语言有关 -t ：单词式回显： file ：外部命令 alias ：别名 builtin ：bash内建 -p ：如果后面接的 commandName 为外部命令，会显示完整文件名； -a ：会由 PATH 变量定义的路径中，将所有含 commandName 字符串的命令都列出来，包含 alias 命令的下达 &amp;ldquo;&amp;quot;#// \ 仅跳脱『紧接着的下一个字符』 Shell 的变量功能#什么是变量#变量的取用与配置 (echo, 变量配置守则, unset)#// 变量的取用: echo echo $varName echo ${varName} // $varName 是 ${varName} 的简化。 // 变量配置守则 // 赋值等号两边不能有空格 // 不能以数字开头 // 命令嵌套 eg : ls -l `locate crontab` // 反单引号 `命令` 或 $(命令) 等价 （推荐后者，因为容易识别，但是不要忘了那个$符号）。 unset varName #注意：此处没有&#39;$&#39; 环境变量的功能: env, export, declare#// env 与 export 可观察环境变量，其中 export 可以将自定义变量转成环境变量； env #查看所有env变量 HOME #cd ~ SHELL HISTSIZE MAIL PATH LANG #语系 RANDOM #/dev/random ; 0~32767 之间 declare -i number=$RANDOM*10/32768 ; echo $number #0~9 之间 set #查看目前 bash 的所有变量 (环境变量+自定义变量)； // set 还可以配置命令环境,见4.</description>
+    </item>
+    
+    <item>
+      <title>Notes of Basic Linux Part-2 Files, Directories, FS</title>
+      <link>http://dmml.nu/vbird-linux-2/</link>
+      <pubDate>Sat, 03 Mar 2012 17:08:16 +0000</pubDate>
+      
+      <guid>http://dmml.nu/vbird-linux-2/</guid>
+      <description>see also jlevy/the-art-of-command-line (multi-language)
+Organised 2017 March.
+Notes from 2012 April.
+多年前（2012）写的“鸟哥的Linux 私房菜”学习笔记。 - Chapters 6~9 -ing
+基本的命令应该没什么变化吧。
+第6章、Linux文件权限与目录配置#user, group#Linux文件权限概念#Linux文件属性 (ls -al)#*首位类型: d: Dir -: 正规文件(regular file ) ASCII/plain text; binary; data(eg: last 才能读 /ar/log/wtmp) l: Link b: Block dev, 可供储存的接口设备(可随机存取装置) c: Character dev, 串行端口设备，例如键盘、鼠标(一次性读取装置) s: Socket, 常见于 /var/run p: Pipe, FIFO. see: man fifo. 在解决多程序同时存取一个文件所造成的错误。 *时间: 最后修改时间 Note: 中文时间乱码: 用『LANG=en_US』来修改语系. /etc/sysconfig/i18n</description>
+    </item>
+    
+    <item>
+      <title>Notes of Basic Linux Part-1 Installation</title>
+      <link>http://dmml.nu/vbird-linux-1/</link>
+      <pubDate>Sat, 03 Mar 2012 17:00:51 +0000</pubDate>
+      
+      <guid>http://dmml.nu/vbird-linux-1/</guid>
+      <description>see also jlevy/the-art-of-command-line (multi-language)
+Organised 2017 March.
+Notes from 2012 April.
+多年前（2012）写的“鸟哥的Linux 私房菜”学习笔记。
+基本的命令应该没什么变化吧。
+原网站： 繁体 linux.vbird.org or 简体 cn.linux.vbird.org 。
+比较简单，我就不总结了，见原网站地址.</description>
+    </item>
+    
+  </channel>
+</rss>

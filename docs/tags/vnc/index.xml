@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VNC on Machine Learning</title>
+    <link>http://dmml.nu/tags/vnc/</link>
+    <description>Recent content in VNC on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Dec 2016 17:32:06 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/vnc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setup Remote Access (VNC) of Linux Servers</title>
+      <link>http://dmml.nu/remote-accessing-desktop-install-and-uninstall-vnc-on-linux-servers/</link>
+      <pubDate>Fri, 02 Dec 2016 17:32:06 +0000</pubDate>
+      
+      <guid>http://dmml.nu/remote-accessing-desktop-install-and-uninstall-vnc-on-linux-servers/</guid>
+      <description>Tested in Ubuntu 16.04 desktop Gnome+Unity in Vmware.
+OBS: pure server will automatically start X in reboot and will lack of something, e.g. Default Terminal etc.
+FIREWALL#TCP port 5900+N (N is monitorId, starts from 1.)
+TIGHT.VNC AS SERVER#TightVnc allows us to start from a server without X11 and do everything in command line, remotely.
+install (either already with or w/o desktop)#sudo su: use root can avoid weird problems, see &amp;ldquo;ps&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>

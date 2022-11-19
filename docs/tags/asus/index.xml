@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Asus on Machine Learning</title>
+    <link>http://dmml.nu/tags/asus/</link>
+    <description>Recent content in Asus on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Apr 2020 11:03:41 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/asus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ASUS AC86U</title>
+      <link>http://dmml.nu/asus/</link>
+      <pubDate>Sun, 19 Apr 2020 11:03:41 +0000</pubDate>
+      
+      <guid>http://dmml.nu/asus/</guid>
+      <description>Firmwares#官改、梅林改版下载：
+http://koolshare.cn/forum-96-1.html
+“改”=“+ Koolshare”
+File Transfering#SCP/WinSCP. (SFTP is not available by default)
+or, install &amp;amp; use FileBrowser in koolshare app store.
+Manually Install Koolshare App Offline#upload to /tmp tar xvzf &amp;hellip; rm &amp;hellip;tar.gz (to get some space) cd /tmp/my_app_name sh my_installer.sh (usually, it will remove this installer folder by itself) Warn: DO stop the FileBrowser app after transfering files.
+Remove Advertisements/Ads via Asus Router#by hosts#vi /jffs/configs/dnsmasq.</description>
+    </item>
+    
+  </channel>
+</rss>

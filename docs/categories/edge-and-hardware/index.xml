@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Edge-and-Hardware on Machine Learning</title>
+    <link>http://dmml.nu/categories/edge-and-hardware/</link>
+    <description>Recent content in Edge-and-Hardware on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/categories/edge-and-hardware/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>M.2 Module Interface Connector</title>
+      <link>http://dmml.nu/m.2</link>
+      <pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/m.2</guid>
+      <description>Concepts#def m.2 (now)#M.2 (pronounced “M dot two”) is a compact card or module form factor supporting multiple protocols and applications. It was developed by PCI-SIG and SATA-IO. The M.2 comes in two main formats:
+Connectorized, which includes a &amp;ldquo;card&amp;rdquo; (with pins) and a motherboard &amp;ldquo;socket (a.k.a. slot)&amp;rdquo; (with contacts) Soldered down m.2 vs. ngff (old)#M.2 was originally called the Next Generation Form Factor (NGFF).</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathmatic on Machine Learning</title>
+    <link>http://dmml.nu/tags/mathmatic/</link>
+    <description>Recent content in Mathmatic on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/mathmatic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fundamental/Essential Mathmatic Foundation Books &amp; Courses</title>
+      <link>http://dmml.nu/math-books/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/math-books/</guid>
+      <description>See also:
+Machine Learning Books 3Blue1Brown / 3B1B videos on Bilibili &amp;amp; Youtube Note: The following books are more introductory than professional, but usually enough for most engineers.
+Linear Algebra#Sheldon Axler 《Linear Algebra Done Right / 线性代数应该这样学》(以线性变换为中心) [豆瓣 8.8,184 人],图灵社区出品,人民邮电出版社; supplementary videos (English subtitle) on Youtube and Bilibili; slides; Errata.
+. 麻省理工 Gilbert Strang &amp;ldquo;线性代数 MIT 18.06&amp;rdquo;（网易公开课有翻译） &amp;amp; 教材 《Introduction to Linear Algebra 线性代数》 [第五版 豆瓣 9.5，71 人] 清华大学出版社。 Videos (中英双字幕) on Bilibili &amp;amp; Youtube with Newly added content in 2020。 Strang 教授另有一本《Linear Algebra and Its Applications》，内容差不多。</description>
+    </item>
+    
+  </channel>
+</rss>

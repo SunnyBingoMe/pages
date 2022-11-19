@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NFS on Machine Learning</title>
+    <link>http://dmml.nu/tags/nfs/</link>
+    <description>Recent content in NFS on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/nfs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>File Sync &amp; Backup Tools (FreeFileSync TrueNAS SyncThing Synolog QNap NAS)</title>
+      <link>http://dmml.nu/nas/</link>
+      <pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/nas/</guid>
+      <description>NextCloud vs. Seafile vs. SyncThing#NextCloud Seafile SyncThing License Open source Open source/Enterprise License Open source Large file support Yes Yes Yes Centralized Yes (CS Mode) Yes (CS Mode) No (P2P Mode) Self-hosted Yes Yes — Server OS Linux/Windows/MacOS Linux/Windows — Docker Support Yes Yes Yes Language PHP C, Python GO Mobile Clients iPhone/Android/Windows iPhone/Android Android Desktop Clients Mac/Windows/Linux Mac/Windows/Linux Mac/Windows/Linux Single Sign-On Yes No No Sync local folder Yes Yes Yes LAN Synchronization No Yes Yes Multi-Tenant No Yes No File Versioning Yes Yes Yes Chat (Audio/Video/Text) Yes No No Calendar/Contact/Mail integration Yes Calendar and Contact No Active Directory Support Yes Yes No Online Office Yes In Pro.</description>
+    </item>
+    
+    <item>
+      <title>NFS How-To</title>
+      <link>http://dmml.nu/2012/05/11/13686/</link>
+      <pubDate>Fri, 11 May 2012 20:13:28 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/05/11/13686/</guid>
+      <description>Update: 2017-01-06
+Warn 1: for non-English, use samba/sshfs instead. unless win has NFS v4 or above which can solve non-UTF8 problems.
+Warn 2: svchost consumes 1.5GB ram, don&amp;rsquo;t know why.
+See Also Links
+SSHFS/SFTP
+CIFS/SMB/Samba
+OBS#Combining simlink (ln -s) with NFS may cause weird file path problems. We tried to have a link at NFS to Dropbox in nfs, also tried to have a link at home to mount point at /mnt.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TL-WR703N on Machine Learning</title>
+    <link>http://dmml.nu/tags/tl-wr703n/</link>
+    <description>Recent content in TL-WR703N on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 Jul 2016 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/tl-wr703n/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Open-wrt Config TP-Link WR703N</title>
+      <link>http://dmml.nu/open-wrt-config-how-to/</link>
+      <pubDate>Tue, 12 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/open-wrt-config-how-to/</guid>
+      <description>Basic Configs in UI#First time connect, as suggested, give a root passwd and enable SSH server. (Though enabled, you may need to manually &amp;ldquo;start&amp;rdquo; dropbear SSH server in the &amp;ldquo;startup&amp;rdquo; menu tab.) Enable wireless and make it part of LAN. Enable security and set a passwd. The default device mode is bridge. To use as a router, we need to disable bridge. Then the eth0 will be gone, so we need to add this interface again, naming &amp;ldquo;wan&amp;rdquo;, using protocol &amp;ldquo;DHCP client&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>

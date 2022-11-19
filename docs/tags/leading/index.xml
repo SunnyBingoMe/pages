@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Leading on Machine Learning</title>
+    <link>http://dmml.nu/tags/leading/</link>
+    <description>Recent content in Leading on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Nov 2013 09:28:40 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/leading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agile - Scrum</title>
+      <link>http://dmml.nu/2013/11/21/15259/</link>
+      <pubDate>Thu, 21 Nov 2013 09:28:40 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/11/21/15259/</guid>
+      <description>What?#http://www.collab.net/services/training/agile_e-learning
+http://www.slideshare.net/dimka5/introducing-agile-scrum-xp-and-kanban
+Which?#All free, ordered from simple to complex:
+scrumblr.ca/xxxx // board only. you need to give the board a name, public
+scrumy.com/xxxx // simple timed columns. you need to give the board a name, public
+targetprocess.com/product/scrum/ // timed columns.
+pivotaltracker.com // not only time, but also most necessary things.
+How?#Pivotal-Tracker is complicated, here is how to use it:
+https://www.pivotaltracker.com/help/gettingstarted</description>
+    </item>
+    
+    <item>
+      <title>总规划 [Big Picture]</title>
+      <link>http://dmml.nu/2013/11/14/15252/</link>
+      <pubDate>Thu, 14 Nov 2013 09:44:36 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/11/14/15252/</guid>
+      <description>link to this post: /big-picture details, see g-docs: /plan 观点基础: 有些基础性的东西是要做的,按照罗辑思维的说法, 要做能产生其他机会的机会 (//平台商?).
+0. 中等紧急 + 非常重要: 交通工程博士所需知识.#key words: 云计算, 虚拟化, 并行,
+1. IT, 计算机相关技术#比如IT, 哪里都不可或缺, 在这方面, Web前台作为展示, 后台作为谁都可用的基础, 所以,
+我要做的是: 一条线 + 书皮学问.
+非常重要: 现在前台技术还应提高, 要知其所以然. 后台做完snort一整套, 参考 shlug. 关于编程, 要学. 然后(开阔眼界)再学个纯oop的, 纯function模式的(人工智能). 其他书皮学问要做到知其然, 用的时候知道学什么, 去哪学.
+2. 非常紧急 + 中等重要: 情商之人名#不知道什么病, 从小记不住人名, 经常想不起来熟人的名字, 难道叫&amp;quot;名盲&amp;quot; = = &amp;hellip; 这个问题必须解决, 尤其外国人的名字, 太长了 &amp;hellip;
+3. 读书#亚马逊 › 传记 › 4星及以上 › (可根据人物分类) goo.</description>
+    </item>
+    
+    <item>
+      <title>一个时区引发的血案 [timezone] [ubuntu] [cacti]</title>
+      <link>http://dmml.nu/2013/06/08/14878/</link>
+      <pubDate>Sat, 08 Jun 2013 23:48:16 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/06/08/14878/</guid>
+      <description>拿cacti试着玩，和mrtg一起装的。
+第一天（昨天）装上就睡觉了，今天起来接着玩。
+发现自己新建的数据所产生的图表和rrd文件显示不出来数据，总是 NaN， copy其他已经有的文件替换新文件就可以显示，当然，数据还是老文件的。
+然后，发现copy的rrd文件生成的图和原rrd一致，即使过了半小时也是一样的，难道从同一个数据源获取的信息被写到不同的rrd文件？md5检查证明这个想法是错误的。
+还有个很诡异的问题，早晨我特地用bc算了一个很大的数，但是他显示的cpu load最高的时候却是在中午，我都怀疑有人在我吃饭的时候黑了我的服务器？
+把cacti的dev模式打开，详细检查log。没发现任何报错，update的rrd文件也没报错。我汗～～～灵异事件。。。
+突然发现写入rrd文件的时间戳貌似和生成图表用的时间戳存在巨大差异，一对比，差4小时～！！！
+然后就想起来给这台服务器刚换过时区，应该是这个问题了。看来只替换时区文件是不行的 。。。
+所以我： dpkg-reconfigure tzdata &amp;amp;&amp;amp; reboot 。。。
+很难说清到底哪些程序需要重启，干脆整机重启吧，几秒的事儿～ //win server 就2了，几分钟起来就不错了。
+这里还有另一篇文章：（我没试过）
+http://www.wikihow.com/Change-the-Timezone-in-Linux</description>
+    </item>
+    
+    <item>
+      <title>诡异的无线路由掉线 [wireless] [router] [arp]</title>
+      <link>http://dmml.nu/2013/04/08/14760/</link>
+      <pubDate>Mon, 08 Apr 2013 00:13:29 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/04/08/14760/</guid>
+      <description>最近家里用本本无线, 但是总掉线, 刚开始以为是路由问题, 重启, 好了, 但是太麻烦, 而且很频繁.
+后来偶然发现本本掉线之后 (但是显示还有连接), 手动重连即可. 问题是这个毛病太频繁了, 平时在学校没事儿, 回家之后很烦.
+受不了, 于是wireshark, 发现路由很奇怪地不回答arp询问, 导致动态arp的cache过期之后本本找不到gateway的mac地址, 无法送出数据包. 但是此时尚可以接收数据包, 这也可能是为什么skype或者其他云服务之类发现&amp;quot;自己&amp;quot;off-line会滞后于错误的实际发生时间.
+虽然不知道是不是路由的问题 (已经从dd-wrt返回出场状态, 不过依然不能解决问题), 总有办法bypass, 就是static arp.
+xp中使用
+arp -s 192.168.1.1 68-7f-74-b0-f8-ab
+可以设置静态arp, 但是在windows 7却得到 &amp;ldquo;The ARP entry addition failed: Access is denied.&amp;rdquo;
+ms官方论坛没有细说, 但给出netsh方案. stackoverflow 给出:
+netsh interface ip add neighbors &amp;lt;interface-name&amp;gt; &amp;lt;peer-ip&amp;gt; &amp;lt;peer-mac&amp;gt;
+例如:
+netsh interface ip add neighbors &amp;ldquo;Wireless Network Connection&amp;rdquo; 192.168.1.1 69-7f-ff-bf-f8-gb
+但是错误提示: cannot load ipmontr.dll &amp;hellip;. 我了个去 &amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>受不了微软</title>
+      <link>http://dmml.nu/2013/04/02/14750/</link>
+      <pubDate>Tue, 02 Apr 2013 19:36:15 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/04/02/14750/</guid>
+      <description>起初, 是受不了win phone, 自己不注意经营移动领域, 自作孽不可活.
+然后, 安装skype竟然不能一路next, 需要手动改文件夹权限, 这还是ms的作风么 &amp;hellip;.
+最后, 不明不白就把我的skydrive停了, 说24小时, 问了三天才给回复, 然后给我了个链接到一个法律文书说明. 有nnnnnnnnn页, 说看完填表, 然后我直接回复&amp;quot;不必了, 恭喜你们刚丢失了一个用户&amp;quot;.
+//图片来自 tkioz.blogspot.com</description>
+    </item>
+    
+    <item>
+      <title>自己找亮点</title>
+      <link>http://dmml.nu/2013/03/28/14742/</link>
+      <pubDate>Thu, 28 Mar 2013 23:49:37 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/03/28/14742/</guid>
+      <description>http://goo.gl/maps/I65hb</description>
+    </item>
+    
+    <item>
+      <title>Windows Phone</title>
+      <link>http://dmml.nu/2013/03/17/14726/</link>
+      <pubDate>Sun, 17 Mar 2013 15:13:40 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/03/17/14726/</guid>
+      <description>用了一下HTC Titan x310e, 拿到手看着很爽, metro挺漂亮~
+然后我上网, 发现登陆不了 &amp;hellip; 然后不同的程序报告给我的消息还不一样: &amp;ldquo;请确保你没有打开飞行模式&amp;quot;云云. 我汗, M$自己的程序就不能问一问系统是不是飞行模式 &amp;hellip; 当然, 我自己查了一下, 找到原因是没连wifi, 但这个工作应该由手机和系统去做.
+另外让我很受不了的事情, 浏览器连接不到就早说连接不到, 弄个进度条滚啊滚,滚啊滚, 就是不说自己滚不到头. 那就滚一边去吧, 再也不用手机里的ie浏览器了.
+wifi需要mac认证 &amp;hellip; 找啊找,找啊找,找啊找啊找朋友 &amp;hellip;. 终于在about里面找到了 &amp;hellip; 跟iphone一样无语, 你们就不能在 &amp;ldquo;wifi-&amp;gt;高级&amp;rdquo; 里面多显示一次mac地址么! 我了个去.
+晚上玩手机, 为了不影响别人休息, 当然要静音. 这次很快找到了静音设置, 然后去试验搜索~ 我X! 不是静音了么, 为毛会有提示音! 找了半小时也没找到其他静音设置, 算了, 这手机又给我一击.
+玩玩游戏吧, 打开marketplace, 准备装应用. games分类下竟然没有东西, 那就看看娱乐类吧. 也是空的. 显然是应用市场的问题了~ 翻来覆去, 发现需要 &amp;ldquo;update marketplace&amp;rdquo; 这个app. 看来这个app专门负责update. 然后 &amp;hellip;. 我怎么也没法根据他的提示 &amp;ldquo;re-fresh&amp;rdquo; &amp;hellip;.
+好吧, 不管M$你是怎么弄的, 反正我再也不会去买win旗下的手机了
+//图片来源: www.windows-smartphones.de</description>
+    </item>
+    
+    <item>
+      <title>Online Video Player Performance Comparison: Flash vs HTML5</title>
+      <link>http://dmml.nu/2013/01/15/14634/</link>
+      <pubDate>Tue, 15 Jan 2013 23:09:36 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/01/15/14634/</guid>
+      <description>Website: YouTube .
+Both are using client-paced download (guessing).
+Conclusion: Flash player is more efficient for transferring video data.</description>
+    </item>
+    
+    <item>
+      <title>TCP Socket Buffer [SKB] Size Auto Tuning</title>
+      <link>http://dmml.nu/2012/12/24/14610/</link>
+      <pubDate>Mon, 24 Dec 2012 11:43:33 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/12/24/14610/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Measuring TCP Congestion Windows [cwnd] [TCP Congestion Window Size] [measurement] [validation]</title>
+      <link>http://dmml.nu/2012/08/19/13925/</link>
+      <pubDate>Sun, 19 Aug 2012 20:52:11 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/08/19/13925/</guid>
+      <description>By René Pfeiffer
+from:http://linuxgazette.net/136/pfeiffer.html
+[Last month](http://linuxgazette.net/135/pfeiffer.html), I introduced the various TCP congestion control algorithms your Linux kernel knows about. I also mentioned a method, using the kernel module _tcpprobe_, that allows for measuring the parameters of live TCP connections. Unfortunately, this module requires the presence of a debugging option in the kernel called _kprobes_. By enabling this, you can dynamically break into any kernel routine and collect debugging and performance information non-disruptively.</description>
+    </item>
+    
+    <item>
+      <title>计算机领域学习路线图 roadmap</title>
+      <link>http://dmml.nu/2012/07/09/13836/</link>
+      <pubDate>Mon, 09 Jul 2012 21:38:54 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/07/09/13836/</guid>
+      <description>1. 计算机领域学习路线图#from: http://goo.gl/RZtPC
+![http://ocw.mit.edu/images/logo-ocw-home_new.gif](http://ocw.mit.edu/images/logo-ocw-home_new.gif) 目标#帮助计算机领域的初学者, 从零开始, 一步步成为一个靠谱的计算机领域的专家. 这里面只包含偏软件的部分.
+我们需要达成以下目标:
+了解计算机领域的基础知识. 对背景的了解是基础. 拥有计算机科学家的思维和解决问题的能力 能编程! 编程是我们解决问题的主要方式. 使用开源系统, 加入到开源社区中去 计算机基础课程学习#想要学习计算机领域的基础知识, 我选择使用mit公开课里面的内容. 下面我挑了一些必读课程:
+入门课程.
+6.00 入门课.
+6.001 老牌入门课.
+6.087 C语言是必须要掌握的..
+6.189 python也是必须要掌握的.
+基础课程.
+6.042J 恩, 一些计算机领域必须的数学基础.
+6.046J 算法基础.
+6.002 计算机组成原理.
+6.828 操作系统
+6.035 编译原理.
+网络部分.
+6.033 Computer System Engineering
+6.171 Software Engineering for Web Applications
+上面是必读, 当然还有其他的课程, 感兴趣可以学学, 都在: http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/
+可做和必做事项#下面我整理了一些必须做和可做的事情, 我觉得它们对于提高实力非常重要.
+开源社区
+安装和使用linux, 在linux上面做开发</description>
+    </item>
+    
+    <item>
+      <title>mod_apache_snmp, net-SNMP (给apache2添加SNMP支持)</title>
+      <link>http://dmml.nu/2012/04/18/13618/</link>
+      <pubDate>Wed, 18 Apr 2012 15:58:35 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/04/18/13618/</guid>
+      <description>Tested on platform:#vmware
+Linux ubuntu 2.6.32-38-generic #83-Ubuntu SMP Wed Jan 4 11:13:04 UTC 2012 i686 GNU/Linux
+DISTRIB_ID=Ubuntu; DISTRIB_RELEASE=10.04; DISTRIB_DESCRIPTION=&amp;ldquo;Ubuntu 10.04.4 LTS&amp;rdquo;
+httpd-2.0.64.tar.bz2; net-snmp-5.4.4; mod_ap2_snmp_1.04.
+sudo -s;
+apt-get remove lamp-server^ snmpd # if you have already installed apache or snmp-server.
+Just do it:#http://mod-apache-snmp.sourceforge.net/english/docs.htm
+(below is a summary)
+1) Install Apache Web Server with DSO support enabled.
+./configure --enable-so; make; make install 2) Unzip NET-SNMP sources.
+3) Unzip Mod-APACHE-SNMP sources.</description>
+    </item>
+    
+    <item>
+      <title>ubuntu 7 install vmware tools</title>
+      <link>http://dmml.nu/2012/04/16/13610/</link>
+      <pubDate>Mon, 16 Apr 2012 16:07:54 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/04/16/13610/</guid>
+      <description>The path &amp;quot;&amp;quot; is not valid path to the gcc binary. Would you like to change it? [yes] when typed in &amp;quot;/usr/bin/gcc&amp;quot; manually,
+The path &amp;quot;/usr/bin/gcc&amp;quot; is not valid path to the gcc binary. Would you like to change it? [yes] I found solution:
+http://superuser.com/questions/192047/gcc-path-not-valid-when-installing-vmware-tools-from-vmware-workstation-7-1-1-bu
+ie: sudo apt-get install linux-source linux-headers-uname -r libglib2.0-0
+// Got &amp;ldquo;If you wish to have the shared folders feature, you can install the driver by running vmware-config-tools.</description>
+    </item>
+    
+    <item>
+      <title>乱码putty支持中文utf8输入和显示</title>
+      <link>http://dmml.nu/2012/03/22/13553/</link>
+      <pubDate>Thu, 22 Mar 2012 01:38:41 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/03/22/13553/</guid>
+      <description>ref: networkquestions.org
+Note: Putty officially recommends to use Bitvise SSH Client &amp;amp; Server.
+终端默认是使用windows的编码方式（GBK），我们需要手动改为UTF-8
+再次重启的时候就不会是乱码了：
+[root@mail ~]# service httpd restart 停止 httpd： [确定] 启动 httpd： [确定] [root@mail ~]# 这是终端的乱码问题，再说一下打开中文文件乱码问题。
+在很多的配置文件中，含有中文，用vi打开时也是会乱码。首先我们系统中要有中文语言显示包（fonts-chinese），否则改为UTF-8也是会乱码。
+[root@mail ~]# cat /etc/sysconfig/i18n
+LANG=”zh_CN.UTF-8″
+[root@mail ~]#
+上面的设置，系统语言为中文，如果想改为英文的话，替换为：
+LANG=”en_US.UTF-8″ 保存即可。
+临时性改变语言：export LANG=en_US.UTF-8
+echo $LANG //查看语言
+另一个:
+ref: ylmf.net
+字符乱码:
+在window-〉Appearance-〉Translation中，Received data assumed to be in which character set 中,把Use font encoding改为UTF-8.
+如果经常使用,把这些设置保存在session里面.
+/* 下面的有待研究 &amp;hellip;.
+登录成功后,在shell中输入:export LC_ALL=&amp;lsquo;zh_CN.utf8&amp;rsquo;,现在已经可以完美的支持中文了.
+打开putty主程序，选择window-〉Appearance-〉Font settings-〉Change&amp;hellip;,选择Fixedsys字体,字符集选择CHINESE_GB2312。
+默认情况下，putty对中文的支持却让人不敢恭维，如果远程linux的locale设置为zh_CN.*(bg2312,gbk,utf8等等)，显示就是乱码。经研究发现，其实putty的中文支持还是很好的，呵呵</description>
+    </item>
+    
+    <item>
+      <title>OpenSwan IPSec setup configuration</title>
+      <link>http://dmml.nu/2012/03/10/13523/</link>
+      <pubDate>Sat, 10 Mar 2012 18:40:31 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/03/10/13523/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>[bak] Sar 监控命令小览</title>
+      <link>http://dmml.nu/2012/03/07/13516/</link>
+      <pubDate>Wed, 07 Mar 2012 17:22:46 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/03/07/13516/</guid>
+      <description>see also jlevy/the-art-of-command-line (multi-language)
+from: qa.taobao.com
+最近接触了下淘宝的性能框架PAP，觉得系统中的监控真的做的很不错，但是非pap运行的程序，则无法监控，同时也查了下淘宝性能百科对监控命令Sar介绍，觉得讲的比较粗，这里把自己以前用过的Sar监控分享下；有问题，大家共勉哈！
+B%91%E6%8E%A73.jpg)</description>
+    </item>
+    
+    <item>
+      <title>System/Network Measuring/Monitoring Tools</title>
+      <link>http://dmml.nu/2012/03/07/13513/</link>
+      <pubDate>Wed, 07 Mar 2012 17:20:14 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/03/07/13513/</guid>
+      <description>trace route#mtr (my traceroute / traceroute 2.0) real-time speed#(#: needs root permission, $: does not need.)
+bmon (graph); multi-interface nload (graph) unit : (k)bit min, max, avg, total (avg is the same as nethogs) slurm (graph); $ slurm -i wlan0* nethogs sudo nethogs wlan0#pid, user, program CPU-consuming (stable, the same as avg of nload) ifstat scrolling text iftop (current graph) sudo iftop -i wlan0#unit : (k)bit Reverse-DNS (don&amp;rsquo;t like it , use &amp;rsquo;n&amp;rsquo; to toggl) dstat scrolling text // all stat of system ntop // TODO, how-to sar // all stat of system (cpu/net/ram/io) (see: sar ) capture#tcpDump + tcpTrace http://fasterdata.</description>
+    </item>
+    
+    <item>
+      <title>一个女留学生的七年</title>
+      <link>http://dmml.nu/2012/02/09/13425/</link>
+      <pubDate>Thu, 09 Feb 2012 23:43:16 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/02/09/13425/</guid>
+      <description>http://emuch.net/html/201004/1951179.html
+如果说本科期间我拓宽了一下知识面算是个收获的理由,那么这一年半我真是对不起我自己了.
+还有半年,我能做的就是&amp;quot;struggle for success&amp;quot;了,向这个女生学习.
+也向zq和那个泰国人借鉴&amp;quot;just do it&amp;quot;的优点.
+还有半年, 半年后我是谁?
+我有我的plan
+立此存照
+的plan
+立此存照
+nbsp;</description>
+    </item>
+    
+    <item>
+      <title>eric crash</title>
+      <link>http://dmml.nu/2012/02/05/13411/</link>
+      <pubDate>Sun, 05 Feb 2012 01:29:20 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/02/05/13411/</guid>
+      <description>ubuntu 11.10 64bit.
+eric4 启动后窗口一闪即告崩溃。
+命令窗口启动发现：
+Connected to accessibility bus at: &amp;ldquo;unix:abstract=/tmp/dbus-5rwqiiCSZ1,guid=a3330f45019a77c867e77525000000a2&amp;rdquo;
+Registered DEC: true
+sudo 正常启动，无此提示，因此怀疑是环境变量的问题。
+g后发现：
+http://ubuntuforums.org/showthread.php?t=1861605
+即：
+export QT_ACCESSIBILITY=0
+问题解决。
+ps:
+Accessibility in Qt#by Geir Vattekar
+Accessibility in computer software is the practice of making applications usable for people with disabilities. This can be implemented by the application itself — for instance, by using a high-contrast user interface with specially selected colors and fonts — or by providing support for external tools, such as screen readers and Braille displays.</description>
+    </item>
+    
+    <item>
+      <title>小企鹅fcitx输入法安装, 中文gnome,英文kde</title>
+      <link>http://dmml.nu/2012/01/14/13336/</link>
+      <pubDate>Sat, 14 Jan 2012 20:09:48 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/01/14/13336/</guid>
+      <description>Ubuntu 18.04#The default ibus-based Chinese input method is ready to use.
+Thus, just change the language &amp;amp; input settings.
+Kubuntu#For Kubuntu 18.04, it is a good way to install fcitx-based methods.
+sudo -s apt install fcitx fcitx-googlepinyin cat &amp;gt;&amp;gt;/etc/environment &amp;lt;&amp;lt;EOD GTK_IM_MODULE=fcitx QT_IM_MODULE=fcitx XMODIFIERS=@im=fcitx EOD 设置》启动》添加自启动项: fcitx -d
+Xubuntu 在 开始菜单》所有设置 里面。
+Lubuntu 在 开始菜单》Preferences-&amp;gt;Default applications for LXSession
+(建议默认英文输入法)
+重新登录后，Ctrl + 空格可以调用输入法，shift 切换中英文。
+dated below#ubuntu 11.</description>
+    </item>
+    
+    <item>
+      <title>时间跟踪,工程,项目,Project管理软件.(Linux)</title>
+      <link>http://dmml.nu/2012/01/08/13281/</link>
+      <pubDate>Sun, 08 Jan 2012 13:50:50 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/01/08/13281/</guid>
+      <description>See also: code &amp;amp; project management software
+Rachota,​java,个人时间跟踪用.(在我的中文 ubuntu 上运行,很多方块 &amp;hellip;..)
+Dotproject 貌似很牛,上次看 proj 管理也看到了.但是 ​demo 为什么打不开 &amp;hellip;.
+Kimai 太复杂了.
+7 Best Free Linux Time Tracking Software#ref
+Time Tracking [Project Hamster](http://www.linuxlinks.com/article/20120102092428825/ProjectHamster.html) Time tracking applet for the GNOME desktop environment [Kimai](http://www.linuxlinks.com/article/20120106091739996/Kimai.html) Web based software that tracks work time, and classifies it [Task Coach](http://www.linuxlinks.com/article/20101002094015328/TaskCoach.html) Designed to deal with composite tasks [Rachota](http://www.linuxlinks.com/article/20120106092050297/RachotaTimetracker.html) Designed for personal timetracking of projects [dotProject](http://www.linuxlinks.com/article/20090410203917702/dotProject.html) Web-based, multi-user, multi-language project management application [Kontact](http://www.</description>
+    </item>
+    
+    <item>
+      <title>卸载 ubuntu11.10 unity 的 卸载即现式滚动条 和 所谓的 全局菜单, 恢复滚动条</title>
+      <link>http://dmml.nu/2011/12/31/13236/</link>
+      <pubDate>Sat, 31 Dec 2011 17:22:19 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/12/31/13236/</guid>
+      <description>卸载即现式滚动条和全局菜单，找回经典的滚动条和菜单。
+sudo apt-get remove overlay-scrollbar liboverlay-scrollbar3-0.2-0 liboverlay-scrollbar-0.2-0
+sudo apt-get remove indicator-appmenu appmenu-gtk appmenu-gtk3 appmenu-qt
+from:http://tieba.baidu.com/p/1328489583</description>
+    </item>
+    
+    <item>
+      <title>Latex 调用 Bibtex (IEEEtran in pdfLatex of TexWorks)</title>
+      <link>http://dmml.nu/2011/12/29/13226/</link>
+      <pubDate>Thu, 29 Dec 2011 03:47:05 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/12/29/13226/</guid>
+      <description>文章结束(\end{document})前 加入:
+\bibliographystyle{IEEEtran} \bibliography{references_filename} 其中 references_filename 是文件名, 指同文件夹下的 references_filename.bib.
+.bib 文件格式为:
+@BOOK{testBook, author={Everett, G. and McLeod, R.}, title={Software Testing(Testing Across the Entire Software Development Life Cycle)},&amp;lt;/pre&amp;gt; year={2006}, month={3}, volume={}, number={}, pages={345}, keywords={}, doi={}, ISSN={},} OBS 注意, 这里不是&amp;quot;booktitle&amp;quot;, 是&amp;quot;title&amp;quot; 有些类型(例如INPROCEEDINGS)需要用&amp;quot;booktitle&amp;quot;, 不同的时候需要不同的关键词.
+然后依次运行:** latex 编译 &amp;gt; bibtex 编译 &amp;gt; latex 编译 &amp;gt; latex 编译** (注意, 一共三次 latex 编译).
+如果 dvi/pdf 文件不是你想要的结果, 请一定要删除程序生成的中间文件和临时文件(不是自己编辑的都删除,包括 dvi/pdf), 然后再次运行以上四个命令.
+f), 然后再次运行以上四个命令.</description>
+    </item>
+    
+    <item>
+      <title>linux,ubuntu添加开机自动运行程序方法autorun</title>
+      <link>http://dmml.nu/2011/12/19/13189/</link>
+      <pubDate>Mon, 19 Dec 2011 21:33:41 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/12/19/13189/</guid>
+      <description>1. 开机自动运行#Linux加载后, 它将初始化硬件和设备驱动, 然后运行第一个进程init。init根据配置
+文件继续引导过程，启动其它进程。通常情况下，修改放置在
+/etc/rc或
+/etc/rc.d 或 /etc/rc?.d
+目录下的脚本文件，可以使init自动启动其它程序。例如：编辑
+/etc/rc.d/rc.local 文件(该文件通常是系统最后启动的脚本)，
+在文件最末加上一行“xinit”或“startx”，可以在开机启动后直接进入X－Window。
+2. 登录自动运行#用户登录时，bash先自动执行系统管理员建立的全局登录script ： /ect/profile
+然后bash在用户起始目录下按顺序查找三个特殊文件中的一个：
+/.bash_profile、
+/.bash_login、
+/.profile，
+但只执行最先找到的一个。因此，只需根据实际需要在上述文件中加入命令就可以实
+现用户登录时自动运行某些程序（类似于DOS下的Autoexec.bat）。
+3. 退出自动运行#退出登录时，bash自动执行个人的退出登录脚本
+/.bash_logout。
+例如，在/.bash_logout中加入命令“tar －cvzf c.source.tgz ＊.c”，则在每次退出
+登录时自动执行 “tar” 命令备份 ＊.c 文件。
+4. 定时自动运行#Linux有一个称为crond的守护程序，主要功能是周期性地检查 /var/spool/cron目录
+下的一组命令文件的内容，并在设定的时间执行这些文件中的命令。用户可以通过
+crontab 命令来建立、修改、删除这些命令文件。
+例如，建立文件crondFile，内容为“00 9 23 Jan ＊ HappyBirthday”，运行“crontab
+cronFile”命令后，每当元月23日上午9:00系统自动执行“HappyBirthday”的程序（“＊
+”表示不管当天是星期几）。
+5. 定时自动运行一次#定时执行命令at 与crond 类似（但它只执行一次）：命令在给定的时间执行，但不自
+动重复。at命令的一般格式为：at [ －f file ] time ，在指定的时间执行file文件</description>
+    </item>
+    
+    <item>
+      <title>先拍照后对焦</title>
+      <link>http://dmml.nu/2011/10/22/12792/</link>
+      <pubDate>Sat, 22 Oct 2011 10:04:01 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/10/22/12792/</guid>
+      <description>source from here
+版权归原作者所有，转载并不代表赞同其观点.
+影像科学家Ren Ng多年研究终于结出果实。他创办的公司Lytro宣布推出第一款利用高分辨率图像传感器捕捉光场的数字照相机，能在拍照之后无限次的重新对焦。新技术有可能彻底改变人们如何拍摄照片。
+Lytro照相机形状为铝制小矩形管，一端是f/2镜头，另一端是2英寸触摸屏。照相机有一个电源和快门按钮，以及一个控制镜头八倍缩放的滑块，没有光圈、快门调速和对焦——因为照相机不需要。传统照相机是通过将光线聚焦到传感器上的镜头捕捉三维空间的平面图像，记录的是二维色彩点阵。Ng（在斯坦福获得博士学位）和同事研发出Stanford Multi-Camera Array，阵列包含了数以百计的CMOS传感器，能记录整个场景中的光线颜色、强度和方向，这些光线聚合形成了场景的光场，允许用户在拍照后对焦。光场照相机目前接受预购，8GB版399美元，16GB版499美元。
+499美元。</description>
+    </item>
+    
+    <item>
+      <title>量子加密术的首个漏洞获证实 - 强光致盲</title>
+      <link>http://dmml.nu/2011/10/17/12785/</link>
+      <pubDate>Mon, 17 Oct 2011 09:30:09 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/10/17/12785/</guid>
+      <description>量子加密术从理论上说是不可能破解的，但在实践中却能找到很多漏洞。量子加密术利用量子密钥编码信息，对系统的窃听会破坏信息。现在新加坡国立大学的Christian Kurtsiefer和同事，与特隆赫姆大学的研究人员发现了一种方法隐藏窃听者：利用商用量子加密接收器单光子探测器中的已知弱点，使用强光致盲接受者使用的雪崩光电二极管。类似人的眼睛在晚上能区分远处的光，但在白天却不可能。研究人员在290米长的光纤线路上演示了他们的攻击方法。报告（预印本）发表在《自然通信》杂志上。
+http://it.solidot.org/article.pl?sid=11/06/20/0931235</description>
+    </item>
+    
+    <item>
+      <title>不会泄密的“云” - Homomorphic Encryption</title>
+      <link>http://dmml.nu/2011/10/17/12778/</link>
+      <pubDate>Mon, 17 Oct 2011 08:28:05 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/10/17/12778/</guid>
+      <description>想象一下，数字云端里存放的个人数据除你之外无人能破译。微软研究人员开发出了一个不会泄密的虚拟金库。
+云服务日益流行，但它的安全性也愈来愈令人担忧，尤其是在索尼服务器被黑客入侵上亿用户数个人据泄露之后。微软研究员Kristin Lauter和同事基于名为同态加密的加密技术开发出储存系统原型，没有用户的解密密钥攻击者将几乎不可能破译出密码。研究人员很早就认识到了同态加密的潜力，但直到2009年IBM研究人员发表一篇数学论证显示了同态加密的可能性。
+以上来自：http://it.solidot.org/article.pl?sid=11/08/08/078223
+同态加密：
+http://zh.wikipedia.org/wiki/%E5%90%8C%E6%80%81%E5%8A%A0%E5%AF%86
+同态加密
+同态加密是一种加密形式，它允许人们对密文进行特定的代数运算得到仍然是加密的结果，与对明文进行同样的运算再将结果加密一样。换言之，这项技术令人们可以在加密的数据中进行诸如检索、比较等操作，得出正确的结果，而在整个处理过程中无需对数据进行解密。其意义在于，真正从根本上解决将数据及其操作委托给第三方时的保密问题，例如对于各种云计算的应用。
+这一直是密码学领域的一个重要课题，以往人们只找到一些部分实现这种操作的方法。而2009年9月克雷格·金特里（Craig Gentry）的论文从数学上提出了“全同态加密”的可行方法，即可以在不解密的条件下对加密数据进行任何可以在明文上进行的运算，使这项技术取得了决定性的突破。人们正在此基础上研究更完善的实用技术，这对信息技术产业具有重大价值。</description>
+    </item>
+    
+    <item>
+      <title>HTML5：Gate One 0.9发布，支持SSH</title>
+      <link>http://dmml.nu/2011/10/15/12774/</link>
+      <pubDate>Sat, 15 Oct 2011 09:28:31 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/10/15/12774/</guid>
+      <description>Dan McDougall 发布了Gate One v0.9版。Gate One是利用HTML5技术开发的Web终端模拟器和SSH客户端，使用WebSockets，不要任何插件；支持单一浏览器多同步终端/SSH会话；能在断开后恢复用户会话；支持客户端和服务器端会话记录/回放；可以嵌入到其它应用中。
+项目 https://github.com/liftoff/GateOne
+视频演示 http://vimeo.com/24857127
+from: http://internet.solidot.org/article.pl?sid=11/10/14/0913242</description>
+    </item>
+    
+    <item>
+      <title>【转】台湾中央研究院历史研究所院士王泛森先生：如果让我重做一次研究生</title>
+      <link>http://dmml.nu/2011/08/16/12430/</link>
+      <pubDate>Tue, 16 Aug 2011 20:18:25 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/08/16/12430/</guid>
+      <description>王泛森 院士 台湾中央研究院历史语言研究所
+这个题目我非常喜欢，因为这个题目，对大家多少都有实际的帮助。如果下次我必须再登台演讲，我觉得这个题目还可以再发挥一两次。我是台大历史研究所毕业的，所以我的硕士是在台大历史研究所，我的博士是在美国普林斯顿大学取得的。我想在座的各位有硕士、有博士，因此我以这两个阶段为主，把我的经验呈现给各位。 我从来不认为我是位有成就的学者，我也必须跟各位坦白，我为了要来做这场演讲，在所里碰到刚从美国读完博士回来的同事，因为他们刚离开博士生的阶段，比较有一些自己较独特的想法，我就问他：「如果你讲这个问题，准备要贡献什么？」结合了他们的意见，共同酝酿了今天的演讲内容，因此这里面不全是我一个人的观点。虽然我的硕士论文和博士论文都出版了，但不表示我就是一个成功的研究生，因为我也总还有其它方面仍是懵懵懂懂。我的硕士论文是二十年前时报出版公司出版的，我的博士论文是英国剑桥大学出版的。你说有特别好吗？我不敢乱说。我今天只是综合一些经验，提供大家参考。 一、研究生与大学生的区别 首先跟大家说明一下研究生和大学生的区别。大学生基本上是来接受学问、接受知识的，然而不管是对于硕士时期或是博士时期的研究而言，都应该准备要开始制造新的知识，我们在美国得到博士学位时都会领到看不懂的毕业证书，在一个偶然的机会下，我问了一位懂拉丁文的人，上面的内容为何？他告诉我：「里头写的是恭喜你对人类的知识有所创新，因此授予你这个学位。」在中国原本并没有博硕士的学历，但是在西方他们原来的用意是，恭贺你已经对人类普遍的知识有所创新，这个创新或大或小，都是对于普遍的知识有所贡献。这个创新不会因为你做本土与否而有所不同，所以第一个我们必须要很用心、很深刻的思考，大学生和研究生是不同的。 （一）选择自己的问题取向，学会创新 你一旦是研究生，你就已经进入另一个阶段，不只是要完全乐在其中，更要从而接受各种有趣的知识，进入制造知识的阶段，也就是说你的论文应该有所创新。由接受知识到创造知识，是身为一个研究生最大的特色，不仅如此，还要体认自己不再是个容器，等着老师把某些东西倒在茶杯里，而是要开始逐步发展和开发自己。做为研究生不再是对于各种新奇的课照单全收，而是要重视问题取向的安排，就是在硕士或博士的阶段里面，所有的精力、所有修课以及读的书里面都应该要有一个关注的焦点，而不能像大学那般漫无目标。大学生时代是因为你要尽量开创自己接受任何东西，但是到了硕士生和博士生，有一个最终的目的，就是要完成论文，那篇论文是你个人所有武功的总集合，所以这时候必须要有个问题取向的学习。 （二）尝试跨领域研究，主动学习 提出一个重要的问题，跨越一个重要的领域，将决定你未来的成败。我也在台大和清华教了十几年的课，我常常跟学生讲，选对一个领域和选对一个问题是成败的关键，而你自己本身必须是带着问题来探究无限的学问世界，因为你不再像大学时代一样泛滥无所归。所以这段时间内，必须选定一个有兴趣与关注的主题为出发点，来探究这些知识，产生有机的循环。由于你是自发性的对这个问题产生好奇和兴趣，所以你的态度和大学部的学生是截然不同的，你慢慢从被动的接受者变成是一个主动的探索者，并学会悠游在这学术的领域。我举一个例子，我们的中央研究院院长李远哲先生，得了诺贝尔奖。他曾经在中研院的周报写过几篇文章，在他的言论集里面，或许各位也可以看到，他反复提到他的故事。他是因为读了一个叫做马亨教授的教科书而去美国柏克莱大学念书，去了以后才发现，这个老师只给他一张支票，跟他说你要花钱你尽量用，但是从来不教他任何东西。可是壁那个教授，老师教很多，而且每天学生都是跟着老师学习。他有一次就跟那个老师抱怨：「那你为什么不教我点东西呢？」那个老师就说：「如果我知道结果，那我要你来这边念书做什么？我就是因为不知道，所以要我们共同探索一个问题、一个未知的领域。」他说其实这两种教法都有用处，但是他自己从这个什么都不教他，永远碰到他只问他「有没有什么新发现」的老师身上，得到很大的成长。所以这两方面都各自蕴含深层的道理没有所谓的好坏，但是最好的方式就是将这两个方式结合起来。我为什么讲这个故事呢？就是强调在这个阶段，学习是一种「self-help」，并且是在老师的引导下学习「self-help」，而不能再像大学时代般，都是纯粹用听的，这个阶段的学习要基于对研究问题的好奇和兴趣，要带着一颗热忱的心来探索这个领域。 然而研究生另外一个重要的阶段就是Learn how to learn，不只是学习而已，而是学习如何学习，不再是要去买一件很漂亮的衣服，而是要学习拿起那一根针，学会绣出一件漂亮的衣服，慢慢学习把目标放在一个标准上，而这一个标准就是你将来要完成硕士或博士论文。如果你到西方一流的大学去读书，你会觉得我这一篇论文可能要和全世界做同一件问题的人相比较。我想即使在台湾也应该要有这样的心情，你的标准不能单单只是放在旁边几个人而已，而应该是要放在领域的普遍人里面。你这篇文章要有新的东西，才算达到的标准，也才符合到我们刚刚讲到那张拉丁文的博士证书上面所讲的，有所贡献与创新。 二、一个老师怎么训练研究生 第二个，身为老师你要怎么训练研究生。我认为人文科学和社会科学的训练，哪怕是自然科学的训练，到研究生阶段应该更像师徒制，所以来自个人和老师、个人和同侪间密切的互动和学习是非常重要的，跟大学部坐在那边单纯听课，听完就走人是不一样的，相较之下你的生活应该要和你所追求的知识与解答相结合，并且你往后的生活应该或多或少都和这个探索有相关。 （一）善用与老师的伙伴关系，不断Research 我常说英文research这个字非常有意义，search是寻找，而research是再寻找，所以每个人都要research，不断的一遍一遍再寻找，并进而使你的生活和学习成为一体。中国近代兵学大师蒋百里在他的兵学书中曾说：「生活条件要跟战斗条件一致，近代欧洲凡生活与战斗条件一致者强，凡生活与战斗条件不一致者弱。」我就是藉由这个来说明研究生的生活，你的生活条件与你的战斗条件要一致，你的生活是跟着老师与同学共同成长的，当中你所听到的每一句话，都可能带给你无限的启发。 回想当时我在美国念书的研究生生活，只要随便在楼梯口碰到任何一个人，他都有办法帮忙解答你语言上的困难，不管是英文、拉丁文、德文、希腊文……等。所以能帮助解决问题的不单只是你的老师，还包括所有同学以及学习团体。你的学习是跟生活合在 一起的。当我看到有学生呈现被动或是懈怠的时候，我就会用毛泽东的「革命不是请客吃饭！」来跟他讲：「作研究生不是请客吃饭。」
+（二）藉由大量阅读和老师提点，进入研究领域 怎样进入一个领域最好，我个人觉得只有两条路，其中一条就是让他不停的念书、不停的报告，这是进入一个陌生的领域最快，又最方便的方法，到最后不知不觉学生就会知道这个领域有些什么，我们在不停念书的时候常常可能会沉溺在细节里不能自拔，进而失去全景，导致见树不见林，或是被那几句英文困住，而忘记全局在讲什么。藉由学生的报告，老师可以讲述或是厘清其中的精华内容，经由老师几句提点，就会慢慢打通任督二脉，逐渐发展一种自发学习的能力，同时也知道碰到问题可以看哪些东西。就像是我在美国念书的时候，我修过一些我完全没有背景知识的国家的历史，所以我就不停的念书、不停的逼着自己吸收，而老师也只是不停的开书目，运用这样的方式慢慢训练，有一天我不再研究它时，我发现自己仍然有自我生产及蓄发的能力，因为我知道这个学问大概是什么样的轮廓，碰到问题也有能力可以去查询相关的资料。所以努力让自己的学习产生自发的延展性是很重要的。 （三）循序渐进地练习论文写作 到了硕士或博士最重要的一件事，是完成一篇学位论文，而不管是硕士或博士论文，其规模都远比你从小学以来所受的教育、所要写的东西都还要长得多，虽然我不知道教育方面的论文情况是如何，但是史学的论文都要写二、三十万字，不然就是十几二十万字。写这么大的一个篇幅，如何才能有条不紊、条理清楚，并把整体架构组织得通畅可读？首先，必须要从一千字、五千字、一万字循序渐进的训练，先从少的慢慢写成多的，而且要在很短的时间内训练到可以从一万字写到十万字。这么大规模的论文谁都写得出来，问题是写得好不好，因为这么大规模的写作，有这么许多的脚注，还要注意首尾相映，使论述一体成型，而不是散落一地的铜钱；是一间大礼堂，而不是一间小小分割的阁楼。为了完成一个大的、完整的、有机的架构模型，必须要从小规模的篇幅慢慢练习，这是一个最有效的办法。 因为受计算机的影响，我发现很多学生写文章能力都大幅下降。写论文时很重要的一点是，文笔一定要清楚，不要花俏、不必漂亮，「清楚」是最高指导原则，经过慢慢练习会使你的文笔跟思考产生一致的连贯性。我常跟学生讲不必写的花俏，不必展现你散文的才能，因为这是学术论文，所以关键在于要写得非常清楚，如果有好的文笔当然更棒，但那是可遇不可求的，文彩像个人的生命一样，英文叫style，style本身就像个人一样带有一点点天生。因此最重要的还是把内容陈述清楚，从一万字到最后十万字的东西，都要架构井然、论述清楚、文笔清晰。 我在念书的时候，有一位欧洲史、英国史的大师Lawrence Stone，他目前已经过世了，曾经有一本书访问十位最了不起的史学家，我记得他在访问中说了一句非常吸引人注意的话，他说他英文文笔相当好，所以他一辈子没有被退过稿。因此文笔清楚或是文笔好，对于将来文章可被接受的程度有举足轻重的地位。内容非常重要，有好的表达工具更是具有加分的作用，但是这里不是讲究漂亮的style，而是论述清楚。 三、研究生如何训练自己 （一）尝试接受挑战，勇于克服 研究生如何训练自己？就是每天、每周或每个月给自己一个挑战，要每隔一段时间就给自己一个挑战，挑战一个你做不到的东西，你不一定要求自己每次都能顺利克服那个挑战，但是要努力去尝试。我在我求学的生涯中，碰到太多聪明但却一无所成的人，因为他们很容易困在自己的障碍里面，举例来说，我在普林斯顿大学碰到一个很聪明的人，他就是没办法克服他给自己的挑战，他就总是东看西看，虽然我也有这个毛病，可是我会定期给我自己一个挑战，例如：我会告诉自己，在某一个期限内，无论如何一定要把这三行字改掉，或是这个礼拜一定要把这篇草稿写完，虽然我仍然常常写不完，但是有这个挑战跟没这个挑战是不一样的，因为我挑战三次总会完成一次，完成一次就够了，就足以表示克服了自己，如果觉得每一个礼拜的挑战，可行性太低，可以把时间延长为一个月的挑战，去挑战原来的你，不一定能做到的事情。不过也要切记，硕士生是刚开始进入这一个领域的新手，如果一开始问题太小，或是问题大到不能控制，都会造成以后研究的困难。 （二）论文的写作是个训练过程，不能苛求完成精典之作 各位要记得我以前的老师所说的一句话：「硕士跟博士是一个训练的过程，硕士跟博士不是写经典之作的过程。」我看过很多人，包括我的亲戚朋友们，他之所以没有办法好好的完成硕士论文，或是博士论文，就是因为他把它当成在写经典之作的过程，虽然事实上，很多人一生最好的作品就是硕士论文或博士论文，因为之后的时间很难再有三年或六年的时间，沉浸在一个主题里反复的耕耘，当你做教授的时候，像我今天被行政缠身，你不再有充裕的时间好好探究一个问题，尤其做教授还要指导学生、上课，因此非常的忙碌，所以他一生最集中又精华的时间，当然就是他写博士、或是硕士论文的时候，而那一本成为他一生中最重要的著作也就一点都不奇怪了。 但不一定要刻意强求，要有这是一个训练过程的信念，应该清楚知道从哪里开始，也要知道从哪里放手，不要无限的追下去。当然我不是否认这个过程的重要性，只是要调整自己的心态，把论文的完成当成一个目标，不要成为是一种的心理障碍或是心理负担。这方面有太多的例子了，我在普林斯顿大学念书的时候，那边旧书摊有一位非常博学多文的旧书店老板，我常常赞叹的对他说：「你为什么不要在大学做教授。」他说：「因为那篇博士论文没有写完。」原因在于他把那个博士论文当成要写一本经典，那当然永远写不完。如果真能写成经典那是最好，就像美丽新境界那部电影的男主角John Nash一样，一生最大的贡献就是博士那二十几页的论文，不过切记不要把那个当作是目标，因为那是自然而然形成的，应该要坚定的告诉自己，所要完成的是一份结构严谨、论述清楚与言之有物的论文，不要一开始就期待它是经典之作。如果你期待它是经典之作，你可能会变成我所看到的那位旧书摊的老板，至于我为什么知道他有那么多学问，是因为那时候我在找一本书，但它并没有在旧书店里面，不过他告诉我：「还有很多本都跟他不相上下。」后来我对那个领域稍稍懂了之后，证明确实如他所建议的那般。一个旧书店的老板精熟每一本书，可是他就是永远无法完成，他梦幻般的学位论文，因为他不知道要在哪里放手，这一切都只成为空谈。 （三）论文的正式写作 1.学习有所取舍 到了写论文的时候，要能取也要能舍，因为现在信息爆炸，可以看的书太多，所以一定要建构一个属于自己的知识树，首先，要有一棵自己的知识树，才能在那棵树挂相关的东西，但千万不要不断的挂不相关的东西，而且要慢慢的舍掉一些挂不上去的东西，再随着你的问题跟关心的领域，让这棵知识树有主干和枝叶。然而这棵知识树要如何形成？第一步你必须对所关心的领域中，有用的书籍或是数据非常熟悉。 2.形成你的知识树 我昨天还请教林毓生院士，他今年已经七十几岁了，我告诉他我今天要来作演讲，就问他：「你如果讲这个题目你要怎么讲？」他说：「只有一点，就是那重要的五、六本书要读好几遍。」因为林毓生先生是海耶克，还有几位近代思想大师在芝加哥大学的学生，他们受的训练中很重要的一部份是精读原典。这句话很有道理，虽然你不可能只读那几本重要的书，但是那五、六本书将逐渐形成你知识树的主干，此后的东西要挂在上面，都可以参照这一个架构，然后把不相干的东西暂放一边。生也有涯，知也无涯，你不可能读遍天下所有的好书，所以要学习取舍，了解自己无法看遍所有有兴趣的书，而且一但看所有有兴趣的书，很可能就会落得普林斯顿街上的那位旧书店的老板一般，因为阅读太多不是自己所关心的领域的知识，它对于你来说只是一地的散钱。 3.掌握工具 在这个阶段一定要掌握语文与合适的工具。要有一个外语可以非常流畅的阅读，要有另外一个语文至少可以看得懂文章的标题，能学更多当然更好，但是至少要有一个语文，不管是英文、日文、法文……等，一定要有一个语文能够非常流畅的阅读相关书籍，这是起码的前提。一旦这个工具没有了，你的视野就会因此大受限制，因为语文就如同是一扇天窗，没有这个天窗你这房间就封闭住了。为什么你要看得懂标题？因为这样才不会有重要的文章而你不知道，如果你连标题都看不懂，你就不知道如何找人来帮你或是自己查相关的数据。其它的工具，不管是统计或是其它的任何工具，你也一定要多掌握，因为你将来没有时间再把这样的工具学会。 4.突破学科间的界线 应该要把跨学科的学习当作是一件很重要的事，但是跨学科涉及到的东西必须要对你这棵知识树有帮助，要学会到别的领域稍微偷打几枪，到别的领域去摄取一些概念，对于本身关心的问题产生另一种不同的启发，可是不要泛滥无所归。为什么要去偷打那几枪近几十年来，人们发现不管是科学或人文，最有创新的部份是发生在学科交会的地方。为什么会如此？因为我们现在的所有学科大部分都在西方十九世纪形成的，而中国再把它转借过来。十九世纪形成这些知识学科的划分的时候，很多都带有那个时代的思想跟学术背景，比如说，中研院的李院长的专长就是物理化学，他之所以得诺贝尔奖就是他在物理和化学的交界处做工作。像诺贝尔经济奖，这二十年来所颁的奖，如果在传统的经济学奖来看就是旁门走道，古典经济学岂会有这些东西，甚至心理学家也得诺贝尔经济奖，连John Nash这位数学家也得诺贝尔经济奖，为什么？因为他们都在学科的交界上，学科跟学科、平台跟平台的交界之处有所突破。在平台本身、在学科原本最核心的地方已经search太多次了，因此不一定能有很大的创新，所以为什么跨领域学习是一件很重要的事情。 常常一篇硕士论文或博士论文最重要、最关键的，是那一个统摄性的重要概念，而通常你在本学科里面抓不到，是因为你已经泡在这个学科里面太久了，你已经拿着手电筒在这个小仓库里面照来照去照太久了，而忘了还有别的东西可以更好解释你这些材料的现象，不过这些东西可遇而不可求。John Nash这一位数学家为什么会得诺贝尔数学奖？为什么他在赛局理论的博士论文，会在数十年之后得诺贝尔经济奖？因为他在大学时代上经济学导论的课，所以他认为数学可以用在经济方面来思考，而这个东西在一开始，他也没有想到会有这么大的用处。他是在数学和经济学的知识交界之处做突破。有时候在经济学这一个部分没有大关系，在数学的这一个部分也没有大关系，不过两个加在一起，火花就会蹦出来。 5.论文题目要有延展性 对一个硕士生或博士生来说，如果选错了题目，就是失败，题目选对了，还有百分之七十胜利的机会。这个问题值得研一、博一的学生好好思考。你的第一年其实就是要花在这上面，你要不断的跟老师商量寻找一个有意义、有延展性的问题，而且不要太难。我在国科会当过人文处长，当我离开的时候，每次就有七千件申请案，就有一万四千个袋子，就要送给一万四千个教授审查。我当然不可能看那么多，可是我有个重要的任务，就是要看申诉。有些申诉者认为：「我的研究计划很好，我的著作很好，所以我来申诉。」申诉通过的大概只有百分之十，那么我的责任就是在百分之九十未通过的案子正式判决前，再拿来看一看。有几个印象最深常常被拿出来讨论的，就是这个题目不必再做了、这个题目本身没有发展性，所以使我更加确认选对一个有意义、有延展性、可控制、可以经营的题目是非常重要的。 我的学生常常选非常难的题目，我说你千万不要这样，因为没有人会仔细去看你研究的困难度，对于难的题目你要花更多的时间阅读史料，才能得到一点点东西；要挤很多东西，才能筛选出一点点内容，所以你最好选择一个难易适中的题目。 我写过好几本书，我认为我对每一本书的花的心力都是一样，虽然我写任何东西我都不满意，但是在过程中我都绞尽脑汁希望把他写好。目前为止很多人认为我最好的书，是我二十几岁刚到史语所那一年所写的那本书。我在那本书花的时间并不长，那本书的大部分的稿子，是我和许添明老师同时在当兵的军营里面写的，而且还是用我以前旧的笔记写的。大陆这些年有许多出版社，反复要求出版我以前的书，尤其是这一本，我说：「不行。」因为我用的是我以前的读书笔记，我怕引文有错字，因为在军队营区里面随时都要出操、随时就要集合，手边又没有书，怎么可能好好的去核对呢？而如果要我重新校正一遍，又因为引用太多书，实在没有力气校正。 为什么举这个例子呢？我后来想一想，那本书之所以比较好，可能是因为那个题目可延展性大，那个题目波澜起伏的可能性大。很多人都认为，我最好的书应该是剑桥大学出的那一本，不过我认为我最好的书一定是用中文写的，因为这个语文我能掌握，英文我没办法掌握得出神入化。读、写任何语文一定要练习到你能带着三分随意，那时候你才可以说对于这一个语文完全理解与精熟，如果你还无法达到三分的随意，就表示你还在摸索。 回到我刚刚讲的，其实每一本书、每一篇论文我都很想把它写好。但是有些东西没办法写好，为什么？因为一开始选择的题目不够好。因此唯有选定题目以后，你的所有训练跟努力才有价值。我在这里建议大家，选题的工作要尽早做，所选的题目所要处理的材料最好要集中，不要太分散，因为硕士生可能只有三年、博士生可能只有五年，如果你的材料太不集中，读书或看数据可能就要花掉你大部分的时间，让你没有余力思考。而且这个题目要适合你的性向，如果你不会统计学或讨厌数字，但却选了一个全都要靠统计的论文，那是不可能做得好。 6.养成遵照学术格式的写作习惯 另一个最基本的训练，就是平时不管你写一万字、三万字、五万字都要养成遵照学术规范的习惯，要让他自然天成，就是说你论文的脚注、格式，在一开始进入研究生的阶段就要培养成为你生命中的一个部份，如果这个习惯没有养成，人家就会觉得这个论文不严谨，之后修改也要花很多时间，因为你的论文规模很大，可能几百页，如果一开始弄错了，后来再重头改到尾，一定很耗时费力，因此要在一开始就养成习惯，因为我们是在写论文而不是在写散文，哪一个逗点应该在哪里、哪一个书名号该在哪里、哪一个地方要用引号、哪一个要什么标点符号，都有一定的规定，用中文写还好，用英文有一大堆简称。在1960年代台湾知识还很封闭的时候，有一个人从美国回来就说：「美国有个不得了的情形，因为有一个人非常不得了。」有人问他为什么不得了，他说：「因为这个人的作品到处被引用。」他的名字就叫ibid。所谓ibid就是同前作者，这个字是从拉丁文发展出来的，拉丁文有一大堆简称，像et. al.就是两人共同编的。英文有一本The Chicago Manual of Style就是专门说明这一些写作规范。各位要尽早学会中英文的写作规范，慢慢练习，最后随性下笔，就能写出符合规范的文章。 7.善用图书馆 图书馆应该是研究生阶段最重要的地方，不必读每一本书，可是要知道有哪些书。我记得我做学生时，新进的书都会放在图书馆的墙上，而身为学生最重要的事情，就是要把书名看一看。在某些程度上知道书皮就够了，但是这仍和打计算机是不一样的，你要实际上熟悉一下那本书，摸一下，看一眼目录。我知道现在从计算机就可以查到书名，可是我还是非常珍惜这种定期去browse新到的书的感觉，或去看看相关领域的书长成什么样子。中研院有一位院士是哈佛大学信息教授，他告诉我他在创造力最高峰的时候，每个礼拜都到他们信息系图书室里，翻阅重要的信息期刊。所以图书馆应该是身为研究生的人们，最熟悉的地方。不过切记不重要的不要花时间去看，你们生活在信息泛滥的时代，跟我生长在信息贫乏的时代是不同的，所以生长在这一个时代的你，要能有所取舍。我常常看我的学生引用一些三流的论文，却引得津津有味，我都替他感到难过，因为我强调要读有用、有价值的东西。 8.留下时间，精致思考 还要记得给自己保留一些思考的时间。一篇论文能不能出神入化、能不能引人入胜，很重要的是在现象之上作概念性的思考，但我不是说一定要走理论的路线，而是提醒大家要在一般的层次再提升两三步，conceptualize你所看到的东西。真切去了解，你所看到的东西是什么？整体意义是什么？整体的轮廓是什么？千万不要被枝节淹没，虽然枝节是你最重要的开始，但是你一天总也要留一些时间好好思考、慢慢沉淀。conceptualize是一种非常难教的东西，我记得我念书时，有位老师信誓旦旦说要开一门课，教学生如何conceptualize，可是从来都没开成，因为这非常难教。我要提醒的是，在被很多材料和枝节淹没的时候，要适时跳出来想一想，所看到的东西有哪些意义？这个意义有没有广泛连结到更大层面的知识价值。 傅斯年先生来到台湾以后，同时担任中央研究院历史语言研究所的所长及台大的校长。台大有个傅钟每小时钟声有二十一响、敲二十一次。以前有一个人，写了一本书叫《钟声二十一响》，当时很轰动。他当时对这二十一响解释是说：因为台大的学生都很好，所以二十一响是欢迎国家元首二十一响的礼炮。不久前我发现台大在每一个重要的古迹下面竖一个铜牌，我仔细看看傅钟下的解释，才知道原来是因为傅斯年当台大校长的时候，曾经说过一句话：「人一天只有二十一个小时，另外三小时是要思考的。」所以才叫二十一响。我觉得这句话大有道理，可是我觉得三小时可能太多，因为研究生是非常忙的，但至少每天要留个三十分钟、一小时思考，想一想你看到了什么？学习跳到比你所看到的东西更高一点的层次去思考。 9.找到学习的楷模 我刚到美国念书的时候，每次写报告头皮就重的不得了，因为我们的英文报告三、四十页，一个学期有四门课的话就有一百六十页，可是你连脚注都要从头学习。后来我找到一个好办法，就是我每次要写的时候，把一篇我最喜欢的论文放在旁边，虽然他写的题目跟我写的都没关系，不过我每次都看他如何写，看看他的注脚、读几行，然后我就开始写。就像最有名的男高音Pavarotti唱歌剧的时候都会捏着一条手帕，因为他说：「上舞台就像下地狱，太紧张了。」他为了克服紧张，他有习惯性的动作，就是捏着白手帕。我想当年那一篇论文抽印本就像是我的白手帕一样，能让我开始好好写这篇报告，我学习它里面如何思考、如何构思、如何照顾全体、如何用英文作脚注。好好的把一位大师的作品读完，开始模仿和学习他，是入门最好的方法，逐步的，你也开始写出自己的东西。我也常常鼓励我的学生，出国半年或是一年到国外看看。像现在国科会有各式各样的机会，可以增长眼界，可以知道现在的餐馆正在卖些什么菜，回来后自己要作菜也才知道要如何着手。 四、用两条腿走路，练习培养自己的兴趣 最后还有一点很重要的，就是我们的人生是两只脚，我们不是靠一只脚走路。做研究生的时代，固然应该把所有的心思都放在学业上，探索你所要探索的那些问题，可是那只是你的一只脚，另外还有一只脚是要学习培养一、两种兴趣。很多人后来会发现他的右脚特别肥重（包括我自己在内），也就是因为忘了培养左脚。很多很有名的大学者最后都陷入极度的精神困扰之中，就是因为他只是培养他的右脚，他忘了培养他的左脚，他忘了人生用两只脚走路，他少了一个小小的兴趣或嗜好，用来好好的调解或是排遣自己。 去年夏天，香港《亚洲周刊》要访问我，我说：「我不想接受访问，我不是重要的人。」可是后来他们还是把一个简单的对话刊出来了，里面我只记得讲了一段话：做一个研究生或一个学者，有两个感觉最重要–责任感与罪恶感。你一定要有很大的责任感，去写出好的东西，如果责任感还不够强，还要有一个罪恶感，你会觉得如果今天没有好好做几个小时的工作的话，会有很大的罪恶感。除非是了不得的天才，不然即使爱因斯坦也是需要很努力的。很多很了不得的人，他只是把所有的努力集中在一百页里面，他花了一千小时和另外一个人只花了十个小时，相对于来说，当然是那花一千个小时所写出来的文章较好。所以为什么说要赶快选定题目？因为如果太晚选定一个题目，只有一年的时间可以好好耕耘那个题目，早点选定可以有二、三年耕耘那个题目，是三年做出的东西好，还是一年的东西好？如果我们的才智都一样的话，将三年的努力与思考都灌在上面，当然比一年还要好。 五、营造卓越的大学，分享学术的氛围 现在很多人都在讨论，何谓卓越的大学？我认为一个好的大学，学校生活的一大部份，以及校园的许多活动，直接或间接都与学问有关，同学在咖啡厅里面谈论的，直接或间接也都会是学术相关的议题。教授们在餐厅里面吃饭，谈的是「有没有新的发现」？或是哪个人那天演讲到底讲了什么重要的想法？一定是沉浸在这种氛围中的大学，才有可能成为卓越大学。那种交换思想学识、那种互相教育的气氛不是花钱就有办法获得的。我知道钱固然重要，但不是唯一的东西。一个卓越的大学、一个好的大学、一个好的学习环境，表示里面有一个共同关心的焦点，如果没有的话，这个学校就不可能成为好的大学。 from:</description>
+    </item>
+    
+    <item>
+      <title>与一线Linux嵌入式开发工程师的对话</title>
+      <link>http://dmml.nu/2011/08/16/12428/</link>
+      <pubDate>Tue, 16 Aug 2011 17:56:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/08/16/12428/</guid>
+      <description>&amp;mdash;&amp;ndash;BEGIN PGP SIGNED MESSAGE&amp;mdash;&amp;ndash;
+Hash: SHA1
+陈工程师一直做Linux的嵌入式开发，作为在开发一线的工程师，他对很多问题的
+看法可能更切合实际需求，于是，通过邮件，就嵌入式开发方面的问题，请他谈了
+一下自己的看法：
+问：关于嵌入式开发，我们准备给同学们讲解一些入门知识，从你一线开发经验来
+说，给我们一些建议：
+陈工回答：
+对于嵌入式Linux入门，如果有一定基础，可以从驱动开始；如果没有基础，我
+个人建议还是从应用程序开始。因为从应用程序开始是最容易的，也是最直观的。
+而驱动程序运行在内核态，驱动本身的结构就比较复杂，如果要彻底弄明白驱动的
+运行机制，必定牵涉内核，对于高年级的学生恐怕问题会少一些，而对于低年级的
+学生，问题估计较多。我曾经遇到过一些初学者，就是一入门就栽了，失去了信
+心，当然这只是少数。不过，如果在遇到问题之后，能够得到即时、正确的点化，
+那就是好事了。
+既然您决定讲驱动，那就从内核模块开始。在PC上就可以进行的虚拟设备实
+验，如基于内存的内核模块。可以考虑从模块的结构、编译、插入、卸载等方 面 进行阐述。
+驱动模块无非分字符驱动、块设备驱动和网络驱动三大类。但是一定要让学生 知道，任何一个系统，特别是嵌入式系统，并且在目前的嵌入式Linux产品开发
+中，最简单、最重要、最多、最复杂的也是字符设备驱动，从IO驱动到串口驱动、
+到USB驱动等等，广义上都是字符驱动。让学生最好专注于字符设备驱动，因为一
+个嵌入式设备，网卡一般一块，FLASH一般也是一块（也包括几块组成的FLASH
+组），但是这两方面，基本都有完善的驱动，如网卡驱动有很多，块设备驱动，硬
+件层已经有通用接口，不管是NOR FLASH还是NAND FLASH，文件系统层更是有了非
+常多、非常成熟的文件系统，如 JFFS2、YAFFS、YAFFS2、EXT2、EXT3、ROMFS、
+CRAMFS等等，无需我们再去研究，学会应用即可。而除此之外的其它设备，如AD、
+DA、CAN、RS485等等，都是需要根据应用来进行设计的，这才是一个产品区别于其
+它产品的重点，更是市场价值增值点。
+另外呢，也是前一点引申为而来的，学习Linux，准备做产品的话，不要把Linux
+当成了终极目标（当然，这是对应用而言的），要有只是把 Linux当成一个平台的
+思想。更重要的还在各种产品所需求的专业技术，如通信方面像CAN、RS485、GPRS
+等等，或者工业控制方面，IO控制、实时特性等等。Linxu博大精深，研究起来永
+无止境，但是在产品中，只要到了一个产品够用就可以了（当然，多一些更好，要
+视人而定）。
+问：嵌入式应用程序的开发，应用场景较多的是图形界面还是字符界面，如果是图
+形界面，开发环境QT和Minigui哪一种更合适，哪种类型的应用程序在嵌入式系统
+中应用比较多？
+陈工回答：
+对于嵌入式Linux的应用，大多数的应用并不需要图形界面，比如交换机、路由
+器、嵌入式网关以及服务器等等。图形界面呢，主要应用在多媒体、手机等手持设
+备和一些需要图形界面的人机交互系统。
+嵌入式Linux可选图形界面很多，上网找找的话，可以发现远非我们常说的QT、
+MiniGUI等。包括Tiny-X，matchbox、OPIE、 GPE等等。不同GUI有自己的特色，有
+自己的特殊应用场合，对于产品开发，根据需要选择合适的GUI。对于学习，自然
+是选择容易得到、容易开发的 GUI。QT是一个不错的选择，由于QT有一个PC上的模
+拟器，可以在没有实际液晶LCD的情况下，甚至在没有任何硬件的情况下都可以在
+PC上进行模拟开发。QT是收费的，当然，有免费版可用。MiniGUI呢，纯粹国产
+的，支持国货，可以考虑选择MiniGUI。这是一个轻量级的嵌入式GUI，可以跨平
+台，学习版也才100多块。MiniGUI可以用于工业控制场合，QT在这方面的应用目前
+还没有遇到，主要用在手持设备。
+我们在开发中采用Tiny-X，这也是一个可以用于工业控制的GUI，基本兼容X-
+Window，体积小，占用资源少，速度快，稳定。
+对于Linux的应用程序开发，除了GUI程序之外，最基本的应用程序有：
+（1）串口编程。无论是在Windows下还是Linux下，串口编程都是极为复杂的，但
+是非常锻炼一个人的编程水平和能力。
+（2）网络编程以及WEB相关编程。网络编程的tcp、udp、tcp/ip等。至于WEB编
+程，主要是在系统开启一个WEB服务器，制作一些网页，通过远程登录能够对整个
+系统进行配置甚至升级等功能。比如我们的路由器配置网页。这种应用在以后会越</description>
+    </item>
+    
+    <item>
+      <title>好梦</title>
+      <link>http://dmml.nu/2011/07/21/12171/</link>
+      <pubDate>Thu, 21 Jul 2011 22:33:05 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/07/21/12171/</guid>
+      <description>前些天有些无眠，今夜必定好梦。不仅仅是因为uboot的成功移植，更因为今夜的雨。
+海洋气候有没有雨季？初中学的，早已忘了，不过就感受来说是有的。几个月的连绵阴雨，不出门一点也感觉不到暖和。虽然有点潮，但是却给晚上的睡眠带来香甜。
+不是雷暴雨，也不是毛毛雨，不大不小正合适的叮叮咚咚，晚上听起来是那么迷人，呵呵，好好美一晚，明天接着给uboot加网络～～
+祝我好梦 :)</description>
+    </item>
+    
+    <item>
+      <title>耶！成了！Port U-boot from smdk2410 to mini2440</title>
+      <link>http://dmml.nu/2011/07/21/12167/</link>
+      <pubDate>Thu, 21 Jul 2011 22:22:13 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/07/21/12167/</guid>
+      <description>e424-uboot.png)</description>
+    </item>
+    
+    <item>
+      <title>Tvåhundra Sextiosex</title>
+      <link>http://dmml.nu/2011/03/27/9678/</link>
+      <pubDate>Sun, 27 Mar 2011 23:00:31 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/03/27/9678/</guid>
+      <description>ok, now i could sync my wm phone with google calendar again ~~~~~
+wm couldn&amp;rsquo;t sync with two or more devices/servers now, why? it doesn&amp;rsquo;t matter, cause i will use g only ~~</description>
+    </item>
+    
+    <item>
+      <title>一种宋词自动生成的遗传算法及其机器实现</title>
+      <link>http://dmml.nu/2011/01/30/5453/</link>
+      <pubDate>Sun, 30 Jan 2011 21:21:53 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/01/30/5453/</guid>
+      <description>自厦门大学和浙江大学的三位学者开发的“宋词自动生成(的)遗传算法”，主要针对宋词这种特殊的汉语诗歌体裁，设计了其自动生成算法及其实现方法。
+3 个示例：
+keyword=菊 Ci Pai=清平乐 Style=风格婉约
+相逢缥缈,窗外又拂晓.长忆清弦弄浅笑,只恨人间花少.
+黄菊不待清尊,相思飘落无痕.风雨重阳又过,登高多少黄昏.
+（这篇写的真的太NB了。。。）
+keyword=饮酒 Ci Pai=西江月 Style=风格豪放
+饮酒开怀酣畅,洞箫笑语尊前.欲看尽岁岁年年,悠然轻云一片.
+赏美景开新酿,人生堪笑欢颜.故人何处向天边,醉里时光渐渐.
+keyword=佳人 Ci Pai=点绛唇 Style=风格婉约
+人静风清,兰心蕙性盼如许.夜寒疏雨,临水闻娇语.
+佳人多情,千里独回首.别离后,泪痕衣袖,惜梦回依旧.
+&amp;mdash;-节选&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;
+根据宋词特点设计了基于平仄的编码方式，将“平、仄”与“0、1”编码相对应的编码方案.比如词牌《清平乐》平仄分布如下:
+⊙平⊙仄,⊙仄平平仄.⊙仄⊙平平仄仄,⊙仄⊙平⊙仄.
+⊙平⊙仄平平,⊙平⊙仄平平.⊙仄⊙平⊙仄,⊙平⊙仄平平.
+其中⊙表示可平可仄.根据我们的编码方案可得如下编码串:
+01,1001.10011,101.
+*0 100,0100.101,0100.
+&amp;hellip;&amp;hellip;&amp;hellip;.
+通过对大量宋词语句构成的分析,发现组成句子的有效模式的数目是有限的,并且呈现出了层次化的结构,因此比较适合采用DFA(deterministic finite automata)来表示。随机组合的词语,在产生大量的备选个体后,逐个进行DFA 分析测试,通过留下,没通过则剔除。
+&amp;hellip;&amp;hellip;&amp;hellip;.
+宋词的语义计算问题,包括词义相关度计算、词义相似度计算,以及风格情感一致性计算3 个方面。计算词义相关的目的是建立词语间的关联,发掘词语共现和搭配的可能,从而保证生成诗词行文和主题上的连贯.我们可以基于语料库统计来给出利用潜在语义分析和互信息两种方法词义相关度计算方法&amp;hellip;&amp;hellip;.利用潜在语义分析(latent semantic analysis,简称LSA)和是基于互信息(mutual information,简称MI)的方法计算词义相关度&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;对于最终的计算结果,我们首先选取两种算法的重叠部分,相关度则用两者各占50%的加权和表示;其次对于不重叠的部分,我们按相关度从高到低进行排列,并保留相关度大于10−3 的词。
+&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;..
+词语相似度主要用于衡量文本中词语的可替换程度.计算词义相似度,目的是在保证所选词紧扣主题的前提下,尽量使生成诗词的语言更丰富多变.目前自然语言的词义相似度有两类常见的计算方法,一种是利用大规模的语料库进行统计,另一种是根据本体知识来计算。&amp;hellip;&amp;hellip;..考虑到计算的复杂性和词义相似度在应用中较强的针对性,在实际计算相似度时,我们仅对词库中高频名词545 个和形容词367 个近义词集进行计算。
+&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;
+有了具体的宋词生成算法,就可以构建宋词自动生成系统,按用户输入的关键词(要求输入1∼3 个关键词)和词牌名自动生成宋词.实际系统共分数据库建立、句法语义处理、基于遗传算法的生成3 个基本模块.实际系统是在普通微机的Windows 平台上采用VisualC++ 6.0 开发实现的,测试机器基本参数为:CPU 1.83GHz,内存512 MB.目前系统仅支持10 个常见词牌的宋词生成,这10 个词牌分别是《蝶恋花》、《青玉案》、《清平乐》、《浣溪纱》、《西江月》、《点绛唇》、《鹧鸪天》、《江城子》、《长相思》、《浪淘沙》。
+例如,取种群大小k1 为100,最大进化代数k2 为5 000,交叉概率k3 为0.8,变异操作次数k4 为3 000,变异概率k5 为0.15,父代接受概率k6 为0.3.当输入主题关键词为“菊”,词牌名为《清平乐》时,系统经过如下运行过程.
+首先系统提取主题关键词“菊”,在词义相似和词义相关库中进行查找,形成表1 所示的计算结果.接着,系统根据《清平乐》词牌的要求随机生成两个韵部.上阙仄韵“小”,下阙转平韵“魂”,即随机生成了一个平声韵部和一个仄声韵部.规定每个个体中至少出现一个与主题词的词义相似词.生成的初始种群个体举例如下(之一):
+登临多少,入夜催秋草.憔悴田园添缠绕,携手光阴欢笑.
+金菊零落离魂,春风相近黄昏.为我悲秋斜倚,此生天气重门.</description>
+    </item>
+    
+    <item>
+      <title>皓水莫负</title>
+      <link>http://dmml.nu/2011/01/26/4954/</link>
+      <pubDate>Wed, 26 Jan 2011 22:01:20 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/01/26/4954/</guid>
+      <description>挑音质的耳机请用下面的链接：
+http://www.xiyufeng.com/bbs/attachment/Fid_88/88_12193_646bdc9be4e45d3.mp3</description>
+    </item>
+    
+    <item>
+      <title>Tvåhundra tretton</title>
+      <link>http://dmml.nu/2011/01/16/1847/</link>
+      <pubDate>Sun, 16 Jan 2011 04:36:24 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/01/16/1847/</guid>
+      <description>so long the article is&amp;hellip;&amp;hellip;&amp;hellip;.</description>
+    </item>
+    
+    <item>
+      <title>Microsoft Touch Mouse 發表，多點觸控滑鼠現身 (21 回應)</title>
+      <link>http://dmml.nu/2011/01/07/598/</link>
+      <pubDate>Fri, 07 Jan 2011 17:32:05 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/01/07/598/</guid>
+      <description>文章分類: 電腦周邊
+真想詛咒這是個難用的產品，我要大聲罵X。早不發表，晚不發表，一定要在我下定決心買一個Arc Touch 時推出就是了&amp;hellip;&amp;hellip;
+不過，情緒發洩歸發洩，多點觸控滑鼠的出現，也算是提供了另一種滑鼠使用的選擇。我想這個時間發表Touch Mouse，應該會對Arc Touch造成影響，個人相信應該有人本來想買Arc Touch ，但看到Touch Mouse後就觀望了。重點是在於這款Touch Mouse要到六月才買得到，有需要這麼急著發表嗎？
+事實上，這款滑鼠的概念並不算新的，如果還有印象的話，在前年10月時，Microsoft Research 提出多種多點觸控滑鼠概念，其中的Cap Mouse就是Touch Mouse的前身。
+新聞稿提到，這是專為Windows 7所設計的滑鼠，所以&amp;hellip;&amp;hellip;，Vista要881了嗎？美國將於6月上市，要價79.95美元，但台灣具體時程與價位未知。
+跳轉後，可以看廠商提供的圖片、文字說明，以及影片，就可以知道多點觸控的滑鼠是怎麼回事了。
+Tags: microsoft touch mouse, MicrosoftTouchMouse</description>
+    </item>
+    
+    <item>
+      <title>《自然》要点:封面故事：真正的3D全息显示器</title>
+      <link>http://dmml.nu/2010/11/08/180/</link>
+      <pubDate>Mon, 08 Nov 2010 02:38:41 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2010/11/08/180/</guid>
+      <description>《自然》要点:封面故事：真正的3D全息显示器.
+一种能够产生真正三维图像、不要求观看者戴特殊眼镜才能观看的实用方法，在远程医疗、测绘和娱乐等方面将会有很多潜在应用。真正的3D全息显示器的确存在，但它们迄今为止不能以足够快的速度来更新图像以反映运动情况。现在，来自美国亚利桑那大学光学学院和位于美国加州Oceanside的日东电工株式会社的一个研究小组研发出一个系统，它能接近实时地更新图像。在一项概念证明实验中，他们对一种基于全息立体记录的成熟方法进行了改造，同时将一种新型光致折变聚合物材料作为记录介质，做成一种全息显示器，该显示器能每两秒钟将其图像更新一次。在这个体系中也有可能做成多色和全视差显示器，就像在“3D网真”系统中一样。在后者中，描述来自一个地点的全息图像的数据通过以太网被传送到另一个地点，图像在此用“准实时”的动态全息显示器“打印”出来。</description>
+    </item>
+    
+    <item>
+      <title>OPNET14.5安装指南</title>
+      <link>http://dmml.nu/2010/09/13/18/</link>
+      <pubDate>Mon, 13 Sep 2010 17:41:46 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2010/09/13/18/</guid>
+      <description>OPNET是最常用的网络仿真与分析软件，目前，国内最常见的版本是14.5。
+1、14.5的获取：
+略。
+2、安装前的准备：
+Opnet需要和C++配合使用，在生成文件时，需要查看PDF文件，所以，安装前，需要先安装VC，推荐使用VS2003，Adobe Reader9.0。网上说，14.5不支持VS2005，没有测试过。当然，也可以先安装Opnet后再安装VS，安装完后设置环境变量，很多朋友都因为环境变量的设置有故障而不能正常使用，设置好环境变量后重启计算机就可以了；
+我使用的是VC++ 6.0，设置的环境变量如下（你的地址可能会有所不通，注意修改）：
+INCLUDE=D:Program FilesMicrosoft Visual StudioVC98atlinclude;D:Program FilesMicrosoft Visual StudioVC98mfcinclude;D:Program FilesMicrosoft Visual StudioVC98include;
+LIB=D:Program FilesMicrosoft Visual StudioVC98mfclib;D:Program FilesMicrosoft Visual StudioVC98lib;
+MSDevDir=D:Program FilesMicrosoft Visual StudioCommonMSDev98;
+Path=D:Program FilesMicrosoft Visual StudioCommonToolsWindows NT;D:Program FilesMicrosoft Visual StudioCommonMSDev98bin;D:Program FilesMicrosoft Visual StudioCommonTools;D:Program FilesMicrosoft Visual StudioVC98bin;
+3、安装：
+（1）拔掉网线，如果有防火墙软件，打开UDP2047端口或者彻底关闭防火墙。
+（2）执行modeler_145A_PL1_7116_win.exe，按照提示安装OPNET Modeler软件。最后选择 License类型时，请选择Standalone模式。
+（3）再执行modeler_docs_28-Jan-2008_win.exe和models_145A_PL1_27Feb08_win.exe，按照提示安装文档和库文件。 (如果没有安装Reader，会提示安装Adobe Reader，可以不管它会安装）
+（4）将OPNET.Modeler.11.5.License.MakerFFS.exe拷贝到 OPNET14.5.Ajre_modelsbin下。
+（5）运行OPNET Modeler，此时会提示无License，选择运行License Management，此时应该没有任何 license。
+（6）关闭License Manager，但不要关闭OPNET Modeler。
+（7）从OPNET Modeler的Edit－Preference里检查license_server和license_server_standalone设置是否正确。如果之前选Standalone模式，license_server应该为
+localhost，本机地址或主机 名，licenser_server_standalone应该为TRUE。如果修改了某些设置，请重新启动OPNET(回到第5步)。
+（8）双击bin目录下的OPNET.Modeler.11.5.License.MakerFFS.exe，回车继续，等到出现结束提示后，回车关闭该窗口。 等待的时间可能会比较长，如果中途退出，license会不完全。）
+（9）从OPNET Modeler的License–&amp;gt;License Management菜单启动License Management，此时License文件中 应该已经有100×35个License了，关闭License Management。 （这个版本才有60个）</description>
+    </item>
+    
+    <item>
+      <title>几种开源的TCP/IP协议栈分析</title>
+      <link>http://dmml.nu/2010/09/13/19/</link>
+      <pubDate>Mon, 13 Sep 2010 17:31:13 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2010/09/13/19/</guid>
+      <description>1、BSD TCP/IP协议栈，BSD栈历史上是其他商业栈的起点，大多数专业TCP/IP栈（VxWorks内嵌的TCP/IP栈）是BSD栈派生的。这是因为 BSD栈在BSD许可协议下提供了这些专业栈的雏形，BSD许用证允许BSD栈以修改或未修改的形式结合这些专业栈的代码而无须向创建者付版税。同时， BSD也是许多TCP/IP协议中的创新（如广域网中饿拥塞控制和避免）的开始点。
+ftp://ftp.freebsd.org/pub/FreeBSD/
+2、uC/IP是由Guy Lancaster编写的一套基于uC/OS且开放源码的TCP/IP协议栈，亦可移植到其它操作系统，是一套完全免费的、可供研究的TCP/IP协议栈，uC/IP大部分源码是从公开源码BSD发布站点和KA9Q（一个基于DOS单任务环境运行的TCP/IP协议栈）移植过来。uC/IP具有如下一些特点：带身份验证和报头压缩支持的PPP协议，优化的单一请求/回复交互过程，支持IP/TCP/UDP协议，可实现的网络功能较为强大，并可裁减。 UCIP协议栈被设计为一个带最小化用户接口及可应用串行链路网络模块。根据采用CPU、编译器和系统所需实现协议的多少，协议栈需要的代码容量空间在 30-60KB之间。
+http://ucip.sourceforge.net
+3、LwIP是瑞士计算机科学院（Swedish Institute of Computer Science）的Adam Dunkels等开发的一套用于嵌入式系统的开放源代码TCP/IP协议栈。LwIP的含义是Light Weight(轻型)IP协议，相对于uip。LwIP可以移植到操作系统上，也可以在无操作系统的情况下独立运行。LwIP TCP/IP实现的重点是在保持TCP协议主要功能的基础上减少对RAM的占用，一般它只需要几十K的RAM和40K左右的ROM就可以运行，这使 LwIP协议栈适合在低端嵌入式系统中使用。LwIP的特性如下：支持多网络接口下的IP转发，支持ICMP协议，包括实验性扩展的的UDP（用户数据报协议），包括阻塞控制，RTT估算和快速恢复和快速转发的TCP（传输控制协议），提供专门的内部回调接口（Raw API）用于提高应用程序性能，并提供了可选择的Berkeley接口API。
+http://sics.se/~sdam/lwip/
+4、uIP是专门为8位和16位控制器设计的一个非常小的TCP/IP栈。完全用C编写，因此可移植到各种不同的结构和操作系统上，一个编译过的栈可以在几KB ROM或几百字节RAM中运行。uIP中还包括一个HTTP服务器作为服务内容。许可：BSD许用证 http://dunkels.com/adam/uip/
+5、TinyTcp 栈是TCP/IP的一个非常小和简单的实现，它包括一个FTP客户。TinyTcp是为了烧入ROM设计的并且现在开始对大端结构似乎是有用的（初始目标是68000芯片）。TinyTcp也包括一个简单的以太网驱动器用于3COM多总线卡
+个人认为选择一个开源协议栈可以从四个方面来考虑：一个是是否提供易用的底层硬件API，即与硬件平台的无关性；一个是与操作系统的内核API。协议栈需要调用的系统函数接口是否容易构造，另一个对于应用支持程度。最关键的是占用的系统资源是否在可接受范围内，有裁减优化的空间否？
+其中， BSD 栈可完整实现TCP/IP协议，但代码庞大，70KB-150KB之间，裁减优化有难度，uIP和TinyTcp代码容量小巧，实现功能精简，限制了在一些较高要求场合下的应用，如可靠性与大容量数据传输。LwIP和uC/IP是同量级别的两个开源协议栈，两者代码容量和实现功能相似，LwIP没有操作系统针对性，它将协议栈与平台相关的代码抽象出来，用户如果要移植到自己的系统，需要完成该部分代码的封装，并为网络应用支持提供了API接口的可选性。 uC/IP协议最初是针对uC/OS设计，为方便用户移植实现，同样也抽象了协议栈与平台相关代码，但是协议栈所需调用的系统函数大多参照uC/OS内核函数原型设计，并提供了协议栈的测试函数，方便用户参考，其不足在于该协议栈对网络应用支持不足。
+根据以上分析，从应用和开发的角度看，似乎 LWIP更得到了网上很多朋友使用的青睐；uC/IP在文档支持与软件升级管理上有很多不足，但是它最初是针对UC/OS而设计，如果选用UC/OS作为软件基础的话，在系统函数构造方面有优势。当然你选择其他操作系统的话，可参照OS_NULL文件夹下的文件修改。
+以上的这些开源协议栈也并非免费，拿来就可以用，据我所知，UC/OS的母公司推出UC/OS-TCP/IP花了6人2年的工作量，国内某公司使用LWIP作为移植的参照，花了4-5人2年的工作量来测试与优化协议，使用商用TCP/IP栈的高费用就不足为奇了。
+作为广大的爱好者学习而言，如果只是跑跑原型，实验一下效果，以上的几种开源协议栈都提供了测试的例子，应该是不错的选择。个人的看法：LWIP可优先考虑，至少网上有很多的人一块研究，参考的资料较多；UC/IP其次，如果你想深入学习TCP/IP的话，移植UC/IP是一种挑战性的工作，它尚需完善。
+转自：http://blog.21ic.com/user1/1993/archives/2006/17272.html</description>
+    </item>
+    
+  </channel>
+</rss>

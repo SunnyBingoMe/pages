@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tools on Machine Learning</title>
+    <link>http://dmml.nu/tags/tools/</link>
+    <description>Recent content in Tools on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 16 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Windows Management Tools</title>
+      <link>http://dmml.nu/win-mgmt/</link>
+      <pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/win-mgmt/</guid>
+      <description>Windows Task Scheduler （任务计划程序）#Examples:
+$action = New-ScheduledTaskAction -Execute &amp;#39;pwsh.exe&amp;#39; -Argument &amp;#39;-NonInteractive -NoLogo -NoProfile -File &amp;#34;C:\MyScript.ps1&amp;#34;&amp;#39; $trigger = New-ScheduledTaskTrigger -Once -At 3am $settings = New-ScheduledTaskSettingsSet $task = New-ScheduledTask -Action $Action -Trigger $Trigger -Settings $Settings Register-ScheduledTask -TaskName &amp;#39;MySchedule&amp;#39; -InputObject $task -User &amp;#39;username&amp;#39; -Password &amp;#39;passhere&amp;#39; ScheduledTask -TaskName &amp;#39;MySchedule&amp;#39; $action = New-ScheduledTaskAction -Execute &amp;#39;Powershell.exe&amp;#39; ` -Argument &amp;#39;-NoProfile -WindowStyle Hidden -command &amp;#34;&amp;amp; {get-eventlog -logname Application -After ((get-date).AddDays(-1)) | Export-Csv -Path c:\fso\applog.csv -Force -NoTypeInformation}&amp;#34;&amp;#39; $trigger = New-ScheduledTaskTrigger -Daily -At 0am Register-ScheduledTask -Action $action -Trigger $trigger -TaskName &amp;#34;AppLog&amp;#34; -Description &amp;#34;Daily dump of Applog&amp;#34; $action = New-ScheduledTaskAction -Execute &amp;#39;C:\FreeFileSync\FreeFileSync.</description>
+    </item>
+    
+    <item>
+      <title>DMML Tools Trend &amp; Relationship 2016</title>
+      <link>http://dmml.nu/trend2016/</link>
+      <pubDate>Thu, 16 Jun 2016 10:12:05 +0000</pubDate>
+      
+      <guid>http://dmml.nu/trend2016/</guid>
+      <description>This is a summary of KD-nuggets blogs: here and here. Pictures are modified for my own notes.
+Tools Associations#![](./_image/2016-06-17 18-27-03.jpg)
+sunny&amp;rsquo;s conclusion#Possible framework 1: Hadoop + Spark + Python + scikit.
+Possible framework 2: SQL+ Excel + Tableau.
+Try NOT use: RapidMiner, KNIME (whatever situation).
+Big Data Related Tools#![](./_image/2016-06-17 18-40-16.jpg)
+Deep Learning Related Tools#![](./_image/2016-06-17 18-42-52.jpg)
+Big_Data- / Deep_Learning-Related Tools#![](./_image/2016-06-17 18-47-05.jpg)</description>
+    </item>
+    
+  </channel>
+</rss>

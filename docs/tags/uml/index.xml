@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UML on Machine Learning</title>
+    <link>http://dmml.nu/tags/uml/</link>
+    <description>Recent content in UML on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 May 2019 19:49:19 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/uml/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PlantUML</title>
+      <link>http://dmml.nu/puml/</link>
+      <pubDate>Tue, 07 May 2019 19:49:19 +0000</pubDate>
+      
+      <guid>http://dmml.nu/puml/</guid>
+      <description>Intro#PlantUML is a convinient tool to make diagrams using UML language/format, such as sequence diagrams, use cases, flow diagrams etc.
+pic-ref
+Selected Tools#Live preview in Visual Studio VSCode plugins: jebbs.plantuml w/ encoded url. (Tip1: render by either local (suggested, needs java+graphviz) or server. Tip2: config &amp;ldquo;server&amp;rdquo; as the bold part of: http://www.plantuml.com/plantuml/uml/xxxyyyzzz) A site that can support PNG, SVG, ASCII/TXT, save/generate encoded url (&amp;ldquo;Edit&amp;rdquo; button), and have many examples: PlantText.</description>
+    </item>
+    
+  </channel>
+</rss>

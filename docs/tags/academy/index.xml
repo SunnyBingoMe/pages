@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Academy on Machine Learning</title>
+    <link>http://dmml.nu/tags/academy/</link>
+    <description>Recent content in Academy on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Feb 2017 18:43:43 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/academy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Paper Writing, Plotting and Coding Tips</title>
+      <link>http://dmml.nu/paper-tips/</link>
+      <pubDate>Thu, 02 Feb 2017 18:43:43 +0000</pubDate>
+      
+      <guid>http://dmml.nu/paper-tips/</guid>
+      <description>See also time plan by tomato-timing.
+Variable Names#several types:
+var name in paper, usually single char, e.g. $d$. col name in df/dt, usually several words, e.g. &amp;ldquo;search_step&amp;rdquo;. human readable string, e.g. &amp;ldquo;Search Step Length&amp;rdquo;. other variables in R/Py, e.g. t_searchStep, algorithmSetup$searchStepLengthListing. Linguistic &amp;amp; Journals Tools#English colocations (搭配): Linggle.com &amp;amp; NetSpeak.org &amp;amp; Writefull &amp;amp; Grammarly English Corpus (inc.colocates ) (语料库) Contemporary American English &amp;amp; British National Corpus (BYU-BNC) (see ref-Corpus for usages !</description>
+    </item>
+    
+  </channel>
+</rss>

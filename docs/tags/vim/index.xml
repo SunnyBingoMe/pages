@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vim on Machine Learning</title>
+    <link>http://dmml.nu/tags/vim/</link>
+    <description>Recent content in vim on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Feb 2012 00:46:16 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>vim 只删除,不剪切</title>
+      <link>http://dmml.nu/2012/02/16/13434/</link>
+      <pubDate>Thu, 16 Feb 2012 00:46:16 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/02/16/13434/</guid>
+      <description>See main article Vim In Case Of.
+nmap DD &amp;ldquo;_dd
+将删除的内容放入 black hole register: &amp;rdquo;_ 中
+_&amp;quot;dd 就可以将当前行内容删除并且不会放在任何寄存器中。
+http://forum.ubuntu.org.cn/viewtopic.php?f=68&amp;amp;t=84593?f=68&amp;amp;t=84593)</description>
+    </item>
+    
+  </channel>
+</rss>

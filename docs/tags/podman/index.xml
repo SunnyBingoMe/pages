@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Podman on Machine Learning</title>
+    <link>http://dmml.nu/tags/podman/</link>
+    <description>Recent content in Podman on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Feb 2017 10:24:28 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/podman/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Podman, Docker</title>
+      <link>http://dmml.nu/docker/</link>
+      <pubDate>Mon, 20 Feb 2017 10:24:28 +0000</pubDate>
+      
+      <guid>http://dmml.nu/docker/</guid>
+      <description>See also:
+cnvrg.io How to setup Docker and Nvidia-Docker 2.0 on Ubuntu 18.04 (bak)
+Timing: time spent to install &amp;amp; test: 15 tomatos/hours.
+Comparing Container Engines#Tip: podman has exactly the same CLI as Docker, so previous Docker users can move to Podman by:
+alias Docker=Podman.
+Podman advantages compared to Docker:
+doesn’t need daemon doesn’t need root privileges (which has been long-standing concern with Docker) can also manage pods Other alternavtive engines:</description>
+    </item>
+    
+  </channel>
+</rss>

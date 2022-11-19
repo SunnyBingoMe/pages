@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bak on Machine Learning</title>
+    <link>http://dmml.nu/tags/bak/</link>
+    <description>Recent content in bak on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 07 Mar 2012 17:22:46 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/bak/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[bak] Sar 监控命令小览</title>
+      <link>http://dmml.nu/2012/03/07/13516/</link>
+      <pubDate>Wed, 07 Mar 2012 17:22:46 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/03/07/13516/</guid>
+      <description>see also jlevy/the-art-of-command-line (multi-language)
+from: qa.taobao.com
+最近接触了下淘宝的性能框架PAP，觉得系统中的监控真的做的很不错，但是非pap运行的程序，则无法监控，同时也查了下淘宝性能百科对监控命令Sar介绍，觉得讲的比较粗，这里把自己以前用过的Sar监控分享下；有问题，大家共勉哈！
+B%91%E6%8E%A73.jpg)</description>
+    </item>
+    
+  </channel>
+</rss>

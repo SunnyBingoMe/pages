@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Error on Machine Learning</title>
+    <link>http://dmml.nu/tags/error/</link>
+    <description>Recent content in Error on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Jul 2016 15:10:04 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/error/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Weird Windows Icon Web Font Display Bug</title>
+      <link>http://dmml.nu/windows-firewall-policy-trigger-web-font-bug/</link>
+      <pubDate>Wed, 20 Jul 2016 15:10:04 +0000</pubDate>
+      
+      <guid>http://dmml.nu/windows-firewall-policy-trigger-web-font-bug/</guid>
+      <description>Problem Setting#Web fonts can not be decoded, pages are showing a lot of squares. For instance, chrome gives following error in concole:
+Failed to decode downloaded font: https://xxxx.ttf
+Failed to decode downloaded font: https://xxxx.woff
+Desktop applications which used web fonts for UI also have display problems:
+Double click .ttf or try to copy to Fonts folder will give system error: the request file is not a valid font file</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Terminology on Machine Learning</title>
+    <link>http://dmml.nu/tags/terminology/</link>
+    <description>Recent content in Terminology on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/terminology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>English-Chinese-Terminology-Translation-个人常用词汇英汉对照</title>
+      <link>http://dmml.nu/term/</link>
+      <pubDate>Wed, 15 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/term/</guid>
+      <description> English Chinese ad-hoc, ad hoc (fix/method) 特设的（修改/方法） training (dataset) 训练（集） n. evaluation (dataset) 验证（集） n. testing (dataset) 测试（集） n. train 训练 v. evaluate 验证 v. test 测试 v. 试 v. </description>
+    </item>
+    
+    <item>
+      <title>Mathematical Terminology</title>
+      <link>http://dmml.nu/math/</link>
+      <pubDate>Sun, 07 Aug 2016 15:50:07 +0000</pubDate>
+      
+      <guid>http://dmml.nu/math/</guid>
+      <description>Terminology#English Chinese Notes minuend − subtrahend = difference 被减数 - 减数 = 差 arithmetic progression (AP) / arithmetic sequence 等差数列 geometric progression (GP) / geometric sequence 等比数列 derivative 导数 turning point := at which the derivative changes sign 极值点 := 导数正负分界点(导数为0且变号) $f&amp;rsquo;=0$ &amp;amp;&amp;amp; $f&amp;rsquo;(x-\delta) \cdot f&amp;rsquo;(x+\delta)&amp;lt;0$==单调性发生变化(但$x_0$处不一定可导) stationary point / critical point, of a differentiable function := at which the derivative/slope is 0 可微函数 的 驻点 := 导数为0的点 $f&amp;rsquo;=0$,$x_0$可导是前提.</description>
+    </item>
+    
+  </channel>
+</rss>

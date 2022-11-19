@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sbt on Machine Learning</title>
+    <link>http://dmml.nu/tags/sbt/</link>
+    <description>Recent content in Sbt on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 Feb 2019 20:43:40 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/sbt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scala the Language</title>
+      <link>http://dmml.nu/learning-scala/</link>
+      <pubDate>Tue, 12 Feb 2019 20:43:40 +0000</pubDate>
+      
+      <guid>http://dmml.nu/learning-scala/</guid>
+      <description>Install Sbt#echo &amp;#34;deb https://dl.bintray.com/sbt/debian /&amp;#34; | sudo tee -a /etc/apt/sources.list.d/sbt.list sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2EE0EA64E40A89B84B2DF73499E82A75642AC823 sudo apt-get update sudo apt-get install sbt ref: scala-sbt.org (v1.0)
+Compile#see ref</description>
+    </item>
+    
+  </channel>
+</rss>

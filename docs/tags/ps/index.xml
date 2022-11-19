@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ps on Machine Learning</title>
+    <link>http://dmml.nu/tags/ps/</link>
+    <description>Recent content in ps on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/ps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Powershell PS In Case Of</title>
+      <link>http://dmml.nu/ps-in-case-of/</link>
+      <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/ps-in-case-of/</guid>
+      <description>See also SSH.
+Overview: for both server and client: enable remote manager on both sides; set the other side as trusted.
+On both:
+Enable-PSRemoting -SkipNetworkProfileCheck -Force Set-Item wsman:\localhost\Client\TrustedHosts -value 192.168.1.* On the client:
+Enter-PSSession 192.168.xx.xx -Credential &amp;lt;server_computername&amp;gt;\&amp;lt;username&amp;gt; Tip:
+$Env:COMPUTERNAME # for computername $Env:USERNAME # for username [ref]
+5)]</description>
+    </item>
+    
+  </channel>
+</rss>

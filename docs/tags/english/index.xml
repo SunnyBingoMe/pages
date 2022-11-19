@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>English on Machine Learning</title>
+    <link>http://dmml.nu/tags/english/</link>
+    <description>Recent content in English on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/english/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>English-Chinese-Terminology-Translation-个人常用词汇英汉对照</title>
+      <link>http://dmml.nu/term/</link>
+      <pubDate>Wed, 15 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/term/</guid>
+      <description> English Chinese ad-hoc, ad hoc (fix/method) 特设的（修改/方法） training (dataset) 训练（集） n. evaluation (dataset) 验证（集） n. testing (dataset) 测试（集） n. train 训练 v. evaluate 验证 v. test 测试 v. 试 v. </description>
+    </item>
+    
+    <item>
+      <title>一周总结 week6 2012-02-26</title>
+      <link>http://dmml.nu/2012/02/26/13445/</link>
+      <pubDate>Sun, 26 Feb 2012 21:22:54 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/02/26/13445/</guid>
+      <description>额 &amp;hellip; 瑞典语占用的时间有点多 &amp;hellip;.
+详细: http://www.diigo.com/item/image/20wrj/3m0s?size=o
+和 toggl的差距 &amp;hellip;.
+1. Linux 无desktime -&amp;gt; 偏低
+2.有时候忘了停desktime -&amp;gt; 偏高
+规划:
+1.缩减语言项目开销
+2.QT4 啊 &amp;hellip;.</description>
+    </item>
+    
+  </channel>
+</rss>

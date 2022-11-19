@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Classic Music on Machine Learning</title>
+    <link>http://dmml.nu/tags/classic-music/</link>
+    <description>Recent content in Classic Music on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Dec 2016 14:06:41 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/classic-music/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Classical Music 200</title>
+      <link>http://dmml.nu/introduction-to-classic-music-structure-patterns/</link>
+      <pubDate>Tue, 27 Dec 2016 14:06:41 +0000</pubDate>
+      
+      <guid>http://dmml.nu/introduction-to-classic-music-structure-patterns/</guid>
+      <description>Yet still &amp;ldquo;popular&amp;rdquo; classical music. About ≈200 (with &amp;ldquo;extra&amp;quot;s).
+Tip: &amp;ldquo;Extra&amp;rdquo; means the item does not always occur when comparing different top ≈200 lists.
+Tip: If one item is not listed in TOC neither &amp;ldquo;extra&amp;rdquo; label but only bold, it is top ≈100 to ≈200.
+Tip: Numbered items: too old, not analyzed, all &amp;ldquo;extra&amp;rdquo;.
+TERMINOLOGIES#Chorus/合唱
+Gigue/Giga/吉格：巴洛克舞曲，源自英国民间的Jig舞曲。
+Mass/Missa/祢撒/弥撒/感恩祭：天主教會拉丁禮的祭祀仪式。
+Requiem/Requiemmass/灵歌/慰灵曲/安灵曲/安魂曲：弥撒的一种。
+Overture/Prelude/前奏/序曲
+Rhapsody/狂想曲
+Serenade/小夜曲
+Suite/乐队组曲
+Concerto/协奏曲
+Passion/受难曲
+Quartet/四重奏
+Quintet/五重奏
+Opus/Op./作品号
+UK:Impressionism/FR:Impressionnisme/印象派/印象主义</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jobb on Machine Learning</title>
+    <link>http://dmml.nu/categories/jobb/</link>
+    <description>Recent content in Jobb on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Jan 2012 13:50:50 +0000</lastBuildDate><atom:link href="http://dmml.nu/categories/jobb/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>时间跟踪,工程,项目,Project管理软件.(Linux)</title>
+      <link>http://dmml.nu/2012/01/08/13281/</link>
+      <pubDate>Sun, 08 Jan 2012 13:50:50 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/01/08/13281/</guid>
+      <description>See also: code &amp;amp; project management software
+Rachota,​java,个人时间跟踪用.(在我的中文 ubuntu 上运行,很多方块 &amp;hellip;..)
+Dotproject 貌似很牛,上次看 proj 管理也看到了.但是 ​demo 为什么打不开 &amp;hellip;.
+Kimai 太复杂了.
+7 Best Free Linux Time Tracking Software#ref
+Time Tracking [Project Hamster](http://www.linuxlinks.com/article/20120102092428825/ProjectHamster.html) Time tracking applet for the GNOME desktop environment [Kimai](http://www.linuxlinks.com/article/20120106091739996/Kimai.html) Web based software that tracks work time, and classifies it [Task Coach](http://www.linuxlinks.com/article/20101002094015328/TaskCoach.html) Designed to deal with composite tasks [Rachota](http://www.linuxlinks.com/article/20120106092050297/RachotaTimetracker.html) Designed for personal timetracking of projects [dotProject](http://www.linuxlinks.com/article/20090410203917702/dotProject.html) Web-based, multi-user, multi-language project management application [Kontact](http://www.</description>
+    </item>
+    
+    <item>
+      <title>耶！成了！Port U-boot from smdk2410 to mini2440</title>
+      <link>http://dmml.nu/2011/07/21/12167/</link>
+      <pubDate>Thu, 21 Jul 2011 22:22:13 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/07/21/12167/</guid>
+      <description>e424-uboot.png)</description>
+    </item>
+    
+    <item>
+      <title>网络公司最需要百项技术 PHP居首</title>
+      <link>http://dmml.nu/2011/03/05/8364/</link>
+      <pubDate>Sat, 05 Mar 2011 10:30:03 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/03/05/8364/</guid>
+      <description>感谢 服务器托管租用问答网 的投递, 新闻来源:PHP100
+根据2010年Elance第四季关于美国地区的就业资讯整理，发现了关于网络方面的工作机会有大幅的提升，比上一季增加了38%。尤其是在创意，行销及移动产业的工作机会有显着的增幅。除了想法以外企业家也需要有技术的人才，但企业们最需要僱员具备的技能是甚么呢?
+根据2010年Elance第四季关于美国地区的就业资讯整理，发现了关于网络方面的工作机会有大幅的提升，比上一季增加了38%。尤其是在创意，行销及移动产业的工作机会有显着的增幅。除了想法以外企业家也需要有技术的人才，但企业们最需要僱员具备的技能是甚么呢?又反应了怎么样的市场趋势呢?下图是Elance整理出公司最需要的百项技术。
+图表，Elance也做了一些分析，也就跟目前最热门的两项网络趋势有关，手机及社群网站：
+首先他们指出App开发者在市场上的需求增加了20%， 当中iPad类的App开发者市场需求目前每季增长15%，而iPhone类App开发者的市场需求则每季增长10%。同时，市场对于Android的程式开发者也有大量需求。而现阶段对移动设备的程序开发者尚未饱满，同时Apple及Android手机又不断出现在市面上，因此短期内还是需要大量的程序开发人员。
+至于网络营销，由于社群网络(如Facebook)的发达，所以是在各个类别中成长速度最快的，企业们非常重视也仰赖线上营销，尤其是社群媒体营销(Social Media Marketing)，联盟营销(Affiliate Marketing)，以及搜索引擎营销(Search Engine Marketing)这三方面。
+另外Elance也特别强调了Html5的增幅也很大，每一季增加了48%的需求，原因是除了需要更新网站的界面外，也需要因应在平板电脑以及行动装置上的浏览经验而做出调整，话虽如此，对Flash(#29)的需求还是持平(甚至走下坡)。另外网站架构方面最需要的人才还是 WordPress(#2)为主，还有Joomla!(#21)及Drupal(#56)。Joomla!(#21)及Drupal(#56)。</description>
+    </item>
+    
+    <item>
+      <title>哪种编程语言的程序员脏话最多?</title>
+      <link>http://dmml.nu/2011/03/05/8362/</link>
+      <pubDate>Sat, 05 Mar 2011 10:29:57 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/03/05/8362/</guid>
+      <description>From cnBeta 博文精选, 感谢 服务器托管租用问答网 的投递, 新闻来源:PHP100
+本文是从Cussing in Commits: Which Programming Language Inspires the Most Swearing这篇文章翻译而来。 任何一个程序员都会告诉你，编程中有时你会气得叫骂不已。但你是否知道写C++程序会比写PHP程序或Python程序引起你更多的咒骂呢？
+[pic ref]
+一个叫Andrew Vos的开发人员在寻找一个可以业余时开发的项目时突发奇想，他决定在GitHub上抓取100万条程序注释、评论信息，对其进行扫描，看看里面有多少脏话。他只提取了George Carlin 所说的七个脏词，按编程语言分类对它们进行统计。为了避免语言的流行程度对统计结果的影响， Vos 对每种语言都抓取的相同数量的注释。
+C++荣膺桂冠，但优势不是很明显。Ruby和JavaScript旗鼓相当，紧随C++之后。然后就是C，Java和C#，它们处于中间，但数量 于前者相比大幅的下降。Python和PHP程序员可能要么对这种语言很满意，要么是很绅士、有礼貌。当然，并不是说他们没有在注释评论中留下骂语就表明 他们没有咒骂。就像Vos在他的一篇博客里写的，“我用Python，但我的所有咒骂都是跟IE相关的。”
+你根本就无法统计究竟有多少开发人员在开发时对着屏幕咒骂，但如果你想找一种被诅咒的相对较少的编程语言时，PHP和Python看起来还是相对较好的选择。
+然而，你会发现，读读那些实际的注释评论信息会比这些统计数据更有趣，你可以访问 Vos 在GitHub上的帐户查看一下。我个人最喜欢的一句是：“去他妈的。就这样发布吧。”一点没错。布吧。”一点没错。</description>
+    </item>
+    
+  </channel>
+</rss>

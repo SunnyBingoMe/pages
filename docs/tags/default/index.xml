@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Default on Machine Learning</title>
+    <link>http://dmml.nu/tags/default/</link>
+    <description>Recent content in Default on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Jun 2018 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/default/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Boot Partitions, Install Multi-OS</title>
+      <link>http://dmml.nu/multi-operating-system-installation/</link>
+      <pubDate>Sat, 16 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/multi-operating-system-installation/</guid>
+      <description>See also: easy2boot, Automatic-Unattended-Install-of-Ubuntu.
+When installing Ubuntu, it will decide what kind of partition to use:
+Ubuntu decicison tree for using entire disk:
+? installer booted in EFI mode or BIOS mode? * EFI : use gpt and never make biosboot * BIOS ? is the disk larger than the max for msdos (2TB)? * yes : use gpt and ensure there&amp;#39;s a biosboot partition * no : use msdos ref</description>
+    </item>
+    
+    <item>
+      <title>Quota</title>
+      <link>http://dmml.nu/quota/</link>
+      <pubDate>Wed, 18 Apr 2018 21:53:47 +0000</pubDate>
+      
+      <guid>http://dmml.nu/quota/</guid>
+      <description>INSTALL#apt-get install quota CONFIG#Add options usrquota,grpquota in /etc/fstab:
+UUID=a5bcc8d7-asdf / ext4 errors=remount-ro,usrquota,grpquota 0 1 Set quota:
+setquota -u -F vfsv0 USERNAME 4000000 5000000 0 0 / 4 000 000 ≈ 4GB.
+OBS: block size is always 1 KB as unit, regardless file systems.
+Alternatively, edquota USERNAME can be used which brings the nano editor.
+REBOOT#reboot
+CHECK#repquota -a #report all users quotaon -pa # check if on a # check if on</description>
+    </item>
+    
+    <item>
+      <title>Moving Blog</title>
+      <link>http://dmml.nu/2016/05/04/15410/</link>
+      <pubDate>Wed, 04 May 2016 10:35:47 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2016/05/04/15410/</guid>
+      <description>Firstly, address changed: DMML.nu
+Secondly, reason. I thought high price lead to good service, but I was wrong:
+Four days host failure, and I lost all files.
+Fortunately, I have backups.
+Besides, wordpress is too heavy, I need a light weighted platform.</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2013/07/05</title>
+      <link>http://dmml.nu/2013/07/05/14989/</link>
+      <pubDate>Fri, 05 Jul 2013 06:00:48 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/07/05/14989/</guid>
+      <description>[04.07.2013 21:19 (fr. gplus)] [![](https://lh5.googleusercontent.com/proxy/tygbzAPl0Eb07JWuIU15RL63UlG-MAHAFXEDIkCc3nJhXNCmBFRR-d2opHL7KRlb2seb7dNdVwfPmmjve3S4=w125-h125)&amp;lt;p class=&#39;attachment_article_content&#39;&amp;gt;Wiktionary RDF extraction. Currently available languages: English, German, French, Russian In the works: Greece, Vietnamese Need data from other languages? Help us creating wrappers for each language editions (if you know Regex, XML and Wiktionary, an initial wrapper can be created in less than ... ](http://wiki.dbpedia.org/Wiktionary?show_files=1)
+Digest powered by RSS Digest</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2013/07/02</title>
+      <link>http://dmml.nu/2013/07/02/14926/</link>
+      <pubDate>Tue, 02 Jul 2013 06:00:12 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/07/02/14926/</guid>
+      <description>[01.07.2013 21:38 (fr. gplus)] [![](https://lh4.googleusercontent.com/proxy/VS4exI8pbr-l34-G7BGtit8Hv09Y34D3gmiPoZavJmc2MfctTXyTCf0uaXOuxgAJkQxlMxUdfd8_n9FlGt48YCcvnZNYXqPP=w125-h125)&amp;lt;p class=&#39;attachment_article_content&#39;&amp;gt;Your News. Delivered. Stay current. Learn. Get inspired. ](http://cloud.feedly.com/)
+[digg reader (fr. gplus)] digg reader [![](https://lh3.googleusercontent.com/proxy/kCbGnCgI73O_nJPuYQlDAOKe-rQfO4tJte8riWaBSEmWpky3phC89Y6UCjqpuFn73fvMmusv5gWCPJxxbqU7kxjcBxJJ698=w125-h125)&amp;lt;p class=&#39;attachment_article_content&#39;&amp;gt;Welcome to Digg ](http://digg.com/reader)
+[21.06.2013 15:21 (fr. gplus)] [![](https://lh5.googleusercontent.com/proxy/Ui5a93A3PSZBW4dZ3e53soFUcRU95pxBAxCKN_mtyXM_jSpO74RwkgKnXVbamJeQXZLujRLUwGxLvxkKZhBaTqpP2A=w125-h125)&amp;lt;p class=&#39;attachment_article_content&#39;&amp;gt;A collection of some simple plugins and pieces of code. ](http://welldonethings.com/)
+[Reshared post from 李俊: (fr. gplus)] **[Original Post (fr. gplus)] :** 目前找到的看着最舒服的基于twitter bootstrap的tags manager
+[![](https://lh5.googleusercontent.com/proxy/Ui5a93A3PSZBW4dZ3e53soFUcRU95pxBAxCKN_mtyXM_jSpO74RwkgKnXVbamJeQXZLujRLUwGxLvxkKZhBaTqpP2A=w125-h125)&amp;lt;p class=&#39;attachment_article_content&#39;&amp;gt;A tags manager or tags handler or tag input helper to manage tags in a form, it&#39;s a jquery plugin for bootstrap.</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2012/12/29</title>
+      <link>http://dmml.nu/2012/12/29/14618/</link>
+      <pubDate>Sat, 29 Dec 2012 06:01:45 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/12/29/14618/</guid>
+      <description>[25.12.2012 12:50 (fr. gplus)] [&amp;lt;p&amp;gt;Office 2007以后，公式编辑变得比较方便，公式本身不再是OLE对象，而是变 ... 例如 要在对图中的等号进行对齐，可以在需要换行的地方Shift+Enter ... ](http://guangchun.wordpress.com/2011/09/25/officeword/)
+[21.12.2012 00:06 (fr. gplus)] [&amp;lt;p&amp;gt;TCP(7) Linux Programmer&#39;s Manual TCP(7). NAME top. tcp - TCP protocol. SYNOPSIS top. #include #include #include tcp_socket = socket(AF_INET, SOCK_STREAM, 0);. DESCRIPTION top. This is an implementatio... ](http://www.kernel.org/doc/man-pages/online/pages/man7/tcp.7.html)
+Digest powered by RSS Digest</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2012/12/04</title>
+      <link>http://dmml.nu/2012/12/04/14595/</link>
+      <pubDate>Tue, 04 Dec 2012 06:00:58 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/12/04/14595/</guid>
+      <description>[03.12.2012 20:00 (fr. gplus)] [&amp;lt;p&amp;gt;如何对待观点不同的人. Dealing with Those Who Differ from You 尼寇尔（Dr. Roger R. Nicole）著，基甸、准翔译 （译注：英文原文“Dealing with Those Who Differ from You”载于http://www.apuritansmind.com/ChristianWalk/DealWithThoseWhoDiffer.... ](http://www.douban.com/group/topic/18204857/)
+Digest powered by RSS Digest</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2012/11/12</title>
+      <link>http://dmml.nu/2012/11/12/14575/</link>
+      <pubDate>Mon, 12 Nov 2012 06:04:06 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/11/12/14575/</guid>
+      <description>[11.11.2012 09:55 (fr. gplus)] [![](https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.ai-kan.net/wp-content/uploads/2012/11/4d7ee346b78154466a63e5c01.jpg&amp;amp;amp;container=focus&amp;amp;amp;gadget=a&amp;amp;amp;rewriteMime=image/*&amp;amp;amp;refresh=31536000&amp;amp;amp;resize_h=150&amp;amp;amp;resize_w=150&amp;amp;amp;no_expand=1)&amp;lt;p&amp;gt;常听人说，家不是讲道理的地方。《醒世恒言》称：“逆子顽妻，无药可治。遇到这般泼妇，难道终日厮闹不成？少不得闹过几次，奈何他不下，只得诈瞎装聋，含糊忍痛。” 这种“智慧”纯属糟粕。家是公民训练最重要的课堂。
+家不光是讲理的地方。除了道理，尚需关心、理解、包容和爱。如果说“家不是讲道理的地方”，那就有点捣浆糊了。再到“家里是不讲道理的地方”，就是胡搅蛮缠了。当然，道理怎么讲，谁来讲，用什么时机讲，这里大有学问也颇有趣味。
+在家这种安全的环境里，都讲不了道理，出了家门，又如何在社会上讲理？家是公民训练最有效也最必要的地方。我们在社会上如何为人处事，很多来自我们在家的言行模式。家里的冲突，找不到妥协的办法，在社会上解决矛盾，恐怕也是空谈。在家里靠欺瞒过日子，到了社会上，也会遇事捂盖子，不能直面现实。“大环境”里的多少矛盾，哪一个不是家庭小环境下问题的放大？
+说家不是讲理的地方，是把自己放到了自己讲不了理的处境上，这通常是女权机会主义者的自我贬低。论到利益，这些人跟你讲男女平等寸步不让。说起道理，&amp;hellip;
+](https://www.ai-kan.net/?p=94805)
+[11.11.2012 09:53 (fr. gplus)] [![](https://images3-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://s10.sinaimg.cn/mw690/60cc4434g7afc84b367b9&amp;amp;amp;690&amp;amp;amp;container=focus&amp;amp;amp;gadget=a&amp;amp;amp;rewriteMime=image/*&amp;amp;amp;refresh=31536000&amp;amp;amp;resize_h=150&amp;amp;amp;resize_w=150&amp;amp;amp;no_expand=1)&amp;lt;p&amp;gt;今天是2012年11月6日，日历上印着两个字“选举日”，下面一个括弧，美国。快11点了，出门去投票，选举站就在我们家附近的中学礼堂，步行七八分钟就到了，顺便散散步。 今年很少几家邻居在草地上插个牌子，投某某一票，沿着小区走了一圈，只有三四家插牌。倒是走了不远，看到一头鹿，慢悠悠走过马路，沿着草地，一直走到人家旁边。 走进选举站，在F这组姓之前，把驾驶执照给志愿者一看，她查了一下，找到了我的名字，就问了一句话，你的住址。答后，就给我一个表格，让我到斜对面的另外一排取选票。取票时，工作人员告诉我，选票是两面，把票投进选票机时要面朝上。他把选票放进一个文件夹里交给了我。
+填写选票的台子在大厅中间，两排，一个一个小格子，谁也看不到谁写什么。我匆匆填好票就到投票机前，把选票放进了机器里。
+我刚走开，投票机前的工作人员就走过来，低声告诉我，我的票填错了。于是，他摁了一个按钮，立即把我刚刚投入的票调出来，一看，原来我在四个总统候选人那栏里涂了两个人的名字。他说，没关系，你到那里再取一张选票重新填写就&amp;hellip;
+](https://www.ai-kan.net/?p=94813)
+Digest powered by RSS Digest</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2012/11/11</title>
+      <link>http://dmml.nu/2012/11/11/14572/</link>
+      <pubDate>Sun, 11 Nov 2012 06:00:29 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/11/11/14572/</guid>
+      <description>[10.11.2012 19:51 (fr. gplus)] [![](https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://img.cnbeta.com/szpda300.gif&amp;amp;amp;container=focus&amp;amp;amp;gadget=a&amp;amp;amp;rewriteMime=image/*&amp;amp;amp;refresh=31536000&amp;amp;amp;resize_h=150&amp;amp;amp;resize_w=150&amp;amp;amp;no_expand=1)&amp;lt;p&amp;gt;今年早些时候，我们报道过微软正在研发的一款“原声”语音翻译软件，它能把用户说的话翻译成其他语言播放出来，同时保留用户本身的口音、音色和语调，听上去就像用户亲口说的一样。今天，微软发布了该软件的最新演示视频，微软首席研究官瑞克•拉希德（Rick Rashid）在视频中利用该软件大秀还算标准的中国普通话。 ](http://www.cnbeta.com/articles/213260.htm)
+Digest powered by RSS Digest</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2012/11/07</title>
+      <link>http://dmml.nu/2012/11/07/14541/</link>
+      <pubDate>Wed, 07 Nov 2012 06:00:22 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/11/07/14541/</guid>
+      <description>[01.11.2012 11:14 (fr. gplus)] [&amp;lt;p&amp;gt;美丽的圣诞节 感恩的心_茵草气息_新浪博客,茵草气息, ](http://blog.sina.com.cn/s/blog_4c0205fd01011mh7.html)
+[31.10.2012 21:45 (fr. gplus)] [![](https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.socialresearchmethods.net/kb/Assets/images/measlevl.gif&amp;amp;amp;container=focus&amp;amp;amp;gadget=a&amp;amp;amp;rewriteMime=image/*&amp;amp;amp;refresh=31536000&amp;amp;amp;resize_h=150&amp;amp;amp;resize_w=150&amp;amp;amp;no_expand=1)&amp;lt;p&amp;gt;The level of measurement refers to the relationship among the values that are assigned to the attributes for a variable. What does that mean? Begin with the idea of the variable, in this example &amp;quot;part... ](http://www.socialresearchmethods.net/kb/measlevl.php)
+[29.10.2012 23:37 (fr. gplus)] [![](https://images3-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://www.ai-kan.net/wp-content/uploads/2012/08/51.jpg&amp;amp;amp;container=focus&amp;amp;amp;gadget=a&amp;amp;amp;rewriteMime=image/*&amp;amp;amp;refresh=31536000&amp;amp;amp;resize_h=150&amp;amp;amp;resize_w=150&amp;amp;amp;no_expand=1)&amp;lt;p&amp;gt;耶鲁教授Stephen Stearns致北大学生的一封信 背景 Prof. Sterns是耶鲁大学知名进化生物学家，本学期在北大开设Key Issues in Evolution和Principles of Evolution两门课程，总计40余名学生。在12月初，有一位学生交的期末论文中发现明显剽窃，为此教授公开宣布判此人零分并致函所有同学以示告诫。然而所有论文都递交之后，又发现两人有严重剽窃行为。教授因此非常伤心，致函如下：
+翻译：Ent
+To my students in Beijing, Fall 2007：</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2012/10/04</title>
+      <link>http://dmml.nu/2012/10/04/14221/</link>
+      <pubDate>Thu, 04 Oct 2012 06:16:58 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/10/04/14221/</guid>
+      <description>[03.10.2012 22:51 (fr. gplus)] [![](https://images0-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;amp;amp;gadget=a&amp;amp;amp;resize_h=100&amp;amp;amp;url=http://i2.ytimg.com/vi/ycd-ZPgl0T4/hqdefault.jpg)Agnes - One Last Time (Official Video)](http://www.youtube.com/watch?v=ycd-ZPgl0T4) Digest powered by RSS Digest</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2012/09/30</title>
+      <link>http://dmml.nu/2012/09/30/14197/</link>
+      <pubDate>Sun, 30 Sep 2012 06:03:47 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/09/30/14197/</guid>
+      <description>[29.09.2012 21:21 (fr. gplus)] [白岩松：爱你现在的时光](http://www.u148.net/article/73989.html) [![](https://images0-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;amp;amp;gadget=a&amp;amp;amp;resize_h=100&amp;amp;amp;url=http://file3.u148.net/2012/9/images/1348117823237.jpg) ](http://www.u148.net/article/73989.html) [29.09.2012 21:14 (fr. gplus)] [乌鲁木齐：原来这就是停靠在八楼的二路汽车](http://gaoxiaoo.com/8lou2lu) [29.09.2012 21:13 (fr. gplus)] [《华佗之死》冷死我了！](http://gaoxiaoo.com/yaoqiekenao) [29.09.2012 21:08 (fr. gplus)] [网易上的霸气评论](http://gaoxiaoo.com/wangyibaqipinglun) Digest powered by RSS Digest</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2012/09/28</title>
+      <link>http://dmml.nu/2012/09/28/14166/</link>
+      <pubDate>Fri, 28 Sep 2012 06:09:39 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/09/28/14166/</guid>
+      <description>[27.09.2012 14:37 (fr. gplus)] [在網頁中崁入一行code就可以讓你的Samsung galaxy 做Factory Reset(回復原廠設定) » Kevinwatt&amp;amp;#039;s Blog](http://kevinwatt.net/blog/?p=328) [![](https://images0-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;amp;amp;gadget=a&amp;amp;amp;resize_h=100&amp;amp;amp;url=http://kevinwatt.net/blog/wp-content/uploads/2012/09/samsung-galaxy-s3-logo-vector-01.png) ](http://kevinwatt.net/blog/?p=328) Digest powered by RSS Digest</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2012/09/17</title>
+      <link>http://dmml.nu/2012/09/17/14142/</link>
+      <pubDate>Mon, 17 Sep 2012 06:09:40 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/09/17/14142/</guid>
+      <description>[16.09.2012 18:36 (fr. gplus)] [博客频道- 杨恒均的独立博客- 嫉恶如仇从善如流](http://yanghengjun.com/) [16.09.2012 17:17 (fr. gplus)] [Linux 灾难恢复](http://www.ibm.com/developerworks/cn/linux/l-cn-disa-recov/index.html) [![](https://images0-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;amp;amp;gadget=a&amp;amp;amp;resize_h=100&amp;amp;amp;url=http://www.ibm.com/developerworks/cn/linux/l-cn-disa-recov/image001.gif) ](http://www.ibm.com/developerworks/cn/linux/l-cn-disa-recov/index.html) [16.09.2012 09:24 (fr. gplus)] [男子喝酒过量死亡劝酒者被判赔10万元|喝酒|死亡|劝酒者_新浪新闻](http://news.sina.com.cn/s/2012-09-11/010825142915.shtml) Digest powered by RSS Digest</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2012/09/15</title>
+      <link>http://dmml.nu/2012/09/15/14125/</link>
+      <pubDate>Sat, 15 Sep 2012 06:00:28 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/09/15/14125/</guid>
+      <description>[14.09.2012 15:14 (fr. gplus)] [Great Firewall of China](http://www.greatfirewallofchina.org/) [![](https://images0-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;amp;amp;gadget=a&amp;amp;amp;resize_h=100&amp;amp;amp;url=http://www.greatfirewallofchina.org/graphics/logo_gfoc.gif) ](http://www.greatfirewallofchina.org/) [14.09.2012 11:42 (fr. gplus)] [Matlab: Two y axis with the same x-axis [closed]](http://stackoverflow.com/questions/6573862/matlab-two-y-axis-with-the-same-x-axis) [![](https://images0-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;amp;amp;gadget=a&amp;amp;amp;resize_h=100&amp;amp;amp;url=http://cdn.sstatic.net/stackoverflow/img/apple-touch-icon.png) ](http://stackoverflow.com/questions/6573862/matlab-two-y-axis-with-the-same-x-axis) [14.09.2012 09:16 (fr. gplus)] [蒋经国与台湾民主进程 - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2012/07/chiang_ching-kuo.html) [![](https://images0-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;amp;amp;gadget=a&amp;amp;amp;resize_h=100&amp;amp;amp;url=http://image.beekka.com/blog/201207/bg2012072502.jpg) ](http://www.ruanyifeng.com/blog/2012/07/chiang_ching-kuo.html) [14.09.2012 09:14 (fr. gplus)] [小额支付试验的结果 - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2012/07/micropayment_result.html) [![](https://images0-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;amp;amp;gadget=a&amp;amp;amp;resize_h=100&amp;amp;amp;url=http://image.beekka.com/blog/201207/bg2012073001.jpg) ](http://www.ruanyifeng.com/blog/2012/07/micropayment_result.html) [14.09.2012 09:13 (fr. gplus)] [Git分支管理策略](http://www.ruanyifeng.com/blog/2012/07/git.html) [![](https://images0-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;amp;amp;gadget=a&amp;amp;amp;resize_h=100&amp;amp;amp;url=http://www.ruanyifeng.com/blog/images/dollar_32.png) ](http://www.ruanyifeng.com/blog/2012/07/git.html) [14.09.2012 08:38 (fr. gplus)] [Ubuntu Pastebin](http://paste.ubuntu.com/) Digest powered by RSS Digest</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2012/09/13</title>
+      <link>http://dmml.nu/2012/09/13/14094/</link>
+      <pubDate>Thu, 13 Sep 2012 06:04:27 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/09/13/14094/</guid>
+      <description>[12.09.2012 22:14 (fr. gplus)] [![](https://images0-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;amp;amp;gadget=a&amp;amp;amp;resize_h=100&amp;amp;amp;url=http://i4.ytimg.com/vi/WA4iX5D9Z64/hqdefault.jpg)Taylor Swift - We Are Never Ever Getting Back Together](http://www.youtube.com/watch?v=WA4iX5D9Z64) Digest powered by RSS Digest</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2012/09/12</title>
+      <link>http://dmml.nu/2012/09/12/14079/</link>
+      <pubDate>Wed, 12 Sep 2012 06:01:37 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/09/12/14079/</guid>
+      <description>[官方解释很靠谱: x.co/gdupdate (fr. gplus)] 官方解释很靠谱: x.co/gdupdate [Anonymous攻击GoDaddy影响百万网站_系统安全_cnBeta.COM](http://www.cnbeta.com/articles/205191.htm) [![](https://images0-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;amp;amp;gadget=a&amp;amp;amp;resize_h=100&amp;amp;amp;url=http://img.cnbeta.com/newsimg/120911/070837010135343.png) ](http://www.cnbeta.com/articles/205191.htm) Digest powered by RSS Digest</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2012/09/04</title>
+      <link>http://dmml.nu/2012/09/04/13989/</link>
+      <pubDate>Tue, 04 Sep 2012 06:00:46 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/09/04/13989/</guid>
+      <description>[03.09.2012 17:32 (fr. gplus)] [Google 发布“未来搜索”庆祝哆啦A梦 -100 岁生日（诞辰前 100 周年） | 谷奥——探寻谷歌的奥秘](http://www.guao.hk/posts/google-released-mirai-search-to-celebrate-minus-100th-birthday-of-doraemon.html) [![](https://images0-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;amp;amp;gadget=a&amp;amp;amp;resize_h=100&amp;amp;amp;url=http://www.guao.hk/wp-content/uploads/2012/09/ishot-120903-2139391-150x150.jpg) ](http://www.guao.hk/posts/google-released-mirai-search-to-celebrate-minus-100th-birthday-of-doraemon.html) Digest powered by RSS Digest</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2012/08/20</title>
+      <link>http://dmml.nu/2012/08/20/13934/</link>
+      <pubDate>Mon, 20 Aug 2012 06:02:23 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/08/20/13934/</guid>
+      <description>[19.08.2012 15:07 (fr. gplus)] [Nitrous - 极赞的 iOS 网页性能优化插件，让 iPhone/iPad 上网速度飞起来！ (强烈推荐)](http://www.iplaysoft.com/nitrous.html) [![](https://images0-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;amp;amp;gadget=a&amp;amp;amp;resize_h=100&amp;amp;amp;url=http://img.iplaysoft.com/wp-content/uploads/2012/-iPhone-_CB18/nitrous.jpg) ](http://www.iplaysoft.com/nitrous.html) [己所不欲勿施于人，己所欲勿施于人。 (fr. gplus)] 己所不欲勿施于人，己所欲勿施于人。 [逃出那些“看不见的牢笼” - 左岸读书_blog](http://www.zreading.cn/archives/3128.html) Digest powered by RSS Digest</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2012/08/19</title>
+      <link>http://dmml.nu/2012/08/19/13918/</link>
+      <pubDate>Sun, 19 Aug 2012 06:01:18 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/08/19/13918/</guid>
+      <description>[18.08.2012 12:39 (fr. gplus)] [站长故事：网站域名被盗的经历-网站运营优化](http://www.williamlong.info/info/archives/664.html) [18.08.2012 11:54 (fr. gplus)] [“田忌赛马”与苹果-月光博客](http://www.williamlong.info/archives/3174.html) [![](https://images0-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;amp;amp;gadget=a&amp;amp;amp;resize_h=100&amp;amp;amp;url=http://www.williamlong.info/upload/3174_2.jpg) ](http://www.williamlong.info/archives/3174.html) [18.08.2012 11:45 (fr. gplus)] [谈谈室内定位技术](http://www.williamlong.info/archives/3178.html) [18.08.2012 11:09 (fr. gplus)] [科学松鼠会 » 为什么诈骗短信看上去那么弱智？](http://songshuhui.net/archives/71726) [![](https://images0-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;amp;amp;gadget=a&amp;amp;amp;resize_h=100&amp;amp;amp;url=http://songshuhui.net/wp-content/uploads/2012/08/nzrnxd.png) ](http://songshuhui.net/archives/71726) [18.08.2012 10:30 (fr. gplus)] [0.9倍光速的棒球丢出去，会发生什么？](http://jandan.net/2012/07/11/light-fast-baseball.html) [![](https://images0-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;amp;amp;gadget=a&amp;amp;amp;resize_h=100&amp;amp;amp;url=http://tankr.net/s/medium/DDQ8.png) ](http://jandan.net/2012/07/11/light-fast-baseball.html) Digest powered by RSS Digest</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2012/08/16</title>
+      <link>http://dmml.nu/2012/08/16/13907/</link>
+      <pubDate>Thu, 16 Aug 2012 06:02:07 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/08/16/13907/</guid>
+      <description>[is that open food? (fr. gplus)] is that open food? [![](https://images0-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;amp;amp;gadget=a&amp;amp;amp;resize_h=100&amp;amp;amp;url=http://i2.ytimg.com/vi/I25UeVXrEHQ/hqdefault.jpg)Richard Stallman Eats Something From His Foot](http://www.youtube.com/watch?v=I25UeVXrEHQ) Digest powered by RSS Digest</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2012/08/15</title>
+      <link>http://dmml.nu/2012/08/15/13905/</link>
+      <pubDate>Wed, 15 Aug 2012 06:00:45 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/08/15/13905/</guid>
+      <description>[14.08.2012 21:24 (fr. gplus)] [twitterfeed.com : feed your blog to twitter](http://twitterfeed.com/) [14.08.2012 21:18 (fr. gplus)] [![](https://images0-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;amp;amp;gadget=a&amp;amp;amp;resize_h=100&amp;amp;amp;url=http://i4.ytimg.com/vi/gcMn_Eu-XTE/hqdefault.jpg)We Are Never Ever Getting Back Together (Lyric Video)](http://www.youtube.com/watch?v=gcMn_Eu-XTE) [tcp ip 网络管理 第三版 （en） (fr. gplus)] tcp ip 网络管理 第三版 （en） [TCP/IP Network Administration, 3rd Edition](http://docstore.mik.ua/orelly/networking_2ndEd/tcp/index.htm) [10.08.2012 18:56 (fr. gplus)] [大教堂和集市HansB翻译](http://www.aka.org.cn/Docs/c&amp;amp;amp;b.html) [10.08.2012 17:41 (fr. gplus)] [未闻花名-李让口琴版_轻音乐 - 麦田音乐分享社区](http://digg.mtyyw.com/show.php?tid=5946) [![](https://images0-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;amp;amp;gadget=a&amp;amp;amp;resize_h=100&amp;amp;amp;url=http://digg.mtyyw.com/images/avatars/2786.jpg) ](http://digg.mtyyw.com/show.php?tid=5946) [终于知道那个是啥了 。。。 (fr. gplus)] 终于知道那个是啥了 。。。 [瑞典超市自助结帐系统 | 林林小筑](http://www.linlinhouse.com/3087.html) [Stack Overflow (fr. gplus)] Stack Overflow [Smashing the Stack for Fun and Profit by Aleph One](http://insecure.</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2011/12/03</title>
+      <link>http://dmml.nu/2011/12/03/13178/</link>
+      <pubDate>Sat, 03 Dec 2011 06:00:04 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/12/03/13178/</guid>
+      <description>[程序员的本质 (fr. gplus)] [程序员的本质](http://www.williamlong.info/archives/2907.html)&amp;lt;/div&amp;gt; [虽然时免费不完整版，但是还是有下载玩一玩的必要。 Houge Langley originally shared this post: (fr. gplus)] 虽然时免费不完整版，但是还是有下载玩一玩的必要。 [Houge Langley (fr. gplus)] originally shared this post: [World of Goo Demo](https://market.android.com/details?id=com.twodboy.worldofgoodemo) ![](http://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://androidmarket.googleusercontent.com/android/market/com.twodboy.worldofgoodemo/hi-256-0-ef6056b00ce5e85d1134657e0f793c6ff851b871&amp;amp;container=focus&amp;amp;gadget=a&amp;amp;rewriteMime=image/*&amp;amp;refresh=31536000&amp;amp;resize_h=120&amp;amp;no_expand=1) [#Android 经典PC休闲游戏【粘粘世界】登陆手机了！玩家要用粘性小球搭建各种结构完成任务。该游戏在美国独立游戏节包揽多项大奖，是极具创意的精品 (fr. gplus)] [#Android (fr. gplus)] 经典PC休闲游戏【粘粘世界】登陆手机了！玩家要用粘性小球搭建各种结构完成任务。该游戏在美国独立游戏节包揽多项大奖，是极具创意的精品之作。 [网易应用 (fr. gplus)] originally shared this post: [粘粘世界(World Of Goo)_休闲益智_Android首页_网易应用](http://m.163.com/android/software/2vu9ds.html) ![](http://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://img5.cache.netease.com/m/app/201111/29/9CC6O4A4.jpg&amp;amp;container=focus&amp;amp;gadget=a&amp;amp;rewriteMime=image/*&amp;amp;refresh=31536000&amp;amp;resize_h=120&amp;amp;no_expand=1) [G+ Extended - Chrome Web Store (fr. gplus)] [G+ Extended - Chrome Web Store](https://chrome.google.com/webstore/detail/nafbdgpajdhkjnaeafkboodleapnpjbg) ![](http://lh6.googleusercontent.com/lErDYgIiCgHFwaaiM_3UCra3tnoGhz7B5AA84OTvdB2WIAixEigFBM3H_rUTLb2bMEMysgJRRw=h120) [Portfolio - A Selection Trey Ratcliff originally shared this post: (fr.</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2011/12/02</title>
+      <link>http://dmml.nu/2011/12/02/13169/</link>
+      <pubDate>Fri, 02 Dec 2011 06:02:14 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/12/02/13169/</guid>
+      <description>[is.gd URL Shortener - Chrome Web Store (fr. gplus)] [is.gd URL Shortener - Chrome Web Store](https://chrome.google.com/webstore/detail/cdofbppppmjfejecfiegjnmbbgichjhg) ![](http://lh3.googleusercontent.com/y7igjCiV4oLF5EcAyUEzRBwuDOdPNKW1xDoENP0xtlOrjhuhD6_2gFQriDakIHMJuGj1UNwM6w=h120) Digest powered by RSS Digest</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2011/12/01</title>
+      <link>http://dmml.nu/2011/12/01/13160/</link>
+      <pubDate>Thu, 01 Dec 2011 06:03:21 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/12/01/13160/</guid>
+      <description>[I realize that every YouTube video I ever share is of the &amp;quot;HO LEE CRAP THER (fr. gplus)] I realize that every YouTube video I ever share is of the &amp;quot;HO LEE CRAP THERE IS COOL SHIT YOU CAN DO WITH SCIENCE1!1!1!&amp;quot; variety. So in that vein, I present. [Kevin Bourrillion (fr. gplus)] originally shared this post: [鉄板の上に音が見える？アート　虹色編　大人の科学マガジン with KIDS](http://www.youtube.com/watch?v=Oz53w_k_j_A) [http://www.youtube.com/v/Oz53w_k_j_A?hl=en&amp;amp;amp;fs=1&amp;amp;amp;autoplay=1](http://www.youtube.com/v/Oz53w_k_j_A?hl=en&amp;amp;amp;fs=1&amp;amp;amp;autoplay=1)&amp;lt;/div&amp;gt; [Sunset at Salem Willows - Salem, Massachusetts.</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2011/11/27</title>
+      <link>http://dmml.nu/2011/11/27/13124/</link>
+      <pubDate>Sun, 27 Nov 2011 06:01:41 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/11/27/13124/</guid>
+      <description>[Oldie but goodie. (fr. gplus)] Oldie but goodie. Fun and fascinating. [Stephanie L Davis (fr. gplus)] originally shared this post: [Extraordinary Toroidal Vortices](http://www.youtube.com/watch?v=mHyTOcfF99o) [http://www.youtube.com/v/mHyTOcfF99o&amp;amp;hl=en&amp;amp;fs=1&amp;amp;autoplay=1](http://www.youtube.com/v/mHyTOcfF99o&amp;amp;hl=en&amp;amp;fs=1&amp;amp;autoplay=1) [空中浩劫特輯 系統故障 4 http://www.youtube.com/v/yb3EIWazFos?hl=en&amp;amp;fs=1&amp;amp;autoplay=1 (fr. gplus)] [空中浩劫特輯 系統故障 4](http://www.youtube.com/watch?v=yb3EIWazFos) [http://www.youtube.com/v/yb3EIWazFos?hl=en&amp;amp;amp;fs=1&amp;amp;amp;autoplay=1](http://www.youtube.com/v/yb3EIWazFos?hl=en&amp;amp;amp;fs=1&amp;amp;amp;autoplay=1)&amp;lt;/div&amp;gt; [空中浩劫特輯 系統故障 3 http://www.youtube.com/v/FMOb2-BDOrA?hl=en&amp;amp;fs=1&amp;amp;autoplay=1 (fr. gplus)] [空中浩劫特輯 系統故障 3](http://www.youtube.com/watch?v=FMOb2-BDOrA) [http://www.youtube.com/v/FMOb2-BDOrA?hl=en&amp;amp;amp;fs=1&amp;amp;amp;autoplay=1](http://www.youtube.com/v/FMOb2-BDOrA?hl=en&amp;amp;amp;fs=1&amp;amp;amp;autoplay=1)&amp;lt;/div&amp;gt; Digest powered by RSS Digest</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2011/11/27</title>
+      <link>http://dmml.nu/2011/11/27/13124/</link>
+      <pubDate>Sun, 27 Nov 2011 06:01:41 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/11/27/13124/</guid>
+      <description>[Oldie but goodie. (fr. gplus)] Oldie but goodie. Fun and fascinating. [Stephanie L Davis (fr. gplus)] originally shared this post: [Extraordinary Toroidal Vortices](http://www.youtube.com/watch?v=mHyTOcfF99o) [http://www.youtube.com/v/mHyTOcfF99o&amp;amp;hl=en&amp;amp;fs=1&amp;amp;autoplay=1](http://www.youtube.com/v/mHyTOcfF99o&amp;amp;hl=en&amp;amp;fs=1&amp;amp;autoplay=1) [空中浩劫特輯 系統故障 4 http://www.youtube.com/v/yb3EIWazFos?hl=en&amp;amp;fs=1&amp;amp;autoplay=1 (fr. gplus)] [空中浩劫特輯 系統故障 4](http://www.youtube.com/watch?v=yb3EIWazFos) [http://www.youtube.com/v/yb3EIWazFos?hl=en&amp;amp;amp;fs=1&amp;amp;amp;autoplay=1](http://www.youtube.com/v/yb3EIWazFos?hl=en&amp;amp;amp;fs=1&amp;amp;amp;autoplay=1)&amp;lt;/div&amp;gt; [空中浩劫特輯 系統故障 3 http://www.youtube.com/v/FMOb2-BDOrA?hl=en&amp;amp;fs=1&amp;amp;autoplay=1 (fr. gplus)] [空中浩劫特輯 系統故障 3](http://www.youtube.com/watch?v=FMOb2-BDOrA) [http://www.youtube.com/v/FMOb2-BDOrA?hl=en&amp;amp;amp;fs=1&amp;amp;amp;autoplay=1](http://www.youtube.com/v/FMOb2-BDOrA?hl=en&amp;amp;amp;fs=1&amp;amp;amp;autoplay=1)&amp;lt;/div&amp;gt; Digest powered by RSS Digest</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2011/11/26</title>
+      <link>http://dmml.nu/2011/11/26/13094/</link>
+      <pubDate>Sat, 26 Nov 2011 06:04:26 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/11/26/13094/</guid>
+      <description>[登录 - 如果云 (fr. gplus)] [登录 - 如果云](http://ruguoyun.com/dashboard)&amp;lt;/div&amp;gt; [我是如何在12周内由零基础成为一名程序员的 | 36氪 (fr. gplus)] [我是如何在12周内由零基础成为一名程序员的 | 36氪](http://www.36kr.com/p/62584.html?utm_medium=twitter&amp;amp;amp;utm_source=twitterfeed)&amp;lt;/div&amp;gt; [为什么软件工程师的薪水和生产力如此不成正比？ | 36氪 (fr. gplus)] [为什么软件工程师的薪水和生产力如此不成正比？ | 36氪](http://www.36kr.com/p/22731.html) ![](http://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://img02.36krcnd.com/wp-content/uploads/2011/05/4944608042_c555d5b140_b-550x366.jpg&amp;amp;amp;container=focus&amp;amp;amp;gadget=a&amp;amp;amp;rewriteMime=image/*&amp;amp;amp;refresh=31536000&amp;amp;amp;resize_h=120&amp;amp;amp;no_expand=1) Digest powered by RSS Digest</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2011/11/23</title>
+      <link>http://dmml.nu/2011/11/23/13070/</link>
+      <pubDate>Wed, 23 Nov 2011 06:00:41 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/11/23/13070/</guid>
+      <description>[Beautiful Paintings of Evgeniy Lushpin I love his works!!! (fr. gplus)] Beautiful Paintings of **Evgeniy Lushpin** I love his works!!! FULL VIEW ADVISED!!! [http://lushpin.com/index.php/biography](http://lushpin.com/index.php/biography) [Isik Mater (fr. gplus)] originally shared this post: [Evgeniy Lushpin (25 photos) (fr. gplus)] ![](http://lh4.googleusercontent.com/-az7b2LbCv48/Tsttwaxn_lI/AAAAAAAAbas/AF-5rhHkF-E/w402/An-evening-journey.jpg) Digest powered by RSS Digest</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2011/11/22</title>
+      <link>http://dmml.nu/2011/11/22/13067/</link>
+      <pubDate>Tue, 22 Nov 2011 06:06:27 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/11/22/13067/</guid>
+      <description>[Should i ?? (fr. gplus)] Should i ?? [Jhakaas NeiL (fr. gplus)] originally shared this post: ![](http://lh5.googleusercontent.com/-BNmq3KdvZ14/TsacAQUh7mI/AAAAAAABSNg/3wPGGRbWZnk/w277/388281_257876727596434_234209353296505_814940_1714989229_n.jpg) [Yo Friends&amp;hellip;&amp;hellip;.. (fr. gplus)] Yo Friends........ That&amp;#039;s All For The Day **Hope I Made You Smile** Good Night All My Sweet Friends....Sexy Dreams...Always keep Smiling :)) [Jhakaas NeiL (fr. gplus)] originally shared this post: ![](http://lh5.googleusercontent.com/-i17j980XvY4/Tsaful448fI/AAAAAAABSPI/pedWrxodPz8/w300/good-night-10.gif) [July 31, 2011 Ian Plant originally shared this post: (fr. gplus)] July 31, 2011 [Ian Plant (fr. gplus)] originally shared this post: [July 31, 2011 (fr.</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2011/11/20</title>
+      <link>http://dmml.nu/2011/11/20/13040/</link>
+      <pubDate>Sun, 20 Nov 2011 06:15:02 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/11/20/13040/</guid>
+      <description>[Sometimes the reflection is a mirror Sometimes the reflection is an impress (fr. gplus)] Sometimes the reflection is a mirror Sometimes the reflection is an impressionist art What is real is not found in a mirror But found in a feeling that lingers In the hearts the impression made [#reflectionweek (fr. gplus)] [midori chan (fr. gplus)] originally shared this post: [Autumn&amp;#039;s Tale (15 photos) (fr. gplus)] ![](http://lh5.googleusercontent.com/-xxQUmJRcJ40/Tscs_8OGaLI/AAAAAAAASys/4NG1Wmgk6eU/h301/fall1a.jpg) [Tree at Dusk Shane Srogi originally shared this post: (fr.</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2011/11/19</title>
+      <link>http://dmml.nu/2011/11/19/13030/</link>
+      <pubDate>Sat, 19 Nov 2011 06:03:13 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/11/19/13030/</guid>
+      <description>[广电脑残 。。。。 大陆被禁ＭＶ＜蚕＞ http://www.youtube.com/v/naAo9ErtNLo?hl=en&amp;amp;fs=1&amp;amp;autopla (fr. gplus)] 广电脑残 。。。。 [大陆被禁ＭＶ＜蚕＞](http://www.youtube.com/watch?v=naAo9ErtNLo) [http://www.youtube.com/v/naAo9ErtNLo?hl=en&amp;amp;fs=1&amp;amp;autoplay=1](http://www.youtube.com/v/naAo9ErtNLo?hl=en&amp;amp;fs=1&amp;amp;autoplay=1) [alan 阿蘭 アラン - 呼唤 (live-20101231浙江衛視風尚盛典) HD1080 http://www.youtube.com/v/8 (fr. gplus)] [alan 阿蘭 アラン - 呼唤 (live-20101231浙江衛視風尚盛典) HD1080](http://www.youtube.com/watch?v=8wvE6vj0FWU) [http://www.youtube.com/v/8wvE6vj0FWU?hl=en&amp;amp;amp;fs=1&amp;amp;amp;autoplay=1](http://www.youtube.com/v/8wvE6vj0FWU?hl=en&amp;amp;amp;fs=1&amp;amp;amp;autoplay=1)&amp;lt;/div&amp;gt; [《forever 》芬兰的 http://www.youtube.com/v/rfbpRaZLNcw?hl=en&amp;amp;fs=1&amp;amp;autoplay=1 (fr. gplus)] [《forever 》芬兰的](http://www.youtube.com/watch?v=rfbpRaZLNcw) [http://www.youtube.com/v/rfbpRaZLNcw?hl=en&amp;amp;amp;fs=1&amp;amp;amp;autoplay=1](http://www.youtube.com/v/rfbpRaZLNcw?hl=en&amp;amp;amp;fs=1&amp;amp;amp;autoplay=1)&amp;lt;/div&amp;gt; [天籁之音 二重唱 http://www.youtube.com/v/k4Wmy6rTKFk?hl=en&amp;amp;fs=1&amp;amp;autoplay=1 (fr. gplus)] [天籁之音 二重唱](http://www.youtube.com/watch?v=k4Wmy6rTKFk) [http://www.youtube.com/v/k4Wmy6rTKFk?hl=en&amp;amp;amp;fs=1&amp;amp;amp;autoplay=1](http://www.youtube.com/v/k4Wmy6rTKFk?hl=en&amp;amp;amp;fs=1&amp;amp;amp;autoplay=1)&amp;lt;/div&amp;gt; [alan / 風に向かう花 http://www.youtube.com/v/2J7UuhwJfEI?hl=en&amp;amp;fs=1&amp;amp;autoplay=1 (fr. gplus)] [alan / 風に向かう花](http://www.youtube.com/watch?v=2J7UuhwJfEI) [http://www.youtube.com/v/2J7UuhwJfEI?hl=en&amp;amp;amp;fs=1&amp;amp;amp;autoplay=1](http://www.youtube.com/v/2J7UuhwJfEI?hl=en&amp;amp;amp;fs=1&amp;amp;amp;autoplay=1)&amp;lt;/div&amp;gt; [alan / 「生きる」 http://www.youtube.com/v/isQ_IFapHpU?hl=en&amp;amp;fs=1&amp;amp;autoplay=1 (fr. gplus)] [alan / 「生きる」](http://www.youtube.com/watch?v=isQ_IFapHpU) [http://www.youtube.com/v/isQ_IFapHpU?hl=en&amp;amp;amp;fs=1&amp;amp;amp;autoplay=1](http://www.youtube.com/v/isQ_IFapHpU?hl=en&amp;amp;amp;fs=1&amp;amp;amp;autoplay=1)&amp;lt;/div&amp;gt; [alan / 明日への讃歌 http://www.youtube.com/v/3du6qQzXtnU?hl=en&amp;amp;fs=1&amp;amp;autoplay=1 (fr. gplus)] [alan / 明日への讃歌](http://www.</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2011/11/18</title>
+      <link>http://dmml.nu/2011/11/18/12997/</link>
+      <pubDate>Fri, 18 Nov 2011 06:00:36 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/11/18/12997/</guid>
+      <description>[samantha vid originally shared this post: (fr. gplus)] [samantha vid (fr. gplus)] originally shared this post: ![](http://lh5.googleusercontent.com/-4GWtxfEpFt8/TsSNSvrmMmI/AAAAAAAALGU/DrzHrtU4VEU/w400/mythbuster.jpg) [Sand on my nose Lukas - the dachshund originally shared this post: (fr. gplus)] Sand on my nose [Lukas - the dachshund (fr. gplus)] originally shared this post: ![](http://lh5.googleusercontent.com/-ZNHS22qHmmk/TsSfuW5TgfI/AAAAAAAAATQ/4YJdtuJ4rB8/w402/Beach+Lukas-2.jpg) [+ Jhakaas NeiL Share to public and +1&amp;hellip;.Thanks add and visit my profile S (fr. gplus)] +[Jhakaas NeiL (fr. gplus)] Share to public and +1.</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2011/11/17</title>
+      <link>http://dmml.nu/2011/11/17/12988/</link>
+      <pubDate>Thu, 17 Nov 2011 06:08:26 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/11/17/12988/</guid>
+      <description>[I Stalked Steve Jobs (And How To Get A Meeting With ANY VIP) - Forbes (fr. gplus)] [I Stalked Steve Jobs (And How To Get A Meeting With ANY VIP) - Forbes](http://www.forbes.com/sites/christinecomaford/2011/11/10/i-stalked-steve-jobs-and-how-to-get-a-meeting-with-any-vip/) ![](http://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://blogs-images.forbes.com/thumbnails/blog_1773/pt_1773_33_o.jpg?t=1321390388&amp;amp;amp;container=focus&amp;amp;amp;gadget=a&amp;amp;amp;rewriteMime=image/*&amp;amp;amp;refresh=31536000&amp;amp;amp;resize_h=120&amp;amp;amp;no_expand=1) [I am showing you a series of food flags, which created in the Sydney Inter (fr. gplus)] **I am showing you a series of food flags, which created in the Sydney International Food Festival. Tell me which one is favourite country?</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2011/11/16</title>
+      <link>http://dmml.nu/2011/11/16/12979/</link>
+      <pubDate>Wed, 16 Nov 2011 06:01:07 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/11/16/12979/</guid>
+      <description>[chrome看到一堆乱码 The 月光博客 Daily (fr. gplus)] chrome看到一堆乱码 [The 月光博客 Daily](http://paper.li/williamlong) [《美丽瞬间》 左岸 originally shared this post: (fr. gplus)] 《美丽瞬间》 [左岸 (fr. gplus)] originally shared this post: ![](http://lh3.googleusercontent.com/-J8wMZJevZ5s/TsJ3bjRO5uI/AAAAAAAAZ-4/PM66BnN-zo4/w402/9985.jpg) [波波 originally shared this post: (fr. gplus)] [波波 (fr. gplus)] originally shared this post: [funny◕‿‿◕（2）（399 张照片） (fr. gplus)] ![](http://lh5.googleusercontent.com/-UBf7z18ge-I/TsJ3zRdhQwI/AAAAAAABWxw/ntB0E_eUxLk/w343/571.gif) [秋水长天？ 左岸 originally shared this post: (fr. gplus)] 秋水长天？ [左岸 (fr. gplus)] originally shared this post: ![](http://lh4.googleusercontent.com/-C8i_HoC0R8w/TsJ4PfjMMzI/AAAAAAAAZ_g/Pk2C3xTeyNo/w402/6343860612_daba272e86_b.jpg) [波波 originally shared this post: (fr. gplus)] [波波 (fr.</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2011/11/15</title>
+      <link>http://dmml.nu/2011/11/15/12956/</link>
+      <pubDate>Tue, 15 Nov 2011 06:01:30 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/11/15/12956/</guid>
+      <description>[Chicken tikka masala - Wikipedia, the free encyclopedia (fr. gplus)] [Chicken tikka masala - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Chicken_tikka_masala) ![](http://images3-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://upload.wikimedia.org/wikipedia/commons/thumb/1/18/CTM.jpg/200px-CTM.jpg&amp;amp;amp;container=focus&amp;amp;amp;gadget=a&amp;amp;amp;rewriteMime=image/*&amp;amp;amp;refresh=31536000&amp;amp;amp;resize_h=120&amp;amp;amp;no_expand=1) Digest powered by RSS Digest</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2011/11/11</title>
+      <link>http://dmml.nu/2011/11/11/12943/</link>
+      <pubDate>Fri, 11 Nov 2011 06:00:18 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/11/11/12943/</guid>
+      <description>[看了一下，周围全是失足青年。。 Jerry Young originally shared this post: (fr. gplus)] 看了一下，周围全是失足青年。。 [Jerry Young (fr. gplus)] originally shared this post: ![](http://lh5.googleusercontent.com/-NBngsG-pMow/TrNIxvt3FxI/AAAAAAAABZ4/Sji3N_luFyo/w199/b812c8fc1a733989fd037f56.jpg) [@被打飞：昨天和朋友谈起，觉得中国对朝鲜民族做的孽太大了。朝鲜半岛迟迟无法统一就是中国，当然还有苏联导致的。否则韩国早该是一个类似德国般强大的国家。中 (fr. gplus)] @被打飞：昨天和朋友谈起，觉得中国对朝鲜民族做的孽太大了。朝鲜半岛迟迟无法统一就是中国，当然还有苏联导致的。否则韩国早该是一个类似德国般强大的国家。中国东三省也能大大受益。现在不但北韩资源丰富却饥寒交迫，南韩也耗费大量人力物力在国防上。中国祸害朝鲜民族，大概远超过俄罗斯祸害波兰。 [夏微微 (fr. gplus)] originally shared this post: [@押沙龙：你不允许他们真正有选举权，不允许他们有真正的组织；你欺凌他们、驱赶他们、碰到喜庆日子就撵鸡一样撵他们；你可以刑讯他们，可以不经法院劳教他们， (fr. gplus)] @押沙龙：你不允许他们真正有选举权，不允许他们有真正的组织；你欺凌他们、驱赶他们、碰到喜庆日子就撵鸡一样撵他们；你可以刑讯他们，可以不经法院劳教他们，可以在上访时像抓鸡一样抓回他们。当他们走投无路时，只能做选择：是做杨佳还是做杨武？变成杨佳，你就枪毙他们；变成杨武，你就谴责他们。 [夏微微 (fr. gplus)] originally shared this post: [Christopher Meng (@cickumqt) has shared a Tweet with you: (fr. gplus)] Christopher Meng (@cickumqt) has shared a Tweet with you: &amp;amp;quot;gfwrev: GFW（北京）也只是一个单位。9-12层曙光机房里来来回回都是穿着防辐射大褂的工作人员。到处都是刷卡的门禁。机房里的监测室就像电视里放的那样。院子里住着保卫部队的两层小楼和菜地。正在远去的哈工大和中科院的民工，北邮的血液越来越多。&amp;amp;quot; &amp;ndash;http://twitter.com/gfwrev/status/111587938168619009
+[Christopher Meng (fr. gplus)] originally shared this post:</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2011/11/10</title>
+      <link>http://dmml.nu/2011/11/10/12926/</link>
+      <pubDate>Thu, 10 Nov 2011 06:00:53 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/11/10/12926/</guid>
+      <description>[成为艾未未债主的途径有： 1）邮政汇款：北京朝阳区崔各庄乡草场地村258号 100015 路青收 2）中国建设银行北京市分行前门支行幸福大街储蓄所 6 (fr. gplus)] 成为艾未未债主的途径有： 1）邮政汇款：北京朝阳区崔各庄乡草场地村258号 100015 路青收2）中国建设银行北京市分行前门支行幸福大街储蓄所 6222 8000 1013 1006 244 刘艳萍 SWIFT:PCBCCNBJBJX 3）支付宝：fakesheji@gmail.com
+4）paypal：fakesheji@gmail.com
+多少不限，大家悠着点呀 无论何种方式，务必留电话，每一分钱都还。 [艾未未 (fr. gplus)] originally shared this post:&amp;lt;/div&amp;gt; Digest powered by RSS Digest</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2011/11/09</title>
+      <link>http://dmml.nu/2011/11/09/12921/</link>
+      <pubDate>Wed, 09 Nov 2011 06:00:08 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/11/09/12921/</guid>
+      <description>[Nature Landscape Piriya Pete Wongkongkathep originally shared this post: (fr. gplus)] Nature Landscape [Piriya Pete Wongkongkathep (fr. gplus)] originally shared this post: [Nature Landscape (fr. gplus)] ![](http://lh6.googleusercontent.com/-2G0oUJvbeeA/TnmdowX50BI/AAAAAAAAJ9U/9g8tH2KisAw/w402/photo.jpg) [Lindo fim de tarde a proporcionar um belo pôr-de-sol de Outono sobre a Ilha (fr. gplus)] Lindo fim de tarde a proporcionar um belo pôr-de-sol de Outono sobre a Ilha de São Miguel. [#sunset (fr. gplus)] [Filipe Alves (fr. gplus)] originally shared this post: [Álbum #1 (1 fotografia) (fr.</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2011/11/07</title>
+      <link>http://dmml.nu/2011/11/07/12881/</link>
+      <pubDate>Mon, 07 Nov 2011 06:03:23 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/11/07/12881/</guid>
+      <description>[ (fr. gplus)] ![](http://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://farm4.static.flickr.com/3317/4596435739_42a87b9ff3_b.jpg&amp;amp;amp;container=focus&amp;amp;amp;gadget=a&amp;amp;amp;rewriteMime=image/*&amp;amp;amp;refresh=31536000&amp;amp;amp;resize_h=120&amp;amp;amp;no_expand=1) [SALAH SEDDIK M originally shared this post: (fr. gplus)] [SALAH SEDDIK M (fr. gplus)] originally shared this post: ![](http://lh5.googleusercontent.com/-rq9vaE9BIS0/TrYDQcNFcgI/AAAAAAAAHNg/YoQbfHTzYDw/w397/BrowserPreview_jeanett+hallgren.gif) [SALAH SEDDIK M originally shared this post: (fr. gplus)] [SALAH SEDDIK M (fr. gplus)] originally shared this post: ![](http://lh6.googleusercontent.com/-dajFjRBbIjg/TrYBeEkr_NI/AAAAAAAAHNA/7KiA1W-47E0/w307/tumblr_lcp2b2RNcv1qctdkco1_500_large.jpg) [Alexander Shchukin Baptiste Oddos originally shared this post: (fr. gplus)] Alexander Shchukin [Baptiste Oddos (fr. gplus)] originally shared this post: [Alexander Shchukin (fr. gplus)] ![](http://lh6.googleusercontent.com/-ZzvKtcSfznQ/TrZUNW5iTKI/AAAAAAAAWfE/IaNiUNYDrdA/h301/photo.jpg) [Alexander Shchukin Baptiste Oddos originally shared this post: (fr.</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2011/11/06</title>
+      <link>http://dmml.nu/2011/11/06/12863/</link>
+      <pubDate>Sun, 06 Nov 2011 06:03:37 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/11/06/12863/</guid>
+      <description>[Baptiste Oddos originally shared this post: (fr. gplus)] [Baptiste Oddos (fr. gplus)] originally shared this post: [Confusions visuelles (30 photos) (fr. gplus)] ![](http://lh5.googleusercontent.com/-nGR3i1PPEQY/TrUXLYoW3dI/AAAAAAAAWJw/ncyBOYGqmeY/h301/0.jpg) [Looking into the past by Jason Powell source : (fr. gplus)] Looking into the past by Jason Powell source : [http://jasonepowell.com/](http://jasonepowell.com/) [Baptiste Oddos (fr. gplus)] originally shared this post: [Jason Powell - Looking in the past (24 photos) (fr. gplus)] ![](http://lh3.googleusercontent.com/-0Y0LOMSvpqE/TrUPEzkqn0I/AAAAAAAAWFg/HLiPzx8MPvM/w402/0.jpg) [ (fr. gplus)] ![](http://images3-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.sinaimg.cn/dy/slidenews/1_img/2011_41/2841_125688_616464.jpg&amp;amp;amp;container=focus&amp;amp;amp;gadget=a&amp;amp;amp;rewriteMime=image/*&amp;amp;amp;refresh=31536000&amp;amp;amp;resize_h=120&amp;amp;amp;no_expand=1) [ (fr.</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2011/11/05</title>
+      <link>http://dmml.nu/2011/11/05/12858/</link>
+      <pubDate>Sat, 05 Nov 2011 06:04:35 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/11/05/12858/</guid>
+      <description>[代码托管的偏好统计： How the langauges broke down on a forge by forge basis: (fr. gplus)] 代码托管的偏好统计： How the langauges broke down on a forge by forge basis: [http://www.readwriteweb.com/hack/2011/06/github-has-passed-sourceforge.php](http://www.readwriteweb.com/hack/2011/06/github-has-passed-sourceforge.php) ![](http://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://rww.readwriteweb.netdna-cdn.com/hack/images/forge_commits_0611.png&amp;amp;container=focus&amp;amp;gadget=a&amp;amp;rewriteMime=image/*&amp;amp;refresh=31536000&amp;amp;resize_h=120&amp;amp;no_expand=1) Digest powered by RSS Digest</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2011/11/04</title>
+      <link>http://dmml.nu/2011/11/04/12856/</link>
+      <pubDate>Fri, 04 Nov 2011 06:06:40 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/11/04/12856/</guid>
+      <description>[‎99669999996669999996699666699666999966699666699 99699999999699999999699666 (fr. gplus)] ‎99669999996669999996699666699666999966699666699 99699999999699999999699666699669966996699666699 99669999999999999996699666699699666699699666699 99666699999999999966666999966699666699699666699 99666666999999996666666699666699666699699666699 99666666669999666666666699666669966996699666699 99666666666996666666666699666666999966669999996 1.) press ctrl+f 2.) then type 9 3.) click Highlight all&amp;hellip;. :)
+[Mohammad Hossein Baharloo (fr. gplus)] originally shared this post:
+[看了三遍才看懂。。。。 囧。。。。。 王朋會 originally shared this post: (fr. gplus)] 看了三遍才看懂。。。。 囧。。。。。 [王朋會 (fr. gplus)] originally shared this post: Digest powered by RSS Digest</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2011/11/03</title>
+      <link>http://dmml.nu/2011/11/03/12848/</link>
+      <pubDate>Thu, 03 Nov 2011 06:05:18 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/11/03/12848/</guid>
+      <description>[basic coder » 武汉Deepin Linux DAU会议见闻 (fr. gplus)] [basic coder » 武汉Deepin Linux DAU会议见闻](http://basiccoder.com/wuhan-deepin-linux-meeting-info.html)&amp;lt;/div&amp;gt; [新开源项目Hybrid开发手记 (fr. gplus)] [新开源项目Hybrid开发手记](http://basiccoder.com/new-opensource-project-hybrid-dev-note.html)&amp;lt;/div&amp;gt; [Hybrid开发手记之聊天窗口的WebKit支持 (fr. gplus)] [Hybrid开发手记之聊天窗口的WebKit支持](http://basiccoder.com/hybrid_dev_note_webkit_support_in_chat_window.html) ![](http://images3-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://basiccoder.com/wp-content/uploads/2011/08/chat_with_robot_webkit-278x300.png&amp;amp;amp;container=focus&amp;amp;amp;gadget=a&amp;amp;amp;rewriteMime=image/*&amp;amp;amp;refresh=31536000&amp;amp;amp;resize_h=120&amp;amp;amp;no_expand=1) [Interactive map of Linux kernel (fr. gplus)] [Interactive map of Linux kernel](http://www.makelinux.net/kernel_map/)&amp;lt;/div&amp;gt; [毕业求职经历 (fr. gplus)] [毕业求职经历](http://basiccoder.com/graduate-job-hunting.html)&amp;lt;/div&amp;gt; [癌症与手机 (fr. gplus)] [癌症与手机](http://songshuhui.net/archives/60741)&amp;lt;/div&amp;gt; [发现屠呦呦 (fr. gplus)] [发现屠呦呦](http://songshuhui.net/archives/60959) ![](http://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://songshuhui.net/wp-content/uploads/2011/10/20119141930261280-600x448.jpg&amp;amp;amp;container=focus&amp;amp;amp;gadget=a&amp;amp;amp;rewriteMime=image/*&amp;amp;amp;refresh=31536000&amp;amp;amp;resize_h=120&amp;amp;amp;no_expand=1) [量子共振信息水，到底有多不靠谱 (fr. gplus)] [量子共振信息水，到底有多不靠谱](http://songshuhui.net/archives/60999) ![](http://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://songshuhui.net/wp-content/uploads/2011/10/ij71mc.png-300x234.jpg&amp;amp;amp;container=focus&amp;amp;amp;gadget=a&amp;amp;amp;rewriteMime=image/*&amp;amp;amp;refresh=31536000&amp;amp;amp;resize_h=120&amp;amp;amp;no_expand=1) [看不懂，当科普了 。。。。 科学讲座回顾：中微子，你今天超光速了吗？ (fr. gplus)] 看不懂，当科普了 。。。。 [科学讲座回顾：中微子，你今天超光速了吗？](http://songshuhui.net/archives/60940) ![](http://images3-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://songshuhui.net/wp-content/uploads/2011/10/clip_image006_thumb.jpg&amp;amp;container=focus&amp;amp;gadget=a&amp;amp;rewriteMime=image/*&amp;amp;refresh=31536000&amp;amp;resize_h=120&amp;amp;no_expand=1) Digest powered by RSS Digest</description>
+    </item>
+    
+    <item>
+      <title>八个提供免费SSH测试账号的网站</title>
+      <link>http://dmml.nu/2011/11/02/12816/</link>
+      <pubDate>Wed, 02 Nov 2011 13:48:01 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/11/02/12816/</guid>
+      <description>一、http://livessh.com/
+提供三台免费ssh服务器，
+密码是随机更新，如果不能登陆请去其主页查看新密码。
+二、http://w0w.me/freessh
+提供免费ssh和vpn服务，
+為免濫用,系統會自行每20分鐘更新一次密碼 *請不要用來下載東西,否則限速/停止提供免費SSH 本博客使用了存緩,請CTRL+F5更新密碼
+三、http://www.hyvpn.com/vpn/upgrade.php
+此测试用户适用于:SSH代理,Socks 5代理以及PPTP代理.
+测试用户每10分钟断线一次,每30分钟随机修改密码一次!如果不能登录，请多刷新几次。
+四、http://alidage.org/#account
+在页面填写邮箱，发送帐号，为了保障您的私隐，推荐您用免费安全的Gmail邮箱收发邮件
+免费帐号限制每次连接两小时，超过两小时系统会断开并更改密码，超时后您可以重新填入邮箱地址获取密码
+五、https://www.usassh.com/free.php
+点击这里注册后，可以查看ssh服务器地址
+测试帐号每20分钟自动断线一次，密码每15分钟自动更改
+六、http://www.sshsafe.info/wp-login.php?action=register
+现在注册送7天免费SSH服务。
+注册十分钟后开通免费ssh服务
+七、http://ssh.iwenda.net/
+免费用户每半小时将会断开一次
+如果无法连接 说明同时连接的免费用户过多 请更换服务器或稍候再连接
+八、http://ssh.aenes.com/
+免费用户每半小时将会断开一次
+如果无法连接 说明同时连接的免费用户过多 请更换服务器或稍候再连接
+SSH代理服务器使用教程：http://igfw.tk/archives/1079
+Windows、Linux、Mac OS系统SSH代理教程：http://igfw.tk/archives/917
+使用Privoxy、Polipo、3proxy转化Sock5代理为Http代理：http://igfw.tk/archives/947
+from:
+http://igfw.tk/archives/1859</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2011/10/30</title>
+      <link>http://dmml.nu/2011/10/30/12812/</link>
+      <pubDate>Sun, 30 Oct 2011 06:02:22 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/10/30/12812/</guid>
+      <description>[罗卜道士和白菜道士 很久很久以前 옛날 옛적에 罗卜道士和白菜道士 很久很久以前 옛날 옛적에.mp4 javascript:void(0); (fr. gplus)] 罗卜道士和白菜道士 很久很久以前 옛날 옛적에 [罗卜道士和白菜道士 很久很久以前 옛날 옛적에.mp4](http://www.youtube.com/watch?v=XdR6Zh6-E7M) [javascript:void(0);](void(0);) [Have a great weekend everyone! (fr. gplus)] Have a great weekend everyone! :) Here is one brand new night vision work. [Mikko Lagerstedt (fr. gplus)] originally shared this post: [New (17 valokuvia) (fr. gplus)] ![](http://lh6.googleusercontent.com/-kyP0vWduHHA/TqFRDgJCV8I/AAAAAAAAF0w/V_YT3WhXqYs/h301/_DSC0797-Edit-6_crop.jpg) [Good morning GG+ (photos : (fr. gplus)] Good morning GG+ (photos : *Gary McParland*) Plus de photos : [http://www.</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2011/10/27</title>
+      <link>http://dmml.nu/2011/10/27/12803/</link>
+      <pubDate>Thu, 27 Oct 2011 06:00:32 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/10/27/12803/</guid>
+      <description>[samantha vid originally shared this post: (fr. gplus)] [samantha vid (fr. gplus)] originally shared this post: ![](http://lh6.googleusercontent.com/-kzd4rCiRdQo/TqTeWiYvTbI/AAAAAAAAH9U/nNJlwifHtow/h301/safety.jpg) [samantha vid originally shared this post: (fr. gplus)] [samantha vid (fr. gplus)] originally shared this post: ![](http://lh4.googleusercontent.com/-z0pnlfzoJgo/Tqa-bIlhX8I/AAAAAAAAILg/SKgNWZ3yrKw/w402/dalmation.jpg) [面向大海。。。 左岸 originally shared this post: (fr. gplus)] 面向大海。。。 [左岸 (fr. gplus)] originally shared this post: ![](http://lh6.googleusercontent.com/-WREx4rJmmy4/Tqa4ZFFjZbI/AAAAAAAAZbE/BlPQqDE3kyQ/h301/329528QvYU.jpg) [公知，意领，五毛，脑残，毛粉~必修课教材 Jason C originally shared this post: (fr. gplus)] 公知，意领，五毛，脑残，毛粉~必修课教材 [Jason C (fr. gplus)] originally shared this post: [为首长服务的艺术 (7 photos) (fr.</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2011/10/19</title>
+      <link>http://dmml.nu/2011/10/19/12790/</link>
+      <pubDate>Wed, 19 Oct 2011 06:06:51 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/10/19/12790/</guid>
+      <description>[ (fr. gplus)] ![](http://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.redoufu.com/weibo-images/2011/10/17/2011_10_17_19.jpg&amp;amp;amp;container=focus&amp;amp;amp;gadget=a&amp;amp;amp;rewriteMime=image/*&amp;amp;amp;refresh=31536000&amp;amp;amp;resize_h=120&amp;amp;amp;no_expand=1) Digest powered by RSS Digest</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 更新 2011/10/13</title>
+      <link>http://dmml.nu/2011/10/13/12766/</link>
+      <pubDate>Thu, 13 Oct 2011 06:03:06 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/10/13/12766/</guid>
+      <description>[笑死了 Peggy Li originally shared this post: (fr. gplus)] 笑死了 [Peggy Li (fr. gplus)] originally shared this post: ![](http://images3-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://i.imgur.com/mdESs.jpg&amp;amp;container=focus&amp;amp;gadget=a&amp;amp;rewriteMime=image/*&amp;amp;refresh=31536000&amp;amp;resize_h=120&amp;amp;no_expand=1) Digest powered by RSS Digest</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 2011/10/12</title>
+      <link>http://dmml.nu/2011/10/12/12763/</link>
+      <pubDate>Wed, 12 Oct 2011 06:00:49 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/10/12/12763/</guid>
+      <description>[作为美国精神的乔布斯 文/共识网 10月6日，一些粉丝自发来到苹果北京三里屯专卖店门口，摆上打印的乔布斯的照片和鲜花表达对乔布斯离去的哀思。美国苹果公 (fr. gplus)] 作为美国精神的乔布斯 文/共识网 10月6日，一些粉丝自发来到苹果北京三里屯专卖店门口，摆上打印的乔布斯的照片和鲜花表达对乔布斯离去的哀思。美国苹果公司前首席执行官史蒂夫·乔布斯5日逝世的消息，引起全球乃至很多中国“苹果迷”的哀思。 托夫勒在《权力的转移》一书中，将人类社会的发展分为3个阶段：暴力社会、财富社会和知识社会。早期野蛮时代和极权主义都属于暴力社会，所有的权力都来自暴力；在传统资本主义社会，金钱代替了暴力，财富是权力主要出处；在后工业时代或者后资本主义时代，取之不尽用之不竭的知识将成为最大权力。在传统时代，暴力属于强者，财富属于富人；在科技时代，知识属于每一个人，即使弱者和穷人。“吾生也有涯而知也无涯”，暴力金钱可以被垄断，但知识是难以垄断的，“知识是最具民主性格的权力来源”。暴力与财富都建立在掠夺之上，知识经济则消除了掠夺，人类社会更加文明。 中国政府曾于2006年宣布要跨越式发展，在2020年把中国建成“创新型国家”，通过推动本国企业的自主创新把中国技术对外依存度从70%降至30%。5年多过去了，中国企业整体上“自主创新能力不足、缺乏核心技术、缺乏自主知识产权”的状况没有根本改观。最新数据显示，“中国光纤制造装备的100%、集成电路芯片制造设备的85%、石油化工装备的80%、轿车工业设备、纺织机械、胶印设备的70%依靠进口”。中国企业无论在国内市场还是发达国家市场，在原始创新上的国际竞争力都远远落后于西方企业、甚至台湾企业。 1981年美国IBM推出世界上第一台个人电脑，1984年，中国长城公司就制造出长城100电脑，而且能识别汉字。1986年，长城公司的520电脑开始中国电脑的产业化。 “25年过去了，美国苹果的平板电脑仍然征服全球的消费者，IBM的商用计算机进入了云计算，英特尔的芯片、微软的软件仍然垄断全世界，电脑也已经变化出手机、音乐播放器等琳琅满目的电子产品。我们那些风云一时的电脑企业呢？巨人已经做脑白金了，四通不见了。我们还有联想，可联想10年前就不做电脑了，它是一家电脑销售公司，台湾企业制造，它贴上联想的牌子卖。 (中国的)这些电脑企业做了一个共同的产业：房地产。……联想不做电脑，但做房地产成功，也做金融和投资了。”而那个中国官办机构研发的“世界计算速度最快”的大型电脑，芯片和其他重要器件，都是外国的。 据统计，目前世界64%的财富依赖于人力或智力资本，知识性的无形财富已经成为人类的主要财富，世界经济由劳动密集型转向知识密集型，软件比硬件更加可贵。正如德鲁克所说，“后资本主义社会”最根本的经济资源不再是资本或自然资源，也不再是劳动力，而是知识（技术不是知识）；知识将成为唯一重要的资本，从而将人类带入一个“个人主义时代”。虽然“苹果”是富士康“制造的”，但却是乔布斯“创造的”；一个人的大脑远远胜过100多万工人的手，这就是知识的价值。 “创新是一个民族进步的灵魂”（江泽民）。如果说第二次浪潮还属于暴力经济的话，那么第三次浪潮就是知识经济，完全依靠科技文明，营造了一个智能的信息社会。在这里，智慧是一种普遍状态，比人更加聪明能干的机器向人们提出一个哲学命题：机器会代替一切吗？机器会统治人类吗？苏格拉底常常思考“人应当怎样活着”，技术变革注定会改变人们思考的方式和习惯，甚至完全改变人们的智力水平和身体结构。“我愿意把我所有的科技去换取和苏格拉底相处的一个下午”，这就是乔布斯的梦想。与其说他是企业家，不如说他是创意大师；他没有发明电脑，也没有发明MP3，也没有发明手机，但他发明了“苹果”。他将工业美学通过技术发挥到极致，技术的精妙与艺术的完美融为一体，使工业品充满一种动人心魄的灵魂。 拜中国教育所赐，在相当长的一个时间内，中国都不可能出现乔布斯。一个思想被控制的国家，一个言论自由得不到基本保护的地区，每个人同时必然会失去创新的思想动力。同时，“中国的政治体制听任知识产权遭到侵犯，鼓励员工伪造学历，鼓励公司生产假冒商品，研究人员发表虚假的科研成果。这都削弱中国的创新能力”。 知识时代是一个精英与群氓的时代。一栋大楼固然要许多人来建设，但大楼的“灵魂”即设计者却无论如何不能是“集体”，集体只能从事简单的、机械的劳动，而创造性的劳动永远需要靠个人完成。“群体中累加在一起的只有愚蠢而不是天才的智能”。牛顿和爱因斯坦的工作是不可能靠集体完成的；中国人即使人数再多，如果不激发个人天才，即使积累一亿个臭皮匠的“集体智能”也还是臭皮匠的智能，永远不会胜过爱因斯坦的智能。 知识权力下的第三次浪潮是一个创造的时代，一切守旧和重复都将重新落入第二次浪潮的陷阱，沦为先进国家的奴仆和奴隶。在创新体制下，先进国家制造业比例逐年下降，原始工业作为无技术的落后文明正在从民主的富国转到专制的穷国中去。出于战略与经济考虑，虽然富国不可能完全放弃制造业，但“去工业化”的趋势非常明显，只生产一些主要商品，而且采用自动化技术，从而使用更少的工人。面向未来，经济增长将越来越多地来源于技术创新，并使这种技术收益被大家共同分享。从英国的火车、德国的汽车、美国的电脑到日本的电器，这些新技术并没有使别人更穷，反而使大家都比以前生活得更好。相对而言，只有那些不平等的特权社会，人们的财富和机会常常被权力剥夺；少数人的富裕完全建立在多数人的贫穷之上，从而摧毁了创新精神，最终使这个国家走向贫困和失败。 世界一半人口进入城市用了8000多年，而剩余的一半人口进入城市则只需要80年。小说家余华乐观地认为，中国用40年时间，走过了西方资本主义从黑暗的中世纪到文明的后现代社会400年的发展道路。面对艰难的现实，我们其实很难从今天的西方找到我们的困惑出处。但如果翻开尘封的巴尔扎克和狄更斯的小说，或者马克思的《资本论》，那里处处都是我们当下苦苦挣扎的镜像。如果说西方正步入第三次浪潮的话，那么中国依然徘徊在第二次浪潮中。美国有乔布斯，中国有史玉柱；美国有“苹果”，中国有富士康。第二次浪潮的工业文明需要庞大的政府作为工具，以组织协调整个体制的运转。斯大林主义和凯恩斯主义成为第二次浪潮的黄金法则，这是一个完美的权力社会，所谓民主不过只是皇帝的新装。 作为世界工厂，中国制造业属于技术低端的加工生产，准确地说，是世界加工厂。前商务部长薄熙来坦言，中国要出口1亿条裤子才换回美国一架波音747。对中国来说，只有中国制造没有中国创造，离开了西方的科技支持，中国制造亦无从谈起。据说全世界每年申请的发明专利，美国占40%强，中国不到1%。中国是世界最大的皮包和服装生产基地，但中国没有LV、古奇和阿玛尼。亦官亦商的官办企业继续以垄断和低技术获得巨额暴利，卑微的私企在垄断官企和跨国公司的挤压中艰难求生。全球化并没有导致“历史的终结”，却导致了“西方的衰落”，资本与技术的加速流动改变了以往以国家为主体的全球产业分工和贸易模型，亚洲称为后工业时代的新大陆。作为经济全球化的最大赢家，中国具有竞争力的产业无一例外都被西方跨国公司主导。 正如美国经济学家保罗·克罗格曼讲的：“进步的真正源头是那些铁石心肠的跨国公司和贪得无厌的企业家。虽然他们只关心如何利用廉价劳工带来的获利良机，但他们的行动无意间带来了改善大众生活的直接后果。”后发的中国经过30年狂追，基本完成了工业化过程，尽管比英国晚了150多年。美国就像当年的英国一样，以为只要每个人买一支牙刷，美国就可以卖给中国10亿支牙刷，然而实际上却是中国人把牙刷卖给美国。“铁娘子”撒切尔夫人曾经断言中国成不了超级大国，“因为中国没有那种可以用来推进自己的力量，进而削弱我们西方世界具有传染力的思想体系；今天中国出口的是电视机，而不是思想观念。”柏拉图有句名言：“思想永远是宇宙的统治者。” 在中国，人人都在争着当官发财而不是搞研究创新。在全世界房地产一片萧条的背景下，中国房地产市场10余年红旗不倒举国狂欢。从圈地到卖地到融资到验收，权力资本通过房地产这个三极管得到最大可能的能量放大。毫无技术含量的房地产大潮使中国那丁点儿廉价的人力资本在权力资本面前失去最后一点尊严，白领因房为奴故称“房奴”。遍布中国南北的那些万里长城般浩大的高科技产业园和阿房宫式的大学新校区，无一不是权力资本搞的房地产项目和形象工程，一切都与真正的人力资本无关。 10年前，一个叫史玉柱的计算机专家把一种叫脑黄金的饮品卖给全中国人，广告词是“让一部分中国人先聪明起来”。巨人不幸趴下了，旋即又鲤鱼打挺站了起来。10年后，脑黄金变成了脑白金，前度刘郎今又来，仍是中国卖得最火最疯狂的玩意儿，也是中国最讽刺最厚黑的喜剧。对中国人的脑袋来说，聪明或许已经不重要了，收礼才是重要的。从此中国国家电视台每天都在声嘶力竭地呼吁：“收礼只收脑白金”。脑子的功能本是生产智力，在中国文化中竟可以沦为吃饭的家伙。美国可以诞生乔布斯，中国只能产生史玉柱。史玉柱朝三暮四的诡异成功，证明中国已经陷入一种对智力的病态焦虑和对权力的病态迷恋。 “因为所有的事情——荣誉、声望、对尴尬和失败的惧怕——在面对死亡的时候都将烟消云散，只留下真正重要的东西。在我所知道的各种方法中，提醒自己即将死去是避免产生上述想法的最好办法。赤条条来去无牵挂，没有理由不听从你内心的呼唤。”乔布斯曾经对斯坦福大学的学生们说：“你们的时间有限，所以不要把时间浪费在别人的生活里。不要被条条框框束缚，否则你就生活在他人思考的结果里。不要让他人的观点所发出的噪音淹没你内心的声音。最为重要的是，要有遵从你的内心和直觉的勇气，它们可能已知道你其实想成为一个什么样的人。其他事物都是次要的。” 如果说上世纪90年代是微软的天下，那么进入21世纪以来，后来居上的苹果，已经成为美国的象征和全世界的科技标杆。乔布斯7次登上《时代》杂志封面——“他改变了世界。”互联网的影响远远超过了电脑本身，它以软件的名义使技术更加抽象和独立，地球因此进一步大大“缩小”和变平，全人类实现了无成本的信息交流和知识共享。人们的生产、生活、工作、学习、思维等都发生了深刻的变化，知识经济将人类带入一个“信息时代”。互联网时代的知识不仅超越了政治，甚至超越了物质，变成赤裸裸的真理，这将带给中国自从孔子时代之后的又一次大启蒙运动。如果说第一次启蒙使中国走出了蒙昧，走进了野蛮；那么第二次启蒙将使中国走出野蛮，走进文明。 从福特的T型车、莱维特的安居房到乔布斯的个人电脑，张扬的平民精神是美国与古老欧洲最大的不同；所谓“美国梦”就是让一种更好的生活方式让更多的人享有，而不只是少数贵族的禁脔。从亨利福特到爱迪生，从比尔盖茨到乔布斯，美国精神始终是一种平民精神和草根精神。创新的背后，是一个健全的人格对智慧的崇拜，和对特权的反抗。对一个人人想当官的中国人来说，乔布斯永远是一个异端。在中国，虽然人们喜爱“苹果”，但并不代表喜欢乔布斯。 史蒂夫·乔布斯（Steve Paul Jobs），1972年高中毕业后，在俄勒冈州波特兰市的里德学院只念了一学期的书；1974年乔布斯在一家公司找到设计电脑游戏的工作。两年后，时年21岁的乔布斯和26岁的沃兹尼艾克在乔布斯家的车库里成立了苹果电脑公司；1985年获得了由里根总统授予的国家级技术勋章；1996年，苹果公司重新雇用乔布斯作为其兼职顾问；1997年9月，乔布斯重返该公司任首席执行官。1997年成为《时代周刊》的封面人物；2009年被财富杂志评选为这十年美国最佳CEO，同年当选时代周刊年度风云人物之一。2011年8月24日，乔布斯提出辞职。2011年10月6日，乔布斯去世，享年56岁。 [左岸 (fr. gplus)] originally shared this post:&amp;lt;/div&amp;gt; [《湖上春来似画图》 左岸 originally shared this post: (fr. gplus)] 《湖上春来似画图》 [左岸 (fr. gplus)] originally shared this post: ![](http://lh3.googleusercontent.com/-h6ABVV18cHE/To6x2ikWByI/AAAAAAAAY3g/7CCy8iQmAxE/h301/5.jpg) [坐过长途火车的朋友，应该挺了解。。。 RTfocus: (fr. gplus)] 坐过长途火车的朋友，应该挺了解。。。 RTfocus: 热☞RT @gr8bad RT @t486转自人人：我国火车专用对联,上联: 啤酒饮料矿泉水;下联:花生瓜子八宝粥;横批:让一下,让一下啊!//对着这条状态我足足笑了30秒+orz [老蒙 (fr. gplus)] originally shared this post:&amp;lt;/div&amp;gt; [《新秋水满池》 左岸 originally shared this post: (fr.</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 2011/10/04</title>
+      <link>http://dmml.nu/2011/10/04/12713/</link>
+      <pubDate>Tue, 04 Oct 2011 06:00:22 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/10/04/12713/</guid>
+      <description>[GIT &amp;amp; SVN. (fr. gplus)] GIT &amp;amp; SVN. [https://git.wiki.kernel.org/index.php/GitSvnCrashCourse](https://git.wiki.kernel.org/index.php/GitSvnCrashCourse) [“52%的黑莓手机用户打算购买iPhone5，让RIM情何以堪 | 36氪” Darren Chuang originally shared this (fr. gplus)] “52%的黑莓手机用户打算购买iPhone5，让RIM情何以堪 | 36氪” [Darren Chuang (fr. gplus)] originally shared this post: [调查：52%的黑莓手机用户打算购买iPhone5，让RIM情何以堪 | 36氪](http://www.36kr.com/p/49695.html) ![](http://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://img01.36krcnd.com/wp-content/uploads/2011/09/iphone5-411.jpg&amp;amp;container=focus&amp;amp;gadget=a&amp;amp;rewriteMime=image/*&amp;amp;refresh=31536000&amp;amp;resize_h=120&amp;amp;no_expand=1) [“ Chrome有望在12月份超过Firefox，成为全球第二大浏览器” Darren Chuang originally shared this p (fr. gplus)] “ Chrome有望在12月份超过Firefox，成为全球第二大浏览器” [Darren Chuang (fr. gplus)] originally shared this post: [Darren Chuang: [戴倫晚報] 2011/9/30](http://darrenchuang.blogspot.com/2011/09/2011930.html) ![](http://lh3.googleusercontent.com/-DzC90ccrP2c/ToXRdb6AWUI/AAAAAAAAATY/n8aghzIiaw0/w150/image_thumb%25255B2%25255D.png?imgmax=800) [哈佛大學做這種研究，應該是吃飽太閒&amp;hellip; (fr. gplus)] 哈佛大學做這種研究，應該是吃飽太閒... [Darren Chuang (fr. gplus)] originally shared this post: [哈佛研究：美女對男性提神作用好比吸毒-Yahoo!</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 2011/09/23</title>
+      <link>http://dmml.nu/2011/09/23/12667/</link>
+      <pubDate>Fri, 23 Sep 2011 06:01:39 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/09/23/12667/</guid>
+      <description>[Google 街景車還真拼命，才剛開放參觀而已，就馬上去拍攝了&amp;hellip; (fr. gplus)] Google 街景車還真拼命，才剛開放參觀而已，就馬上去拍攝了... [Briian Tsai (fr. gplus)] originally shared this post: [大豆剝落殼: 賽德克、巴萊 林口霧社街 巡禮](http://www.hsuans.com/2011/09/blog-post.html) ![](http://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://farm7.static.flickr.com/6168/6143673282_fb27a160a2.jpg&amp;amp;container=focus&amp;amp;gadget=a&amp;amp;rewriteMime=image/*&amp;amp;refresh=31536000&amp;amp;resize_w=150&amp;amp;no_expand=1) [Sunny Sunny originally shared this post: (fr. gplus)] [Sunny Sunny (fr. gplus)] originally shared this post: [Publish sync for Google+ &amp;amp;amp; Facebook connected successfully!](https://imorse.net/publishsync)&amp;lt;/div&amp;gt; [青山看不厌，流水趣何长。 左岸 originally shared this post: (fr. gplus)] 青山看不厌，流水趣何长。 [左岸 (fr. gplus)] originally shared this post: ![](http://lh3.googleusercontent.com/-ayj2Td2OTz0/TnCUOxWvXEI/AAAAAAAAXYA/-CYQgd2t6XM/h301/110.jpg) [盖朗厄尔峡湾，挪威 左岸 originally shared this post: (fr. gplus)] 盖朗厄尔峡湾，挪威 [左岸 (fr.</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 2011/09/02</title>
+      <link>http://dmml.nu/2011/09/02/12638/</link>
+      <pubDate>Fri, 02 Sep 2011 06:03:18 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/09/02/12638/</guid>
+      <description>PlusFeed to close ## PlusFeed is shutting down Google changed their [pricing for AppEngine](http://www.google.com/enterprise/cloud/appengine/pricing.html) increasing the costs tenfold, making this free service unsupportable. Sorry! &amp;lt;p&amp;gt; Please grab the open source code from GitHub [here](https://github.com/russellbeattie/plusfeed) and start your own AppSpot instance if you rely on this service. -Russ &amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt; Digest powered by RSS Digest</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 2011/08/30</title>
+      <link>http://dmml.nu/2011/08/30/12605/</link>
+      <pubDate>Tue, 30 Aug 2011 06:00:48 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/08/30/12605/</guid>
+      <description>[Google+ 不仅是社交网络，更是 Google 的身份识别服务 谷奥 originally shared this post: (fr. gplus)] Google+ 不仅是社交网络，更是 Google 的身份识别服务 [谷奥 (fr. gplus)] originally shared this post: [Google+ 不仅是社交网络，更是 Google 的身份识别服务 | 谷奥——探寻谷歌的奥秘](http://www.guao.hk/posts/google-isnt-just-a-social-network-its-an-identity-service.html) ![](http://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://www.guao.hk/wp-content/uploads/2011/08/google-circles.jpg&amp;amp;container=focus&amp;amp;gadget=a&amp;amp;rewriteMime=image/*&amp;amp;refresh=31536000&amp;amp;resize_w=150&amp;amp;no_expand=1) [唬爛&amp;hellip;. (fr. gplus)] 唬爛.... [Briian Tsai (fr. gplus)] originally shared this post: [iPhone 5 Concept Features](http://www.youtube.com/watch?v=lzsBwnv_dAg) [http://www.youtube.com/v/lzsBwnv_dAg&amp;amp;hl=en&amp;amp;fs=1&amp;amp;autoplay=1](http://www.youtube.com/v/lzsBwnv_dAg&amp;amp;hl=en&amp;amp;fs=1&amp;amp;autoplay=1) [Egg&amp;hellip;.. (fr. gplus)] Egg..... [波波 (fr. gplus)] originally shared this post: ![](http://lh3.googleusercontent.com/-nz6m__XCRA8/Tlj3Dc6tqBI/AAAAAAAAUT0/ydHVSPv_8tk/h301/43a39d58gw1dkj2he879rj.jpg) [渔舟唱晚。 左岸 originally shared this post: (fr. gplus)] 渔舟唱晚。 [左岸 (fr. gplus)] originally shared this post: !</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 2011/08/24</title>
+      <link>http://dmml.nu/2011/08/24/12544/</link>
+      <pubDate>Wed, 24 Aug 2011 06:03:35 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/08/24/12544/</guid>
+      <description>[李开复回答记者提问 记者：您怎么看待百度被央视曝光事件？ 李开复：我既不看央视，也不用百度！ Tao Liu originally shared th (fr. gplus)] 李开复回答记者提问 记者：您怎么看待百度被央视曝光事件？ 李开复：我既不看央视，也不用百度！ [Tao Liu (fr. gplus)] originally shared this post: [@Mobile20：接有关部门通知，VPN软件涉及境外网站非法访问，与翻墙、破网类软件同属禁售品，淘宝网不允许出售相关商品。目前VPN禁售品包括VPN (fr. gplus)] @Mobile20：接有关部门通知，VPN软件涉及境外网站非法访问，与翻墙、破网类软件同属禁售品，淘宝网不允许出售相关商品。目前VPN禁售品包括VPN国内与国外的代理（包括游戏），IP代理、VPN软件等，都在管控范围之内，请广大卖家停止销售并且下架、删除相关VPN商品。[http://t.cn/aRoSqq](http://t.cn/aRoSqq) 他们终于……下手了…… [贾鹏 (fr. gplus)] originally shared this post: [关于VPN禁售产品的最新通告-诚信防骗居 - 淘宝论坛 - 消费者门户 - 淘宝网](http://t.cn/aRoSqq)&amp;lt;/div&amp;gt; [Mj Shadmehr originally shared this post: (fr. gplus)] [Mj Shadmehr (fr. gplus)] originally shared this post: ![](http://lh3.googleusercontent.com/-d9Q1bx27jrw/ThJ-x8s5tXI/AAAAAAAAAqk/M0NptB2ygTI/w400/5512_7ff6.gif) [21世紀會是胡適的世紀嗎？ （有朋友說，一些連結被封鎖了，我只好重發G+上傳的版本，舊版稍晚可能會移除） 這篇演講很有啟發性，原文很長，看的辛苦，我嘗 (fr. gplus)] 21世紀會是胡適的世紀嗎？ （有朋友說，一些連結被封鎖了，我只好重發G+上傳的版本，舊版稍晚可能會移除） 這篇演講很有啟發性，原文很長，看的辛苦，我嘗試轉成聲音檔，然後加上一些胡 適的相關照片，做成一支影片，用聽的應該比較輕鬆。 影片連結：[http://vimeo.com/27433582](http://vimeo.com/27433582) 大陸影片連結：[http://v.youku.com/v_show/id_XMjk0NDgwNDQw.html](http://v.youku.com/v_show/id_XMjk0NDgwNDQw.html) 以下提供相關連結，供大家參考：</description>
+    </item>
+    
+    <item>
+      <title>ｇ＋ digest 2011/08/19</title>
+      <link>http://dmml.nu/2011/08/19/12466/</link>
+      <pubDate>Fri, 19 Aug 2011 06:00:04 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/08/19/12466/</guid>
+      <description>[《孤单的旅人》, By Gorazd Golob 左岸 originally shared this post: (fr. gplus)] 《孤单的旅人》, By Gorazd Golob [左岸 (fr. gplus)] originally shared this post: ![](http://lh6.googleusercontent.com/-uK_EjIWj5_Y/TkuMH__PzmI/AAAAAAAAWCg/UVAZRsZ_cR0/w402/7.jpg) [8月11日，葡萄牙中部维塞乌区，Santo Amaro de Tavares发生大火。一只小松鼠从火场跑出。 左岸 originally shared (fr. gplus)] 8月11日，葡萄牙中部维塞乌区，Santo Amaro de Tavares发生大火。一只小松鼠从火场跑出。 [左岸 (fr. gplus)] originally shared this post: ![](http://lh6.googleusercontent.com/-I_XhU9gCzdU/TkuIEUodmMI/AAAAAAAAV_E/vJv8ZtlZX28/w402/7.jpg) [花儿都去哪里了……？ 左岸 originally shared this post: (fr. gplus)] 花儿都去哪里了……？ [左岸 (fr. gplus)] originally shared this post: ![](http://lh3.googleusercontent.com/-xJHdlFQoC_4/TkuL4BwfemI/AAAAAAAAWCM/1wt777pKBKM/h301/7.jpg) [《滚滚红尘，我在哪儿？我要到哪里去？》, By Gorazd Golob 左岸 originally shared this post: (fr.</description>
+    </item>
+    
+    <item>
+      <title>Från och med du</title>
+      <link>http://dmml.nu/2010/11/24/241/</link>
+      <pubDate>Wed, 24 Nov 2010 01:30:47 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2010/11/24/241/</guid>
+      <description>[youtube=http://www.youtube.com/watch?v=2yzoRp_Ti30&amp;amp;w=640&amp;amp;h=385&amp;amp;hd=1] Av: Oscar Linnros // Of
+Vers.
+Står i din port, står bara still. //just
+För en minut sen var du min. //ago //was
+En tredjedel av den, jag var går hem, //third //home
+för en är krossad, en är din, //broken
+det här är slutet på vår film. //end
+Refräng. //Refrain.
+Från och med nu.
+Från och med du.
+Vers.
+Ser dig på blåa i april.
+I telefon i nya jeans,</description>
+    </item>
+    
+    <item>
+      <title>OMG</title>
+      <link>http://dmml.nu/2010/10/07/40/</link>
+      <pubDate>Thu, 07 Oct 2010 16:19:55 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2010/10/07/40/</guid>
+      <description>打印7毛。。。。。
+我忍。。。。。。。。
+十倍。。。。。。。。。
+幸好没去瑞士。。。。。。</description>
+    </item>
+    
+    <item>
+      <title>瑞典国歌 Sweden National Song. Du gamla, du fria (古老的、光荣的北国山乡)</title>
+      <link>http://dmml.nu/2010/09/20/401/</link>
+      <pubDate>Mon, 20 Sep 2010 16:29:37 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2010/09/20/401/</guid>
+      <description>插图版
+歌词版
+一共四段
+Du gamla, Du fria, Du fjällhöga nord
+Du tysta, Du glädjerika sköna!
+Jag hälsar Dig, vänaste land uppå jord,
+/: Din sol, Din himmel, Dina ängder gröna. :/
+古老，自由，北部山区，
+安静，快乐，而又美丽，
+我喜欢你，你是地球上最可爱的土地，
+你的太阳，你的天空，还有翠绿的草场。
+2 Du tronar på minnen från fornstora dar,
+då ärat Ditt namn flög över jorden.
+Jag vet att Du är och Du blir vad du var.
+/: Ja, jag vill leva jag vill dö i Norden.</description>
+    </item>
+    
+    <item>
+      <title>人在旅途北欧纪行：瑞典印象</title>
+      <link>http://dmml.nu/2010/09/18/400/</link>
+      <pubDate>Sat, 18 Sep 2010 22:12:09 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2010/09/18/400/</guid>
+      <description>http://article.hongxiu.com/a/2010-8-26/3700003.shtml
+文 / 多情剑客
+2010年8月12日，我翘盼已久的北欧之旅开始了。从首都机场3号航站楼6号口登机，北京时间13：50，国航CA911班机载着我们呼啸直上云天，朝着向往已久的北欧飞去，经过9个小时的飞行，当地时间17：20，我们飞临了北欧之旅的第一站——瑞典首都斯德哥尔摩上空。瑞典给人的第一个印象就是绿色，当从飞机上俯瞰瑞典版图，映入眼帘的是在那碧蓝色海水环抱下的绿色世界，到处都是茂密的森林，有的墨绿，有的淡绿，没有露出一片黄土，显得生机勃勃。在郁郁葱葱的密林中间，镶着深蓝色的大大小小的湖泊，深邃而清澈。 飞机降落在斯德哥尔摩的Arlanda 机场，是瑞典最大的国际机场，距斯德哥尔摩约四十多公里，可能是建得较早的缘故，候机楼造型平淡，设施显得比较陈旧，与北京首都机场三号航站楼相比，相差不是一两个档次了。虽然瑞典是北欧最富有的国家之一，但他们不在形象工程上做文章，“平凡”是瑞典人崇尚的价值观，做人如此，连这机场建筑物的造型也不显山露水了。接机的以后将伴我们在北欧游完全程的旅游大巴不是驶向斯德哥尔摩市区，而是开往有半个多小时车程的南泰利耶，大概是想省一点旅馆费的原因吧。已是黄昏时光，可还没有要天黑的迹象，因为北欧的日照时间很长，晚上到22点以后才能陷入黑暗。高速两侧看不到多少高层建筑，稀疏的建筑群落有如浮光掠影。到达南泰利耶，入住“Scandic”酒店,属于北欧的连锁店，酒店设施尚可。后几天到其他国家有时也住该连锁酒店。虽是夏季，但气温不高，夏季最高也不超过二十度，不用开空调，开点窗户就可以了。在斯堪的纳维亚半岛上睡觉还是第一夜。 南泰利耶（瑞典语：S?dert?lje）,瑞典东南斯德哥尔摩的郊区城镇。位于梅拉伦湖南岸和希默湾湾顶之间，斯德哥尔摩西南20公里。人口8万。古城之一。铁路枢纽。有长1.6公里的南泰利耶运河连通波罗的海和梅拉伦湖。有药品、汽车、机器、火柴、纺织、烟草等工业。著名海滨疗养胜地。 安排好房间，搁下行李，约了几个同伴一起出来逛逛。小城镇的街道上很冷清，人烟稀少。很静，除了车轮与路面摩擦发出的声音外，就听不到其它的声音了。街道两边的店铺亮着灯光，但都关门了。北欧的商店除了超市，周六和周日以及晚上六点以后都不开门做生意了。所以广告也很稀少。整个地区绿化很好，很干净，空气清新，真是令人赏心悦目。还有这边的汽车大白天也一律开着车灯，据说是为了交通安全起见。同伴们大概受不了这冷清，纷纷返回酒店去了。只剩下我和另一个同伴，漫无边际的逛着，不觉得来到了一个美丽的湖边（后来据导游吕先生说应该是条河流而不是湖）。湖边有一些长椅，有个金发美女坐在那里不停的在发短信。看来不是在热恋之中就是失恋了。这时同伴发现附近有个小酒吧，两个人进去找了个空桌坐了下来，里面几乎坐满了喝酒吃东西边聊着天的瑞典男女。我们去吧台要了两瓶“可能是世界上最好的啤酒”Carlsberg和一盘意大利通心粉，竟然花了200多个瑞典克朗。心想反正是到了国外，就惬意一回吧，呵呵。 从不避讳称自己为“海盗后裔”的北欧人，你却怎么也看不出“海盗”的那种痕迹。身材高大、金发碧眼的维京人后代们，多半都很和善，只要你与他们眼神对视，就一定可以收获一个微笑。你看站在吧台后的两个Waiters,不正在笑容可掬的看着端着啤酒杯同样笑逐颜开的我吗。看见他们，你是不是觉得整个世界都在微笑？ 8月13日早八点三十，由南泰利耶出发，前往瑞典境内位于斯德哥尔摩和挪威首都奥斯陆之间的卡尔斯塔德（行程约4小时），高速路上的车流量不大，大巴以每小时百公里的速度平稳地开着，公路两侧的景物一览无余。中午时分，到达了维纳恩湖边。维纳恩湖(Vanern)，英语作Lake Vaner。北欧最大的湖泊，也是欧洲第三大湖，世界第28大湖。位于瑞典南部，维纳什堡和卡尔斯塔德之间。呈东北—西南向延伸，长145公里，宽80公里，最深97米，面积约5，550平方公里。湖水经约塔河向西南泄出。湖的南部也叫“达尔勃申湖”，是约塔运河的组成部分。我们停车，在湖边徜徉，在纯净的北欧给自己留下美好的影像。只可惜天公不做美，天阴沉沉，下着小雨，湖天一片灰暗。美丽的湖光山色在镜头下大打折扣。 午餐后离开前往挪威首都奥斯陆。在游历了挪威的城市和景点之后，8月16日，从挪威去丹麦途经了瑞典最大的港口和第二大城市哥德堡（Gothenburg），游览了建于中世纪的市政厅广场——古斯塔夫阿道夫广场(Gustaf Adolfs Torg)，是哥德堡的市中心广场。广场中间竖立着哥德堡城的创建者瑞典国王古斯塔夫阿道夫的雕像。老股票交易所(B?rsen)，前身的交易所建筑在1844年被毁，1849年改建成现在的样子作为举行市政会议和接待活动的场所。 哥德堡位于瑞典西部。这里自古这里就是瑞典和丹麦军队争夺出海口的地方。1619年瑞典国王古斯塔夫阿道夫下令在此兴建城市。城市早期居民很多是荷兰的移民，荷兰人参与了城市的规划和建设，如今城市风格如建筑、运河道，甚至树林和花园还保留有荷兰的印记。随着丹麦人被战败，哥德堡的军事地位逐步被瑞典重要的商业贸易口岸地位所替代。1731年在此成立的瑞典东印度公司是瑞典最早的国际贸易公司。主要从事对中国和远东的贸易，商品有丝绸、茶叶和瓷器等。在拿破仑时代法国封锁了英国对欧洲的贸易，哥德堡成了英国对欧洲大陆贸易的唯一港口，因此非常繁荣。1832年连接瑞典第一大湖和其他内陆湖泊的哥塔运河的开通及连接斯德哥尔摩的铁路的建成，使哥德堡发展成北欧地区最大的港口。 如今哥德堡是瑞典最繁忙的港口和商业中心。周围地区已经成为北欧最大的工业区。总部设在这里的国际知名大企业有沃尔沃汽车公司，爱立信公司，SKF轴承，哈苏相机公司和萨伯爱立信宇航公司等。还是世界上最大的纸浆和新闻纸的交易中心之一。此外展览中心每年还举办很多世界博览会，著名的有国际旅游博览会和秋季的图书博览会。 离开哥德堡后前往丹麦哥本哈根，游玩了两天之后，于8月18日乘车返回了斯德哥尔摩市。 斯德哥尔摩(Stockholm)是瑞典的首都及第一大城市，全国政治、经济、文化中心。由于地处波罗的海（咸水）和梅拉伦湖（淡水）交汇处（后者水位比前者高50米，淡水灌入海中，冲淡了海水的咸度，生长的鱼类比较特别），在北欧三国中，斯德哥尔摩算得上是岛屿最多的城市了。算上郊区的岛屿，共有24000个岛屿，被称为“北方威尼斯”，象是漂浮在水上的梦幻之都。 没有人知道被称为“北方女神米那尔”的瑞典女王克里斯蒂娜自愿退位离开斯德哥尔摩时的情景。但在由格丽泰?</description>
+    </item>
+    
+    <item>
+      <title>俄罗斯 Crazy sand  沙艺</title>
+      <link>http://dmml.nu/2010/09/18/5/</link>
+      <pubDate>Sat, 18 Sep 2010 17:48:30 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2010/09/18/5/</guid>
+      <description>[http://player.youku.com/player.php/sid/XMTE5Njc2MDg0/v.swf](http://player.youku.com/player.php/sid/XMTE5Njc2MDg0/v.swf) [http://v.youku.com/v_show/id_XMTE5Njc2MDg0.html](http://v.youku.com/v_show/id_XMTE5Njc2MDg0.html) 纪念卫国战争胜利n周年</description>
+    </item>
+    
+    <item>
+      <title>黄征新歌MV - 绝望</title>
+      <link>http://dmml.nu/2010/09/18/6/</link>
+      <pubDate>Sat, 18 Sep 2010 17:46:53 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2010/09/18/6/</guid>
+      <description>[http://player.youku.com/player.php/sid/XMTgwMDQ1NzQ0/v.swf](http://player.youku.com/player.php/sid/XMTgwMDQ1NzQ0/v.swf) [http://v.</description>
+    </item>
+    
+    <item>
+      <title>小崔说事 - 袁腾飞</title>
+      <link>http://dmml.nu/2010/09/18/7/</link>
+      <pubDate>Sat, 18 Sep 2010 17:45:48 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2010/09/18/7/</guid>
+      <description>[http://player.youku.com/player.php/Type/Folder/Fid/3678731/Ob/1/Pt/1/sid/XMTE3NzM5NTM2/v.swf](http://player.youku.com/player.php/Type/Folder/Fid/3678731/Ob/1/Pt/1/sid/XMTE3NzM5NTM2/v.swf) [http://v.</description>
+    </item>
+    
+    <item>
+      <title>土耳其进行曲-安娜贝尔夫妇</title>
+      <link>http://dmml.nu/2010/09/18/8/</link>
+      <pubDate>Sat, 18 Sep 2010 17:00:26 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2010/09/18/8/</guid>
+      <description>[http://player.youku.com/player.php/sid/XMTc5MjYxNDE2/v.swf](http://player.youku.com/player.php/sid/XMTc5MjYxNDE2/v.swf) [http://v.</description>
+    </item>
+    
+    <item>
+      <title>瑞典挪威全球首推4G服务</title>
+      <link>http://dmml.nu/2010/09/18/9/</link>
+      <pubDate>Sat, 18 Sep 2010 16:14:23 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2010/09/18/9/</guid>
+      <description>北欧电信运营商特利亚-索内拉电信公司14日宣布，正式在瑞典首都斯德哥尔摩和挪威首都奥斯陆推出4G移动网络服务，该公司成为全球首家提供4G服务的运营商。 这家电信公司移动服务部门主管卡尔贝里当天介绍说，4G(即第四代移动通信技术)是目前速度最快的移动通信技术，比市场上的3G网络速度要快10倍。
+在4G移动网络下，除手机上网外，用户还可通过笔记本电脑完成一些需要更快传输速度和更高传输性能的任务，比如网络电视播放、网络视频会议等。
+特利亚-索内拉电信公司的4G移动网络服务将覆盖斯德哥尔摩和奥斯陆的市中心区域，其中斯德哥尔摩的4G技术支持由瑞典爱立信公司承担，而奥斯陆的4G技术支持则由中国华为公司提供。
+from http://news.ctocio.com.cn/430/9339430.shtml</description>
+    </item>
+    
+    <item>
+      <title>瑞典通过盗版合法化提案 个人使用盗版不违法</title>
+      <link>http://dmml.nu/2010/09/18/11/</link>
+      <pubDate>Sat, 18 Sep 2010 16:10:12 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2010/09/18/11/</guid>
+      <description>在瑞典左翼党(Swedish Left Party)上周末举行的代表大会上，该党投票通过了一项旨在使盗版软件共享和使用活动合法化的提案，称如果个人用户使用盗版软件，只要不用于商业目的，就不能算是违法行为；文件共享行为如同使用公共图书馆，个人用户可合法使用这些软件资源。 目前瑞典左翼党在该国议会中拥有22个席位。该党投票通过的这项提案认为，如果用户仅出于个人使用目的，而在互联网上传或下载具有版权的软件产品，只要这些软件不被用于商业目的，就应该视为合法行为。该提案称：“瑞典左翼党绝大部分党员认为，互联网文件共享就好比使用公共图书馆。”
+瑞典左翼党这份提案还阐述对瑞典国内文件共享行为的总看法，称此前瑞典执法部门曾试图对文件共享活动采取打击、监视和监禁等手段，左翼党对此无法接受。
+该提案还谈到了倍受外界关注的文件共享网站“海盗港湾”(Pirate Bay)。该提案指出：“目前针对海盗港湾的法律诉讼活动仍在进行，这其实是一起闹剧。这说明有些人正滥用法律手段，试图扼杀并不违法的文件共享活动。”该提案认为，解决诸如海盗港湾诉讼事宜的唯一途径是：使个人使用盗版软件合法化，当然前提是这些盗版软件不得用于商业目的。
+在瑞典左翼党上周末举行的代表大会召开之前，该党内部对盗版软件合法化问题争论激烈；在投票过程中，赞成者数量超过了反对者，从而使该提案得以通过。瑞典左翼党党员伊利斯·诺尔伯格·菲莱姆(Elise Norberg Pilhem)表示，按照瑞典现有法律，该国绝大多数成年人都是(文件共享活动的)犯罪者，这显然需要对法律本身进行修订。
+除瑞典左翼党外，瑞典其他一些党派也表示，瑞典应该对有关版权保护法规加以修订。观察人士认为，随着瑞典网民数量的日益增长，互联网版权保护的问题已日渐突出，预计瑞典立法部门将就现有法律加以调整和修订。
+from:http://tech.qq.com/a/20080611/000214.htm</description>
+    </item>
+    
+    <item>
+      <title>牛猫。。。。</title>
+      <link>http://dmml.nu/2010/09/18/10/</link>
+      <pubDate>Sat, 18 Sep 2010 15:34:46 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2010/09/18/10/</guid>
+      <description>[http://www.tudou.com/v/dlOicSfXP7Y/&amp;#038;clickNavigateURL=http://www.tudou.com/programs/view/dlOicSfXP7Y/&amp;#038;withAD=flase/v.swf](http://www.tudou.com/v/dlOicSfXP7Y/&amp;#038;clickNavigateURL=http://www.tudou.com/programs/view/dlOicSfXP7Y/&amp;#038;withAD=flase/v.swf) 好牛的猫。。。。。。。 from: [http://jandan.</description>
+    </item>
+    
+    <item>
+      <title>“模拟”全息</title>
+      <link>http://dmml.nu/2010/09/18/12/</link>
+      <pubDate>Sat, 18 Sep 2010 15:33:05 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2010/09/18/12/</guid>
+      <description>[http://www.tudou.com/v/39v9OtpcKKM/&amp;#038;clickNavigateURL=http://www.tudou.com/programs/view/39v9OtpcKKM/&amp;#038;withAD=flase/v.swf](http://www.tudou.com/v/39v9OtpcKKM/&amp;#038;clickNavigateURL=http://www.tudou.com/programs/view/39v9OtpcKKM/&amp;#038;withAD=flase/v.swf) [http://www.tudou.com/player/outside/player_outside.swf?iid=59768040&amp;amp;snap_pic=http%3A%2F%2Fi01.img.tudou.com%2Fdata%2Fimgs%2Fi%2F059%2F768%2F040%2Fw.jpg&amp;amp;default_skin=http%3A%2F%2Fjs.tudouui.com%2Fbin%2Fplayer2%2Foutside%2FSkin_outside_52.swf&amp;amp;autostart=flase&amp;amp;autoPlay=false&amp;amp;rurl=&amp;amp;code=39v9OtpcKKM&amp;amp;hdType=0&amp;amp;title=iPad+%E6%9D%A5%E5%88%B6%E9%80%A0%E5%85%A8%E7%B3%BB%E5%9B%BE%E5%83%8F&amp;amp;channelId=21&amp;amp;tag=%E7%85%8E%E8%9B%8B&amp;amp;mediaType=vi&amp;amp;totalTime=335200](http://www.tudou.com/player/outside/player_outside.swf?iid=59768040&amp;amp;snap_pic=http://i01.img.tudou.com/data/imgs/i/059/768/040/w.jpg&amp;amp;default_skin=http://js.tudouui.com/bin/player2/outside/Skin_outside_52.swf&amp;amp;autostart=flase&amp;amp;autoPlay=false&amp;amp;rurl=&amp;amp;code=39v9OtpcKKM&amp;amp;hdType=0&amp;amp;title=iPad+%E6%9D%A5%E5%88%B6%E9%80%A0%E5%85%A8%E7%B3%BB%E5%9B%BE%E5%83%8F&amp;amp;channelId=21&amp;amp;tag=%E7%85%8E%E8%9B%8B&amp;amp;mediaType=vi&amp;amp;totalTime=335200 &#34;iPad+%E6%9D%A5%E5%88%B6%E9%80%A0%E5%85%A8%E7%B3%BB%E5%9B%BE%E5%83%8F&amp;amp;channelId=21&amp;amp;tag=%E7%85%8E%E8%9B%8B&amp;amp;mediaType=vi&amp;amp;totalTime=335200&#34;) 估计不能叫做“全息”~~，那就叫做模拟全息吧。。。。。</description>
+    </item>
+    
+    <item>
+      <title>An deiner Seite - Unheilig</title>
+      <link>http://dmml.nu/2010/09/14/13/</link>
+      <pubDate>Tue, 14 Sep 2010 19:15:51 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2010/09/14/13/</guid>
+      <description>[youtube=http://www.youtube.com/watch?v=Vbwxz_bma2E&amp;amp;fs=1&amp;amp;hl=zh_CN]</description>
+    </item>
+    
+    <item>
+      <title>Talking about YouTube - An deiner Seite - Unheilig</title>
+      <link>http://dmml.nu/2010/09/14/14/</link>
+      <pubDate>Tue, 14 Sep 2010 19:14:11 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2010/09/14/14/</guid>
+      <description>Quote &gt; [YouTube - An deiner Seite - Unheilig](http://www.</description>
+    </item>
+    
+    <item>
+      <title>Twitter实时同步到Ping.fm和Hellotxt</title>
+      <link>http://dmml.nu/2010/09/14/15/</link>
+      <pubDate>Tue, 14 Sep 2010 19:07:23 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2010/09/14/15/</guid>
+      <description>#我很早就开始使用Ping.fm和Hellotxt的同步功能，这两个服务都是微博客的分发平台，用户通过将自己的不同的微博客账号或者社会化网络帐号绑定在Ping.FM和HelloTXT上，便可以通过这个平台同步发布信息到各类微博客上和社交网络上。
+不过，我在使用这两个服务的时候产生了一些困惑，Ping.fm和Hellotxt的本质在于平台化，将自己当做一个发布平台，可以将信息同步出去，但这并不是真正的社会化网络设计，因为用户只能发布，无法得到反馈，信息交流也不方便，是一个典型的单向信息流模式。
+因此，我认为真正的社会化网络传播模式应该是，将信息从Twitter传送到Ping.fm或Hellotxt，然后再由Ping.fm和Hellotxt同步信息出去，而用户的的反馈可以在Twitter上实时获得。
+但是由于利益的关系，Ping.fm和Hellotxt都不提供接收Twitter信息的功能，只提供发布信息到Twitter的功能，因此，我就自己动手，将前段日子写的那个基于GAE的Twitter同步程序增加支持从Twitter同步信息到Ping.fm和Hellotxt的功能，也就是说，在Twitter发布的信息，可以自动同步到Ping.fm和Hellotxt，然后再由这两个服务传播到更多的社会化网络中。
+整个系统的流程图如下所示：
+这个程序的使用方法和微博客同步有些不同，Ping.fm和Hellotxt的架构和功能类似，其API调用并不是使用用户名和密码调用，而是使用developer API key和user application key来实现认证，不会出现用户名和密码，因此也较为安全，这里介绍一下各个key的获取方法。
+Ping.fm的user application key可以在这个地址 http://ping.fm/key/ 获取。
+Ping.fm的API Key可以在这里 http://ping.fm/developers/request/ 创建。
+Hellotxt的user_key在这里获取 http://hellotxt.com/settings/api 获取。
+Hellotxt的application key在这里 http://hellotxt.com/api/dev 创建。
+每个人的key都不同，自己的key用来更新自己的帐号，通常自己使用的话直接申请即可得到。
+Ping.fm和Hellotxt两者的功能重合度相当高，不必两个服务都使用，只要使用其中一个服务即可，Ping.fm支持同步37个服务，Hellotxt支持59项服务，不过Hellotxt支持的很多服务同步都有些问题，而Ping.fm支持各个IM的状态更新是Hellotxt所没有的。
+应用的安装部署方法
+下载方法，使用TortoiseSVN检出这个SVN地址，然后，编辑app.yaml，修改为自己的appspot应用名，接着，修改twitter.py文件的最后一行，将自己的Twitter用户名填入，修改 ret = send_pingfm_msgs(&amp;quot;api_key&amp;quot;,&amp;quot;user_app_key&amp;quot;,text) 或 ret = send_hellotxt_msgs(&amp;quot;user_key&amp;quot;,&amp;quot;app_key&amp;quot;,text) 里的key值，不需要同步的服务请使用#号注释掉，cron.yaml文件里是计划任务设置，然后就可以按照此文的方法进行发布，执行 appcfg.py update 目录名，使用Gmail帐号和密码，就可以发布了。
+发布之后，GAE就可以定时执行twitter.py程序，由于定时执行可以设置最短为1分钟，因此同步速度很快，基本可以实现即时自动同步的效果。
+注意事项
+Ping.fm和Hellotxt需要翻墙访问。使用前需要先申请key。
+如果在Ping.fm或Hellotxt中绑定了Twitter帐号，需要将Ping.fm和Hellotxt中关联的Twitter帐号删除，否则会造成死循环。
+原创文章如转载，请注明：转载自月光博客 [ http://www.williamlong.info/ ]</description>
+    </item>
+    
+    <item>
+      <title>哥特Unheilig An Deiner Seite（一瞬之间）</title>
+      <link>http://dmml.nu/2010/09/14/16/</link>
+      <pubDate>Tue, 14 Sep 2010 18:48:42 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2010/09/14/16/</guid>
+      <description>[http://player.youku.com/player.php/sid/XMjg3NjY3NDQ=/v.swf](http://player.youku.com/player.php/sid/XMjg3NjY3NDQ=/v.swf) </description>
+    </item>
+    
+    <item>
+      <title>Let us begin~</title>
+      <link>http://dmml.nu/2010/09/06/20/</link>
+      <pubDate>Mon, 06 Sep 2010 13:51:45 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2010/09/06/20/</guid>
+      <description> This is a new start !!!#</description>
+    </item>
+    
+  </channel>
+</rss>

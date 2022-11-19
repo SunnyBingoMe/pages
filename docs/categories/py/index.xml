@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>py on Machine Learning</title>
+    <link>http://dmml.nu/categories/py/</link>
+    <description>Recent content in py on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Feb 2012 01:29:20 +0000</lastBuildDate><atom:link href="http://dmml.nu/categories/py/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>eric crash</title>
+      <link>http://dmml.nu/2012/02/05/13411/</link>
+      <pubDate>Sun, 05 Feb 2012 01:29:20 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/02/05/13411/</guid>
+      <description>ubuntu 11.10 64bit.
+eric4 启动后窗口一闪即告崩溃。
+命令窗口启动发现：
+Connected to accessibility bus at: &amp;ldquo;unix:abstract=/tmp/dbus-5rwqiiCSZ1,guid=a3330f45019a77c867e77525000000a2&amp;rdquo;
+Registered DEC: true
+sudo 正常启动，无此提示，因此怀疑是环境变量的问题。
+g后发现：
+http://ubuntuforums.org/showthread.php?t=1861605
+即：
+export QT_ACCESSIBILITY=0
+问题解决。
+ps:
+Accessibility in Qt#by Geir Vattekar
+Accessibility in computer software is the practice of making applications usable for people with disabilities. This can be implemented by the application itself — for instance, by using a high-contrast user interface with specially selected colors and fonts — or by providing support for external tools, such as screen readers and Braille displays.</description>
+    </item>
+    
+  </channel>
+</rss>

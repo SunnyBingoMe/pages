@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deep Learning on Machine Learning</title>
+    <link>http://dmml.nu/tags/deep-learning/</link>
+    <description>Recent content in Deep Learning on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IoT Edge Deep Learning Neural Network Accelerators</title>
+      <link>http://dmml.nu/edge-dl-compare/</link>
+      <pubDate>Thu, 25 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/edge-dl-compare/</guid>
+      <description>Coral Edge Accelerator#ML accelerator: Edge TPU ASIC (application-specific integrated circuit) designed by Google. Provides high-performance ML inferencing for TensorFlow Lite Models. USB 3.1 (gen 1) port and cable (SuperSpeed, 5Gb/s transfer speed) Dimensions: 30 x 65 x 8mm Price: USD74.99 in 2019, USD ＄ 60 in 2021, ￥ 740 @JD.com 0.5 watts/TOPS MAX 4 TOPS (int8), 2W. TF Lite + Debian only. Not available world wide Intel NCS2 Neural Compute Stick 2#Processor: Intel Movidius Myriad X Vision Processing Unit (VPU) USB 3.</description>
+    </item>
+    
+    <item>
+      <title>AI Cloud</title>
+      <link>http://dmml.nu/ai-cloud/</link>
+      <pubDate>Fri, 01 Nov 2019 23:30:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/ai-cloud/</guid>
+      <description>&amp;ldquo;if you plan to use deep learning extensively (&amp;gt;150 hrs/mo), building your own deep learning workstation might be the right move.&amp;rdquo; [medium]
+Baidu AI Studio (only for PaddlePaddle) Paperspace (cooperating with fast.ai) Google Colab (cooperating with fast.ai) vast.ai (C2C/P2P sharing, very cheap, a lot of time to init/load/unload) Kaggle (max 6h, good GPU but complex steps to use) MS Azure Amazon FloydHub (special CLI interface) ref:
+CN intro: Paperspace vs. Colab, 2019 Best Deals in Deep Learning Cloud Providers, 2018 比较云GPU平台 an.</description>
+    </item>
+    
+    <item>
+      <title>Caffe Installation, Hello World</title>
+      <link>http://dmml.nu/caffe-install/</link>
+      <pubDate>Sun, 03 Dec 2017 15:59:05 +0000</pubDate>
+      
+      <guid>http://dmml.nu/caffe-install/</guid>
+      <description>Note: tested with Ubuntu 16.04.1 using /root, for newer Ubuntu version (&amp;gt;= 17.04), check here.
+Installation &amp;amp; Self-Tests#Use the installation script here.
+//(Sunny only added conditional USE_CUDNN=1, the rest is the same as: ref. You may wanna set USE_CUDNN to 0, if no GPU is used).
+Timing: 15min if everything goes well, while downloading speed 1~8MB/s.
+Hello World (Mnist)#prepare data:#./data/mnist/get_mnist.sh # will download into .</description>
+    </item>
+    
+    <item>
+      <title>TensorFlow Engineering with CUDA GPU for Deep Learning</title>
+      <link>http://dmml.nu/dl-tf-eng/</link>
+      <pubDate>Mon, 13 Mar 2017 19:05:12 +0000</pubDate>
+      
+      <guid>http://dmml.nu/dl-tf-eng/</guid>
+      <description>See also:
+TF practical part in do deep learning How to setup Docker and Nvidia-Docker 2.0 on Ubuntu 18.04 Install#Summary: install CUDA first, then TF.
+ref TF 1.0 doc
+ref nvidia doc, until step 3
+requirements#64-bit Linux Python 2.7 or 3.3+ (3.5 used in this blog) NVIDIA CUDA 7.5 (8.0 if Pascal GPU) NVIDIA cuDNN &amp;gt;v4.0 (v5.1 recommended) NVIDIA GPU with compute capability &amp;gt;3.0 steps#1.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VirtualBox on Machine Learning</title>
+    <link>http://dmml.nu/tags/virtualbox/</link>
+    <description>Recent content in VirtualBox on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 14 Apr 2018 08:40:19 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/virtualbox/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VirtualBox Network and Skills</title>
+      <link>http://dmml.nu/vb-skills/</link>
+      <pubDate>Sat, 14 Apr 2018 08:40:19 +0000</pubDate>
+      
+      <guid>http://dmml.nu/vb-skills/</guid>
+      <description>OBS: cloning a VM with the status of pause (not powered-off), it canNOT re-initialize the MAC address. Thus, it is necessary to disconnect the cable and poweroff to re-initialize the MAC and then boot.
+INSTALL ON UBUNTU#Tested on v18.04.
+sudo apt-get update &amp;amp;&amp;amp; \ sudo apt-get -y install virtualbox (sometimes, maybe need to prepare the env before installation:)
+sudo apt-get update &amp;amp;&amp;amp; \ sudo apt-get -y install gcc make linux-headers-$(uname -r) dkms &amp;amp;&amp;amp; \ wget -q https://www.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Secure FTP on Machine Learning</title>
+    <link>http://dmml.nu/tags/secure-ftp/</link>
+    <description>Recent content in Secure FTP on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Jan 2018 21:08:57 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/secure-ftp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SFTP (FTP over SSH)</title>
+      <link>http://dmml.nu/sftp/</link>
+      <pubDate>Sun, 14 Jan 2018 21:08:57 +0000</pubDate>
+      
+      <guid>http://dmml.nu/sftp/</guid>
+      <description>TODO.
+https://www.digitalocean.com/community/tutorials/how-to-enable-sftp-without-shell-access-on-ubuntu-16-04
+Install#Config#Permission#</description>
+    </item>
+    
+  </channel>
+</rss>

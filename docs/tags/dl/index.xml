@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DL on Machine Learning</title>
+    <link>http://dmml.nu/tags/dl/</link>
+    <description>Recent content in DL on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Nov 2019 23:30:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/dl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Cloud</title>
+      <link>http://dmml.nu/ai-cloud/</link>
+      <pubDate>Fri, 01 Nov 2019 23:30:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/ai-cloud/</guid>
+      <description>&amp;ldquo;if you plan to use deep learning extensively (&amp;gt;150 hrs/mo), building your own deep learning workstation might be the right move.&amp;rdquo; [medium]
+Baidu AI Studio (only for PaddlePaddle) Paperspace (cooperating with fast.ai) Google Colab (cooperating with fast.ai) vast.ai (C2C/P2P sharing, very cheap, a lot of time to init/load/unload) Kaggle (max 6h, good GPU but complex steps to use) MS Azure Amazon FloydHub (special CLI interface) ref:
+CN intro: Paperspace vs. Colab, 2019 Best Deals in Deep Learning Cloud Providers, 2018 比较云GPU平台 an.</description>
+    </item>
+    
+  </channel>
+</rss>

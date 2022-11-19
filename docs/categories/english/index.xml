@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>English on Machine Learning</title>
+    <link>http://dmml.nu/categories/english/</link>
+    <description>Recent content in English on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Feb 2012 21:22:54 +0000</lastBuildDate><atom:link href="http://dmml.nu/categories/english/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一周总结 week6 2012-02-26</title>
+      <link>http://dmml.nu/2012/02/26/13445/</link>
+      <pubDate>Sun, 26 Feb 2012 21:22:54 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/02/26/13445/</guid>
+      <description>额 &amp;hellip; 瑞典语占用的时间有点多 &amp;hellip;.
+详细: http://www.diigo.com/item/image/20wrj/3m0s?size=o
+和 toggl的差距 &amp;hellip;.
+1. Linux 无desktime -&amp;gt; 偏低
+2.有时候忘了停desktime -&amp;gt; 偏高
+规划:
+1.缩减语言项目开销
+2.QT4 啊 &amp;hellip;.</description>
+    </item>
+    
+  </channel>
+</rss>

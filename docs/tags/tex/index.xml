@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tex on Machine Learning</title>
+    <link>http://dmml.nu/tags/tex/</link>
+    <description>Recent content in Tex on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 May 2017 11:52:34 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/tex/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BibLatex, BibTex, Citation, Reference Formatting</title>
+      <link>http://dmml.nu/bibtex/</link>
+      <pubDate>Tue, 23 May 2017 11:52:34 +0000</pubDate>
+      
+      <guid>http://dmml.nu/bibtex/</guid>
+      <description>SOME PACKAGES#package{natbib}#% OBS!: plainnat style has conflict with C style multi-line comments /* */.
+% OBS!: plainnat request zotero to export records as bibTex, not bibLatex.
+\usepackage{natbib} \cite Aaa et al. (2002) \citet == \cite \citet* Aaa, Bbb and Ccc (2002) \citep (Aaa et al., 2002) \citep* (Aaa, Bbb and Ccc, 2002) \citealt Aaa et al. 2002 \citealp Aaa et al., 2002 \citeauthor{..} Aaa et al.</description>
+    </item>
+    
+  </channel>
+</rss>

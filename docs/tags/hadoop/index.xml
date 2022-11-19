@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hadoop on Machine Learning</title>
+    <link>http://dmml.nu/tags/hadoop/</link>
+    <description>Recent content in Hadoop on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 Jun 2017 16:49:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/hadoop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hadoop HDFS</title>
+      <link>http://dmml.nu/hadoop/</link>
+      <pubDate>Mon, 19 Jun 2017 16:49:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/hadoop/</guid>
+      <description>(Update: tested v2.7.2 on Ubuntu 18)
+Install#OBS: security warning ! Note: change the core-site.xml and hdfs-site.xml content before running.
+Note: change the HDUSER username before running.
+# w/ java curl https://raw.githubusercontent.com/SunnyBingoMe/install-hadoop/master/setup-hadoop | bash Env &amp;amp; Hd-Structure Config (Multi-Node Only)#Make sure the master node and the hadoop user, e.g. $hduser can access work nodes using passphrase-less ssh keys.
+If a different username ($hduser) rather than the installer user ($user) is to run hadoop, we need to run setup_profile and setup_environment after su $hduser (some minor errors will be given by bash, no worries.</description>
+    </item>
+    
+    <item>
+      <title>Spark</title>
+      <link>http://dmml.nu/spark/</link>
+      <pubDate>Tue, 15 Nov 2016 13:18:51 +0000</pubDate>
+      
+      <guid>http://dmml.nu/spark/</guid>
+      <description>Related:
+The Internals of Apache Spark 2.4.0 | GitBook For usage after installation, see scale-py chapter 8 &amp;amp; 9. StreamProcessing comparison /stream-processing ~~ spark-vs-h2o ~~ The following content is tested in Ubuntu 16 (before 2019) &amp;amp; 18.04 (after 2018).
+This for how to install Spark with standalone/yarn/mesos.
+OBS: Assuming username: hpc.
+STANDALONE (ONE-SINGLE-NODE)#One-node standalone mode might be our fist time to try Spark, so we make the installation as easy as possible.</description>
+    </item>
+    
+  </channel>
+</rss>

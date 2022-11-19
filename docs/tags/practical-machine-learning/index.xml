@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Practical Machine Learning on Machine Learning</title>
+    <link>http://dmml.nu/tags/practical-machine-learning/</link>
+    <description>Recent content in Practical Machine Learning on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Jun 2016 13:35:38 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/practical-machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Notes of Practical Machine Learning (Coursera PML)</title>
+      <link>http://dmml.nu/big-data-mining-machine-learning-cloud/notes-of-practical-machine-learning-coursera-pml/</link>
+      <pubDate>Tue, 28 Jun 2016 13:35:38 +0000</pubDate>
+      
+      <guid>http://dmml.nu/big-data-mining-machine-learning-cloud/notes-of-practical-machine-learning-coursera-pml/</guid>
+      <description>It has been a long time since I started using R. Recently, I found some old notes, and I prefer to put it in digital archive, this blog post is to achieve the purpose.
+DT (data.table)#data.table cheat sheet
+This data.table (DT) instruction is also available on my github, ispiared by
+this ref
+//TODO#//TODO: summarize Solve common R problems efficiently with data.table which is must-read. backup
+//TODO: summarize High-performance Solution in R</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>winget on Machine Learning</title>
+    <link>http://dmml.nu/tags/winget/</link>
+    <description>Recent content in winget on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/winget/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Windows Package Managers</title>
+      <link>http://dmml.nu/winget/</link>
+      <pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/winget/</guid>
+      <description>Chocolatey
+https://chocolatey.org/install
+usage: choco install javaruntime; choco install graphviz
+winget
+https://github.com/microsoft/winget-cli/releases (the .appxbundle)
+usage: winget install -e --id Oracle.JavaRuntimeEnvironment; winget install graphviz
+t install graphviz`</description>
+    </item>
+    
+  </channel>
+</rss>

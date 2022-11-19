@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rescue on Machine Learning</title>
+    <link>http://dmml.nu/tags/rescue/</link>
+    <description>Recent content in Rescue on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 06 Jan 2019 18:38:25 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/rescue/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GRUB Rescue</title>
+      <link>http://dmml.nu/grub-rescue/</link>
+      <pubDate>Sun, 06 Jan 2019 18:38:25 +0000</pubDate>
+      
+      <guid>http://dmml.nu/grub-rescue/</guid>
+      <description>When being forced into GRUB rescue mode, run ls and ls &amp;lt;one_partition&amp;gt; to check available partitions and find the one that we should boot from [ref].
+Then set prefix &amp;amp; root [ref]:
+set root=(hdX,Y) set prefix=(hdX,Y)/boot/grub insmod normal normal To avoid doing this every time, it is recommened to use a live-USB/ISO to repair GRUB (usually only Desktop version can be in live-USB and easy to setup WIFI). (// it should be also ok to do this without USB if there is a nix system working on current HDD).</description>
+    </item>
+    
+  </channel>
+</rss>

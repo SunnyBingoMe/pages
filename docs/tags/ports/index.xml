@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ports on Machine Learning</title>
+    <link>http://dmml.nu/tags/ports/</link>
+    <description>Recent content in Ports on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 09 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/ports/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Find and Kill a Process</title>
+      <link>http://dmml.nu/port-kill/</link>
+      <pubDate>Sat, 09 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/port-kill/</guid>
+      <description>see also: 鸟哥 Linux 私房菜 Basic Linux.
+Linux#find bound PID by port: fuser 8080/tcp
+kill by port: fuser -k 8080/tcp
+list by port: lsof -i:8080
+using netstat: netstat -nlpte |grep :8080
+or: ss -nlpt &#39;sport = :8080&#39;
+ref 1 &amp;amp; ref 2
+Windows#CMD find &amp;amp; kill by PID:
+netstat -ano | findstr :8080 tasklist | findstr &amp;#34;&amp;lt;the_PID&amp;gt;&amp;#34; taskkill /PID &amp;lt;the_PID&amp;gt; /F PS find for TCP &amp;amp; UDP:</description>
+    </item>
+    
+  </channel>
+</rss>

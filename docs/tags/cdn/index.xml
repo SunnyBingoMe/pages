@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CDN on Machine Learning</title>
+    <link>http://dmml.nu/tags/cdn/</link>
+    <description>Recent content in CDN on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Jun 2016 00:50:11 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/cdn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DNS &amp; CDN Service Provider Comparison</title>
+      <link>http://dmml.nu/dns-cdn/</link>
+      <pubDate>Wed, 15 Jun 2016 00:50:11 +0000</pubDate>
+      
+      <guid>http://dmml.nu/dns-cdn/</guid>
+      <description>DNS#nameisp#free for its own domains full features masked url NO catch-all email (can use mailgun) namecheap#free for any domain full features masked url dynamic D-DNS (using client) catch-all email forwarding dnspod#free for any domain limited TTL range NO masked url ($) free WAF often slow or timeout (pushing users to $) NO catch-all email (can use mailgun) CDN#Baidu &amp;amp; cloudflare are sharing the same nodes world wide (cooperation).</description>
+    </item>
+    
+  </channel>
+</rss>

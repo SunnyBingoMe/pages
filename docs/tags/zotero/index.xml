@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zotero on Machine Learning</title>
+    <link>http://dmml.nu/tags/zotero/</link>
+    <description>Recent content in Zotero on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Jul 2016 16:36:24 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/zotero/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reference and Knowledge Management (Zotero, Qiqqa)</title>
+      <link>http://dmml.nu/phd-general-and-writing/reference-and-knowledge-management-zotero-qiqqa/</link>
+      <pubDate>Fri, 01 Jul 2016 16:36:24 +0000</pubDate>
+      
+      <guid>http://dmml.nu/phd-general-and-writing/reference-and-knowledge-management-zotero-qiqqa/</guid>
+      <description>see also: ResearchGo:研究生活第一帖——文献检索与管理 王晋东
+Zotero#We need to have 2 parts: a standalone client running in Windows, and a browser extension capturing web page info to send to the client. Besides, we need some zotero extensions to automate bib info and file naming.
+Note: Zotero 4 is suggested, Zotero v5 canNOT automatically attach files, we need to do it manually. To disable auto-update in v4, goto advanced &amp;gt; about:config (ref), disable &amp;ldquo;update&amp;rdquo;-related options:</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SWE on Machine Learning</title>
+    <link>http://dmml.nu/categories/swe/</link>
+    <description>Recent content in SWE on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 09 Jan 2011 02:19:12 +0000</lastBuildDate><atom:link href="http://dmml.nu/categories/swe/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Picture / Photo Taken in M-zone</title>
+      <link>http://dmml.nu/2011/01/09/1284/</link>
+      <pubDate>Sun, 09 Jan 2011 02:19:12 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/01/09/1284/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>= =</title>
+      <link>http://dmml.nu/2010/10/07/41/</link>
+      <pubDate>Thu, 07 Oct 2010 16:40:32 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2010/10/07/41/</guid>
+      <description>今天中午又被锁外边了。。。。。
+这边为嘛不让配钥匙。。。。。
+为了安全。。。。。。。。。
+我就悲剧了。。。。。。。
+。。</description>
+    </item>
+    
+  </channel>
+</rss>

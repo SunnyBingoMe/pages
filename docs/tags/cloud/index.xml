@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud on Machine Learning</title>
+    <link>http://dmml.nu/tags/cloud/</link>
+    <description>Recent content in Cloud on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 17 Oct 2011 08:28:05 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>不会泄密的“云” - Homomorphic Encryption</title>
+      <link>http://dmml.nu/2011/10/17/12778/</link>
+      <pubDate>Mon, 17 Oct 2011 08:28:05 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/10/17/12778/</guid>
+      <description>想象一下，数字云端里存放的个人数据除你之外无人能破译。微软研究人员开发出了一个不会泄密的虚拟金库。
+云服务日益流行，但它的安全性也愈来愈令人担忧，尤其是在索尼服务器被黑客入侵上亿用户数个人据泄露之后。微软研究员Kristin Lauter和同事基于名为同态加密的加密技术开发出储存系统原型，没有用户的解密密钥攻击者将几乎不可能破译出密码。研究人员很早就认识到了同态加密的潜力，但直到2009年IBM研究人员发表一篇数学论证显示了同态加密的可能性。
+以上来自：http://it.solidot.org/article.pl?sid=11/08/08/078223
+同态加密：
+http://zh.wikipedia.org/wiki/%E5%90%8C%E6%80%81%E5%8A%A0%E5%AF%86
+同态加密
+同态加密是一种加密形式，它允许人们对密文进行特定的代数运算得到仍然是加密的结果，与对明文进行同样的运算再将结果加密一样。换言之，这项技术令人们可以在加密的数据中进行诸如检索、比较等操作，得出正确的结果，而在整个处理过程中无需对数据进行解密。其意义在于，真正从根本上解决将数据及其操作委托给第三方时的保密问题，例如对于各种云计算的应用。
+这一直是密码学领域的一个重要课题，以往人们只找到一些部分实现这种操作的方法。而2009年9月克雷格·金特里（Craig Gentry）的论文从数学上提出了“全同态加密”的可行方法，即可以在不解密的条件下对加密数据进行任何可以在明文上进行的运算，使这项技术取得了决定性的突破。人们正在此基础上研究更完善的实用技术，这对信息技术产业具有重大价值。</description>
+    </item>
+    
+    <item>
+      <title>Ansible How To</title>
+      <link>http://dmml.nu/ansible/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/ansible/</guid>
+      <description>A simple video tutorial
+OBS: ansible uses py, and py calls /bin/sh, NOT bash !
+PRE-CONFIG#suggested: use ssh-pub-key auth without passphrase.
+INSTALL#Optioanl: add ppa:ansible/ansible
+installation:
+sudo apt-get update &amp;amp;&amp;amp; \ sudo apt-get install ansible HOSTS#vim /etc/ansible/hosts
+master.ip.1 [slaves] slave.domain1 slave.ip.addr.2 [slavesGroup2] slave.domain2 slave.ip.addr.1 (see ref to give hosts&amp;rsquo; names individually.)
+SLAVE USERNAME#sudo mkdir /etc/ansible/group_vars &amp;amp;&amp;amp; \ sudo echo &amp;#39;---&amp;#39; &amp;gt; /etc/ansible/group_vars/all &amp;amp;&amp;amp; \ sudo echo &amp;#39;ansible_ssh_user: root&amp;#39; &amp;gt;&amp;gt; /etc/ansible/group_vars/all (see DigitalOcean ref to config hosts individually.</description>
+    </item>
+    
+  </channel>
+</rss>

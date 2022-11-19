@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web on Machine Learning</title>
+    <link>http://dmml.nu/tags/web/</link>
+    <description>Recent content in Web on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 16 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Play Linux System Distributions Online in a Web Browser</title>
+      <link>http://dmml.nu/nix-online/</link>
+      <pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/nix-online/</guid>
+      <description>Note: many with 5 minute inactive limit and 30 minutes per session limit.
+CodeAnyWhere container (tested 2022.02, w/ root-sudo &amp;amp; git): py, c/c++, java, php, js, ruby, h5, wordpress, .net, rust, go, node.js. (can skip all payment part). terminal speed good. limitted free trial time.
+WebMinal (tested 2022.02, NO root/git) (CN network issue for home page, but ok after): Federo CentOS7 (py2.7), right-sided lessons/tutorials (great for new users): shell, MySQL, Python etc.</description>
+    </item>
+    
+    <item>
+      <title>Learning Django</title>
+      <link>http://dmml.nu/learning-django/</link>
+      <pubDate>Thu, 18 Aug 2016 22:56:34 +0000</pubDate>
+      
+      <guid>http://dmml.nu/learning-django/</guid>
+      <description>(updated 2021.1)
+Related:
+Learning Python
+Ref: This is a combined learning note of:
+basic level sentdex&amp;rsquo;s youtube tutorial 2016, the corresponding video+text one is here. official tutorial which is still too complicated for new users, so better to use that after following this blog. middle level another tutorial: Django Tutorials for Beginners 2016 book &amp;ldquo;O&amp;rsquo;Reilly 2014 - Test-Driven Development with Python (django 1.7)&amp;rdquo;. official docs: DOCs.DjangoProject.com. all-in-one 3.8-hour video. Python Django Web Framework - Full Course for Beginners 2018 w/ Code (in sublime).</description>
+    </item>
+    
+    <item>
+      <title>系统后台框架</title>
+      <link>http://dmml.nu/2013/07/30/15096/</link>
+      <pubDate>Tue, 30 Jul 2013 17:33:59 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/07/30/15096/</guid>
+      <description>from: http://zz563143188.iteye.com/blog/1877266
+原文好长, 好牛a &amp;hellip; 所以我就拆开了, 当备份了 &amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>从程序员到CTO的Java技术路线图 // 有木有给PHP的...</title>
+      <link>http://dmml.nu/2013/07/30/15094/</link>
+      <pubDate>Tue, 30 Jul 2013 17:03:14 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/07/30/15094/</guid>
+      <description>转自 http://zz563143188.iteye.com/blog/1877266#在技术方面无论我们怎么学习，总感觉需要提升自已不知道自己处于什么水平了。但如果有清晰的指示图供参考还是非常不错的，这样我们清楚的知道我们大概处于那个阶段和水平。##Java程序员#高级特性
+反射、泛型、注释符、自动装箱和拆箱、枚举类、可变
+参数、可变返回类型、增强循环、静态导入
+核心编程
+IO、多线程、实体类、
+集合类、正则表达式、
+XML和属性文件
+图形编程
+AWT（Java2D/JavaSound/JMF）、Swing、SWT、JFace
+网路编程
+Applet、Socket/TCP/UDP、NIO、RMI、CORBA
+Java语法基础
+类、抽象类、接口、最终类、静态类、匿名类、内部类、异常类、编码规范
+Java开发环境
+JDK、JVM、Eclipse、Linux
+Java核心编程技术
+Java，设计而又非常精巧的语言。学习Java，须从Java开发环境开始，到Java语法，再到Java的核心API。
+1.Java开发入门：Java开发环境的安装与使用，包括JDK命令、EclipseIDE、Linux下Java程序的开发和部署等。
+2.Java语法基础：基于JDK和Eclipse环境，进行Java核心功能开发，掌握Java面向对象的语法构成，包括类、抽象类、接口、最终类、静态类、匿名类、内部类、异常的编写。
+3.Java核心API：基于JDK提供的类库，掌握三大核心功能：
+A。Java核心编程:包括Java编程的两大核心功能——Java输入/输出流和多线程，以及常用的辅助类库——实体类、集合类、正则表达式、XML和属性文件。
+B。Java图形编程：包括Sun的GUI库AWT（Java2D、JavaSound、JMF）和Swing，IBM和GUI库SWT和Jface;
+C. Java网路编程：Applet组件编程，Socket编程，NIO非阻塞Socket编程、RMI和CORBA分布式开发。
+4.Java高级特性：掌握JDK1.4、JDK5.0、JDK6.0中的Java高级特性，包括反射、泛型、注释，以及java高级特性——自动装箱和拆箱、枚举类、可变参数、可变返回类型、增强循环、静态导入等。
+JavaEE初级软件工程师#JSF框架开发技术
+配置文件（页面导航、后台Bean）、JSF组件库（JSF EL语言、HTML标签、事件处理、）、JSF核心库（格式转换、输入验证、国际化）
+Javaweb核心开发技术
+开发环境（Eclipse、Linux）
+三大组件（JSP、JavaBean、Servlet）
+扩展技术（EL、JSTL、Taglib）
+网页开发技术
+HTML、XML、CSS、JavaScript、AJAX
+数据库设计技术
+SQL、MySql、Oracle、SQLServer、JDBC
+Web服务器（Tomcat/Jetty/Resin/JBossWeb）
+JavaWeb核心技术：
+JavaWeb项目开发的全过程可以分解为：
+网页开发+数据库设计——&amp;gt;JavaWeb项目开发，其中，javaWeb由6项基本技术组成：JSP+JavaBean+Servlet+EL+JSTL+Taglib，而JSF正是将这6种技术进行有机结合的技术框架：
+JavaEE中级软件工程师#四种经典架构SSH1、SSI1、SSH2、SSI2
+Struts1表现层框架
+入门配置、核心组件、标签库、国际化、数据检验、数据库开发、Sitemesh集成、集成Hibernate/iBATIS
+Struts2表现层框架
+入门配置、核心组件、标签库、国际化、数据校验、Sitemesh集成转换器、拦截器、集成Hibernate/iBATIS
+Spring业务层框架
+入门配置、IoC容器、MVC、标签库、国际化、数据校验、数据库开发
+Hibernate持久层框架
+MySQL、Oracle、SQLServer iBATIS持久层框架
+MySQL、Oracle、SQLServer
+Web服务器（Tomcat/Jetty/Resin/JBossWeb）
+Java高级软件工程师#javaWeb开源技术与框架
+工作流、
+规则引擎</description>
+    </item>
+    
+    <item>
+      <title>前端工程师 路线图 知识结构 web roadmap</title>
+      <link>http://dmml.nu/2013/07/30/15092/</link>
+      <pubDate>Tue, 30 Jul 2013 15:42:24 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/07/30/15092/</guid>
+      <description>from: http://www.yevol.net/post/140.html</description>
+    </item>
+    
+    <item>
+      <title>Twitter Bootstrap [TB]</title>
+      <link>http://dmml.nu/2013/05/11/14832/</link>
+      <pubDate>Sat, 11 May 2013 23:16:40 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/05/11/14832/</guid>
+      <description>源码官网:
+https://github.com/twbs/bootstrap
+官网:
+http://bit.ly/s_tb3
+http://bit.ly/s_tb2
+插件 - 富文本编辑器.
+http://www.bootcss.com/p/bootstrap-wysiwyg/</description>
+    </item>
+    
+    <item>
+      <title>css和div们 [HTML] In Case Of</title>
+      <link>http://dmml.nu/2013/04/20/14787/</link>
+      <pubDate>Sat, 20 Apr 2013 22:12:45 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/04/20/14787/</guid>
+      <description>Child#&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html&amp;gt; &amp;lt;!&amp;ndash;The root of the tree!&amp;ndash;&amp;gt;
+&amp;lt;head&amp;gt; &amp;lt;!&amp;ndash;Child of html, parent of title, sibling of body&amp;ndash;&amp;gt;
+&amp;lt;title&amp;gt;&amp;lt;/title&amp;gt; &amp;lt;!&amp;ndash;Immediate child of head, child of head AND html&amp;ndash;&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt; &amp;lt;!&amp;ndash;Child of html, parent of p, sibling of head&amp;ndash;&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;!&amp;ndash;Immediate child of body, child of body AND html&amp;ndash;&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+**Immediate child: ** div &amp;lt;span style=&amp;quot;color: #ff00ff;&amp;quot;&amp;gt;**&amp;amp;gt;**&amp;lt;/span&amp;gt; p { /* Some CSS */ }
+**child: **div div p { /* Some CSS */ }</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Management on Machine Learning</title>
+    <link>http://dmml.nu/tags/management/</link>
+    <description>Recent content in Management on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project-and-Code-Management-Software</title>
+      <link>http://dmml.nu/project-management/</link>
+      <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/project-management/</guid>
+      <description>See also BLog &amp;amp; Knowledge Base Comparison
+Online Code (&amp;amp; Project) Management Comparison#updated: 2022-04-16.
+ref: secrss 安全内参
+github .com#gitlab .com (not .org)#gitcode .net (previously code.china.csdn)#free:
+based on GitLab. learning lab (discontinued): max 10 courses. no other limits? more: 企业入驻流程
+cloud.baidu.com 智能云/效率云#free:
+people: max 50 (100 during covid-19). repo size: 10GB in total. CI: 1800 min/month. wiki: no ? see ref secrss.</description>
+    </item>
+    
+    <item>
+      <title>Windows Management Tools</title>
+      <link>http://dmml.nu/win-mgmt/</link>
+      <pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/win-mgmt/</guid>
+      <description>Windows Task Scheduler （任务计划程序）#Examples:
+$action = New-ScheduledTaskAction -Execute &amp;#39;pwsh.exe&amp;#39; -Argument &amp;#39;-NonInteractive -NoLogo -NoProfile -File &amp;#34;C:\MyScript.ps1&amp;#34;&amp;#39; $trigger = New-ScheduledTaskTrigger -Once -At 3am $settings = New-ScheduledTaskSettingsSet $task = New-ScheduledTask -Action $Action -Trigger $Trigger -Settings $Settings Register-ScheduledTask -TaskName &amp;#39;MySchedule&amp;#39; -InputObject $task -User &amp;#39;username&amp;#39; -Password &amp;#39;passhere&amp;#39; ScheduledTask -TaskName &amp;#39;MySchedule&amp;#39; $action = New-ScheduledTaskAction -Execute &amp;#39;Powershell.exe&amp;#39; ` -Argument &amp;#39;-NoProfile -WindowStyle Hidden -command &amp;#34;&amp;amp; {get-eventlog -logname Application -After ((get-date).AddDays(-1)) | Export-Csv -Path c:\fso\applog.csv -Force -NoTypeInformation}&amp;#34;&amp;#39; $trigger = New-ScheduledTaskTrigger -Daily -At 0am Register-ScheduledTask -Action $action -Trigger $trigger -TaskName &amp;#34;AppLog&amp;#34; -Description &amp;#34;Daily dump of Applog&amp;#34; $action = New-ScheduledTaskAction -Execute &amp;#39;C:\FreeFileSync\FreeFileSync.</description>
+    </item>
+    
+    <item>
+      <title>Ansible How To</title>
+      <link>http://dmml.nu/ansible/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/ansible/</guid>
+      <description>A simple video tutorial
+OBS: ansible uses py, and py calls /bin/sh, NOT bash !
+PRE-CONFIG#suggested: use ssh-pub-key auth without passphrase.
+INSTALL#Optioanl: add ppa:ansible/ansible
+installation:
+sudo apt-get update &amp;amp;&amp;amp; \ sudo apt-get install ansible HOSTS#vim /etc/ansible/hosts
+master.ip.1 [slaves] slave.domain1 slave.ip.addr.2 [slavesGroup2] slave.domain2 slave.ip.addr.1 (see ref to give hosts&amp;rsquo; names individually.)
+SLAVE USERNAME#sudo mkdir /etc/ansible/group_vars &amp;amp;&amp;amp; \ sudo echo &amp;#39;---&amp;#39; &amp;gt; /etc/ansible/group_vars/all &amp;amp;&amp;amp; \ sudo echo &amp;#39;ansible_ssh_user: root&amp;#39; &amp;gt;&amp;gt; /etc/ansible/group_vars/all (see DigitalOcean ref to config hosts individually.</description>
+    </item>
+    
+  </channel>
+</rss>

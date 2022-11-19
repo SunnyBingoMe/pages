@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Mining on Machine Learning</title>
+    <link>http://dmml.nu/tags/data-mining/</link>
+    <description>Recent content in Data Mining on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Jun 2016 10:12:05 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/data-mining/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DMML Tools Trend &amp; Relationship 2016</title>
+      <link>http://dmml.nu/trend2016/</link>
+      <pubDate>Thu, 16 Jun 2016 10:12:05 +0000</pubDate>
+      
+      <guid>http://dmml.nu/trend2016/</guid>
+      <description>This is a summary of KD-nuggets blogs: here and here. Pictures are modified for my own notes.
+Tools Associations#![](./_image/2016-06-17 18-27-03.jpg)
+sunny&amp;rsquo;s conclusion#Possible framework 1: Hadoop + Spark + Python + scikit.
+Possible framework 2: SQL+ Excel + Tableau.
+Try NOT use: RapidMiner, KNIME (whatever situation).
+Big Data Related Tools#![](./_image/2016-06-17 18-40-16.jpg)
+Deep Learning Related Tools#![](./_image/2016-06-17 18-42-52.jpg)
+Big_Data- / Deep_Learning-Related Tools#![](./_image/2016-06-17 18-47-05.jpg)</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows on Machine Learning</title>
+    <link>http://dmml.nu/tags/windows/</link>
+    <description>Recent content in Windows on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 16 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Windows Management Tools</title>
+      <link>http://dmml.nu/win-mgmt/</link>
+      <pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/win-mgmt/</guid>
+      <description>Windows Task Scheduler （任务计划程序）#Examples:
+$action = New-ScheduledTaskAction -Execute &amp;#39;pwsh.exe&amp;#39; -Argument &amp;#39;-NonInteractive -NoLogo -NoProfile -File &amp;#34;C:\MyScript.ps1&amp;#34;&amp;#39; $trigger = New-ScheduledTaskTrigger -Once -At 3am $settings = New-ScheduledTaskSettingsSet $task = New-ScheduledTask -Action $Action -Trigger $Trigger -Settings $Settings Register-ScheduledTask -TaskName &amp;#39;MySchedule&amp;#39; -InputObject $task -User &amp;#39;username&amp;#39; -Password &amp;#39;passhere&amp;#39; ScheduledTask -TaskName &amp;#39;MySchedule&amp;#39; $action = New-ScheduledTaskAction -Execute &amp;#39;Powershell.exe&amp;#39; ` -Argument &amp;#39;-NoProfile -WindowStyle Hidden -command &amp;#34;&amp;amp; {get-eventlog -logname Application -After ((get-date).AddDays(-1)) | Export-Csv -Path c:\fso\applog.csv -Force -NoTypeInformation}&amp;#34;&amp;#39; $trigger = New-ScheduledTaskTrigger -Daily -At 0am Register-ScheduledTask -Action $action -Trigger $trigger -TaskName &amp;#34;AppLog&amp;#34; -Description &amp;#34;Daily dump of Applog&amp;#34; $action = New-ScheduledTaskAction -Execute &amp;#39;C:\FreeFileSync\FreeFileSync.</description>
+    </item>
+    
+    <item>
+      <title>Find and Kill a Process</title>
+      <link>http://dmml.nu/port-kill/</link>
+      <pubDate>Sat, 09 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/port-kill/</guid>
+      <description>see also: 鸟哥 Linux 私房菜 Basic Linux.
+Linux#find bound PID by port: fuser 8080/tcp
+kill by port: fuser -k 8080/tcp
+list by port: lsof -i:8080
+using netstat: netstat -nlpte |grep :8080
+or: ss -nlpt &#39;sport = :8080&#39;
+ref 1 &amp;amp; ref 2
+Windows#CMD find &amp;amp; kill by PID:
+netstat -ano | findstr :8080 tasklist | findstr &amp;#34;&amp;lt;the_PID&amp;gt;&amp;#34; taskkill /PID &amp;lt;the_PID&amp;gt; /F PS find for TCP &amp;amp; UDP:</description>
+    </item>
+    
+    <item>
+      <title>Python GUI Frontend Options Comparison</title>
+      <link>http://dmml.nu/py-gui/</link>
+      <pubDate>Thu, 14 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/py-gui/</guid>
+      <description>Mainly for the (cross-platform) Python GUI frontend options.
+CEF (Chromium Embedded Framework). Pro: can use the same way of MVC thinking (modern html5); build-in chromium browser. Con: someone said it may need a little c++. PyQt (v5). Pro: big community, good doc (for c++). Con: c++ way of thinking, just the language is py (the official GUI tutorial lacks GUI screenshots!); pay for commercial usage; still often needs c++. Tkinter. Pro: build-in w/ py, big community.</description>
+    </item>
+    
+    <item>
+      <title>Powershell PS In Case Of</title>
+      <link>http://dmml.nu/ps-in-case-of/</link>
+      <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/ps-in-case-of/</guid>
+      <description>See also SSH.
+Overview: for both server and client: enable remote manager on both sides; set the other side as trusted.
+On both:
+Enable-PSRemoting -SkipNetworkProfileCheck -Force Set-Item wsman:\localhost\Client\TrustedHosts -value 192.168.1.* On the client:
+Enter-PSSession 192.168.xx.xx -Credential &amp;lt;server_computername&amp;gt;\&amp;lt;username&amp;gt; Tip:
+$Env:COMPUTERNAME # for computername $Env:USERNAME # for username [ref]
+5)]</description>
+    </item>
+    
+    <item>
+      <title>Powershell In Case Of</title>
+      <link>http://dmml.nu/powershell/</link>
+      <pubDate>Fri, 09 Feb 2018 13:55:57 +0000</pubDate>
+      
+      <guid>http://dmml.nu/powershell/</guid>
+      <description>Use Microsoft Terminal#choco install -y microsoft-windows-terminal Customizing PS Prompt (Use ConEmu)#See more in [codeship].
+install chocolatey (i.e. win pkg manager)#option 1 [chocolatey official]:#Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString(&amp;#39;https://chocolatey.org/install.ps1&amp;#39;)) # install choco choco install conemu -y # Install PowerShell modules Install-PackageProvider NuGet -MinimumVersion &amp;#39;2.8.5.201&amp;#39; -Force Set-PSRepository -Name PSGallery -InstallationPolicy Trusted Install-Module -Name &amp;#39;posh-git&amp;#39; option 2, with Git together codeship:## Set your PowerShell execution policy Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Force # Install Chocolatey iwr https://chocolatey.</description>
+    </item>
+    
+  </channel>
+</rss>

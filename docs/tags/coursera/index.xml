@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coursera on Machine Learning</title>
+    <link>http://dmml.nu/tags/coursera/</link>
+    <description>Recent content in Coursera on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Jun 2016 13:35:38 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/coursera/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Notes of Practical Machine Learning (Coursera PML)</title>
+      <link>http://dmml.nu/big-data-mining-machine-learning-cloud/notes-of-practical-machine-learning-coursera-pml/</link>
+      <pubDate>Tue, 28 Jun 2016 13:35:38 +0000</pubDate>
+      
+      <guid>http://dmml.nu/big-data-mining-machine-learning-cloud/notes-of-practical-machine-learning-coursera-pml/</guid>
+      <description>It has been a long time since I started using R. Recently, I found some old notes, and I prefer to put it in digital archive, this blog post is to achieve the purpose.
+DT (data.table)#data.table cheat sheet
+This data.table (DT) instruction is also available on my github, ispiared by
+this ref
+//TODO#//TODO: summarize Solve common R problems efficiently with data.table which is must-read. backup
+//TODO: summarize High-performance Solution in R</description>
+    </item>
+    
+    <item>
+      <title>CUDA Install</title>
+      <link>http://dmml.nu/cuda/</link>
+      <pubDate>Mon, 13 Jun 2016 16:03:03 +0000</pubDate>
+      
+      <guid>http://dmml.nu/cuda/</guid>
+      <description>see also:
+ways of parallel computing in R
+//TODO: study &amp;amp; summarize Map, Gather, Scatter etc.
+//TODO: see also the notes for campus&amp;rsquo; students assignments.
+Coursera Course Notes: _GPU notes.docx
+Code: github, or desktop search &amp;ldquo;gpu assignments&amp;rdquo;.
+Compared with &amp;ldquo;knn-r-project.Rproj&amp;rdquo;, &amp;ldquo;knn_cuda.vcxproj&amp;rdquo; is at least 6k times faster for almost exactly the same job. (diff: data cleaned; windowSize added.) One reason is the R project was using data.frame instead of tada.table. See here for more R performance info.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Php on Machine Learning</title>
+    <link>http://dmml.nu/tags/php/</link>
+    <description>Recent content in Php on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 May 2013 23:17:27 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ZF ZendFramework In Case Of</title>
+      <link>http://dmml.nu/2013/05/20/14848/</link>
+      <pubDate>Mon, 20 May 2013 23:17:27 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2013/05/20/14848/</guid>
+      <description>URL to this page: bit.ly/s_zf
+api v1.11
+http://bit.ly/zf_api111
+manual v1.11
+http://bit.ly/zf_ref111
+coding style
+http://framework.zend.com/manual/1.11/en/coding-standard.naming-conventions.html#coding-standard.naming-conventions.filenames
+zf db table
+http://mattmccormick.ca/2010/04/24/how-to-easily-create-models-and-table-relationships-in-zend-framework/
+with tb twitter-bootstrap
+https://github.com/Emagister/zend-form-decorators-bootstrap
+A Quick Starter for ZF New Guys#I was following: &amp;ldquo;Getting Started with Zend Framework&amp;rdquo;, By Rob Allen, v1.7.7
+ENV: i am using ZendFramework-1.11.0.zip instead of zend-server, in Linux.
+// ln /etc/php5/zendFramework_1.11.10/bin/zf.sh /usr/bin/zf ; //got some problems, so:
+ps: if apt-get install zend-framework-bin (1.10) , then default lib will be /usr/share/php/libzend-framework-php</description>
+    </item>
+    
+    <item>
+      <title>php zend framework fix apache2 .htaccess 500 internal server error</title>
+      <link>http://dmml.nu/2012/02/11/13428/</link>
+      <pubDate>Sat, 11 Feb 2012 21:27:29 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/02/11/13428/</guid>
+      <description>以前从来没重视过 /var/log, 这次知道log的重要性了&amp;hellip; N个小时瞎折腾,不如看一眼log.
+\Github\codes\zend_framework\quick-start - study_notes.txt
+/var/log/apache2/error.log
+ps:
+$ apache2 -M
+or
+$ apache2ctl -M
+http://forums.zend.com/viewtopic.php?f=69&amp;amp;t=713</description>
+    </item>
+    
+    <item>
+      <title>网络公司最需要百项技术 PHP居首</title>
+      <link>http://dmml.nu/2011/03/05/8364/</link>
+      <pubDate>Sat, 05 Mar 2011 10:30:03 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2011/03/05/8364/</guid>
+      <description>感谢 服务器托管租用问答网 的投递, 新闻来源:PHP100
+根据2010年Elance第四季关于美国地区的就业资讯整理，发现了关于网络方面的工作机会有大幅的提升，比上一季增加了38%。尤其是在创意，行销及移动产业的工作机会有显着的增幅。除了想法以外企业家也需要有技术的人才，但企业们最需要僱员具备的技能是甚么呢?
+根据2010年Elance第四季关于美国地区的就业资讯整理，发现了关于网络方面的工作机会有大幅的提升，比上一季增加了38%。尤其是在创意，行销及移动产业的工作机会有显着的增幅。除了想法以外企业家也需要有技术的人才，但企业们最需要僱员具备的技能是甚么呢?又反应了怎么样的市场趋势呢?下图是Elance整理出公司最需要的百项技术。
+图表，Elance也做了一些分析，也就跟目前最热门的两项网络趋势有关，手机及社群网站：
+首先他们指出App开发者在市场上的需求增加了20%， 当中iPad类的App开发者市场需求目前每季增长15%，而iPhone类App开发者的市场需求则每季增长10%。同时，市场对于Android的程式开发者也有大量需求。而现阶段对移动设备的程序开发者尚未饱满，同时Apple及Android手机又不断出现在市面上，因此短期内还是需要大量的程序开发人员。
+至于网络营销，由于社群网络(如Facebook)的发达，所以是在各个类别中成长速度最快的，企业们非常重视也仰赖线上营销，尤其是社群媒体营销(Social Media Marketing)，联盟营销(Affiliate Marketing)，以及搜索引擎营销(Search Engine Marketing)这三方面。
+另外Elance也特别强调了Html5的增幅也很大，每一季增加了48%的需求，原因是除了需要更新网站的界面外，也需要因应在平板电脑以及行动装置上的浏览经验而做出调整，话虽如此，对Flash(#29)的需求还是持平(甚至走下坡)。另外网站架构方面最需要的人才还是 WordPress(#2)为主，还有Joomla!(#21)及Drupal(#56)。Joomla!(#21)及Drupal(#56)。</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Matlab on Machine Learning</title>
+    <link>http://dmml.nu/categories/matlab/</link>
+    <description>Recent content in Matlab on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 02 Sep 2012 21:09:27 +0000</lastBuildDate><atom:link href="http://dmml.nu/categories/matlab/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>回归分析 In Case Of</title>
+      <link>http://dmml.nu/2012/09/02/13965/</link>
+      <pubDate>Sun, 02 Sep 2012 21:09:27 +0000</pubDate>
+      
+      <guid>http://dmml.nu/2012/09/02/13965/</guid>
+      <description>Pr(c1&amp;lt;=μ&amp;lt;=c2)=1-α: α是**显著性水平**（例：0.05或0.10） 100（1-α）指**置信水平**（例：95%或90%） 表达方式：interval（c1,c2)——**置信区间**.[1] **得出参数的估计值**并对参数和方程的_显著性_进行**假设检验**是回归分析的基本任务。[2] ref: [1][http://zhidao.baidu.com/question/161184604](http://zhidao.baidu.com/question/161184604) [2][http://stat.</description>
+    </item>
+    
+  </channel>
+</rss>

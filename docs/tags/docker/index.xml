@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on Machine Learning</title>
+    <link>http://dmml.nu/tags/docker/</link>
+    <description>Recent content in Docker on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installing WSL 2</title>
+      <link>http://dmml.nu/wsl2-install/</link>
+      <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/wsl2-install/</guid>
+      <description>Pre-requirements#Windows 10 May 2020 (2004) // or older Windows 10 May 2019 (1903) / or Windows 10 November 2019 (1909) A computer with Hyper-V Virtualization support Steps Overview#Enable WSL 2 Enable ‘Virtual Machine Platform’ Set WSL 2 as default Install a Linux distro Download the lateest kernel to update [ref] Powershell CML#dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart # Enable WSL dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart # Enable ‘Virtual Machine Platform’ # Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform -NoRestart # older win10 wsl --set-version Ubuntu 2 # convert current installed wsl --set-default-version 2 # for future installations ref: OMG Ubuntu.</description>
+    </item>
+    
+    <item>
+      <title>Podman, Docker</title>
+      <link>http://dmml.nu/docker/</link>
+      <pubDate>Mon, 20 Feb 2017 10:24:28 +0000</pubDate>
+      
+      <guid>http://dmml.nu/docker/</guid>
+      <description>See also:
+cnvrg.io How to setup Docker and Nvidia-Docker 2.0 on Ubuntu 18.04 (bak)
+Timing: time spent to install &amp;amp; test: 15 tomatos/hours.
+Comparing Container Engines#Tip: podman has exactly the same CLI as Docker, so previous Docker users can move to Podman by:
+alias Docker=Podman.
+Podman advantages compared to Docker:
+doesn’t need daemon doesn’t need root privileges (which has been long-standing concern with Docker) can also manage pods Other alternavtive engines:</description>
+    </item>
+    
+  </channel>
+</rss>

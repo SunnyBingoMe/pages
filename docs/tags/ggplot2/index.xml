@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GGplot2 on Machine Learning</title>
+    <link>http://dmml.nu/tags/ggplot2/</link>
+    <description>Recent content in GGplot2 on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Oct 2016 10:53:20 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/ggplot2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Plot in R, ggplot2</title>
+      <link>http://dmml.nu/ggplot/</link>
+      <pubDate>Tue, 11 Oct 2016 10:53:20 +0000</pubDate>
+      
+      <guid>http://dmml.nu/ggplot/</guid>
+      <description>Python alternatives to ggplot2: pygg (NOT working), ggpy (ggplot in py) from yhat (NOT working and not in maintance). Please use rpy2 to &amp;ldquo;source()&amp;rdquo; R files.
+Note: this blog is mainly used to prepare data, for plotting code, see:
+O&amp;rsquo;Reilly 2013 - R Graphics Cookbook ggplot2 cheatsheet Be Awesome in ggplot2: A Practical Guide, (bak) 3D PLOT#scatter#OBS: order of using commands.
+surface#OBS: order of using commands.</description>
+    </item>
+    
+  </channel>
+</rss>

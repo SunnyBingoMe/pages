@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Monitoring on Machine Learning</title>
+    <link>http://dmml.nu/tags/monitoring/</link>
+    <description>Recent content in Monitoring on Machine Learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 04 Mar 2017 10:21:00 +0000</lastBuildDate><atom:link href="http://dmml.nu/tags/monitoring/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>System Monitoring Tools (Command-Line)</title>
+      <link>http://dmml.nu/monitor-system/</link>
+      <pubDate>Sat, 04 Mar 2017 10:21:00 +0000</pubDate>
+      
+      <guid>http://dmml.nu/monitor-system/</guid>
+      <description>See also:
+Linux server performance measurements monitoring tuning tools
+For networking /monitor-networking.
+For GPU in deep learning dmml.nu/dl-gpu-monitor
+TEMPERATURE#To monitor CPU temperature lm-sensors (Linux Monitoring sensors):
+sudo apt-get install -y lm-sensors &amp;amp;&amp;amp; \ sudo sensors-detect &amp;amp;&amp;amp; \ sensors # sudo service kmod start # optional Extra: using watch to auto-refresh:
+watch -n 1 -d sensors # n: nr of seconds to refresh (gif from nixCraft)
+To monitor HDD temperature:</description>
+    </item>
+    
+  </channel>
+</rss>
